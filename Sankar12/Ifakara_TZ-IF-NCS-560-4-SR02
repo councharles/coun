@@ -1,23 +1,0 @@
-term len 0
-Wed Sep 13 10:42:26.690 EAT
-RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR02#show media location all
-Wed Sep 13 10:42:30.748 EAT
-
-Media Info for Location: node0_RP1_CPU0
-Partition                            Size     Used  Percent    Avail
---------------------------------------------------------------------
-rootfs:                              3.9G     3.0G      81%     738M
-harddisk:                            5.6G     712M      14%     4.6G
-log:                                 459M     147M      35%     278M
-config:                              459M     2.7M       1%     422M
-disk0:                               2.0G      54M       3%     1.8G
-
-Media Info for Location: node0_RP0_CPU0
-Partition                            Size     Used  Percent    Avail
---------------------------------------------------------------------
-rootfs:                              3.9G     3.0G      81%     738M
-harddisk:                            5.6G     2.3G      43%     3.1G
-log:                                 459M     176M      42%     250M
-config:                              459M     3.1M       1%     422M
-disk0:                               2.0G     149M       8%     1.7G
-RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR02#

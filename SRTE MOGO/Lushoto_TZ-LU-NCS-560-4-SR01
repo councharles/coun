@@ -1,5 +1,0 @@
-terminal len 0
-Fri Aug 16 03:27:16.535 EAT
-RP/0/RP0/CPU0:TZ-LU-NCS-560-4-SR01#sh running-config formal segment-routing | i$ment-routing | i                           adjsh running-config formal segment-routing | $
-Fri Aug 16 03:27:17.038 EAT
-RP/0/RP0/CPU0:TZ-LU-NCS-560-4-SR01#

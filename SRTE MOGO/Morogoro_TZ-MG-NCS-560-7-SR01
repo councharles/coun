@@ -1,15 +1,0 @@
-terminal len 0
-Fri Aug 16 03:23:32.808 EAT
-RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#sh running-config formal segment-routing | i$ment-routing | i                           adjsh running-config formal segment-routing | $
-Fri Aug 16 03:23:33.082 EAT
-segment-routing traffic-eng segment-list MG1_IF1_IGP index 10 mpls adjacency 10.88.38.29
-segment-routing traffic-eng segment-list MG1_IF2_IGP index 10 mpls adjacency 10.88.38.30
-segment-routing traffic-eng segment-list MG1_IF1_SID1 index 10 mpls adjacency 10.88.38.29
-segment-routing traffic-eng segment-list MG1_IF1_SID2 index 10 mpls adjacency 10.88.38.20
-segment-routing traffic-eng segment-list MG1_IF1_SID2 index 20 mpls adjacency 10.88.38.30
-segment-routing traffic-eng segment-list MG1_IF1_SID2 index 30 mpls adjacency 10.88.38.29
-segment-routing traffic-eng segment-list MG1_IF2_SID1 index 10 mpls adjacency 10.88.38.29
-segment-routing traffic-eng segment-list MG1_IF2_SID1 index 20 mpls adjacency 10.88.38.30
-segment-routing traffic-eng segment-list MG1_IF2_SID2 index 10 mpls adjacency 10.88.38.20
-segment-routing traffic-eng segment-list MG1_IF2_SID2 index 20 mpls adjacency 10.88.38.30
-RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#

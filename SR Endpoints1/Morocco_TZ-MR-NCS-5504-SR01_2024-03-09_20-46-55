@@ -1,6 +1,0 @@
-terminal len 0
-Sat Mar  9 22:43:49.941 EAT
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01#sh running-config formal | i end-point
-Sat Mar  9 22:43:50.610 EAT
-Building configuration...
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01#

@@ -1,677 +1,0 @@
-
-
-===============
-Morocco_TZ-MR-NCS-5504-SR01 10.88.38.1
-
-===============
-terminal len 0
-Thu Mar 12 12:04:52.168 EAT
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01#sh running-config router isis | i "distri|isi$s | i "distri|isis                          |lsp-pass"sh running-config router isis | i "distri|is$
-Thu Mar 12 12:04:52.483 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01#
-
-===============
-Morocco_TZ-MR-NCS-5504-SR02 10.88.38.2
-
-===============
-terminal len 0
-Thu Mar 12 12:09:18.756 EAT
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR02#sh running-config router isis | i "distri|isi$s | i "distri|isis                          |lsp-pass"sh running-config router isis | i "distri|is$
-Thu Mar 12 12:09:19.071 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR02#
-
-===============
-Morocco_TZ-MR-NCS-5504-SR03 10.88.38.3
-
-===============
-terminal len 0
-Thu Mar 12 12:11:18.846 EAT
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#sh running-config router isis | i "distri|isi$s | i "distri|isis                          |lsp-pass"sh running-config router isis | i "distri|is$
-Thu Mar 12 12:11:19.172 EAT
-router isis AGG_2
- distribute link-state instance-id 200
-router isis AGG_3
-router isis AGG_03
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#
-
-===============
-Morocco_TZ-MR-NCS-5504-SR04 10.88.38.4
-
-===============
-terminal len 0
-Thu Mar 12 12:08:53.211 EAT
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#sh running-config router isis | i "distri|isi$s | i "distri|isis                          |lsp-pass"sh running-config router isis | i "distri|is$
-Thu Mar 12 12:08:53.539 EAT
-router isis AGG_2
- distribute link-state instance-id 200
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#
-
-===============
-Kijitonyama_TZ-KJ-NCS-5504-SR01 10.88.38.6
-
-===============
-terminal len 0
-Thu Mar 12 12:12:55.742 EAT
-RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#sh running-config router isis | i "distri|isi$s | i "distri|isis                          |lsp-pass"sh running-config router isis | i "distri|is$
-Thu Mar 12 12:12:56.060 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#
-
-===============
-Kijitonyama_TZ-KJ-NCS-5504-SR02 10.88.38.7
-
-===============
-terminal len 0
-Thu Mar 12 12:14:05.028 EAT
-RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR02#sh running-config router isis | i "distri|isi$s | i "distri|isis                          |lsp-pass"sh running-config router isis | i "distri|is$
-Thu Mar 12 12:14:05.345 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR02#
-
-===============
-Kijitonyama_TZ-KJ-NCS-5504-SR03 10.88.38.8
-
-===============
-terminal len 0
-Thu Mar 12 12:11:04.581 EAT
-RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR03#sh running-config router isis | i "distri|isi$s | i "distri|isis                          |lsp-pass"sh running-config router isis | i "distri|is$
-Thu Mar 12 12:11:04.900 EAT
-router isis AGG_6
- distribute link-state instance-id 600
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR03#
-
-===============
-Kijitonyama_TZ-KJ-NCS-5504-SR04 10.88.38.9
-
-===============
-terminal len 0
-Thu Mar 12 12:10:43.189 EAT
-RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR04#sh running-config router isis | i "distri|isi$s | i "distri|isis                          |lsp-pass"sh running-config router isis | i "distri|is$
-Thu Mar 12 12:10:43.511 EAT
-router isis AGG_6
- distribute link-state instance-id 600
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR04#
-
-===============
-Arusha_TZ-AR-NCS-560-7-SR01 10.88.38.11
-
-===============
-terminal len 0
-Thu Mar 12 12:12:21.260 EAT
-RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR01#sh running-config router isis | i "distri|isi$s | i "distri|isis                          |lsp-pass"sh running-config router isis | i "distri|is$
-Thu Mar 12 12:12:21.592 EAT
-router isis AGG_8
- distribute link-state instance-id 800
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR01#
-
-===============
-Arusha_TZ-AR-NCS-560-7-SR02 10.88.38.12
-
-===============
-terminal len 0
-Thu Mar 12 12:12:31.724 EAT
-RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR02#sh running-config router isis | i "distri|isi$s | i "distri|isis                          |lsp-pass"sh running-config router isis | i "distri|is$
-Thu Mar 12 12:12:32.051 EAT
-router isis AGG_8
- distribute link-state instance-id 800
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR02#
-
-===============
-Dodoma_TZ-DO-NCS-560-7-SR01 10.88.38.15
-
-===============
-terminal len 0
-Thu Mar 12 12:12:48.311 EAT
-RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:12:48.701 EAT
-router isis AGG_3
- distribute link-state instance-id 300
-router isis AGG_12
- distribute link-state instance-id 1200
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR01#
-
-===============
-Dodoma_TZ-DO-NCS-560-7-SR02 10.88.38.16
-
-===============
-terminal len 0
-Thu Mar 12 12:13:36.212 EAT
-RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:13:36.586 EAT
-router isis AGG_3
- distribute link-state instance-id 300
-router isis AGG_12
- distribute link-state instance-id 1200
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR02#
-
-===============
-Mbeya Forest_TZ-MB-NCS-560-7-SR01 10.88.38.17
-
-===============
-terminal len 0
-Thu Mar 12 12:13:12.357 EAT
-sh running-config router isis | i "distri|isis|lsp-pass"
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:13:12.842 EAT
-router isis ACC_4
- distribute link-state instance-id 400
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#
-
-===============
-Mbeya Forest_TZ-MB-NCS-560-7-SR02 10.88.38.18
-
-===============
-terminal len 0
-Thu Mar 12 12:13:23.532 EAT
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:13:23.933 EAT
-router isis ACC_4
- distribute link-state instance-id 400
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#
-
-===============
-Morogoro_TZ-MG-NCS-560-7-SR01 10.88.38.19
-
-===============
-terminal len 0
-Thu Mar 12 12:13:34.211 EAT
-RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:13:34.589 EAT
-router isis AGG_05
- distribute link-state instance-id 500
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#
-
-===============
-Morogoro_TZ-MG-NCS-560-7-SR02 10.88.38.20
-
-===============
-
-
-===============
-Singo_TZ-SI-NCS-560-7-SR01 10.88.38.21
-
-===============
-terminal len 0
-Thu Mar 12 12:14:13.595 EAT
-RP/0/RP1/CPU0:TZ-SI-NCS-560-7-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:14:13.942 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP1/CPU0:TZ-SI-NCS-560-7-SR01#
-
-===============
-Singo_TZ-SI-NCS-560-7-SR02 10.88.38.22
-
-===============
-terminal len 0
-Thu Mar 12 12:14:24.410 EAT
-RP/0/RP0/CPU0:TZ-SI-NCS-560-7-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:14:24.826 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-SI-NCS-560-7-SR02#
-
-===============
-Sukita_TZ-SK-NCS-560-7-SR01 10.88.38.23
-
-===============
-terminal len 0
-Thu Mar 12 12:14:02.097 EAT
-RP/0/RP0/CPU0:TZ-SK-NCS-560-7-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:14:02.418 EAT
-router isis AGG_6
- distribute link-state instance-id 600
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-SK-NCS-560-7-SR01#
-
-===============
-Bhiaharamuro_TZ-BH-NCS-560-4-SR02 10.88.38.25
-
-===============
-terminal len 0
-Thu Mar 12 12:14:48.529 EAT
-RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:14:48.895 EAT
-router isis ACC_13
- distribute link-state instance-id 1300
-router isis AGG_11
- distribute link-state instance-id 1100
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR01#
-
-===============
-Bhiaharamuro_TZ-BH-NCS-560-4-SR01 10.88.38.26
-
-===============
-
-
-===============
-Bukoba_TZ-BK-NCS-560-4-SR01 10.88.38.27
-
-===============
-terminal len 0
-Thu Mar 12 12:20:22.302 EAT
-RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:20:22.671 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR01#
-
-===============
-Bukoba_TZ-BK-NCS-560-4-SR02 10.88.38.28
-
-===============
-terminal len 0
-Thu Mar 12 12:17:18.229 EAT
-RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:17:18.651 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR02#
-
-===============
-Ifakara_TZ-IF-NCS-560-4-SR01 10.88.38.29
-
-===============
-terminal len 0
-Thu Mar 12 12:15:49.311 EAT
-RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:15:49.696 EAT
-router isis AGG_05
- distribute link-state instance-id 500
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR01#
-
-===============
-Ifakara_TZ-IF-NCS-560-4-SR02 10.88.38.30
-
-===============
-terminal len 0
-Thu Mar 12 12:15:59.849 EAT
-RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:16:00.196 EAT
-router isis AGG_05
- distribute link-state instance-id 500
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR02#
-
-===============
-Kahama_TZ-KH-NCS-560-4-SR01 10.88.38.35
-
-===============
-terminal len 0
-Thu Mar 12 12:17:11.878 EAT
-RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:17:12.266 EAT
-router isis ACC_10
- distribute link-state instance-id 1000
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR01#
-
-===============
-Kahama_TZ-KH-NCS-560-4-SR02 10.88.38.36
-
-===============
-terminal len 0
-Thu Mar 12 12:17:22.669 EAT
-RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:17:23.041 EAT
-router isis ACC_10
- distribute link-state instance-id 1000
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#
-
-===============
-Kigoma_TZ-KG-NCS-560-4-SR01 10.88.38.37
-
-===============
-terminal len 0
-Thu Mar 12 12:17:34.585 EAT
-RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:17:35.055 EAT
-router isis ACC_13
- distribute link-state instance-id 1300
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR01#
-
-===============
-Kigoma_TZ-KG-NCS-560-4-SR02 10.88.38.38
-
-===============
-terminal len 0
-Thu Mar 12 12:17:45.356 EAT
-RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:17:45.748 EAT
-router isis ACC_13
- distribute link-state instance-id 1300
-router isis AGG_11
- distribute link-state instance-id 1100
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR02#
-
-===============
-Masasi_TZ-MA-NCS-560-4-SR01 10.88.38.43
-
-===============
-terminal len 0
-Thu Mar 12 12:18:56.094 EAT
-RP/0/RP0/CPU0:TZ-MA-NCS-560-4-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:18:56.465 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-MA-NCS-560-4-SR01#
-
-===============
-Masasi_TZ-MA-NCS-560-4-SR02 10.88.38.44
-
-===============
-terminal len 0
-Thu Mar 12 12:19:07.148 EAT
-RP/0/RP0/CPU0:TZ-MA-NCS-560-4-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:19:07.522 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-MA-NCS-560-4-SR02#
-
-===============
-Makamabako_TZ-MK-NCS-560-4-SR01 10.88.38.45
-
-===============
-terminal len 0
-Thu Mar 12 12:19:17.906 EAT
-RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:19:18.274 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR01#
-
-===============
-Makamabako_TZ-MK-NCS-560-4-SR02 10.88.38.46
-
-===============
-terminal len 0
-Thu Mar 12 12:19:28.602 EAT
-RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:19:28.954 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR02#
-
-===============
-Musosma_TZ-MU-NCS-560-4-SR01 10.88.38.49
-
-===============
-terminal len 0
-Thu Mar 12 12:19:39.441 EAT
-RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:19:39.817 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#
-
-===============
-Musosma_TZ-MU-NCS-560-4-SR02 10.88.38.50
-
-===============
-terminal len 0
-Thu Mar 12 12:19:50.430 EAT
-RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:19:50.828 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR02#
-
-===============
-Mtwara_TZ-MT-NCS-560-4-SR01 10.88.38.51
-
-===============
-terminal len 0
-Thu Mar 12 12:20:01.323 EAT
-RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:20:01.654 EAT
-router isis ACC_4
- distribute link-state instance-id 400
-router isis AGG_03
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR01#
-
-===============
-Mtwara_TZ-MT-NCS-560-4-SR02 10.88.38.52
-
-===============
-terminal len 0
-Thu Mar 12 12:20:12.034 EAT
-RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:20:12.449 EAT
-router isis ACC_4
- distribute link-state instance-id 400
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR02#
-
-===============
-Ramadi_TZ-RM-NCS-560-4-SR01 10.88.38.53
-
-===============
-
-
-===============
-Ramadi_TZ-RM-NCS-560-4-SR02 10.88.38.54
-
-===============
-terminal len 0
-Thu Mar 12 12:20:51.877 EAT
-RP/0/RP1/CPU0:TZ-RM-NCS-560-4-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:20:52.249 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP1/CPU0:TZ-RM-NCS-560-4-SR02#
-
-===============
-Shinyanaga_TZ-SH-NCS-560-4-SR01 10.88.38.55
-
-===============
-terminal len 0
-Thu Mar 12 12:21:02.707 EAT
-RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:21:03.084 EAT
-router isis ACC_10
- distribute link-state instance-id 1000
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR01#
-
-===============
-Shinyanaga_TZ-SH-NCS-560-4-SR02 10.88.38.56
-
-===============
-terminal len 0
-Thu Mar 12 12:21:13.594 EAT
-RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:21:13.969 EAT
-router isis ACC_10
- distribute link-state instance-id 1000
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR02#
-
-===============
-Songea_TZ-SG-NCS-560-4-SR01 10.88.38.57
-
-===============
-terminal len 0
-Thu Mar 12 12:21:41.771 EAT
-RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:21:42.136 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR01#
-
-===============
-Songea_TZ-SG-NCS-560-4-SR02 10.88.38.58
-
-===============
-terminal len 0
-Thu Mar 12 12:21:37.406 EAT
-RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:21:37.745 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR02#
-
-===============
-Sumbawanga_TZ-SU-NCS-560-4-SR01 10.88.38.59
-
-===============
-terminal len 0
-Thu Mar 12 12:21:20.747 EAT
-RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:21:21.139 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR01#
-
-===============
-Sumbawanga_TZ-SU-NCS-560-4-SR02 10.88.38.60
-
-===============
-terminal len 0
-Thu Mar 12 12:21:58.410 EAT
-RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:21:58.797 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR02#
-
-===============
-Tabora_TZ-TB-NCS-560-4-SR01 10.88.38.63
-
-===============
-terminal len 0
-Thu Mar 12 12:22:10.163 EAT
-RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:22:10.540 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#
-
-===============
-Tabora_TZ-TB-NCS-560-4-SR02 10.88.38.64
-
-===============
-terminal len 0
-Thu Mar 12 12:22:20.858 EAT
-RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:22:21.228 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR02#
-
-===============
-Tanga_TZ-TG-NCS-560-4-SR01 10.88.38.65
-
-===============
-terminal len 0
-Thu Mar 12 12:22:41.210 EAT
-RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:22:41.569 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR01#
-
-===============
-Tanga_TZ-TG-NCS-560-4-SR02 10.88.38.66
-
-===============
-terminal len 0
-Thu Mar 12 12:23:03.170 EAT
-RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:23:03.527 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR02#
-
-===============
-Zanzibar_TZ-ZA-NCS-560-4-SR01 10.88.38.67
-
-===============
-terminal len 0
-Thu Mar 12 12:22:27.942 EAT
-RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:22:28.278 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR01#
-
-===============
-Zanzibar_TZ-ZA-NCS-560-4-SR02 10.88.38.68
-
-===============
-terminal len 0
-Thu Mar 12 12:22:50.741 EAT
-RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:22:51.098 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#
-
-===============
-Moshi (Shanti Town)_TZ-ST-NCS-560-4-SR01 10.88.38.69
-
-===============
-terminal len 0
-Thu Mar 12 12:23:09.547 EAT
-RP/0/RP0/CPU0:TZ-ST-NCS-560-4-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:23:09.901 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-ST-NCS-560-4-SR01#
-
-===============
-Moshi (Shanti Town)_TZ-ST-NCS-560-4-SR02 10.88.38.70
-
-===============
-terminal len 0
-Thu Mar 12 12:23:50.479 EAT
-RP/0/RP0/CPU0:TZ-ST-NCS-560-4-SR02#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:23:50.822 EAT
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-ST-NCS-560-4-SR02#

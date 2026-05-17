@@ -1,67 +1,0 @@
-terminal len 0
-Wed Jun 19 22:19:44.724 EAT
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#show tech-support ofa
-Wed Jun 19 22:19:45.100 EAT
-++ Show tech start time: 2024-Jun-19.221945.EAT ++
-Wed Jun 19 22:19:46 EAT 2024 Waiting for gathering to complete
-...............................
-Wed Jun 19 22:21:31 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-MB-NCS-560-7-SR01-ofa-2024-Jun-19.221945.EAT.tgz
-++ Show tech end time: 2024-Jun-19.222138.EAT ++
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#show tech-support segment-routing traffic-en$uting traffic-eng                          show tech-support segment-routing traffic-e$
-Wed Jun 19 22:21:42.061 EAT
-++ Show tech start time: 2024-Jun-19.222142.EAT ++
-Wed Jun 19 22:21:43 EAT 2024 Waiting for gathering to complete
-.........
-Wed Jun 19 22:22:12 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-MB-NCS-560-7-SR01-sr-te-2024-Jun-19.222142.EAT.tgz
-++ Show tech end time: 2024-Jun-19.222213.EAT ++
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#Show tech CEF
-Wed Jun 19 22:22:16.921 EAT
-++ Show tech start time: 2024-Jun-19.222217.EAT ++
-Wed Jun 19 22:22:18 EAT 2024 Waiting for gathering to complete
-.................................
-Wed Jun 19 22:24:08 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-MB-NCS-560-7-SR01-cef-2024-Jun-19.222217.EAT.tgz
-++ Show tech end time: 2024-Jun-19.222410.EAT ++
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#show tech-support qos pi
-Wed Jun 19 22:24:13.976 EAT
-++ Show tech start time: 2024-Jun-19.222414.EAT ++
-Wed Jun 19 22:24:15 EAT 2024 Waiting for gathering to complete
-.......................
-Wed Jun 19 22:25:31 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-MB-NCS-560-7-SR01-qos-pi-2024-Jun-19.222414.EAT.tgz
-++ Show tech end time: 2024-Jun-19.222532.EAT ++
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#show tech-support qos platf
-Wed Jun 19 22:25:37.044 EAT
-++ Show tech start time: 2024-Jun-19.222537.EAT ++
-Wed Jun 19 22:25:38 EAT 2024 Waiting for gathering to complete
-...
-Wed Jun 19 22:25:48 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-MB-NCS-560-7-SR01-qos-platform-2024-Jun-19.222537.EAT.tgz
-++ Show tech end time: 2024-Jun-19.222548.EAT ++
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#show tech bundl
-Wed Jun 19 22:25:52.082 EAT
-++ Show tech start time: 2024-Jun-19.222552.EAT ++
-Wed Jun 19 22:25:53 EAT 2024 Waiting for gathering to complete
-..........
-Wed Jun 19 22:26:26 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-MB-NCS-560-7-SR01-bundle-2024-Jun-19.222552.EAT.tgz
-++ Show tech end time: 2024-Jun-19.222627.EAT ++
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#show tech cef mpls
-Wed Jun 19 22:26:31.111 EAT
-++ Show tech start time: 2024-Jun-19.222631.EAT ++
-Wed Jun 19 22:26:32 EAT 2024 Waiting for gathering to complete
-....................
-Wed Jun 19 22:27:38 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-MB-NCS-560-7-SR01-cef-2024-Jun-19.222631.EAT.tgz
-++ Show tech end time: 2024-Jun-19.222740.EAT ++
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#show tech cef platform
-Wed Jun 19 22:27:44.068 EAT
-++ Show tech start time: 2024-Jun-19.222744.EAT ++
-Wed Jun 19 22:27:45 EAT 2024 Waiting for gathering to complete
-..........................................................................................
-Wed Jun 19 22:32:39 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-MB-NCS-560-7-SR01-cef_platform-2024-Jun-19.222744.EAT.tgz
-++ Show tech end time: 2024-Jun-19.223253.EAT ++
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#

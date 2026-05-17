@@ -1,8 +1,0 @@
-terminal len 0
-Tue Oct 24 15:28:38.361 EAT
-RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#show license status | i Status
-Tue Oct 24 15:28:42.449 EAT
-  Status: DISABLED
-  Status: REGISTERED
-  Status: OUT OF COMPLIANCE on Oct 24 2023 13:17:52 EAT
-RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#

@@ -1,23 +1,0 @@
-terminal len 0
-Fri Aug 16 03:21:37.027 EAT
-RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR01#sh running-config formal segment-routing | i $ment-routing | i a                          djsh running-config formal segment-routing | i$
-Fri Aug 16 03:21:37.272 EAT
-segment-routing traffic-eng segment-list AR1_SI1_IGP index 10 mpls adjacency 10.88.38.21
-segment-routing traffic-eng segment-list AR1_SI2_IGP index 10 mpls adjacency 10.88.38.22
-segment-routing traffic-eng segment-list AR1_ST1_IGP index 10 mpls adjacency 10.88.38.69
-segment-routing traffic-eng segment-list AR1_ST2_IGP index 10 mpls adjacency 10.88.38.70
-segment-routing traffic-eng segment-list AR1_SI1_SID1 index 10 mpls adjacency 10.88.38.21
-segment-routing traffic-eng segment-list AR1_SI1_SID2 index 20 mpls adjacency 10.88.38.22
-segment-routing traffic-eng segment-list AR1_SI1_SID2 index 30 mpls adjacency 10.88.38.21
-segment-routing traffic-eng segment-list AR1_SI2_SID1 index 10 mpls adjacency 10.88.38.21
-segment-routing traffic-eng segment-list AR1_SI2_SID1 index 20 mpls adjacency 10.88.38.22
-segment-routing traffic-eng segment-list AR1_SI2_SID2 index 20 mpls adjacency 10.88.38.22
-segment-routing traffic-eng segment-list AR1_ST1_SID1 index 10 mpls adjacency 10.88.38.69
-segment-routing traffic-eng segment-list AR1_ST1_SID2 index 10 mpls adjacency 10.88.38.12
-segment-routing traffic-eng segment-list AR1_ST1_SID2 index 20 mpls adjacency 10.88.38.70
-segment-routing traffic-eng segment-list AR1_ST1_SID2 index 30 mpls adjacency 10.88.38.69
-segment-routing traffic-eng segment-list AR1_ST2_SID1 index 10 mpls adjacency 10.88.38.69
-segment-routing traffic-eng segment-list AR1_ST2_SID1 index 20 mpls adjacency 10.88.38.70
-segment-routing traffic-eng segment-list AR1_ST2_SID2 index 10 mpls adjacency 10.88.38.12
-segment-routing traffic-eng segment-list AR1_ST2_SID2 index 20 mpls adjacency 10.88.38.70
-RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR01#

@@ -1,19 +1,0 @@
-terminal len 0
-Mon Sep 23 10:57:16.296 EAT
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#show run formal | i COLOR_
-Mon Sep 23 10:57:16.523 EAT
-Building configuration...
-vrf sig_cn address-family ipv4 unicast export route-policy SET_COLOR_4
-vrf sip_nni address-family ipv4 unicast export route-policy SET_COLOR_4
-vrf ITSHOP_VRF address-family ipv4 unicast export route-policy SET_COLOR_4
-vrf ran_abis_2 address-family ipv4 unicast export route-policy SET_COLOR_4
-vrf sig_data_sync address-family ipv4 unicast export route-policy SET_COLOR_4
-vrf IMMIGRATION_VRF address-family ipv4 unicast export route-policy SET_COLOR_4
-extcommunity-set opaque COLOR_4
-  set extcommunity color COLOR_4
-route-policy SET_COLOR_4
-  set extcommunity color COLOR_4
-  set extcommunity color COLOR_4
-    set extcommunity color COLOR_4
-  set extcommunity color COLOR_4
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#

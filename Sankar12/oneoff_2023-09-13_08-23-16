@@ -1,434 +1,0 @@
-
-
-===============
-Morocco_TZ-MR-NCS-5504-SR01 10.88.38.1
-
-===============
-term len 0
-Wed Sep 13 10:22:27.886 EAT
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR01#admin show media location all
-Wed Sep 13 10:22:31.902 EAT
-
-************************************************************
-Location : 0/FC1
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     308K       3%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/FC2
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     272K       2%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/FC3
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     312K       3%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/FC0
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     308K       3%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/FC4
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     268K       2%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/FC5
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     324K       3%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/SC1
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     252K       2%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/SC0
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     256K       2%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/0
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:                      2.4G     1.1G      47%     1.2G
-log:                         459M      79M      19%     346M
-config:                      459M     820K       1%     424M
-disk0:                       2.0G     5.0M       1%     1.9G
-install:                     7.4G      18M       1%     7.0G
-rootfs:/mnt/plog              15M     156K       2%      14M
-install:/tmp                 7.4G      18M       1%     7.0G
-install:/cache               7.4G      18M       1%     7.0G
-rootfs:/install/tmp          7.4G      18M       1%     7.0G
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/1
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:                      2.4G     1.1G      47%     1.2G
-log:                         459M      79M      19%     346M
-config:                      459M     820K       1%     424M
-disk0:                       2.0G     4.3M       1%     1.9G
-install:                     7.4G      18M       1%     7.0G
-rootfs:/mnt/plog              15M     156K       2%      14M
-install:/tmp                 7.4G      18M       1%     7.0G
-install:/cache               7.4G      18M       1%     7.0G
-rootfs:/install/tmp          7.4G      18M       1%     7.0G
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/RP1
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:                      2.4G     1.5G      67%     748M
-install:                     7.4G     2.0G      28%     5.1G
-harddisk:/tftpboot            29G     2.9G      11%      25G
-harddisk:                     35G      66M       1%      33G
-log:                         459M     121M      29%     304M
-config:                      459M     6.7M       2%     418M
-disk0:                       2.0G     3.4M       1%     1.9G
-rootfs:/mnt/plog              15M     200K       2%      14M
-install:/tmp                 7.4G     2.0G      28%     5.1G
-install:/cache               7.4G     2.0G      28%     5.1G
-rootfs:/install/tmp          7.4G     2.0G      28%     5.1G
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/RP0
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:                      2.4G     1.5G      67%     748M
-install:                     7.4G     2.0G      28%     5.1G
-harddisk:/tftpboot            29G     2.9G      11%      25G
-harddisk:                     35G      56M       1%      33G
-log:                         459M     138M      33%     287M
-config:                      459M     7.3M       2%     418M
-disk0:                       2.0G     5.0M       1%     1.9G
-rootfs:/mnt/plog              15M     776K       6%      13M
-install:/tmp                 7.4G     2.0G      28%     5.1G
-install:/cache               7.4G     2.0G      28%     5.1G
-rootfs:/install/tmp          7.4G     2.0G      28%     5.1G
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR01#admin dir harddisk:
-Wed Sep 13 10:22:39.002 EAT
-total 4104
-     18 -rw-------. 1       0 Aug 23 10:31 .python-history
-     15 -rw-r--r--. 1 1730272 Jul  1  2020 preserved_shutdown_logs_2020-Jul-01.053907.UTC_0_1.tgz
-1175041 drwxr-xr-x. 3    4096 Dec 12  2022 tftpboot
-     12 -rw-r--r--. 1  327680 Jan 16  2020 .spddc
-     13 -rw-------. 1     271 Dec  9  2022 .bash_history
-2097153 drwxr-xr-x. 2    4096 Dec 24  2022 showtech
-1572865 drwxr-xr-x. 2    4096 Jan 16  2020 dumper
- 917505 drwxr-xr-x. 4    4096 Sep 13 00:33 cisco_support
-     11 drwx------. 2   16384 Jan 16  2020 lost+found
-     16 -rw-r--r--. 1  372810 Dec  9  2022 showtech-shelf_mgr-admin-2022-Dec-09.011422.UTC.tgz
- 262145 drw-r--r--. 2    4096 Jun 15  2022 tmp_staging
-     14 -rw-r--r--. 1 1721132 Jul  1  2020 preserved_shutdown_logs_2020-Jul-01.053907.UTC_0_0.tgz
-35944064 kbytes total (34037988 kbytes free)
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR01#
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR01#
-
-===============
-Morocco_TZ-MR-NCS-5504-SR02 10.88.38.2
-
-===============
-term len 0
-Wed Sep 13 10:23:43.073 EAT
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR02#admin show media location all
-Wed Sep 13 10:23:47.077 EAT
-
-************************************************************
-Location : 0/FC1
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     312K       3%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/FC2
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     316K       3%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/FC4
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     328K       3%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/FC3
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     316K       3%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/FC0
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     320K       3%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/FC5
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     304K       3%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/SC1
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     244K       2%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/SC0
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     264K       2%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/1
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:                      2.4G     1.1G      47%     1.2G
-log:                         459M      74M      18%     351M
-config:                      459M     816K       1%     424M
-disk0:                       2.0G     4.0M       1%     1.9G
-install:                     7.4G      18M       1%     7.0G
-rootfs:/mnt/plog              15M     168K       2%      14M
-install:/tmp                 7.4G      18M       1%     7.0G
-install:/cache               7.4G      18M       1%     7.0G
-rootfs:/install/tmp          7.4G      18M       1%     7.0G
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/0
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:                      2.4G     1.1G      47%     1.2G
-log:                         459M      74M      18%     351M
-config:                      459M     812K       1%     424M
-disk0:                       2.0G     5.2M       1%     1.9G
-install:                     7.4G      18M       1%     7.0G
-rootfs:/mnt/plog              15M     156K       2%      14M
-install:/tmp                 7.4G      18M       1%     7.0G
-install:/cache               7.4G      18M       1%     7.0G
-rootfs:/install/tmp          7.4G      18M       1%     7.0G
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/RP1
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:                      2.4G     1.5G      67%     749M
-install:                     7.4G     2.0G      28%     5.1G
-harddisk:/tftpboot            29G     2.9G      11%      25G
-harddisk:                     35G      67M       1%      33G
-log:                         459M     123M      29%     302M
-config:                      459M     6.7M       2%     418M
-disk0:                       2.0G     3.4M       1%     1.9G
-rootfs:/mnt/plog              15M     208K       2%      14M
-install:/tmp                 7.4G     2.0G      28%     5.1G
-install:/cache               7.4G     2.0G      28%     5.1G
-rootfs:/install/tmp          7.4G     2.0G      28%     5.1G
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/RP0
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:                      2.4G     1.5G      67%     748M
-install:                     7.4G     2.0G      28%     5.1G
-harddisk:/tftpboot            29G     2.9G      11%      25G
-harddisk:                     35G      53M       1%      33G
-log:                         459M     160M      38%     266M
-config:                      459M     7.1M       2%     418M
-disk0:                       2.0G     3.9M       1%     1.9G
-rootfs:/mnt/plog              15M     776K       6%      13M
-install:/tmp                 7.4G     2.0G      28%     5.1G
-install:/cache               7.4G     2.0G      28%     5.1G
-rootfs:/install/tmp          7.4G     2.0G      28%     5.1G
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR02#admin dir harddisk:
-Wed Sep 13 10:23:54.187 EAT
-total 352
-     14 -rw-------. 1      0 Aug 23 10:32 .python-history
-     11 drwx------. 2  16384 Jul  1  2020 lost+found
-     12 -rw-r--r--. 1 327680 Jul  1  2020 .spddc
-1310721 drw-r--r--. 2   4096 Jun  7  2022 tmp_staging
-1436161 drwxr-xr-x. 3   4096 Dec 12  2022 tftpboot
-1572865 drwxr-xr-x. 2   4096 Jul  1  2020 dumper
- 655361 drwxr-xr-x. 4   4096 Sep 12 09:01 cisco_support
-35944064 kbytes total (34040872 kbytes free)
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR02#
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR02#

@@ -1,15 +1,0 @@
-terminal len 0
-Mon Sep 23 10:55:38.754 EAT
-RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#show run formal | i COLOR_
-Mon Sep 23 10:55:39.026 EAT
-Building configuration...
-vrf ran address-family ipv4 unicast export route-policy SET_COLOR_19
-vrf om_cn address-family ipv4 unicast export route-policy SET_COLOR_19
-vrf om_ran address-family ipv4 unicast export route-policy SET_COLOR_19
-vrf sig_cn address-family ipv4 unicast export route-policy SET_COLOR_19
-vrf media_cn address-family ipv4 unicast export route-policy SET_COLOR_19
-extcommunity-set opaque COLOR_19
-route-policy SET_COLOR_19
-  set extcommunity color COLOR_19
-  set extcommunity color COLOR_19
-RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#

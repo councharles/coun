@@ -1,10 +1,0 @@
-terminal len 0
-Thu Mar 12 12:13:12.357 EAT
-sh running-config router isis | i "distri|isis|lsp-pass"
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#sh running-config router isis | i "distri|is$s | i "distri|isi                          s|lsp-pass"sh running-config router isis | i "distri|i$
-Thu Mar 12 12:13:12.842 EAT
-router isis ACC_4
- distribute link-state instance-id 400
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#

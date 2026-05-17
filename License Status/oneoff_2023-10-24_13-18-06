@@ -1,27 +1,0 @@
-
-
-===============
-Morocco_TZ-MR-NCS-5504-SR04 10.88.38.4
-
-===============
-terminal len 0
-Tue Oct 24 15:17:17.254 EAT
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#show license status | i Status
-Tue Oct 24 15:17:21.485 EAT
-  Status: DISABLED
-  Status: REGISTERED
-  Status: AUTHORIZED on Oct 24 2023 12:35:46 EAT
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#
-
-===============
-Kijitonyama_TZ-KJ-NCS-5504-SR01 10.88.38.6
-
-===============
-terminal len 0
-Tue Oct 24 15:19:19.207 EAT
-RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#show license status | i Status
-Tue Oct 24 15:19:23.430 EAT
-  Status: DISABLED
-  Status: REGISTERED
-  Status: AUTHORIZED on Oct 24 2023 12:37:47 EAT
-RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#

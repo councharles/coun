@@ -1,10 +1,0 @@
-terminal len 0
-Sat Mar  9 22:11:09.045 EAT
-RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR02#sh running-config formal | i end-point
-Sat Mar  9 22:11:09.706 EAT
-Building configuration...
-segment-routing traffic-eng policy SH2_KH1 color 35 end-point ipv4 10.88.38.35
-segment-routing traffic-eng policy SH2_KH2 color 36 end-point ipv4 10.88.38.36
-segment-routing traffic-eng policy SH2_MW1 color 13 end-point ipv4 10.88.38.13
-segment-routing traffic-eng policy SH2_MW2 color 14 end-point ipv4 10.88.38.14
-RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR02#

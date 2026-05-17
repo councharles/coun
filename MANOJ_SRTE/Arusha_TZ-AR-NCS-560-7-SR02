@@ -1,11 +1,0 @@
-terminal len 0
-Fri Sep 20 15:35:34.638 EAT
-RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR02#sh rpl extcommunity-set opaque
-Fri Sep 20 15:35:34.870 EAT
-Listing for all Extended Community OPAQUE Set objects
-
-extcommunity-set opaque COLOR_12
-  12
-end-set
-!
-RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR02#

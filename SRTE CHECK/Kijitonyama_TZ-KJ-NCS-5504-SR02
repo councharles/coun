@@ -1,39 +1,0 @@
-terminal len 0
-Mon Jun 24 11:36:15.768 EAT
-RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR02#sh run formal | i distribute link-state insta$ link-state instan                          ce-id 100sh run formal | i distribute link-state inst$
-Mon Jun 24 11:36:16.122 EAT
-Building configuration...
-router isis CORE_AGG distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR02#sh run router isis CORE_AGG int lo0
-Mon Jun 24 11:36:19.840 EAT
-router isis CORE_AGG
- interface Loopback0
-  passive
-  address-family ipv4 unicast
-   prefix-sid index 7
-   prefix-sid strict-spf index 507
-  !
- !
-!
-
-RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR02#sh run formal | i COLOR
-Mon Jun 24 11:36:23.895 EAT
-Building configuration...
-RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR02#sh isis adj
-Mon Jun 24 11:36:27.905 EAT
-
-IS-IS CORE_AGG Level-2 adjacencies:
-System Id      Interface                SNPA           State Hold Changed  NSF IPv4 IPv6
-                                                                               BFD  BFD 
-TZ-KJ-ASR-1002-RR02 Gi0/0/0/0.2              *PtoP*         Up    24   36w6d    Yes None None
-TZ-AR-NCS-5504-SR02 Te0/1/2/2                *PtoP*         Up    26   1d00h    Yes Up   None
-TZ-AR-NCS-5504-SR02 Te0/1/2/1.761            *PtoP*         Up    22   1d00h    Yes Up   None
-TZ-AR-NCS-5504-SR02 Te0/1/2/0.1777           *PtoP*         Up    23   1d00h    Yes Up   None
-TZ-AR-NCS-5504-SR02 Te0/1/2/3.757            *PtoP*         Up    23   13:49:44 Yes Up   None
-TZ-KJ-NCS-5504-SR01 Hu0/0/2/0.2              *PtoP*         Up    27   36w6d    Yes None None
-TZ-MR-NCS-5504-SR02 Hu0/1/1/1.2              *PtoP*         Up    27   5w0d     Yes Up   None
-TZ-MR-NCS-5504-SR02 Hu0/1/1/2.2              *PtoP*         Up    24   29w4d    Yes Up   None
-TZ-KJ-NCS-5504-SR04 Hu0/1/1/0.2              *PtoP*         Up    23   36w5d    Yes None None
-
-Total adjacency count: 9
-RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR02#

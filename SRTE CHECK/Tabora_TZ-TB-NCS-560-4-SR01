@@ -1,43 +1,0 @@
-terminal len 0
-Mon Jun 24 11:52:59.469 EAT
-RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#sh run formal | i distribute link-state inst$ link-state insta                          nce-id 100sh run formal | i distribute link-state ins$
-Mon Jun 24 11:52:59.737 EAT
-Building configuration...
-router isis CORE_AGG distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#sh run router isis CORE_AGG int lo0
-Mon Jun 24 11:53:03.560 EAT
-router isis CORE_AGG
- interface Loopback0
-  passive
-  address-family ipv4 unicast
-   prefix-sid index 63
-   prefix-sid strict-spf index 563
-  !
- !
-!
-
-RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#sh run formal | i COLOR
-Mon Jun 24 11:53:07.741 EAT
-Building configuration...
-vrf ran address-family ipv4 unicast export route-policy SET_COLOR_63
-vrf om_cn address-family ipv4 unicast export route-policy SET_COLOR_63
-vrf om_ran address-family ipv4 unicast export route-policy SET_COLOR_63
-vrf sig_cn address-family ipv4 unicast export route-policy SET_COLOR_63
-vrf ISP_VRF address-family ipv4 unicast export route-policy SET_COLOR_63
-vrf media_cn address-family ipv4 unicast export route-policy SET_COLOR_63
-extcommunity-set opaque COLOR_63
-route-policy SET_COLOR_63
-  set extcommunity color COLOR_63
-    set extcommunity color COLOR_63
-RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#sh isis adj
-Mon Jun 24 11:53:11.624 EAT
-
-IS-IS CORE_AGG Level-2 adjacencies:
-System Id      Interface                SNPA           State Hold Changed  NSF IPv4 IPv6
-                                                                               BFD  BFD 
-TZ-TB-NCS-560-4-SR02 Te0/3/0/0.3              *PtoP*         Up    25   29w6d    Yes None None
-TZ-MW-NCS-5504-SR01 Te0/5/0/16.1780          *PtoP*         Up    25   3d09h    Yes Up   None
-TZ-SH-NCS-560-4-SR01 Te0/2/0/16.776           *PtoP*         Up    28   6w2d     Yes Up   None
-
-Total adjacency count: 3
-RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#

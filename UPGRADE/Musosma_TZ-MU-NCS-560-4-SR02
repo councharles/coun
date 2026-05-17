@@ -1,19 +1,0 @@
-terminal len 0
-Thu Apr 23 02:00:50.359 EAT
-RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR02#show install active Sum
-Thu Apr 23 02:00:50.726 EAT
-Label : 7.7.21-TZV1
-
-    Active Packages: 10
-        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
-        ncs560-eigrp-1.0.0.0-r7721
-        ncs560-li-1.0.0.0-r7721
-        ncs560-isis-1.0.0.0-r7721
-        ncs560-mcast-1.0.0.0-r7721
-        ncs560-mgbl-1.0.0.0-r7721
-        ncs560-mpls-1.0.0.0-r7721
-        ncs560-k9sec-1.0.0.0-r7721
-        ncs560-ospf-1.0.0.0-r7721
-        ncs560-mpls-te-rsvp-1.0.0.0-r7721
-
-RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR02#

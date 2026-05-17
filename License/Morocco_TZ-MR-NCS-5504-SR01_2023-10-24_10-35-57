@@ -1,22 +1,0 @@
-terminal len 0
-Tue Oct 24 12:34:54.269 EAT
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01#conf t
-Tue Oct 24 12:34:54.332 EAT
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01(config)#call-home
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01(config-call-home)# service active
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01(config-call-home)# contact smart-licensing
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01(config-call-home)# source-interface Loopback0
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01(config-call-home)# profile CiscoTAC-1
-RP/0/RP1/CPU0:TZ-MR-NCS-550(config-call-home-profile)#  active
-RP/0/RP1/CPU0:TZ-MR-NCS-550(config-call-home-profile)#  destination address http $                          ttp://172.27.2.147/Transpo$                          tgateway/services/DeviceRe$                          uestHandler  destination address http$
-RP/0/RP1/CPU0:TZ-MR-NCS-550(config-call-home-profile)#  reporting smart-licensing$                          data  reporting smart-licensin$
-RP/0/RP1/CPU0:TZ-MR-NCS-550(config-call-home-profile)#  destination transport-met$                          od http  destination transport-me$
-RP/0/RP1/CPU0:TZ-MR-NCS-550(config-call-home-profile)# root
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01(config)# commit
-Tue Oct 24 12:34:54.689 EAT
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01(config)# exit
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01# license smart register idtoken NTgyN2I0NTYtO$ken NTgyN2I0NTYtOW                          M2My00YmVlLTgyZTctYmFiOTNj$lLTgyZTctYmFiOTNjO                          DlkZDUyLTE3Mjk2MDYy%0AODgz$E3Mjk2MDYy%0AODgzN                          zN8dTV4ZllVbTJvYTAvMyt4ekd$lVbTJvYTAvMyt4ekdV                          YWxIT1B2REFrSVVjRDNGbXMzK0$EFrSVVjRDNGbXMzK0R                          o%0AU3Blbz0%3D%0A force license smart register idtoken NTgyN2I0NTYt$
-Tue Oct 24 12:34:58.680 EAT
-
-License command "license smart register idtoken " completed successfully. 
-RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01#

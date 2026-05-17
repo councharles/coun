@@ -1,11 +1,0 @@
-terminal len 0
-Thu Mar 12 12:11:18.846 EAT
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#sh running-config router isis | i "distri|isi$s | i "distri|isis                          |lsp-pass"sh running-config router isis | i "distri|is$
-Thu Mar 12 12:11:19.172 EAT
-router isis AGG_2
- distribute link-state instance-id 200
-router isis AGG_3
-router isis AGG_03
-router isis CORE_AGG
- distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#

@@ -1,8 +1,0 @@
-terminal len 0
-Tue Oct 24 20:48:17.456 EAT
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#show license status | i Status
-Tue Oct 24 20:48:21.517 EAT
-  Status: DISABLED
-  Status: REGISTERED
-  Status: AUTHORIZED on Oct 24 2023 12:36:49 EAT
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#

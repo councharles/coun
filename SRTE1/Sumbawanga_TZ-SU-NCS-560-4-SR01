@@ -1,43 +1,0 @@
-terminal len 0
-Wed Jun 19 22:44:46.592 EAT
-RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR01#show tech-support ofa
-Wed Jun 19 22:44:46.830 EAT
-++ Show tech start time: 2024-Jun-19.224447.EAT ++
-Wed Jun 19 22:44:47 EAT 2024 Waiting for gathering to complete
-.....................
-Wed Jun 19 22:45:55 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-SU-NCS-560-4-SR01-ofa-2024-Jun-19.224447.EAT.tgz
-++ Show tech end time: 2024-Jun-19.224601.EAT ++
-RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR01#show tech-support segment-routing traffic-en$uting traffic-eng                          show tech-support segment-routing traffic-e$
-Wed Jun 19 22:46:04.725 EAT
-++ Show tech start time: 2024-Jun-19.224604.EAT ++
-Wed Jun 19 22:46:05 EAT 2024 Waiting for gathering to complete
-..........
-Wed Jun 19 22:46:37 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-SU-NCS-560-4-SR01-sr-te-2024-Jun-19.224604.EAT.tgz
-++ Show tech end time: 2024-Jun-19.224638.EAT ++
-RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR01#Show tech CEF
-Wed Jun 19 22:46:41.732 EAT
-++ Show tech start time: 2024-Jun-19.224641.EAT ++
-Wed Jun 19 22:46:42 EAT 2024 Waiting for gathering to complete
-...........................
-Wed Jun 19 22:48:09 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-SU-NCS-560-4-SR01-cef-2024-Jun-19.224641.EAT.tgz
-++ Show tech end time: 2024-Jun-19.224810.EAT ++
-RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR01#show tech-support qos pi
-Wed Jun 19 22:48:13.929 EAT
-++ Show tech start time: 2024-Jun-19.224814.EAT ++
-Wed Jun 19 22:48:14 EAT 2024 Waiting for gathering to complete
-....................
-Wed Jun 19 22:49:18 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-SU-NCS-560-4-SR01-qos-pi-2024-Jun-19.224814.EAT.tgz
-++ Show tech end time: 2024-Jun-19.224919.EAT ++
-RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR01#show tech-support qos platf
-Wed Jun 19 22:49:22.945 EAT
-++ Show tech start time: 2024-Jun-19.224923.EAT ++
-Wed Jun 19 22:49:23 EAT 2024 Waiting for gathering to complete
-...
-Wed Jun 19 22:49:33 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-SU-NCS-560-4-SR01-qos-platform-2024-Jun-19.224923.EAT.tgz
-++ Show tech end time: 2024-Jun-19.224934.EAT ++
-RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR01#

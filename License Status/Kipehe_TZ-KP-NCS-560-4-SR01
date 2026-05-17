@@ -1,8 +1,0 @@
-terminal len 0
-Tue Oct 24 15:38:06.523 EAT
-RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR01#show license status | i Status
-Tue Oct 24 15:38:10.615 EAT
-  Status: DISABLED
-  Status: UNREGISTERED
-  Status: EVAL EXPIRED on Aug 15 2023 02:40:31 EAT
-RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR01#

@@ -1,67 +1,0 @@
-terminal len 0
-Wed Jun 19 22:33:02.294 EAT
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#show tech-support ofa
-Wed Jun 19 22:33:02.571 EAT
-++ Show tech start time: 2024-Jun-19.223302.EAT ++
-Wed Jun 19 22:33:03 EAT 2024 Waiting for gathering to complete
-......................
-Wed Jun 19 22:34:15 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-MB-NCS-560-7-SR02-ofa-2024-Jun-19.223302.EAT.tgz
-++ Show tech end time: 2024-Jun-19.223421.EAT ++
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#show tech-support segment-routing traffic-en$uting traffic-eng                          show tech-support segment-routing traffic-e$
-Wed Jun 19 22:34:25.474 EAT
-++ Show tech start time: 2024-Jun-19.223425.EAT ++
-Wed Jun 19 22:34:26 EAT 2024 Waiting for gathering to complete
-.......
-Wed Jun 19 22:34:48 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-MB-NCS-560-7-SR02-sr-te-2024-Jun-19.223425.EAT.tgz
-++ Show tech end time: 2024-Jun-19.223448.EAT ++
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#Show tech CEF
-Wed Jun 19 22:34:52.459 EAT
-++ Show tech start time: 2024-Jun-19.223452.EAT ++
-Wed Jun 19 22:34:53 EAT 2024 Waiting for gathering to complete
-............................
-Wed Jun 19 22:36:22 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-MB-NCS-560-7-SR02-cef-2024-Jun-19.223452.EAT.tgz
-++ Show tech end time: 2024-Jun-19.223624.EAT ++
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#show tech-support qos pi
-Wed Jun 19 22:36:26.776 EAT
-++ Show tech start time: 2024-Jun-19.223627.EAT ++
-Wed Jun 19 22:36:27 EAT 2024 Waiting for gathering to complete
-...................
-Wed Jun 19 22:37:27 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-MB-NCS-560-7-SR02-qos-pi-2024-Jun-19.223627.EAT.tgz
-++ Show tech end time: 2024-Jun-19.223728.EAT ++
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#show tech-support qos platf
-Wed Jun 19 22:37:32.789 EAT
-++ Show tech start time: 2024-Jun-19.223733.EAT ++
-Wed Jun 19 22:37:33 EAT 2024 Waiting for gathering to complete
-...
-Wed Jun 19 22:37:43 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-MB-NCS-560-7-SR02-qos-platform-2024-Jun-19.223733.EAT.tgz
-++ Show tech end time: 2024-Jun-19.223744.EAT ++
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#show tech bundl
-Wed Jun 19 22:37:47.830 EAT
-++ Show tech start time: 2024-Jun-19.223748.EAT ++
-Wed Jun 19 22:37:48 EAT 2024 Waiting for gathering to complete
-........
-Wed Jun 19 22:38:14 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-MB-NCS-560-7-SR02-bundle-2024-Jun-19.223748.EAT.tgz
-++ Show tech end time: 2024-Jun-19.223814.EAT ++
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#show tech cef mpls
-Wed Jun 19 22:38:17.845 EAT
-++ Show tech start time: 2024-Jun-19.223818.EAT ++
-Wed Jun 19 22:38:18 EAT 2024 Waiting for gathering to complete
-...................
-Wed Jun 19 22:39:19 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-MB-NCS-560-7-SR02-cef-2024-Jun-19.223818.EAT.tgz
-++ Show tech end time: 2024-Jun-19.223920.EAT ++
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#show tech cef platform
-Wed Jun 19 22:39:24.858 EAT
-++ Show tech start time: 2024-Jun-19.223925.EAT ++
-Wed Jun 19 22:39:25 EAT 2024 Waiting for gathering to complete
-..............................................................................................
-Wed Jun 19 22:44:23 EAT 2024 Compressing show tech output
-Show tech output available at 0/RP0/CPU0 : /harddisk:/showtech/showtech-TZ-MB-NCS-560-7-SR02-cef_platform-2024-Jun-19.223925.EAT.tgz
-++ Show tech end time: 2024-Jun-19.224437.EAT ++
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#

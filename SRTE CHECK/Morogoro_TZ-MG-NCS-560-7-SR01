@@ -1,54 +1,0 @@
-terminal len 0
-Mon Jun 24 11:38:59.014 EAT
-RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#sh run formal | i distribute link-state inst$ link-state insta                          nce-id 100sh run formal | i distribute link-state ins$
-Mon Jun 24 11:38:59.306 EAT
-Building configuration...
-router isis CORE_AGG distribute link-state instance-id 100
-RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#sh run router isis CORE_AGG int lo0
-Mon Jun 24 11:39:03.150 EAT
-router isis CORE_AGG
- interface Loopback0
-  passive
-  address-family ipv4 unicast
-   prefix-sid index 19
-   prefix-sid strict-spf index 519
-  !
- !
-!
-
-RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#sh run formal | i COLOR
-Mon Jun 24 11:39:07.206 EAT
-Building configuration...
-vrf ran address-family ipv4 unicast export route-policy SET_COLOR_19
-vrf om_cn address-family ipv4 unicast export route-policy SET_COLOR_19
-vrf om_ran address-family ipv4 unicast export route-policy SET_COLOR_19
-vrf sig_cn address-family ipv4 unicast export route-policy SET_COLOR_19
-vrf media_cn address-family ipv4 unicast export route-policy SET_COLOR_19
-extcommunity-set opaque COLOR_19
-route-policy SET_COLOR_19
-  set extcommunity color COLOR_19
-route-policy ZTE_LU_SR_COLOR
-  set extcommunity color COLOR_19
-router bgp 67000 neighbor-group ZTERR address-family ipv4 labeled-unicast route-policy ZTE_LU_SR_COLOR in
-RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#sh isis adj
-Mon Jun 24 11:39:11.249 EAT
-
-IS-IS AGG_05 Level-2 adjacencies:
-System Id      Interface                SNPA           State Hold Changed  NSF IPv4 IPv6
-                                                                               BFD  BFD 
-
-IS-IS CORE_AGG Level-2 adjacencies:
-System Id      Interface                SNPA           State Hold Changed  NSF IPv4 IPv6
-                                                                               BFD  BFD 
-TZ-MG-NCS-560-7-SR02 Te0/2/0/16.2             *PtoP*         Up    27   12w0d    Yes None None
-TZ-DO-NCS-560-7-SR01 Te0/4/0/0.770            *PtoP*         Up    29   2w5d     Yes Up   None
-TZ-DO-NCS-560-7-SR01 Te0/10/0/1.747           *PtoP*         Up    27   2w5d     Yes Up   None
-TZ-DO-NCS-560-7-SR01 Te0/15/0/16.744          *PtoP*         Up    23   2w5d     Yes Up   None
-TZ-MR-NCS-5504-SR01 Te0/10/0/0.774           *PtoP*         Up    27   11:01:18 Yes Up   None
-TZ-MR-NCS-5504-SR01 Te0/4/0/6.2711           *PtoP*         Up    27   11:01:20 Yes Up   None
-TZ-MR-NCS-5504-SR01 Te0/12/0/16.2708         *PtoP*         Up    27   16:06:05 Yes None None
-TZ-MR-NCS-5504-SR01 Te0/14/0/16.1014         *PtoP*         Up    22   11:01:19 Yes Up   None
-TZ-IF-NCS-560-4-SR01 Gi0/2/0/14.1760          *PtoP*         Up    25   1w5d     Yes None None
-
-Total adjacency count: 9
-RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#

@@ -1,10 +1,0 @@
-terminal len 0
-Fri Apr 24 19:34:40.323 EAT
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#show run fpd auto-upgrade
-Fri Apr 24 19:34:40.701 EAT
-fpd auto-upgrade enable
-
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#admin show run fpd auto-upgrade
-Fri Apr 24 19:34:44.361 EAT
-fpd auto-upgrade enable
-RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#

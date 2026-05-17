@@ -1,2308 +1,0 @@
-term len 0
-Wed Aug 23 13:33:03.520 EAT
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#show media
-Wed Aug 23 13:33:03.585 EAT
-
-Media Info for Location: node0_RP0_CPU0
-Partition                            Size     Used  Percent    Avail
---------------------------------------------------------------------
-rootfs:                              3.9G     1.8G      48%     2.0G
-apphost:                             3.7G     133M       4%     3.4G
-/dev/sde                             969M     507M      57%     397M
-harddisk:                             35G      11G      32%      23G
-log:                                 459M     144M      34%     281M
-config:                              459M     5.1M       2%     420M
-disk0:                               2.0G      40M       3%     1.8G
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#show media location all
-Wed Aug 23 13:33:03.763 EAT
-
-Media Info for Location: node0_3_CPU0
-Partition                            Size     Used  Percent    Avail
---------------------------------------------------------------------
-rootfs:                              3.9G     2.5G      66%     1.3G
-/dev/sde                             969M     500M      56%     403M
-log:                                 459M      94M      23%     331M
-config:                              459M     420K       1%     424M
-disk0:                               2.0G      11M       1%     1.9G
-
-Media Info for Location: node0_RP1_CPU0
-Partition                            Size     Used  Percent    Avail
---------------------------------------------------------------------
-rootfs:                              3.9G     1.8G      48%     2.0G
-apphost:                             3.7G     312M       9%     3.2G
-/dev/sde                             969M     507M      57%     397M
-harddisk:                             35G     291M       1%      33G
-log:                                 459M     124M      30%     301M
-config:                              459M     4.5M       2%     420M
-disk0:                               2.0G     6.4M       1%     1.9G
-
-Media Info for Location: node0_RP0_CPU0
-Partition                            Size     Used  Percent    Avail
---------------------------------------------------------------------
-rootfs:                              3.9G     1.8G      48%     2.0G
-apphost:                             3.7G     133M       4%     3.4G
-/dev/sde                             969M     507M      57%     397M
-harddisk:                             35G      11G      32%      23G
-log:                                 459M     144M      34%     281M
-config:                              459M     5.1M       2%     420M
-disk0:                               2.0G      40M       3%     1.8G
-
-Media Info for Location: node0_2_CPU0
-Partition                            Size     Used  Percent    Avail
---------------------------------------------------------------------
-rootfs:                              3.9G     2.5G      66%     1.3G
-/dev/sde                             969M     501M      56%     402M
-log:                                 459M      96M      23%     330M
-config:                              459M     420K       1%     424M
-disk0:                               2.0G     9.4M       1%     1.9G
-
-Media Info for Location: node0_0_CPU0
-Partition                            Size     Used  Percent    Avail
---------------------------------------------------------------------
-rootfs:                              3.9G     2.5G      66%     1.3G
-/dev/sde                             969M     501M      56%     402M
-log:                                 459M      95M      23%     330M
-config:                              459M     420K       1%     424M
-disk0:                               2.0G     115M       7%     1.8G
-
-Media Info for Location: node0_1_CPU0
-Partition                            Size     Used  Percent    Avail
---------------------------------------------------------------------
-rootfs:                              3.9G     2.5G      66%     1.3G
-log:                                 459M      64M      15%     361M
-config:                              459M     420K       1%     424M
-disk0:                               2.0G     8.5M       1%     1.9G
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#dir harddisk:
-Wed Aug 23 13:33:04.480 EAT
-
-Directory of harddisk:
-     46 -rw-r--r--. 1     327820 Dec 20  2022 led_mgr_7591.by.6.20221218-071849.sysadmin-vm:0_3.7077e.core.gz
-     14 -rw-r--r--. 1   38082560 Jul 13  2022 ncs5500-7.3.2.CSCwb06186.tar
-     61 -rw-r--r--. 1      24908 Dec 20  2022 wd_memmon_6873.by.6.20221218-071613.sysadmin-vm:0_3.ee922.core.txt
-1703937 drwxr-xr-x. 2       4096 Apr 23 15:26 showtech
-     37 -rw-r--r--. 1     646095 Dec 20  2022 envmon_3051.by.6.20221218-071509.sysadmin-vm:0_3.5c62c.core.gz
-     31 -rw-r--r--. 1 2595221504 Dec 13  2022 ncs5500-goldenk9-x-7.3.2-TZ.iso
-     23 -rw-r--r--. 1     416082 Dec 20  2022 aaad_3043.by.6.20221218-071518.sysadmin-vm:0_3.3220f.core.gz
-     38 -rw-r--r--. 1      54531 Dec 20  2022 envmon_3051.by.6.20221218-071509.sysadmin-vm:0_3.5c62c.core.txt
-2097153 drwxr-xr-x. 3       4096 Jul  1  2020 pam
-1572865 drwxr-xr-x. 2       4096 Jul  1  2020 nvram
- 655361 drwxr-xr-x. 2       4096 Aug 21 19:57 node0_0_CPU0
- 393217 drwx------. 3       4096 Dec 14  2022 ima
-     11 drwx------. 2      16384 Jul  1  2020 lost+found
-     35 -rw-r--r--. 1     400913 Dec 20  2022 aaad_7613.by.6.20221218-071859.sysadmin-vm:0_3.3220f.core.gz
-     36 -rw-r--r--. 1      36538 Dec 20  2022 aaad_7613.by.6.20221218-071859.sysadmin-vm:0_3.3220f.core.txt
-     48 -rw-r--r--. 1     354896 Dec 20  2022 led_mgr_7694.by.6.20221218-071929.sysadmin-vm:0_3.7077e.core.gz
- 917505 drwxr-xr-x. 2       4096 Jul 17 14:38 node0_3_CPU0
-     43 -rw-r--r--. 1      38584 Dec 20  2022 led_mgr_7240.by.6.20221218-071748.sysadmin-vm:0_3.7077e.core.txt
- 786433 drwxr-xr-x. 2       4096 Jul  1  2020 dumper
-1310721 drwxr-xr-x. 3       4096 Jul 25  2022 mirror
-     64 -rw-r--r--. 1      37475 Dec 21  2022 showtech-esdma-admin-2022-Dec-20.111016.UTC.tgz
-     32 -rw-r--r--. 1      36978 Dec 20  2022 aaad_7092.by.6.20221218-071719.sysadmin-vm:0_3.3220f.core.txt
-     52 -rw-r--r--. 1     248797 Dec 20  2022 obfl_show_3080.by.6.20221218-071643.sysadmin-vm:0_3.f230b.core.gz
-     25 -rw-r--r--. 1     401029 Dec 20  2022 aaad_6803.by.6.20221218-071649.sysadmin-vm:0_3.3220f.core.gz
-     53 -rw-r--r--. 1      26296 Dec 20  2022 obfl_show_3080.by.6.20221218-071643.sysadmin-vm:0_3.f230b.core.txt
-     47 -rw-r--r--. 1      39720 Dec 20  2022 led_mgr_7591.by.6.20221218-071849.sysadmin-vm:0_3.7077e.core.txt
-     67 -rw-r--r--. 1  168178532 Apr 14 18:20 showtech-ofa-2023-Apr-14.181958.EAT.tgz
- 262145 drwxr-xr-x. 2       4096 Jul  1  2020 shutdown
-     40 -rw-r--r--. 1     434687 Dec 20  2022 led_mgr_3059.by.6.20221218-071717.sysadmin-vm:0_3.7077e.core.gz
-     55 -rw-r--r--. 1      27306 Dec 20  2022 obfl_show_7032.by.6.20221218-071723.sysadmin-vm:0_3.f230b.core.txt
-     30 -rw-r--r--. 1     143710 Dec 10  2022 optics_driver_3908.by.11.20221210-072129.xr-vm_node0_0_CPU0.c5214.core.txt
- 524289 drwxr-xr-x. 2       4096 Dec 14  2022 .sppdc
-     45 -rw-r--r--. 1      38336 Dec 20  2022 led_mgr_7480.by.6.20221218-071818.sysadmin-vm:0_3.7077e.core.txt
-     58 -rw-r--r--. 1     230420 Dec 20  2022 wd_memmon_3108.by.6.20221218-071533.sysadmin-vm:0_3.ee922.core.gz
-     62 -rw-r--r--. 1     218007 Dec 20  2022 wd_memmon_6962.by.6.20221218-071714.sysadmin-vm:0_3.ee922.core.gz
-     41 -rw-r--r--. 1      38382 Dec 20  2022 led_mgr_3059.by.6.20221218-071717.sysadmin-vm:0_3.7077e.core.txt
-     51 -rw-r--r--. 1      32623 Dec 20  2022 linkmonsys_ncs_3062.by.6.20221218-071718.sysadmin-vm:0_3.a3a5f.core.txt
-1179649 drwxr-xr-x. 2       4096 Jul  1  2020 tftpboot
-     42 -rw-r--r--. 1     328124 Dec 20  2022 led_mgr_7240.by.6.20221218-071748.sysadmin-vm:0_3.7077e.core.gz
-     39 -rw-r--r--. 1  121631296 Dec 20  2022 kernel.20220724-212308.core.slot0_3.kdump
-     33 -rw-r--r--. 1     404455 Dec 20  2022 aaad_7351.by.6.20221218-071819.sysadmin-vm:0_3.3220f.core.gz
-     28 -rw-r--r--. 1 2589634560 Dec  8  2022 ncs5500-goldenk9-x-7.3.2-iso.iso
-     22 -rw-r--r--. 1    8388865 Aug 23 12:54 nvgen_bkup.log
-     24 -rw-r--r--. 1      36379 Dec 20  2022 aaad_3043.by.6.20221218-071518.sysadmin-vm:0_3.3220f.core.txt
- 917509 drwxr-xr-x. 2       4096 Dec 14  2022 install_tmp_staging_area
-     16 -rw-r--r--. 1 2037104640 Jul 13  2022 NCS5500-iosxr-k9-7.3.2.tar
-     26 -rw-r--r--. 1      36796 Dec 20  2022 aaad_6803.by.6.20221218-071649.sysadmin-vm:0_3.3220f.core.txt
-     19 -rw-r--r--. 1  132689920 Jul 14  2022 ncs5500-sysadmin-7.3.2.CSCvv73318.tar
-     34 -rw-r--r--. 1      36205 Dec 20  2022 aaad_7351.by.6.20221218-071819.sysadmin-vm:0_3.3220f.core.txt
-     29 -rw-r--r--. 1   27927853 Dec 10  2022 optics_driver_3908.by.11.20221210-072129.xr-vm_node0_0_CPU0.c5214.core.gz
-     18 -rw-r--r--. 1   81530880 Jul 14  2022 ncs5500-7.3.2.CSCvy46398.tar
-     60 -rw-r--r--. 1     214702 Dec 20  2022 wd_memmon_6873.by.6.20221218-071613.sysadmin-vm:0_3.ee922.core.gz
-     56 -rw-r--r--. 1     291458 Dec 20  2022 wd_diskmon_3106.by.6.20221218-071916.sysadmin-vm:0_3.ca3fb.core.gz
-1572866 drwxr-xr-x. 2       4096 Aug 21 19:57 node0_2_CPU0
-     50 -rw-r--r--. 1     300062 Dec 20  2022 linkmonsys_ncs_3062.by.6.20221218-071718.sysadmin-vm:0_3.a3a5f.core.gz
-1441793 drwxr-xr-x. 3       4096 May  4  2021 .sppdc_new
-1835009 drwxr-xr-x. 2       4096 May  4  2021 ipodwdm_log
-     59 -rw-r--r--. 1      23761 Dec 20  2022 wd_memmon_3108.by.6.20221218-071533.sysadmin-vm:0_3.ee922.core.txt
-     17 -rw-r--r--. 1 2411302912 Jul 13  2022 ncs5500-goldenk9-x-7.3.2-SPGISO0001.iso
-     57 -rw-r--r--. 1      29329 Dec 20  2022 wd_diskmon_3106.by.6.20221218-071916.sysadmin-vm:0_3.ca3fb.core.txt
-     65 -rw-r--r--. 1        332 Apr 14 18:20 showtech-ofa-2023-Apr-14.181958.EAT.logs
- 262146 drwxr-xr-x. 2       4096 Jul 18  2022 node0_1_CPU0
-     15 -rw-r--r--. 1   40417280 Jul 13  2022 ncs5500-7.3.2.CSCwa39357.tar
-1179650 drw-rw-r--. 2       4096 Jul 25  2022 rdsfs_log
-1048577 drwxr-xr-x. 3       4096 Jul 25  2022 ztp
-     49 -rw-r--r--. 1      38328 Dec 20  2022 led_mgr_7694.by.6.20221218-071929.sysadmin-vm:0_3.7077e.core.txt
-     44 -rw-r--r--. 1     331069 Dec 20  2022 led_mgr_7480.by.6.20221218-071818.sysadmin-vm:0_3.7077e.core.gz
-     27 -rw-r--r--. 1     399581 Dec 20  2022 aaad_7092.by.6.20221218-071719.sysadmin-vm:0_3.3220f.core.gz
-     63 -rw-r--r--. 1      23624 Dec 20  2022 wd_memmon_6962.by.6.20221218-071714.sysadmin-vm:0_3.ee922.core.txt
-1966081 drwxr-xr-x. 5       4096 Aug 21 23:46 cisco_support
-     20 -rw-r--r--. 1     143360 Jul 14  2022 ncs5500-7.3.2.CSCwb26857.tar
-     54 -rw-r--r--. 1     231466 Dec 20  2022 obfl_show_7032.by.6.20221218-071723.sysadmin-vm:0_3.f230b.core.gz
-     13 -rw-r--r--. 1          0 Dec 14  2022 zl30704_trace_file.log
-     12 -rw-r--r--. 1       1860 Dec 14  2022 local_debug.log
- 131073 drwxr-xr-x. 6       4096 Jul  1  2020 xr
-     21 -rw-r--r--. 1   94525440 Jul 14  2022 ncs5500-7.3.2.CSCvz54050.tar
-
-35944064 kbytes total (23448108 kbytes free)
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#show install active
-Wed Aug 23 13:33:04.850 EAT
-Label : 7.3.2-TZ
-
-Node 0/RP0/CPU0 [RP]
-  Boot Partition: xr_lv31
-  Active Packages: 26
-        ncs5500-xr-7.3.2 version=7.3.2 [Boot image]
-        ncs5500-mcast-3.0.0.0-r732
-        bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.xr
-        ncs5500-mpls-2.1.0.0-r732
-        ncs5500-infra-5.0.0.16-r732.CSCvz05855
-        ncs5500-isis-2.1.0.1-r732.CSCwa39799
-        ncs5500-k9sec-3.2.0.0-r732
-        ncs5500-parser-3.0.0.2-r732.CSCwb12464
-        ncs5500-fwding-3.0.0.4-r732.CSCwd54118
-        ncs5500-eigrp-1.0.0.0-r732
-        kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p2-r0.1.r732.CSCwc74983.xr
-        ncs5500-os-support-4.0.0.19-r732.CSCwd54118
-        kernel-modules-3.14.p2-r0.1.r732.CSCwc74983.xr
-        ncs5500-dpa-3.0.0.18-r732.CSCwd54118
-        ncs5500-li-1.0.0.0-r732
-        ncs5500-mpls-te-rsvp-3.1.0.1-r732.CSCwa76380
-        ncs5500-os-6.0.0.2-r732.CSCwb00045
-        ncs5500-iosxr-fwding-4.1.0.16-r732.CSCvz93797
-        ncs5500-mgbl-3.0.0.0-r732
-        cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.xr
-        ncs5500-ospf-3.0.0.2-r732.CSCvz57398
-        ncs5500-bgp-2.0.0.1-r732.CSCvz94897
-        ncs5500-isis-2.1.0.0-r732
-        ncs5500-mpls-te-rsvp-3.1.0.0-r732
-        ncs5500-dpa-fwding-4.1.0.19-r732.CSCwd54118
-        ncs5500-ospf-3.0.0.0-r732
-
-Node 0/RP1/CPU0 [RP]
-  Boot Partition: xr_lv31
-  Active Packages: 26
-        ncs5500-xr-7.3.2 version=7.3.2 [Boot image]
-        ncs5500-mcast-3.0.0.0-r732
-        bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.xr
-        ncs5500-mpls-2.1.0.0-r732
-        ncs5500-infra-5.0.0.16-r732.CSCvz05855
-        ncs5500-isis-2.1.0.1-r732.CSCwa39799
-        ncs5500-k9sec-3.2.0.0-r732
-        ncs5500-parser-3.0.0.2-r732.CSCwb12464
-        ncs5500-fwding-3.0.0.4-r732.CSCwd54118
-        ncs5500-eigrp-1.0.0.0-r732
-        kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p2-r0.1.r732.CSCwc74983.xr
-        ncs5500-os-support-4.0.0.19-r732.CSCwd54118
-        kernel-modules-3.14.p2-r0.1.r732.CSCwc74983.xr
-        ncs5500-dpa-3.0.0.18-r732.CSCwd54118
-        ncs5500-li-1.0.0.0-r732
-        ncs5500-mpls-te-rsvp-3.1.0.1-r732.CSCwa76380
-        ncs5500-os-6.0.0.2-r732.CSCwb00045
-        ncs5500-iosxr-fwding-4.1.0.16-r732.CSCvz93797
-        ncs5500-mgbl-3.0.0.0-r732
-        cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.xr
-        ncs5500-ospf-3.0.0.2-r732.CSCvz57398
-        ncs5500-bgp-2.0.0.1-r732.CSCvz94897
-        ncs5500-isis-2.1.0.0-r732
-        ncs5500-mpls-te-rsvp-3.1.0.0-r732
-        ncs5500-dpa-fwding-4.1.0.19-r732.CSCwd54118
-        ncs5500-ospf-3.0.0.0-r732
-
-Node 0/0/CPU0 [LC]
-  Boot Partition: xr_lv31
-  Active Packages: 26
-        ncs5500-xr-7.3.2 version=7.3.2 [Boot image]
-        ncs5500-mcast-3.0.0.0-r732
-        bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.xr
-        ncs5500-mpls-2.1.0.0-r732
-        ncs5500-infra-5.0.0.16-r732.CSCvz05855
-        ncs5500-isis-2.1.0.1-r732.CSCwa39799
-        ncs5500-k9sec-3.2.0.0-r732
-        ncs5500-parser-3.0.0.2-r732.CSCwb12464
-        ncs5500-fwding-3.0.0.4-r732.CSCwd54118
-        ncs5500-eigrp-1.0.0.0-r732
-        kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p2-r0.1.r732.CSCwc74983.xr
-        ncs5500-os-support-4.0.0.19-r732.CSCwd54118
-        kernel-modules-3.14.p2-r0.1.r732.CSCwc74983.xr
-        ncs5500-dpa-3.0.0.18-r732.CSCwd54118
-        ncs5500-li-1.0.0.0-r732
-        ncs5500-mpls-te-rsvp-3.1.0.1-r732.CSCwa76380
-        ncs5500-os-6.0.0.2-r732.CSCwb00045
-        ncs5500-iosxr-fwding-4.1.0.16-r732.CSCvz93797
-        ncs5500-mgbl-3.0.0.0-r732
-        cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.xr
-        ncs5500-ospf-3.0.0.2-r732.CSCvz57398
-        ncs5500-bgp-2.0.0.1-r732.CSCvz94897
-        ncs5500-isis-2.1.0.0-r732
-        ncs5500-mpls-te-rsvp-3.1.0.0-r732
-        ncs5500-dpa-fwding-4.1.0.19-r732.CSCwd54118
-        ncs5500-ospf-3.0.0.0-r732
-
-Node 0/1/CPU0 [LC]
-  Boot Partition: xr_lv0
-  Active Packages: 26
-        ncs5500-xr-7.3.2 version=7.3.2 [Boot image]
-        ncs5500-eigrp-1.0.0.0-r732
-        ncs5500-k9sec-3.2.0.0-r732
-        ncs5500-mpls-2.1.0.0-r732
-        ncs5500-li-1.0.0.0-r732
-        ncs5500-mgbl-3.0.0.0-r732
-        ncs5500-mpls-te-rsvp-3.1.0.0-r732
-        ncs5500-isis-2.1.0.0-r732
-        ncs5500-ospf-3.0.0.0-r732
-        ncs5500-mcast-3.0.0.0-r732
-        ncs5500-bgp-2.0.0.1-r732.CSCvz94897
-        ncs5500-isis-2.1.0.1-r732.CSCwa39799
-        ncs5500-mpls-te-rsvp-3.1.0.1-r732.CSCwa76380
-        ncs5500-parser-3.0.0.2-r732.CSCwb12464
-        cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.xr
-        bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.xr
-        ncs5500-ospf-3.0.0.2-r732.CSCvz57398
-        ncs5500-infra-5.0.0.16-r732.CSCvz05855
-        ncs5500-os-6.0.0.2-r732.CSCwb00045
-        kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p2-r0.1.r732.CSCwc74983.xr
-        kernel-modules-3.14.p2-r0.1.r732.CSCwc74983.xr
-        ncs5500-os-support-4.0.0.19-r732.CSCwd54118
-        ncs5500-dpa-3.0.0.18-r732.CSCwd54118
-        ncs5500-dpa-fwding-4.1.0.19-r732.CSCwd54118
-        ncs5500-fwding-3.0.0.4-r732.CSCwd54118
-        ncs5500-iosxr-fwding-4.1.0.16-r732.CSCvz93797
-
-Node 0/2/CPU0 [LC]
-  Boot Partition: xr_lv31
-  Active Packages: 26
-        ncs5500-xr-7.3.2 version=7.3.2 [Boot image]
-        ncs5500-mcast-3.0.0.0-r732
-        bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.xr
-        ncs5500-mpls-2.1.0.0-r732
-        ncs5500-infra-5.0.0.16-r732.CSCvz05855
-        ncs5500-isis-2.1.0.1-r732.CSCwa39799
-        ncs5500-k9sec-3.2.0.0-r732
-        ncs5500-parser-3.0.0.2-r732.CSCwb12464
-        ncs5500-fwding-3.0.0.4-r732.CSCwd54118
-        ncs5500-eigrp-1.0.0.0-r732
-        kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p2-r0.1.r732.CSCwc74983.xr
-        ncs5500-os-support-4.0.0.19-r732.CSCwd54118
-        kernel-modules-3.14.p2-r0.1.r732.CSCwc74983.xr
-        ncs5500-dpa-3.0.0.18-r732.CSCwd54118
-        ncs5500-li-1.0.0.0-r732
-        ncs5500-mpls-te-rsvp-3.1.0.1-r732.CSCwa76380
-        ncs5500-os-6.0.0.2-r732.CSCwb00045
-        ncs5500-iosxr-fwding-4.1.0.16-r732.CSCvz93797
-        ncs5500-mgbl-3.0.0.0-r732
-        cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.xr
-        ncs5500-ospf-3.0.0.2-r732.CSCvz57398
-        ncs5500-bgp-2.0.0.1-r732.CSCvz94897
-        ncs5500-isis-2.1.0.0-r732
-        ncs5500-mpls-te-rsvp-3.1.0.0-r732
-        ncs5500-dpa-fwding-4.1.0.19-r732.CSCwd54118
-        ncs5500-ospf-3.0.0.0-r732
-
-Node 0/3/CPU0 [LC]
-  Boot Partition: xr_lv31
-  Active Packages: 26
-        ncs5500-xr-7.3.2 version=7.3.2 [Boot image]
-        ncs5500-mcast-3.0.0.0-r732
-        bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.xr
-        ncs5500-mpls-2.1.0.0-r732
-        ncs5500-infra-5.0.0.16-r732.CSCvz05855
-        ncs5500-isis-2.1.0.1-r732.CSCwa39799
-        ncs5500-k9sec-3.2.0.0-r732
-        ncs5500-parser-3.0.0.2-r732.CSCwb12464
-        ncs5500-fwding-3.0.0.4-r732.CSCwd54118
-        ncs5500-eigrp-1.0.0.0-r732
-        kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p2-r0.1.r732.CSCwc74983.xr
-        ncs5500-os-support-4.0.0.19-r732.CSCwd54118
-        kernel-modules-3.14.p2-r0.1.r732.CSCwc74983.xr
-        ncs5500-dpa-3.0.0.18-r732.CSCwd54118
-        ncs5500-li-1.0.0.0-r732
-        ncs5500-mpls-te-rsvp-3.1.0.1-r732.CSCwa76380
-        ncs5500-os-6.0.0.2-r732.CSCwb00045
-        ncs5500-iosxr-fwding-4.1.0.16-r732.CSCvz93797
-        ncs5500-mgbl-3.0.0.0-r732
-        cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.xr
-        ncs5500-ospf-3.0.0.2-r732.CSCvz57398
-        ncs5500-bgp-2.0.0.1-r732.CSCvz94897
-        ncs5500-isis-2.1.0.0-r732
-        ncs5500-mpls-te-rsvp-3.1.0.0-r732
-        ncs5500-dpa-fwding-4.1.0.19-r732.CSCwd54118
-        ncs5500-ospf-3.0.0.0-r732
-
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#admin show media
-Wed Aug 23 13:33:06.113 EAT
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:                      2.4G     1.5G      67%     748M
-install:                     7.4G     2.0G      28%     5.1G
-harddisk:/tftpboot            29G     2.9G      11%      25G
-harddisk:                     35G     178M       1%      33G
-log:                         459M     168M      40%     257M
-config:                      459M     7.0M       2%     418M
-disk0:                       2.0G     3.9M       1%     1.9G
-rootfs:/mnt/plog              15M     716K       6%      13M
-install:/tmp                 7.4G     2.0G      28%     5.1G
-install:/cache               7.4G     2.0G      28%     5.1G
-rootfs:/install/tmp          7.4G     2.0G      28%     5.1G
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#admin show media location all
-Wed Aug 23 13:33:07.334 EAT
-
-************************************************************
-Location : 0/SC0
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     256K       2%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/3
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:                      2.4G     1.1G      47%     1.2G
-log:                         459M      70M      17%     355M
-config:                      459M     816K       1%     424M
-disk0:                       2.0G     4.6M       1%     1.9G
-install:                     7.4G      18M       1%     7.0G
-install:/tmp                 7.4G      18M       1%     7.0G
-install:/cache               7.4G      18M       1%     7.0G
-rootfs:/install/tmp          7.4G      18M       1%     7.0G
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/1
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:                      2.4G     1.1G      48%     1.2G
-log:                         459M      64M      15%     361M
-config:                      459M     804K       1%     424M
-disk0:                       2.0G     5.3M       1%     1.9G
-install:                     7.4G     876M      13%     6.2G
-rootfs:/mnt/plog              15M     164K       2%      14M
-install:/tmp                 7.4G     876M      13%     6.2G
-install:/cache               7.4G     876M      13%     6.2G
-rootfs:/install/tmp          7.4G     876M      13%     6.2G
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/FC1
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     272K       2%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/FC5
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     292K       3%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/FC3
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     308K       3%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/FC4
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     280K       3%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/FC2
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     272K       2%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/FC0
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     312K       3%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/SC1
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:/mnt/plog              15M     248K       2%      14M
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/2
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:                      2.4G     1.1G      47%     1.2G
-log:                         459M      80M      19%     345M
-config:                      459M     824K       1%     424M
-disk0:                       2.0G     4.7M       1%     1.9G
-install:                     7.4G      18M       1%     7.0G
-rootfs:/mnt/plog              15M     300K       3%      14M
-install:/tmp                 7.4G      18M       1%     7.0G
-install:/cache               7.4G      18M       1%     7.0G
-rootfs:/install/tmp          7.4G      18M       1%     7.0G
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/0
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:                      2.4G     1.1G      47%     1.2G
-log:                         459M      81M      19%     345M
-config:                      459M     820K       1%     424M
-disk0:                       2.0G     4.5M       1%     1.9G
-install:                     7.4G      18M       1%     7.0G
-rootfs:/mnt/plog              15M     164K       2%      14M
-install:/tmp                 7.4G      18M       1%     7.0G
-install:/cache               7.4G      18M       1%     7.0G
-rootfs:/install/tmp          7.4G      18M       1%     7.0G
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/RP1
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:                      2.4G     1.5G      67%     748M
-install:                     7.4G     2.0G      28%     5.1G
-harddisk:/tftpboot            29G     2.9G      11%      25G
-harddisk:                     35G      65M       1%      33G
-log:                         459M     144M      34%     281M
-config:                      459M     6.5M       2%     418M
-disk0:                       2.0G     4.4M       1%     1.9G
-rootfs:/mnt/plog              15M     200K       2%      14M
-install:/tmp                 7.4G     2.0G      28%     5.1G
-install:/cache               7.4G     2.0G      28%     5.1G
-rootfs:/install/tmp          7.4G     2.0G      28%     5.1G
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-
-************************************************************
-Location : 0/RP0
-************************************************************
----------------------------------------------------------------------
-Partition                    Size     Used  Percent    Avail
----------------------------------------------------------------------
-rootfs:                      2.4G     1.5G      67%     748M
-install:                     7.4G     2.0G      28%     5.1G
-harddisk:/tftpboot            29G     2.9G      11%      25G
-harddisk:                     35G     178M       1%      33G
-log:                         459M     168M      40%     257M
-config:                      459M     7.0M       2%     418M
-disk0:                       2.0G     3.9M       1%     1.9G
-rootfs:/mnt/plog              15M     716K       6%      13M
-install:/tmp                 7.4G     2.0G      28%     5.1G
-install:/cache               7.4G     2.0G      28%     5.1G
-rootfs:/install/tmp          7.4G     2.0G      28%     5.1G
----------------------------------------------------------------------
-rootfs:  = root file system (read-only)
-log:     = system log files (read-only)
-config:  = configuration storage (read-only)
-install: = install repository (read-only)
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#admin dir harddisk:
-Wed Aug 23 13:33:10.669 EAT
-total 127136
- 524289 drwxr-xr-x. 2      4096 Jan  3  2023 showtech
-     32 -rw-r--r--. 1     38584 Dec 18  2022 led_mgr_7240.by.6.20221218-071748.sysadmin-vm:0_3.7077e.core.txt
-     19 -rw-r--r--. 1    401029 Dec 18  2022 aaad_6803.by.6.20221218-071649.sysadmin-vm:0_3.3220f.core.gz
-     28 -rw-r--r--. 1     54531 Dec 18  2022 envmon_3051.by.6.20221218-071509.sysadmin-vm:0_3.5c62c.core.txt
-     12 -rw-r--r--. 1    327680 Jul  1  2020 .spddc
-     31 -rw-r--r--. 1    328124 Dec 18  2022 led_mgr_7240.by.6.20221218-071748.sysadmin-vm:0_3.7077e.core.gz
-     35 -rw-r--r--. 1    327820 Dec 18  2022 led_mgr_7591.by.6.20221218-071849.sysadmin-vm:0_3.7077e.core.gz
-     24 -rw-r--r--. 1     36205 Dec 18  2022 aaad_7351.by.6.20221218-071819.sysadmin-vm:0_3.3220f.core.txt
-     40 -rw-r--r--. 1     32623 Dec 18  2022 linkmonsys_ncs_3062.by.6.20221218-071718.sysadmin-vm:0_3.a3a5f.core.txt
- 786433 drwxr-xr-x. 4      4096 Aug 23 03:26 cisco_support
-     30 -rw-r--r--. 1     38382 Dec 18  2022 led_mgr_3059.by.6.20221218-071717.sysadmin-vm:0_3.7077e.core.txt
-     48 -rw-r--r--. 1     23761 Dec 18  2022 wd_memmon_3108.by.6.20221218-071533.sysadmin-vm:0_3.ee922.core.txt
-     22 -rw-r--r--. 1     36978 Dec 18  2022 aaad_7092.by.6.20221218-071719.sysadmin-vm:0_3.3220f.core.txt
-     50 -rw-r--r--. 1     24908 Dec 18  2022 wd_memmon_6873.by.6.20221218-071613.sysadmin-vm:0_3.ee922.core.txt
-     23 -rw-r--r--. 1    404455 Dec 18  2022 aaad_7351.by.6.20221218-071819.sysadmin-vm:0_3.3220f.core.gz
-     29 -rw-r--r--. 1    434687 Dec 18  2022 led_mgr_3059.by.6.20221218-071717.sysadmin-vm:0_3.7077e.core.gz
-     20 -rw-r--r--. 1     36796 Dec 18  2022 aaad_6803.by.6.20221218-071649.sysadmin-vm:0_3.3220f.core.txt
-     42 -rw-r--r--. 1     26296 Dec 18  2022 obfl_show_3080.by.6.20221218-071643.sysadmin-vm:0_3.f230b.core.txt
-     25 -rw-r--r--. 1    400913 Dec 18  2022 aaad_7613.by.6.20221218-071859.sysadmin-vm:0_3.3220f.core.gz
-     13 -rw-------. 1        84 Jul  1  2020 .bash_history
-     46 -rw-r--r--. 1     29329 Dec 18  2022 wd_diskmon_3106.by.6.20221218-071916.sysadmin-vm:0_3.ca3fb.core.txt
-     18 -rw-r--r--. 1     36379 Dec 18  2022 aaad_3043.by.6.20221218-071518.sysadmin-vm:0_3.3220f.core.txt
-     33 -rw-r--r--. 1    331069 Dec 18  2022 led_mgr_7480.by.6.20221218-071818.sysadmin-vm:0_3.7077e.core.gz
-     43 -rw-r--r--. 1    231466 Dec 18  2022 obfl_show_7032.by.6.20221218-071723.sysadmin-vm:0_3.f230b.core.gz
-     38 -rw-r--r--. 1     38328 Dec 18  2022 led_mgr_7694.by.6.20221218-071929.sysadmin-vm:0_3.7077e.core.txt
-1305601 drwxr-xr-x. 3      4096 Dec 14  2022 tftpboot
-     45 -rw-r--r--. 1    291458 Dec 18  2022 wd_diskmon_3106.by.6.20221218-071916.sysadmin-vm:0_3.ca3fb.core.gz
-     36 -rw-r--r--. 1     39720 Dec 18  2022 led_mgr_7591.by.6.20221218-071849.sysadmin-vm:0_3.7077e.core.txt
-     11 drwx------. 2     16384 Jul  1  2020 lost+found
-     26 -rw-r--r--. 1     36538 Dec 18  2022 aaad_7613.by.6.20221218-071859.sysadmin-vm:0_3.3220f.core.txt
-     16 -rw-------. 1         0 Aug 21 10:36 .python-history
-     52 -rw-r--r--. 1     23624 Dec 18  2022 wd_memmon_6962.by.6.20221218-071714.sysadmin-vm:0_3.ee922.core.txt
-     44 -rw-r--r--. 1     27306 Dec 18  2022 obfl_show_7032.by.6.20221218-071723.sysadmin-vm:0_3.f230b.core.txt
-     51 -rw-r--r--. 1    218007 Dec 18  2022 wd_memmon_6962.by.6.20221218-071714.sysadmin-vm:0_3.ee922.core.gz
-     15 -rw-r--r--. 1   1315686 Dec 16  2022 preserved_shutdown_logs_2022-Dec-16.235522.UTC_0_1.tgz
-     14 -rw-r--r--. 1 121631296 Jul 24  2022 kernel.20220724-212308.core.slot0_3.kdump
- 262145 drwxr-xr-x. 2      4096 Jul  1  2020 dumper
-     49 -rw-r--r--. 1    214702 Dec 18  2022 wd_memmon_6873.by.6.20221218-071613.sysadmin-vm:0_3.ee922.core.gz
-     47 -rw-r--r--. 1    230420 Dec 18  2022 wd_memmon_3108.by.6.20221218-071533.sysadmin-vm:0_3.ee922.core.gz
-     37 -rw-r--r--. 1    354896 Dec 18  2022 led_mgr_7694.by.6.20221218-071929.sysadmin-vm:0_3.7077e.core.gz
-     27 -rw-r--r--. 1    646095 Dec 18  2022 envmon_3051.by.6.20221218-071509.sysadmin-vm:0_3.5c62c.core.gz
-     34 -rw-r--r--. 1     38336 Dec 18  2022 led_mgr_7480.by.6.20221218-071818.sysadmin-vm:0_3.7077e.core.txt
-     17 -rw-r--r--. 1    416082 Dec 18  2022 aaad_3043.by.6.20221218-071518.sysadmin-vm:0_3.3220f.core.gz
-     39 -rw-r--r--. 1    300062 Dec 18  2022 linkmonsys_ncs_3062.by.6.20221218-071718.sysadmin-vm:0_3.a3a5f.core.gz
-     41 -rw-r--r--. 1    248797 Dec 18  2022 obfl_show_3080.by.6.20221218-071643.sysadmin-vm:0_3.f230b.core.gz
-     21 -rw-r--r--. 1    399581 Dec 18  2022 aaad_7092.by.6.20221218-071719.sysadmin-vm:0_3.3220f.core.gz
-35944064 kbytes total (33913552 kbytes free)
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#admin show system resources location 0/RP0
-Wed Aug 23 13:33:11.877 EAT
-Physical       -- Available system memory 
-Application    -- Application memory allocated to host/sysadmin/XR
-Boot Partition -- Boot memory allocated to host/sysadmin/XR
-Total          -- Total memory
-Available      -- Available free memory
-Cached         -- Amount of memory used for disk caching
-"^" character  -- Within 10% of max memory
-Node			Physical			Application		 Boot Partition		CPUs	Shmwin
-		Total	Available	Cached	Total	Available	Cached	Total	Available
-0/RP0-Host	32078M	23902M		2977M	31326M	23342M		2908	16038M	16038M		12
-	N/A
-0/RP0-Admin	4097M	3296M		131M	4001M	3219M		127	16038M	16038M		1	N/A
-0/RP0-XR	26932M	21762M		2801M	26301M	21253M		2735	16038M	16038M		11	8191M
-
-Node		   harddisk:		   log:			   disk0:		   config:
-		Total	Available	Total	Available	Total	Available	Total	Available
-0/RP0-Host	28389M	25405M		435M	373M		2619M	2615M		80M	80M		
-0/RP0-Admin	34094M	33913M		434M	263M		1909M	1906M		434M	427M		
-0/RP0-XR	34095M	23448M		433M	287M		1899M	1859M		434M	429M		
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#admin show system resources location 0/RP1
-Wed Aug 23 13:33:17.028 EAT
-Physical       -- Available system memory 
-Application    -- Application memory allocated to host/sysadmin/XR
-Boot Partition -- Boot memory allocated to host/sysadmin/XR
-Total          -- Total memory
-Available      -- Available free memory
-Cached         -- Amount of memory used for disk caching
-"^" character  -- Within 10% of max memory
-Node			Physical			Application		 Boot Partition		CPUs	Shmwin
-		Total	Available	Cached	Total	Available	Cached	Total	Available
-0/RP1-Host	32078M	24497M		2090M	31326M	23923M		2041	16038M	16038M		12
-	N/A
-0/RP1-Admin	4097M	3254M		250M	4001M	3178M		244	16038M	16038M		1	N/A
-0/RP1-XR	26932M	23207M		1770M	26301M	22663M		1729	16038M	16038M		11	8191M
-
-Node		   harddisk:		   log:			   disk0:		   config:
-		Total	Available	Total	Available	Total	Available	Total	Available
-0/RP1-Host	28389M	25405M		436M	379M		2619M	2615M		80M	80M		
-0/RP1-Admin	34094M	34029M		434M	287M		1910M	1906M		433M	427M		
-0/RP1-XR	34094M	33797M		433M	307M		1900M	1894M		433M	429M		
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#admin show memory summary location all
-Wed Aug 23 13:33:22.314 EAT
-************************************************************
-
-
-Location : 0/SC0
-
-************************************************************
-
-Physical Memory: 1024 MB total (644 MB available)
-************************************************************
-
-
-Location : 0/3
-
-************************************************************
-
-Physical Memory: 1024 MB total (676 MB available)
-************************************************************
-
-
-Location : 0/1
-
-************************************************************
-
-Physical Memory: 1024 MB total (676 MB available)
-************************************************************
-
-
-Location : 0/FC1
-
-************************************************************
-
-Physical Memory: 1536 MB total (1144 MB available)
-************************************************************
-
-
-Location : 0/FC5
-
-************************************************************
-
-Physical Memory: 1536 MB total (1148 MB available)
-************************************************************
-
-
-Location : 0/FC3
-
-************************************************************
-
-Physical Memory: 1536 MB total (1148 MB available)
-************************************************************
-
-
-Location : 0/FC4
-
-************************************************************
-
-Physical Memory: 1536 MB total (1132 MB available)
-************************************************************
-
-
-Location : 0/FC2
-
-************************************************************
-
-Physical Memory: 1536 MB total (1140 MB available)
-************************************************************
-
-
-Location : 0/FC0
-
-************************************************************
-
-Physical Memory: 1536 MB total (1140 MB available)
-************************************************************
-
-
-Location : 0/SC1
-
-************************************************************
-
-Physical Memory: 1024 MB total (612 MB available)
-************************************************************
-
-
-Location : 0/2
-
-************************************************************
-
-Physical Memory: 1024 MB total (676 MB available)
-************************************************************
-
-
-Location : 0/0
-
-************************************************************
-
-Physical Memory: 1024 MB total (676 MB available)
-************************************************************
-
-
-Location : 0/RP1
-
-************************************************************
-
-Physical Memory: 4001 MB total (3416 MB available)
-************************************************************
-
-
-Location : 0/RP0
-
-************************************************************
-
-Physical Memory: 4001 MB total (3348 MB available)
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#admin show sdr
-Wed Aug 23 13:33:25.633 EAT
-
-SDR: default-sdr
-Location     IP Address      Status           Boot Count  Time Started
------------------------------------------------------------------------------
-0/0/VM1      192.0.4.3       RUNNING          1           12/14/2022 00:56:51
-0/1/VM1      192.0.8.3       RUNNING          1           12/17/2022 00:49:22
-0/2/VM1      192.0.12.3      RUNNING          1           12/14/2022 00:56:53
-0/3/VM1      192.0.16.3      RUNNING          1           12/18/2022 09:22:24
-0/RP0/VM1    192.0.108.4     RUNNING          1           12/14/2022 00:55:56
-0/RP1/VM1    192.0.112.4     RUNNING          1           12/14/2022 00:55:22
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#admin show redundancy
-Wed Aug 23 13:33:26.726 EAT
-------------------------^
-syntax error: element does not exist
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#show redundancy
-Wed Aug 23 13:33:27.828 EAT
-Redundancy information for node 0/RP0/CPU0:
-==========================================
-Node 0/RP0/CPU0 is in ACTIVE role
-Partner node (0/RP1/CPU0) is in STANDBY role
-Standby node in 0/RP1/CPU0 is ready
-Standby node in 0/RP1/CPU0 is NSR-ready
-
-Reload and boot info
-----------------------
-RP reloaded Wed Dec 14 03:55:54 2022: 36 weeks, 9 hours, 37 minutes ago
-Active node booted Wed Dec 14 03:55:54 2022: 36 weeks, 9 hours, 37 minutes ago
-Standby node boot Wed Dec 14 03:55:20 2022: 36 weeks, 9 hours, 38 minutes ago
-Standby node last went not ready Mon Aug 21 16:50:18 2023: 1 day, 20 hours, 43 minutes ago
-Standby node last went ready Mon Aug 21 16:50:18 2023: 1 day, 20 hours, 43 minutes ago
-Standby node last went not NSR-ready Wed Dec 14 03:56:58 2022: 36 weeks, 9 hours, 36 minutes ago
-Standby node last went NSR-ready Wed Dec 14 04:03:30 2022: 36 weeks, 9 hours, 29 minutes ago
-There have been 0 switch-overs since reload
-
-Active node reload "CARD_SHUTDOWN"
-Standby node reload "CARD_SHUTDOWN "
-
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#show install inactive
-Wed Aug 23 13:33:27.901 EAT
-4 inactive package(s) found:
-    cisco-klm-0.1-r0.0.xr
-    kernel-image-3.14.23-wr7.0.0.2-standard-3.14-r0.1.xr
-    kernel-modules-3.14-r0.1.xr
-    bcm-klm-6.5.19-r1.2.xr
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#show install superseded
-Wed Aug 23 13:33:29.190 EAT
- Node 0/1/CPU0 [LC]
-    Boot Partition: xr_lv0
-    Superseded Packages: 0
-	No fully superseded package(s) found on the system
-
- Node 0/0/CPU0 [LC]
-    Boot Partition: xr_lv31
-    Superseded Packages: 0
-	No fully superseded package(s) found on the system
-
- Node 0/3/CPU0 [LC]
-    Boot Partition: xr_lv31
-    Superseded Packages: 0
-	No fully superseded package(s) found on the system
-
- Node 0/2/CPU0 [LC]
-    Boot Partition: xr_lv31
-    Superseded Packages: 0
-	No fully superseded package(s) found on the system
-
- Node 0/RP1/CPU0 [RP]
-    Boot Partition: xr_lv31
-    Superseded Packages: 0
-	No fully superseded package(s) found on the system
-
- Node 0/RP0/CPU0 [RP]
-    Boot Partition: xr_lv31
-    Superseded Packages: 0
-	No fully superseded package(s) found on the system
-
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#show install log reverse
-Wed Aug 23 13:33:30.452 EAT
-2023-05-25 02:10:39 Install operation 42 started by ashutosh:
-  install verify packages 
-2023-05-25 02:10:41 Action 1: install verify action started
-2023-05-25 02:10:41 Install operation will continue in the background
-2023-05-25 02:11:10 0/RP0/CPU0 completed verification successfully
-2023-05-25 02:11:11 0/RP1/CPU0 completed verification successfully
-2023-05-25 02:11:11 0/0/CPU0 completed verification successfully
-2023-05-25 02:11:11 0/2/CPU0 completed verification successfully
-2023-05-25 02:11:11 0/1/CPU0 completed verification successfully
-2023-05-25 02:11:11 0/3/CPU0 completed verification successfully
-2023-05-25 02:11:12 Install operation 42 finished successfully
-2023-05-25 02:11:12 Ending operation 42
-
-2023-05-25 00:52:28 Install operation 41 started by ashutosh:
-  install verify packages 
-2023-05-25 00:52:30 Action 1: install verify action started
-2023-05-25 00:52:30 Install operation will continue in the background
-2023-05-25 00:52:59 0/RP0/CPU0 completed verification successfully
-2023-05-25 00:52:59 0/RP1/CPU0 completed verification successfully
-2023-05-25 00:52:59 0/0/CPU0 completed verification successfully
-2023-05-25 00:52:59 0/2/CPU0 completed verification successfully
-2023-05-25 00:52:59 0/1/CPU0 completed verification successfully
-2023-05-25 00:52:59 0/3/CPU0 completed verification successfully
-2023-05-25 00:53:01 Install operation 41 finished successfully
-2023-05-25 00:53:01 Ending operation 41
-
-2023-04-26 02:42:34 Install operation 40 started by ashutosh:
-  install verify packages 
-2023-04-26 02:42:36 Action 1: install verify action started
-2023-04-26 02:42:36 Install operation will continue in the background
-2023-04-26 02:43:06 0/RP0/CPU0 completed verification successfully
-2023-04-26 02:43:06 0/RP1/CPU0 completed verification successfully
-2023-04-26 02:43:06 0/0/CPU0 completed verification successfully
-2023-04-26 02:43:06 0/2/CPU0 completed verification successfully
-2023-04-26 02:43:06 0/1/CPU0 completed verification successfully
-2023-04-26 02:43:06 0/3/CPU0 completed verification successfully
-2023-04-26 02:43:07 Install operation 40 finished successfully
-2023-04-26 02:43:07 Ending operation 40
-
-2023-04-25 03:28:50 Install operation 39 started by ashutosh:
-  install verify packages 
-2023-04-25 03:28:52 Action 1: install verify action started
-2023-04-25 03:28:52 Install operation will continue in the background
-2023-04-25 03:29:22 0/RP0/CPU0 completed verification successfully
-2023-04-25 03:29:22 0/RP1/CPU0 completed verification successfully
-2023-04-25 03:29:22 0/0/CPU0 completed verification successfully
-2023-04-25 03:29:22 0/2/CPU0 completed verification successfully
-2023-04-25 03:29:22 0/1/CPU0 completed verification successfully
-2023-04-25 03:29:22 0/3/CPU0 completed verification successfully
-2023-04-25 03:29:23 Install operation 39 finished successfully
-2023-04-25 03:29:23 Ending operation 39
-
-2023-04-25 00:12:07 Install operation 38 started by ashutosh:
-  install verify packages 
-2023-04-25 00:12:09 Action 1: install verify action started
-2023-04-25 00:12:09 Install operation will continue in the background
-2023-04-25 00:12:38 0/RP0/CPU0 completed verification successfully
-2023-04-25 00:12:38 0/RP1/CPU0 completed verification successfully
-2023-04-25 00:12:38 0/0/CPU0 completed verification successfully
-2023-04-25 00:12:39 0/2/CPU0 completed verification successfully
-2023-04-25 00:12:39 0/1/CPU0 completed verification successfully
-2023-04-25 00:12:39 0/3/CPU0 completed verification successfully
-2023-04-25 00:12:40 Install operation 38 finished successfully
-2023-04-25 00:12:40 Ending operation 38
-
-2023-04-20 01:42:00 Install operation 37 started by ashutosh:
-  install verify packages 
-2023-04-20 01:42:02 Action 1: install verify action started
-2023-04-20 01:42:02 Install operation will continue in the background
-2023-04-20 01:42:31 0/RP0/CPU0 completed verification successfully
-2023-04-20 01:42:31 0/RP1/CPU0 completed verification successfully
-2023-04-20 01:42:31 0/0/CPU0 completed verification successfully
-2023-04-20 01:42:31 0/2/CPU0 completed verification successfully
-2023-04-20 01:42:31 0/1/CPU0 completed verification successfully
-2023-04-20 01:42:31 0/3/CPU0 completed verification successfully
-2023-04-20 01:42:33 Install operation 37 finished successfully
-2023-04-20 01:42:33 Ending operation 37
-
-2023-04-19 22:13:20 Install operation 36 started by ashutosh:
-  install verify packages 
-2023-04-19 22:13:22 Action 1: install verify action started
-2023-04-19 22:13:22 Install operation will continue in the background
-2023-04-19 22:13:53 0/RP0/CPU0 completed verification successfully
-2023-04-19 22:13:53 0/RP1/CPU0 completed verification successfully
-2023-04-19 22:13:53 0/0/CPU0 completed verification successfully
-2023-04-19 22:13:53 0/2/CPU0 completed verification successfully
-2023-04-19 22:13:53 0/1/CPU0 completed verification successfully
-2023-04-19 22:13:53 0/3/CPU0 completed verification successfully
-2023-04-19 22:13:55 Install operation 36 finished successfully
-2023-04-19 22:13:55 Ending operation 36
-
-2022-12-14 04:08:35 Install operation 35 started by msefu:
-  install commit 
-2022-12-14 04:08:37 Install operation will continue in the background
-2022-12-14 04:09:10 Install operation 35 finished successfully
-2022-12-14 04:09:10 Ending operation 35
-
-2022-12-14 03:58:21 Install operation 34 started by unknown:
-  install remove inactive all 
-2022-12-14 03:58:22 Action 1: install remove action started
-2022-12-14 03:58:22 Install operation will continue in the background
-2022-12-14 03:58:22 Package list:
-2022-12-14 03:58:22 	kernel-image-3.14.23-wr7.0.0.2-standard-3.14-r0.1.admin.x86_64
-2022-12-14 03:58:22 	ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.host.x86_64
-2022-12-14 03:58:22 	ncs5500-goldenk9-x-7.3.2
-2022-12-14 03:58:22 	kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.host.arm
-2022-12-14 03:58:22 	kernel-modules-3.14-r0.1.admin.arm
-2022-12-14 03:58:22 	kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.admin.arm
-2022-12-14 03:58:22 	bcm-klm-6.5.19-r1.2.admin.x86_64
-2022-12-14 03:58:22 	cisco-klm-0.1-r0.0.admin.x86_64
-2022-12-14 03:58:23 	bcm-klm-6.5.19-r1.2.admin.arm
-2022-12-14 03:58:23 	ncs5500-sysadmin-hostos-7.3.2-r732.host.arm
-2022-12-14 03:58:23 	ncs5500-sysadmin-hostos-7.3.2-r732.host.x86_64
-2022-12-14 03:58:23 	kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.admin.x86_64
-2022-12-14 03:58:23 	ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.admin.x86_64
-2022-12-14 03:58:23 	ncs5500-sysadmin-hostos-7.3.2.1-r732.CSCvz01590.host.arm
-2022-12-14 03:58:23 	cisco-klm-0.1-r0.0.host.arm
-2022-12-14 03:58:23 	kernel-image-3.14.23.0.0insieme-0-3.14-r0.1.admin.arm
-2022-12-14 03:58:23 	ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.host.arm
-2022-12-14 03:58:23 	kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.host.x86_64
-2022-12-14 03:58:23 	cisco-klm-0.1-r0.0.host.x86_64
-2022-12-14 03:58:23 	ncs5500-sysadmin-hostos-7.3.2.1-r732.CSCvz01590.host.x86_64
-2022-12-14 03:58:23 	ncs5500-sysadmin-hostos-7.3.2.1-r732.CSCvz01590.admin.arm
-2022-12-14 03:58:23 	ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.admin.arm
-2022-12-14 03:58:23 	ncs5500-sysadmin-ncs5500-7.3.2.1-r732.CSCvz47218.x86_64
-2022-12-14 03:58:23 	ncs5500-mini-x-7.3.2
-2022-12-14 03:58:23 	ncs5500-sysadmin-7.1.2
-2022-12-14 03:58:23 	kernel-modules-3.14-r0.1.host.x86_64
-2022-12-14 03:58:24 	kernel-modules-3.14-r0.1.admin.x86_64
-2022-12-14 03:58:24 	kernel-image-3.14.23.0.0insieme-0-3.14.p1-r0.1.r732.CSCvv73318.host.arm
-2022-12-14 03:58:24 	kernel-image-3.14.23.0.0insieme-0-3.14.p1-r0.1.r732.CSCvv73318.admin.arm
-2022-12-14 03:58:24 	bcm-klm-6.5.19-r1.2.host.arm
-2022-12-14 03:58:24 	ncs5500-mini-x-7.1.2
-2022-12-14 03:58:24 	kernel-image-3.14.23-wr7.0.0.2-standard-3.14-r0.1.host.x86_64
-2022-12-14 03:58:24 	ncs5500-sysadmin-hostos-7.3.2-r732.admin.arm
-2022-12-14 03:58:24 	cisco-klm-0.1-r0.0.admin.arm
-2022-12-14 03:58:24 	ncs5500-sysadmin-hostos-7.3.2.1-r732.CSCvz01590.admin.x86_64
-2022-12-14 03:58:24 	ncs5500-sysadmin-hostos-7.3.2-r732.admin.x86_64
-2022-12-14 03:58:24 	kernel-modules-3.14-r0.1.host.arm
-2022-12-14 03:58:25 	kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.host.x86_64
-2022-12-14 03:58:25 	kernel-image-3.14.23.0.0insieme-0-3.14-r0.1.host.arm
-2022-12-14 03:58:25 	bcm-klm-6.5.19-r1.2.host.x86_64
-2022-12-14 03:58:25 	ncs5500-sysadmin-ncs5500-7.3.2.1-r732.CSCvz47218.arm
-2022-12-14 03:58:25 	kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.admin.x86_64
-2022-12-14 03:58:25 	host-7.1.2
-2022-12-14 03:58:25 	ncs5500-goldenk9-x-7.3.2
-2022-12-14 03:58:25 	ncs5500-xr-7.1.2
-2022-12-14 03:58:25 	ncs5500-mpls-te-rsvp-3.1.0.0-r712.x86_64
-2022-12-14 03:58:25 	ncs5500-os-6.0.0.1-r732.CSCvq20498.x86_64
-2022-12-14 03:58:25 	ncs5500-dpa-3.0.0.9-r732.CSCvy90201.x86_64
-2022-12-14 03:58:25 	kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.xr.x86_64
-2022-12-14 03:58:25 	ncs5500-ospf-2.0.0.0-r712.x86_64
-2022-12-14 03:58:25 	ncs5500-mpls-2.1.0.0-r712.x86_64
-2022-12-14 03:58:25 	ncs5500-eigrp-1.0.0.0-r712.x86_64
-2022-12-14 03:58:25 	ncs5500-li-1.0.0.0-r712.x86_64
-2022-12-14 03:58:25 	ncs5500-infra-5.0.0.4-r732.CSCvz54050.x86_64
-2022-12-14 03:58:25 	ncs5500-isis-2.1.0.0-r712.x86_64
-2022-12-14 03:58:25 	ncs5500-mcast-3.0.0.0-r712.x86_64
-2022-12-14 03:58:25 	ncs5500-iosxr-fwding-4.1.0.6-r732.CSCwa54804.x86_64
-2022-12-14 03:58:25 	ncs5500-dpa-3.0.0.2-r732.CSCvy46398.x86_64
-2022-12-14 03:58:25 	ncs5500-mgbl-3.0.0.0-r712.x86_64
-2022-12-14 03:58:25 	ncs5500-infra-5.0.0.2-r732.CSCvy46398.x86_64
-2022-12-14 03:58:25 	ncs5500-dpa-3.0.0.8-r732.CSCwb06186.x86_64
-2022-12-14 03:58:25 	cisco-klm-0.1-r0.0.xr.x86_64
-2022-12-14 03:58:25 	ncs5500-os-support-4.0.0.3-r732.CSCvy46398.x86_64
-2022-12-14 03:58:25 	ncs5500-mini-x-7.3.2
-2022-12-14 03:58:25 	ncs5500-fwding-3.0.0.1-r732.CSCwb26857.x86_64
-2022-12-14 03:58:25 	kernel-image-3.14.23-wr7.0.0.2-standard-3.14-r0.1.xr.x86_64
-2022-12-14 03:58:26 	ncs5500-mini-x-7.1.2
-2022-12-14 03:58:26 	ncs5500-dpa-3.0.0.7-r732.CSCwa39357.x86_64
-2022-12-14 03:58:26 	ncs5500-dpa-fwding-4.1.0.6-r732.CSCwa39357.x86_64
-2022-12-14 03:58:26 	ncs5500-os-support-4.0.0.11-r732.CSCwa85137.x86_64
-2022-12-14 03:58:26 	ncs5500-dpa-3.0.0.3-r732.CSCvz54050.x86_64
-2022-12-14 03:58:26 	ncs5500-infra-5.0.0.9-r732.CSCwa91810.x86_64
-2022-12-14 03:58:26 	ncs5500-dpa-fwding-4.1.0.2-r732.CSCvy46398.x86_64
-2022-12-14 03:58:26 	kernel-modules-3.14-r0.1.xr.x86_64
-2022-12-14 03:58:26 	bcm-klm-6.5.19-r1.2.xr.x86_64
-2022-12-14 03:58:26 	kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.xr.x86_64
-2022-12-14 04:01:47 Following packages are skipped:
-2022-12-14 04:01:48  ncs5500-sysadmin-hostos-7.3.2-r732.admin.arm
-2022-12-14 04:01:48  ncs5500-sysadmin-hostos-7.3.2-r732.admin.x86_64
-2022-12-14 04:01:49  cisco-klm-0.1-r0.0.admin.x86_64
-2022-12-14 04:01:49  cisco-klm-0.1-r0.0.admin.arm
-2022-12-14 04:01:49  bcm-klm-6.5.19-r1.2.admin.x86_64
-2022-12-14 04:01:49  bcm-klm-6.5.19-r1.2.admin.arm
-2022-12-14 04:01:49  kernel-modules-3.14-r0.1.admin.arm
-2022-12-14 04:01:49  kernel-modules-3.14-r0.1.admin.x86_64
-2022-12-14 04:01:49  kernel-image-3.14.23.0.0insieme-0-3.14-r0.1.admin.arm
-2022-12-14 04:01:49  kernel-image-3.14.23-wr7.0.0.2-standard-3.14-r0.1.admin.x86_64
-2022-12-14 04:01:49  ncs5500-sysadmin-hostos-7.3.2-r732.host.arm
-2022-12-14 04:01:49  ncs5500-sysadmin-hostos-7.3.2-r732.host.x86_64
-2022-12-14 04:01:49  cisco-klm-0.1-r0.0.host.arm
-2022-12-14 04:01:49  cisco-klm-0.1-r0.0.host.x86_64
-2022-12-14 04:01:49  bcm-klm-6.5.19-r1.2.host.arm
-2022-12-14 04:01:49  bcm-klm-6.5.19-r1.2.host.x86_64
-2022-12-14 04:01:49  kernel-modules-3.14-r0.1.host.x86_64
-2022-12-14 04:01:49  kernel-modules-3.14-r0.1.host.arm
-2022-12-14 04:01:49  kernel-image-3.14.23.0.0insieme-0-3.14-r0.1.host.arm
-2022-12-14 04:01:49  kernel-image-3.14.23-wr7.0.0.2-standard-3.14-r0.1.host.x86_64
-2022-12-14 04:01:49  cisco-klm-0.1-r0.0.xr.x86_64
-2022-12-14 04:01:49  kernel-image-3.14.23-wr7.0.0.2-standard-3.14-r0.1.xr.x86_64
-2022-12-14 04:01:49  kernel-modules-3.14-r0.1.xr.x86_64
-2022-12-14 04:01:49  bcm-klm-6.5.19-r1.2.xr.x86_64
-2022-12-14 04:01:49 Warning: Found some packages which are either base image or committed packages and will be skipped
-2022-12-14 04:01:49 Due to this operation, the following add operation IDs are no longer valid:
-2022-12-14 04:01:49 1 12 18 19 2 20 21 22 23 3 4 5 6 7 8 
-2022-12-14 04:01:49 Action 1: install remove action completed successfully
-2022-12-14 04:01:51 Install operation 34 finished successfully
-2022-12-14 04:01:51 Install operation 34 completed without error
-2022-12-14 04:01:51 Ending operation 34
-
-2022-12-14 00:57:26 Auto commit operation 33 started for the replace commit
-2022-12-14 00:57:27 Install operation will continue in the background
-2022-12-14 03:58:14 Install operation 33 finished successfully
-2022-12-14 03:58:14 Ending operation 33
-
-2022-12-14 03:37:48 Install operation 32 started by root:
-2022-12-14 03:37:48 install add source /misc/disk1/install_tmp_staging_area/7.3.2 ncs5500-goldenk9-x-7.3.2-TZ.iso
-2022-12-14 03:37:48 Action 1: install add action started
-2022-12-14 03:38:15 Install operation will continue in the background
-2022-12-14 03:38:37 Packages added:
-2022-12-14 03:38:37 	ncs5500-goldenk9-x-7.3.2-TZ.iso
-2022-12-14 03:38:37 Action 1: install add action completed successfully
-2022-12-14 03:38:37 Install operation 32 finished successfully
-2022-12-14 03:38:37 Ending operation 32
-2022-12-14 03:37:01  Install operation 31 started by epnm:
-2022-12-14 03:37:01    install replace source /harddisk:/ncs5500-goldenk9-x-7.3.2-TZ.iso noprompt commit
-2022-12-14 03:37:02  No install operation in progress at this moment
-2022-12-14 03:37:02  Checking system is ready for install operation
-2022-12-14 03:37:03  'install replace' in progress
-2022-12-14 03:37:03  Install replace with commit option is triggered
-2022-12-14 03:37:03  Label = TZ
-2022-12-14 03:37:03  ISO ncs5500-goldenk9-x-7.3.2-TZ.iso in input package list. Going to upgrade the system to version 7.3.2.
-2022-12-14 03:37:05  Current label: <None>
-2022-12-14 03:37:05  Updating contents of golden ISO
-2022-12-14 03:37:05  Scheme : localdisk
-2022-12-14 03:37:05  Hostname : localhost
-2022-12-14 03:37:05  Username : None
-2022-12-14 03:37:05  SourceDir : /harddisk:
-2022-12-14 03:37:05  Collecting software state..
-2022-12-14 03:37:05  Getting platform
-2022-12-14 03:37:05  Getting supported architecture
-2022-12-14 03:37:05  Getting active packages from XR
-2022-12-14 03:37:05  Getting inactive packages from XR
-2022-12-14 03:37:28  Getting list of RPMs in local repo
-2022-12-14 03:37:28  Getting list of provides of all active packages
-2022-12-14 03:37:28  Getting provides of each rpm in repo
-2022-12-14 03:37:28  Getting requires of each rpm in repo
-2022-12-14 03:37:28  Fetching .... ncs5500-goldenk9-x-7.3.2-TZ.iso
-2022-12-14 03:37:46  Label within GISO: TZ
-2022-12-14 03:37:48  Adding packages 
-	ncs5500-goldenk9-x-7.3.2-TZ.iso
-2022-12-14 03:37:48  Allocated operation ID 32 for install add
-2022-12-14 03:38:38  Activating ncs5500-goldenk9-x-7.3.2-TZ
-2022-12-14 03:38:39  Optimized list to prepare after sanitizing input list for superseded packages:
-	ncs5500-goldenk9-x-7.3.2-TZ
-2022-12-14 03:38:39  Package list:
-2022-12-14 03:38:39  	ncs5500-goldenk9-x-7.3.2-TZ
-2022-12-14 03:38:39  Action 1: install prepare action started
-2022-12-14 03:38:39  Triggering prepare operation.
-This may take a while...
-2022-12-14 03:44:47  Action 1: install prepare action completed successfully
-2022-12-14 03:45:04  Prepare operation completed. Trigger activate.
-This may take a while...
-2022-12-14 03:45:04  Prepare completed. Operation ID 31 will be taken up for activate operation
-2022-12-14 03:45:04  Activate operation ID is: 31 for 'install source' ID:31
-2022-12-14 03:45:06 Install operation 31 started by epnm:
-  install activate replace noprompt synchronous 
-2022-12-14 03:45:08 Action 1: install activate action started
-2022-12-14 03:45:08 The software will be activated with reload upgrade
-2022-12-14 03:45:11 Following nodes are available for System Upgrade activate:
-2022-12-14 03:45:11  0/0 0/1 0/2 0/3 0/FC0 0/FC1 0/FC2 0/FC3 0/FC4 0/FC5 0/RP0 0/RP1 0/SC0 0/SC1 
-2022-12-14 03:49:16 Action 1: install activate action completed successfully
-2022-12-14 03:49:23 Install operation 31 finished successfully
-2022-12-14 03:49:24 Ending operation 31
-
-2022-12-14 03:30:06 Install operation 30 started by msefu:
-  install commit 
-2022-12-14 03:30:07 Install operation will continue in the background
-2022-12-14 03:30:48 Install operation 30 finished successfully
-2022-12-14 03:30:48 Ending operation 30
-
-2022-08-12 22:33:18 Install operation 29 started by msefu:
-  install deactivate superseded 
-2022-08-12 22:33:18 Package list:
-2022-08-12 22:33:19     ncs5500-os-support-4.0.0.3-r732.CSCvy46398
-2022-08-12 22:33:19     ncs5500-dpa-fwding-4.1.0.2-r732.CSCvy46398
-2022-08-12 22:33:19     ncs5500-infra-5.0.0.4-r732.CSCvz54050
-2022-08-12 22:33:19     ncs5500-dpa-3.0.0.8-r732.CSCwb06186
-2022-08-12 22:33:20 Action 1: install deactivate action started
-2022-08-12 22:34:30 The software will be deactivated with process restart
-2022-08-12 22:34:30 Install operation will continue in the background
-2022-08-12 22:34:31 Packages will be deactivated in the following sequence:
-2022-08-12 22:34:31     1: ncs5500-dpa-3.0.0.8-r732.CSCwb06186 
-2022-08-12 22:34:31     2: ncs5500-infra-5.0.0.4-r732.CSCvz54050 
-2022-08-12 22:34:31     3: ncs5500-dpa-fwding-4.1.0.2-r732.CSCvy46398 
-2022-08-12 22:34:31     4: ncs5500-os-support-4.0.0.3-r732.CSCvy46398 
-2022-08-12 22:34:32 Deactivating package ncs5500-dpa-3.0.0.8-r732.CSCwb06186 
-2022-08-12 22:35:09 0 processes affected at node 0/3/CPU0
-2022-08-12 22:35:10 0 processes affected at node 0/RP1/CPU0
-2022-08-12 22:35:10 0 processes affected at node 0/2/CPU0
-2022-08-12 22:35:10 0 processes affected at node 0/0/CPU0
-2022-08-12 22:35:10 0 processes affected at node 0/1/CPU0
-2022-08-12 22:35:11 0 processes affected at node 0/RP0/CPU0
-2022-08-12 22:35:25 Deactivating package ncs5500-infra-5.0.0.4-r732.CSCvz54050 
-2022-08-12 22:36:03 0 processes affected at node 0/2/CPU0
-2022-08-12 22:36:03 0 processes affected at node 0/3/CPU0
-2022-08-12 22:36:04 0 processes affected at node 0/RP1/CPU0
-2022-08-12 22:36:04 0 processes affected at node 0/0/CPU0
-2022-08-12 22:36:04 0 processes affected at node 0/1/CPU0
-2022-08-12 22:36:04 0 processes affected at node 0/RP0/CPU0
-2022-08-12 22:36:18 Deactivating package ncs5500-dpa-fwding-4.1.0.2-r732.CSCvy46398 
-2022-08-12 22:36:55 0 processes affected at node 0/3/CPU0
-2022-08-12 22:36:55 0 processes affected at node 0/RP1/CPU0
-2022-08-12 22:36:56 0 processes affected at node 0/2/CPU0
-2022-08-12 22:36:56 0 processes affected at node 0/0/CPU0
-2022-08-12 22:36:56 0 processes affected at node 0/1/CPU0
-2022-08-12 22:36:57 0 processes affected at node 0/RP0/CPU0
-2022-08-12 22:37:11 Deactivating package ncs5500-os-support-4.0.0.3-r732.CSCvy46398 
-2022-08-12 22:37:46 0 processes affected at node 0/3/CPU0
-2022-08-12 22:37:47 0 processes affected at node 0/RP1/CPU0
-2022-08-12 22:37:47 0 processes affected at node 0/0/CPU0
-2022-08-12 22:37:47 0 processes affected at node 0/2/CPU0
-2022-08-12 22:37:47 0 processes affected at node 0/1/CPU0
-2022-08-12 22:37:48 0 processes affected at node 0/RP0/CPU0
-2022-08-12 22:37:59 deactivate operation completed for all package(s)
-2022-08-12 22:38:01 Action 1: install deactivate action completed successfully
-2022-08-12 22:38:10 Install operation 29 finished successfully
-2022-08-12 22:38:10 Ending operation 29
-
-2022-07-25 03:35:48 Install operation 28 started by msefu:
-  install commit 
-2022-07-25 03:35:49 Install operation will continue in the background
-2022-07-25 03:36:20 Install operation 28 finished successfully
-2022-07-25 03:36:20 Ending operation 28
-
-2022-07-25 03:04:04 Install operation 27 started by msefu:
-  install commit 
-2022-07-25 03:04:05 Install operation will continue in the background
-2022-07-25 03:04:39 Install operation 27 finished successfully
-2022-07-25 03:04:39 Ending operation 27
-
-2022-07-25 02:15:20 Install operation 26 started by msefu:
-  install commit 
-2022-07-25 02:15:22 Install operation will continue in the background
-2022-07-25 02:15:53 Install operation 26 finished successfully
-2022-07-25 02:15:53 Ending operation 26
-
-2022-07-25 01:56:28 Install operation 25 started by msefu:
-  install commit 
-2022-07-25 01:56:29 Install operation will continue in the background
-2022-07-25 01:57:01 Install operation 25 finished successfully
-2022-07-25 01:57:01 Ending operation 25
-
-2022-07-25 01:06:01 Install operation 24 started by msefu:
-  install activate pkg *r732* noprompt synchronous 
-2022-07-25 01:06:01 Package list:
-2022-07-25 01:06:01     bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.host.arm
-2022-07-25 01:06:01     ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.host.x86_64
-2022-07-25 01:06:01     kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.host.arm
-2022-07-25 01:06:01     kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.admin.arm
-2022-07-25 01:06:01     bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.host.x86_64
-2022-07-25 01:06:01     ncs5500-sysadmin-hostos-7.3.2-r732.host.arm
-2022-07-25 01:06:01     cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.admin.arm
-2022-07-25 01:06:01     ncs5500-sysadmin-hostos-7.3.2-r732.host.x86_64
-2022-07-25 01:06:01     kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.admin.x86_64
-2022-07-25 01:06:01     ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.admin.x86_64
-2022-07-25 01:06:01     ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.host.arm
-2022-07-25 01:06:01     kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.host.x86_64
-2022-07-25 01:06:01     ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.admin.arm
-2022-07-25 01:06:01     bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.admin.x86_64
-2022-07-25 01:06:01     bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.admin.arm
-2022-07-25 01:06:01     cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.host.arm
-2022-07-25 01:06:01     cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.host.x86_64
-2022-07-25 01:06:01     kernel-image-3.14.23.0.0insieme-0-3.14.p1-r0.1.r732.CSCvv73318.host.arm
-2022-07-25 01:06:01     kernel-image-3.14.23.0.0insieme-0-3.14.p1-r0.1.r732.CSCvv73318.admin.arm
-2022-07-25 01:06:01     ncs5500-sysadmin-hostos-7.3.2-r732.admin.arm
-2022-07-25 01:06:01     ncs5500-sysadmin-hostos-7.3.2-r732.admin.x86_64
-2022-07-25 01:06:01     kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.host.x86_64
-2022-07-25 01:06:01     cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.admin.x86_64
-2022-07-25 01:06:01     kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.admin.x86_64
-2022-07-25 01:06:01     bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.xr.x86_64
-2022-07-25 01:06:01     kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.xr.x86_64
-2022-07-25 01:06:01     ncs5500-infra-5.0.0.4-r732.CSCvz54050.x86_64
-2022-07-25 01:06:01     ncs5500-dpa-3.0.0.2-r732.CSCvy46398.x86_64
-2022-07-25 01:06:01     ncs5500-infra-5.0.0.2-r732.CSCvy46398.x86_64
-2022-07-25 01:06:01     cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.xr.x86_64
-2022-07-25 01:06:01     ncs5500-dpa-3.0.0.8-r732.CSCwb06186.x86_64
-2022-07-25 01:06:01     ncs5500-os-support-4.0.0.3-r732.CSCvy46398.x86_64
-2022-07-25 01:06:01     ncs5500-fwding-3.0.0.1-r732.CSCwb26857.x86_64
-2022-07-25 01:06:01     ncs5500-dpa-3.0.0.7-r732.CSCwa39357.x86_64
-2022-07-25 01:06:01     ncs5500-dpa-3.0.0.3-r732.CSCvz54050.x86_64
-2022-07-25 01:06:01     ncs5500-dpa-fwding-4.1.0.2-r732.CSCvy46398.x86_64
-2022-07-25 01:06:01     kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.xr.x86_64
-2022-07-25 01:06:03 Optimized package list:
-2022-07-25 01:06:03     bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.host.arm
-2022-07-25 01:06:03     ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.host.x86_64
-2022-07-25 01:06:03     kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.host.arm
-2022-07-25 01:06:03     kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.admin.arm
-2022-07-25 01:06:03     bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.host.x86_64
-2022-07-25 01:06:03     ncs5500-sysadmin-hostos-7.3.2-r732.host.arm
-2022-07-25 01:06:03     cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.admin.arm
-2022-07-25 01:06:03     ncs5500-sysadmin-hostos-7.3.2-r732.host.x86_64
-2022-07-25 01:06:03     kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.admin.x86_64
-2022-07-25 01:06:03     ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.admin.x86_64
-2022-07-25 01:06:03     ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.host.arm
-2022-07-25 01:06:03     kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.host.x86_64
-2022-07-25 01:06:03     ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.admin.arm
-2022-07-25 01:06:03     bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.admin.x86_64
-2022-07-25 01:06:03     bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.admin.arm
-2022-07-25 01:06:03     cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.host.arm
-2022-07-25 01:06:03     cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.host.x86_64
-2022-07-25 01:06:03     kernel-image-3.14.23.0.0insieme-0-3.14.p1-r0.1.r732.CSCvv73318.host.arm
-2022-07-25 01:06:03     kernel-image-3.14.23.0.0insieme-0-3.14.p1-r0.1.r732.CSCvv73318.admin.arm
-2022-07-25 01:06:03     ncs5500-sysadmin-hostos-7.3.2-r732.admin.arm
-2022-07-25 01:06:03     ncs5500-sysadmin-hostos-7.3.2-r732.admin.x86_64
-2022-07-25 01:06:03     kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.host.x86_64
-2022-07-25 01:06:03     cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.admin.x86_64
-2022-07-25 01:06:03     kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.admin.x86_64
-2022-07-25 01:06:03     bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.xr.x86_64
-2022-07-25 01:06:03     kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.xr.x86_64
-2022-07-25 01:06:03     cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.xr.x86_64
-2022-07-25 01:06:03     kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.xr.x86_64
-2022-07-25 01:06:03     ncs5500-infra-5.0.0.4-r732.CSCvz54050.x86_64
-2022-07-25 01:06:03     ncs5500-dpa-3.0.0.8-r732.CSCwb06186.x86_64
-2022-07-25 01:06:03     ncs5500-os-support-4.0.0.3-r732.CSCvy46398.x86_64
-2022-07-25 01:06:03     ncs5500-fwding-3.0.0.1-r732.CSCwb26857.x86_64
-2022-07-25 01:06:03     ncs5500-dpa-fwding-4.1.0.2-r732.CSCvy46398.x86_64
-2022-07-25 01:06:17 Action 1: install prepare action started
-2022-07-25 01:07:24 The prepared software is set to be activated with reload upgrade
-2022-07-25 01:07:41 This install operation will reload the system, continue?
- [yes/no]:[yes] default yes
-2022-07-25 01:07:41 Start preparing software across VM
-2022-07-25 01:08:45 Sending prepare  command to all nodes
-2022-07-25 01:12:54 Action 1: install prepare action completed successfully
-2022-07-25 01:12:55 Action 2: install activate action started
-2022-07-25 01:12:55 The software will be activated with reload upgrade
-2022-07-25 01:13:34 Hostos RPM installation info:
-2022-07-25 01:13:34     Only one Hostos RPM can be active per VM(host/admin).
-2022-07-25 01:13:34     Activating a Hostos RPM will override older activated Hostos RPM's
-2022-07-25 01:13:34     Only the last Activated Hostos rpm[s] in the sequence will be seen as active
-2022-07-25 01:13:34 Packages will be activated in the following sequence: 
-2022-07-25 01:13:34    1: ncs5500-sysadmin-hostos-7.3.2-r732.host.arm 
-2022-07-25 01:13:34    2: ncs5500-sysadmin-hostos-7.3.2-r732.admin.arm 
-2022-07-25 01:13:34    3: ncs5500-sysadmin-hostos-7.3.2-r732.host.x86_64 
-2022-07-25 01:13:34    4: ncs5500-sysadmin-hostos-7.3.2-r732.admin.x86_64 
-2022-07-25 01:13:34    5: ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.host.arm 
-2022-07-25 01:13:34    6: ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.admin.arm 
-2022-07-25 01:13:34    7: ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.host.x86_64 
-2022-07-25 01:13:34    8: ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.admin.x86_64 
-2022-07-25 01:13:34    9: kernel-image-3.14.23.0.0insieme-0-3.14.p1-r0.1.r732.CSCvv73318.admin.arm 
-2022-07-25 01:13:34    10: kernel-image-3.14.23.0.0insieme-0-3.14.p1-r0.1.r732.CSCvv73318.host.arm 
-2022-07-25 01:13:34    11: kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.admin.arm 
-2022-07-25 01:13:34    12: kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.host.arm 
-2022-07-25 01:13:34    13: cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.admin.arm 
-2022-07-25 01:13:34    14: cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.host.arm 
-2022-07-25 01:13:34    15: bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.host.arm 
-2022-07-25 01:13:34    16: bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.admin.arm 
-2022-07-25 01:13:34    17: kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.admin.x86_64 
-2022-07-25 01:13:34    18: kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.host.x86_64 
-2022-07-25 01:13:34    19: kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.admin.x86_64 
-2022-07-25 01:13:34    20: kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.host.x86_64 
-2022-07-25 01:13:34    21: cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.admin.x86_64 
-2022-07-25 01:13:34    22: cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.host.x86_64 
-2022-07-25 01:13:34    23: bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.admin.x86_64 
-2022-07-25 01:13:34    24: bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.host.x86_64 
-2022-07-25 01:13:34 Activating ncs5500-sysadmin-hostos-7.3.2-r732.host.arm - sending activate command to all nodes
-2022-07-25 01:14:06 install activate operation of ncs5500-sysadmin-hostos-7.3.2-r732.host.arm completed successfully
-2022-07-25 01:14:07 Activating ncs5500-sysadmin-hostos-7.3.2-r732.admin.arm - sending activate command to all nodes
-2022-07-25 01:15:28 install activate operation of ncs5500-sysadmin-hostos-7.3.2-r732.admin.arm completed successfully
-2022-07-25 01:15:29 Activating ncs5500-sysadmin-hostos-7.3.2-r732.host.x86_64 - sending activate command to all nodes
-2022-07-25 01:17:52 install activate operation of ncs5500-sysadmin-hostos-7.3.2-r732.host.x86_64 completed successfully
-2022-07-25 01:17:53 Activating ncs5500-sysadmin-hostos-7.3.2-r732.admin.x86_64 - sending activate command to all nodes
-2022-07-25 01:24:58 install activate operation of ncs5500-sysadmin-hostos-7.3.2-r732.admin.x86_64 completed successfully
-2022-07-25 01:24:59 Activating ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.host.arm - sending activate command to all nodes
-2022-07-25 01:25:29 install activate operation of ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.host.arm completed successfully
-2022-07-25 01:25:30 Activating ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.admin.arm - sending activate command to all nodes
-2022-07-25 01:26:51 install activate operation of ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.admin.arm completed successfully
-2022-07-25 01:26:52 Activating ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.host.x86_64 - sending activate command to all nodes
-2022-07-25 01:27:09 install activate operation of ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.host.x86_64 completed successfully
-2022-07-25 01:27:10 Activating ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.admin.x86_64 - sending activate command to all nodes
-2022-07-25 01:27:41 install activate operation of ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.admin.x86_64 completed successfully
-2022-07-25 01:27:42 Activating kernel-image-3.14.23.0.0insieme-0-3.14.p1-r0.1.r732.CSCvv73318.admin.arm - sending activate command to all nodes
-2022-07-25 01:28:09 install activate operation of kernel-image-3.14.23.0.0insieme-0-3.14.p1-r0.1.r732.CSCvv73318.admin.arm completed successfully
-2022-07-25 01:28:10 Activating kernel-image-3.14.23.0.0insieme-0-3.14.p1-r0.1.r732.CSCvv73318.host.arm - sending activate command to all nodes
-2022-07-25 01:28:39 install activate operation of kernel-image-3.14.23.0.0insieme-0-3.14.p1-r0.1.r732.CSCvv73318.host.arm completed successfully
-2022-07-25 01:28:40 Activating kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.admin.arm - sending activate command to all nodes
-2022-07-25 01:29:07 install activate operation of kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.admin.arm completed successfully
-2022-07-25 01:29:08 Activating kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.host.arm - sending activate command to all nodes
-2022-07-25 01:29:37 install activate operation of kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.host.arm completed successfully
-2022-07-25 01:29:38 Activating cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.admin.arm - sending activate command to all nodes
-2022-07-25 01:30:06 install activate operation of cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.admin.arm completed successfully
-2022-07-25 01:30:07 Activating cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.host.arm - sending activate command to all nodes
-2022-07-25 01:30:35 install activate operation of cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.host.arm completed successfully
-2022-07-25 01:30:36 Activating bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.host.arm - sending activate command to all nodes
-2022-07-25 01:31:04 install activate operation of bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.host.arm completed successfully
-2022-07-25 01:31:05 Activating bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.admin.arm - sending activate command to all nodes
-2022-07-25 01:31:32 install activate operation of bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.admin.arm completed successfully
-2022-07-25 01:31:33 Activating kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.admin.x86_64 - sending activate command to all nodes
-2022-07-25 01:31:46 install activate operation of kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.admin.x86_64 completed successfully
-2022-07-25 01:31:47 Activating kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.host.x86_64 - sending activate command to all nodes
-2022-07-25 01:31:59 install activate operation of kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.host.x86_64 completed successfully
-2022-07-25 01:32:00 Activating kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.admin.x86_64 - sending activate command to all nodes
-2022-07-25 01:32:14 install activate operation of kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.admin.x86_64 completed successfully
-2022-07-25 01:32:15 Activating kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.host.x86_64 - sending activate command to all nodes
-2022-07-25 01:32:28 install activate operation of kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.host.x86_64 completed successfully
-2022-07-25 01:32:29 Activating cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.admin.x86_64 - sending activate command to all nodes
-2022-07-25 01:32:43 install activate operation of cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.admin.x86_64 completed successfully
-2022-07-25 01:32:44 Activating cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.host.x86_64 - sending activate command to all nodes
-2022-07-25 01:32:59 install activate operation of cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.host.x86_64 completed successfully
-2022-07-25 01:33:00 Activating bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.admin.x86_64 - sending activate command to all nodes
-2022-07-25 01:33:12 install activate operation of bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.admin.x86_64 completed successfully
-2022-07-25 01:33:13 Activating bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.host.x86_64 - sending activate command to all nodes
-2022-07-25 01:33:26 install activate operation of bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.host.x86_64 completed successfully
-2022-07-25 01:33:26 install activate operation completed for all package(s)
-2022-07-25 01:34:33 Packages will be activated in the following sequence:
-2022-07-25 01:34:33     1: ncs5500-os-support-4.0.0.3-r732.CSCvy46398.x86_64 
-2022-07-25 01:34:33     2: ncs5500-dpa-fwding-4.1.0.2-r732.CSCvy46398.x86_64 
-2022-07-25 01:34:33     3: ncs5500-infra-5.0.0.4-r732.CSCvz54050.x86_64 
-2022-07-25 01:34:33     4: ncs5500-dpa-3.0.0.8-r732.CSCwb06186.x86_64 
-2022-07-25 01:34:33     5: ncs5500-fwding-3.0.0.1-r732.CSCwb26857.x86_64 
-2022-07-25 01:34:33     6: kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.xr.x86_64 
-2022-07-25 01:34:33     7: kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.xr.x86_64 
-2022-07-25 01:34:33     8: cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.xr.x86_64 
-2022-07-25 01:34:33     9: bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.xr.x86_64 
-2022-07-25 01:34:34 Activating package ncs5500-os-support-4.0.0.3-r732.CSCvy46398.x86_64 
-2022-07-25 01:36:06 Activating package ncs5500-dpa-fwding-4.1.0.2-r732.CSCvy46398.x86_64 
-2022-07-25 01:36:57 Activating package ncs5500-infra-5.0.0.4-r732.CSCvz54050.x86_64 
-2022-07-25 01:37:53 Activating package ncs5500-dpa-3.0.0.8-r732.CSCwb06186.x86_64 
-2022-07-25 01:38:46 Activating package ncs5500-fwding-3.0.0.1-r732.CSCwb26857.x86_64 
-2022-07-25 01:39:37 Activating package kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.xr.x86_64 
-2022-07-25 01:40:28 Activating package kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.xr.x86_64 
-2022-07-25 01:41:20 Activating package cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.xr.x86_64 
-2022-07-25 01:42:11 Activating package bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.xr.x86_64 
-2022-07-25 01:42:59 activate operation completed for all package(s)
-2022-07-25 01:43:01 Action 2: install activate action completed successfully
-2022-07-25 01:43:27 Install operation 24 finished successfully
-2022-07-25 01:43:27 Ending operation 24
-
-2022-07-25 01:03:45 Install operation 23 started by msefu:
- install add source harddisk:/ ncs5500-7.3.2.CSCwb06186.tar synchronous 
-2022-07-25 01:03:46 Action 1: install add action started
-2022-07-25 01:04:08 WARNING : the following files/packages were not added to the Software Repository due to unsupported file format
-		ncs5500-7.3.2.CSCwb06186.txt
-2022-07-25 01:04:14 Packages added:
-2022-07-25 01:04:14     ncs5500-dpa-3.0.0.8-r732.CSCwb06186.x86_64
-2022-07-25 01:04:14 Action 1: install add action completed successfully
-2022-07-25 01:04:15 Install operation 23 finished successfully
-2022-07-25 01:04:15 Ending operation 23
-
-2022-07-25 01:03:02 Install operation 22 started by msefu:
- install add source harddisk:/ ncs5500-7.3.2.CSCwa39357.tar synchronous 
-2022-07-25 01:03:03 Action 1: install add action started
-2022-07-25 01:03:27 WARNING : the following files/packages were not added to the Software Repository due to unsupported file format
-		ncs5500-7.3.2.CSCwa39357.txt
-2022-07-25 01:03:32 Packages skipped as they are already in the repository:
-2022-07-25 01:03:32     ncs5500-dpa-fwding-4.1.0.6-r732.CSCwa39357.x86_64
-2022-07-25 01:03:32 Packages added:
-2022-07-25 01:03:32     ncs5500-dpa-3.0.0.7-r732.CSCwa39357.x86_64
-2022-07-25 01:03:32 Action 1: install add action completed successfully
-2022-07-25 01:03:34 Install operation 22 finished successfully
-2022-07-25 01:03:34 Ending operation 22
-
-2022-07-25 01:01:19 Install operation 21 started by msefu:
- install add source harddisk:/ ncs5500-7.3.2.CSCvy46398.tar synchronous 
-2022-07-25 01:01:20 Action 1: install add action started
-2022-07-25 01:01:50 WARNING : the following files/packages were not added to the Software Repository due to unsupported file format
-		ncs5500-7.3.2.CSCvy46398.txt
-2022-07-25 01:01:56 Packages added:
-2022-07-25 01:01:56     ncs5500-os-support-4.0.0.3-r732.CSCvy46398.x86_64
-2022-07-25 01:01:56     ncs5500-dpa-fwding-4.1.0.2-r732.CSCvy46398.x86_64
-2022-07-25 01:01:57     ncs5500-infra-5.0.0.2-r732.CSCvy46398.x86_64
-2022-07-25 01:01:57     ncs5500-dpa-3.0.0.2-r732.CSCvy46398.x86_64
-2022-07-25 01:01:57 Action 1: install add action completed successfully
-2022-07-25 01:01:58 Install operation 21 finished successfully
-2022-07-25 01:01:58 Ending operation 21
-
-2022-07-25 01:00:30 Install operation 20 started by msefu:
- install add source harddisk:/ ncs5500-7.3.2.CSCvz54050.tar synchronous 
-2022-07-25 01:00:31 Action 1: install add action started
-2022-07-25 01:00:56 WARNING : the following files/packages were not added to the Software Repository due to unsupported file format
-		ncs5500-7.3.2.CSCvz54050.txt
-2022-07-25 01:01:03 Packages added:
-2022-07-25 01:01:03     ncs5500-dpa-3.0.0.3-r732.CSCvz54050.x86_64
-2022-07-25 01:01:03     ncs5500-infra-5.0.0.4-r732.CSCvz54050.x86_64
-2022-07-25 01:01:03 Action 1: install add action completed successfully
-2022-07-25 01:01:04 Install operation 20 finished successfully
-2022-07-25 01:01:04 Ending operation 20
-
-2022-07-25 00:57:58 Install operation 19 started by msefu:
- install add source harddisk:/ ncs5500-sysadmin-7.3.2.CSCvv73318.tar synchronous 
-2022-07-25 00:58:00 Action 1: install add action started
-2022-07-25 00:59:47 WARNING : the following files/packages were not added to the Software Repository due to unsupported file format
-		ncs5500-sysadmin-7.3.2.CSCvv73318.txt
-2022-07-25 01:00:10 Packages added:
-2022-07-25 01:00:10     ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.admin.x86_64
-2022-07-25 01:00:10     kernel-image-3.14.23-wr7.0.0.2-standard-3.14-r0.1.admin.x86_64
-2022-07-25 01:00:10     kernel-image-3.14.23-wr7.0.0.2-standard-3.14-r0.1.xr.x86_64
-2022-07-25 01:00:10     kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.host.arm
-2022-07-25 01:00:10     bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.admin.arm
-2022-07-25 01:00:10     kernel-modules-3.14-r0.1.host.x86_64
-2022-07-25 01:00:10     kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.admin.x86_64
-2022-07-25 01:00:10     kernel-image-3.14.23-wr7.0.0.2-standard-3.14-r0.1.host.x86_64
-2022-07-25 01:00:10     bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.admin.x86_64
-2022-07-25 01:00:10     ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.admin.arm
-2022-07-25 01:00:10     cisco-klm-0.1-r0.0.host.x86_64
-2022-07-25 01:00:10     kernel-image-3.14.23.0.0insieme-0-3.14.p1-r0.1.r732.CSCvv73318.admin.arm
-2022-07-25 01:00:10     bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.xr.x86_64
-2022-07-25 01:00:10     cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.host.arm
-2022-07-25 01:00:10     kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.admin.arm
-2022-07-25 01:00:10     cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.admin.x86_64
-2022-07-25 01:00:10     kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.admin.x86_64
-2022-07-25 01:00:10     kernel-modules-3.14-r0.1.host.arm
-2022-07-25 01:00:10     ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.host.arm
-2022-07-25 01:00:10     cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.host.x86_64
-2022-07-25 01:00:10     kernel-modules-3.14-r0.1.xr.x86_64
-2022-07-25 01:00:10     bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.host.x86_64
-2022-07-25 01:00:10     cisco-klm-0.1-r0.0.host.arm
-2022-07-25 01:00:10     cisco-klm-0.1-r0.0.admin.x86_64
-2022-07-25 01:00:10     bcm-klm-6.5.19.p1-r1.0.r732.CSCvv73318.host.arm
-2022-07-25 01:00:10     ncs5500-sysadmin-hostos-7.3.2.2-r732.CSCvv73318.host.x86_64
-2022-07-25 01:00:10     bcm-klm-6.5.19-r1.2.host.x86_64
-2022-07-25 01:00:10     cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.xr.x86_64
-2022-07-25 01:00:10     bcm-klm-6.5.19-r1.2.host.arm
-2022-07-25 01:00:10     kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.host.x86_64
-2022-07-25 01:00:10     kernel-modules-3.14-r0.1.admin.x86_64
-2022-07-25 01:00:10     cisco-klm-0.1.p1-r0.0.r732.CSCvv73318.admin.arm
-2022-07-25 01:00:10     kernel-image-3.14.23.0.0insieme-0-3.14-r0.1.host.arm
-2022-07-25 01:00:10     kernel-image-3.14.23.0.0insieme-0-3.14.p1-r0.1.r732.CSCvv73318.host.arm
-2022-07-25 01:00:10     kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.xr.x86_64
-2022-07-25 01:00:10     kernel-modules-3.14-r0.1.admin.arm
-2022-07-25 01:00:10     bcm-klm-6.5.19-r1.2.admin.x86_64
-2022-07-25 01:00:10     bcm-klm-6.5.19-r1.2.xr.x86_64
-2022-07-25 01:00:10     kernel-modules-3.14.p1-r0.1.r732.CSCvv73318.xr.x86_64
-2022-07-25 01:00:10     bcm-klm-6.5.19-r1.2.admin.arm
-2022-07-25 01:00:10     kernel-image-3.14.23-wr7.0.0.2-standard-3.14.p1-r0.1.r732.CSCvv73318.host.x86_64
-2022-07-25 01:00:10     cisco-klm-0.1-r0.0.xr.x86_64
-2022-07-25 01:00:10     kernel-image-3.14.23.0.0insieme-0-3.14-r0.1.admin.arm
-2022-07-25 01:00:10     cisco-klm-0.1-r0.0.admin.arm
-2022-07-25 01:00:10 Action 1: install add action completed successfully
-2022-07-25 01:00:12 Install operation 19 finished successfully
-2022-07-25 01:00:12 Ending operation 19
-
-2022-07-25 00:57:14 Install operation 18 started by msefu:
- install add source harddisk:/ ncs5500-7.3.2.CSCwb26857.tar synchronous 
-2022-07-25 00:57:15 Action 1: install add action started
-2022-07-25 00:57:36 WARNING : the following files/packages were not added to the Software Repository due to unsupported file format
-		ncs5500-7.3.2.CSCwb26857.txt
-2022-07-25 00:57:41 Packages added:
-2022-07-25 00:57:41     ncs5500-fwding-3.0.0.1-r732.CSCwb26857.x86_64
-2022-07-25 00:57:41 Action 1: install add action completed successfully
-2022-07-25 00:57:43 Install operation 18 finished successfully
-2022-07-25 00:57:43 Ending operation 18
-
-2022-07-25 00:56:12 Install operation 17 started by msefu:
-  install commit 
-2022-07-25 00:56:13 Install operation will continue in the background
-2022-07-25 00:56:36 Install operation 17 finished successfully
-2022-07-25 00:56:36 Ending operation 17
-
-2022-07-25 00:32:27 Install operation 16 started by root:
-2022-07-25 00:32:27 install add source /misc/disk1/install_tmp_staging_area/7.3.2 ncs5500-goldenk9-x-7.3.2-SPGISO0001.iso
-2022-07-25 00:32:27 Action 1: install add action started
-2022-07-25 00:32:53 Install operation will continue in the background
-2022-07-25 00:33:14 Packages added:
-2022-07-25 00:33:14 	ncs5500-goldenk9-x-7.3.2-SPGISO0001.iso
-2022-07-25 00:33:14 Action 1: install add action completed successfully
-2022-07-25 00:33:14 Install operation 16 finished successfully
-2022-07-25 00:33:14 Ending operation 16
-2022-07-25 00:31:58  Install operation 15 started by msefu:
-2022-07-25 00:31:58    install replace source harddisk:/ncs5500-goldenk9-x-7.3.2-SPGISO0001.iso
-2022-07-25 00:31:59  No install operation in progress at this moment
-2022-07-25 00:31:59  Checking system is ready for install operation
-2022-07-25 00:32:01  'install replace' in progress
-2022-07-25 00:32:01  Label = SPGISO0001
-2022-07-25 00:32:01  ISO ncs5500-goldenk9-x-7.3.2-SPGISO0001.iso in input package list. Going to upgrade the system to version 7.3.2.
-2022-07-25 00:32:02  Current label: <None>
-2022-07-25 00:32:02  Updating contents of golden ISO
-2022-07-25 00:32:02  Scheme : localdisk
-2022-07-25 00:32:02  Hostname : localhost
-2022-07-25 00:32:02  Username : None
-2022-07-25 00:32:02  SourceDir : harddisk:/
-2022-07-25 00:32:02  Collecting software state..
-2022-07-25 00:32:02  Getting platform
-2022-07-25 00:32:02  Getting supported architecture
-2022-07-25 00:32:02  Getting active packages from XR
-2022-07-25 00:32:03  Getting inactive packages from XR
-2022-07-25 00:32:08  Getting list of RPMs in local repo
-2022-07-25 00:32:08  Getting list of provides of all active packages
-2022-07-25 00:32:08  Getting provides of each rpm in repo
-2022-07-25 00:32:08  Getting requires of each rpm in repo
-2022-07-25 00:32:08  Fetching .... ncs5500-goldenk9-x-7.3.2-SPGISO0001.iso
-2022-07-25 00:32:25  Label within GISO: SPGISO0001
-2022-07-25 00:32:27  Adding packages 
-	ncs5500-goldenk9-x-7.3.2-SPGISO0001.iso
-2022-07-25 00:32:27  Allocated operation ID 16 for install add
-2022-07-25 00:33:15  Activating ncs5500-goldenk9-x-7.3.2-SPGISO0001
-2022-07-25 00:33:19  Optimized list to prepare after sanitizing input list for superseded packages:
-	ncs5500-goldenk9-x-7.3.2-SPGISO0001
-2022-07-25 00:33:19  Package list:
-2022-07-25 00:33:19  	ncs5500-goldenk9-x-7.3.2-SPGISO0001
-2022-07-25 00:33:19  Action 1: install prepare action started
-2022-07-25 00:33:19  Triggering prepare operation.
-This may take a while...
-2022-07-25 00:38:49  Action 1: install prepare action completed successfully
-2022-07-25 00:39:06  Prepare operation completed. Trigger activate.
-This may take a while...
-2022-07-25 00:39:06  Prepare completed. Operation ID 15 will be taken up for activate operation
-2022-07-25 00:39:06  Activate operation ID is: 15 for 'install source' ID:15
-2022-07-25 00:39:08 Install operation 15 started by msefu:
-  install activate noprompt synchronous 
-2022-07-25 00:39:09 Action 1: install activate action started
-2022-07-25 00:39:10 The software will be activated with reload upgrade
-2022-07-25 00:39:12 Following nodes are available for System Upgrade activate:
-2022-07-25 00:39:12  0/0 0/1 0/2 0/3 0/FC0 0/FC1 0/FC2 0/FC3 0/FC4 0/FC5 0/RP0 0/RP1 0/SC0 0/SC1 
-2022-07-25 00:42:32 Action 1: install activate action completed successfully
-2022-07-25 00:42:41 Install operation 15 finished successfully
-2022-07-25 00:42:41 Ending operation 15
-
-2022-07-25 00:30:08 Install operation 14 started by msefu:
-  install commit 
-2022-07-25 00:30:09 Install operation will continue in the background
-2022-07-25 00:30:26 Install operation 14 finished successfully
-2022-07-25 00:30:26 Ending operation 14
-
-2022-07-25 00:09:49::  Install operation 13 started by msefu:
-2022-07-25 00:09:49::    install activate id 12 noprompt synchronous
-2022-07-25 00:09:49::  No install operation in progress at this moment
-2022-07-25 00:09:49::  Checking system is ready for install operation
-2022-07-25 00:09:52::  'install activate' in progress
-2022-07-25 00:09:52::  ISO ncs5500-mini-x-7.3.2 in input package list. Going to upgrade the system to version 7.3.2.
-2022-07-25 00:09:53::  Optimized list to prepare after sanitizing input list for superseded packages:
-	ncs5500-mgbl-3.0.0.0-r732.x86_64
-	ncs5500-isis-2.1.0.0-r732.x86_64
-	ncs5500-mcast-3.0.0.0-r732.x86_64
-	ncs5500-k9sec-3.2.0.0-r732.x86_64
-	ncs5500-mini-x-7.3.2
-	ncs5500-mpls-2.1.0.0-r732.x86_64
-	ncs5500-eigrp-1.0.0.0-r732.x86_64
-	ncs5500-li-1.0.0.0-r732.x86_64
-	ncs5500-mpls-te-rsvp-3.1.0.0-r732.x86_64
-	ncs5500-ospf-3.0.0.0-r732.x86_64
-2022-07-25 00:09:53::  Package list:
-2022-07-25 00:09:53::  	ncs5500-mgbl-3.0.0.0-r732.x86_64
-2022-07-25 00:09:53::  	ncs5500-isis-2.1.0.0-r732.x86_64
-2022-07-25 00:09:53::  	ncs5500-mcast-3.0.0.0-r732.x86_64
-2022-07-25 00:09:53::  	ncs5500-k9sec-3.2.0.0-r732.x86_64
-2022-07-25 00:09:53::  	ncs5500-mini-x-7.3.2
-2022-07-25 00:09:53::  	ncs5500-mpls-2.1.0.0-r732.x86_64
-2022-07-25 00:09:53::  	ncs5500-eigrp-1.0.0.0-r732.x86_64
-2022-07-25 00:09:53::  	ncs5500-li-1.0.0.0-r732.x86_64
-2022-07-25 00:09:53::  	ncs5500-mpls-te-rsvp-3.1.0.0-r732.x86_64
-2022-07-25 00:09:53::  	ncs5500-ospf-3.0.0.0-r732.x86_64
-2022-07-25 00:09:53::  Action 1: install prepare action started
-2022-07-25 00:09:53::  Triggering prepare operation.
-This may take a while...
-2022-07-25 00:14:02::  Action 1: install prepare action completed successfully
-2022-07-25 00:14:17::  Prepare operation completed. Trigger activate.
-This may take a while...
-Jul 25 00:14:19 Install operation 13 started by msefu:
-  install activate noprompt synchronous 
-Jul 25 00:14:20 Action 1: install activate action started
-Jul 25 00:14:20 The software will be activated with reload upgrade
-Jul 25 00:14:22 Following nodes are available for System Upgrade activate:
-Jul 25 00:14:22  0/0 0/1 0/2 0/3 0/FC0 0/FC1 0/FC2 0/FC3 0/FC4 0/FC5 0/RP0 0/RP1 0/SC0 0/SC1 
-Jul 25 00:16:29 Action 1: install activate action completed successfully
-Jul 25 00:16:37 Install operation 13 finished successfully
-Jul 25 00:16:37 Ending operation 13
-
-Jul 25 00:04:07 Install operation 12 started by msefu:
- install add source harddisk:/ NCS5500-iosxr-k9-7.3.2.tar synchronous 
-Jul 25 00:04:08 Action 1: install add action started
-Jul 25 00:07:01 WARNING : the following files/packages were not added to the Software Repository due to unsupported file format
-		README-NCS5500-iosxr-k9-7.3.2.txt
-Jul 25 00:07:55 Packages added:
-Jul 25 00:07:56     ncs5500-mgbl-3.0.0.0-r732.x86_64
-Jul 25 00:07:56     ncs5500-mini-x-7.3.2
-Jul 25 00:07:56     ncs5500-isis-2.1.0.0-r732.x86_64
-Jul 25 00:07:56     ncs5500-ospf-3.0.0.0-r732.x86_64
-Jul 25 00:07:56     ncs5500-mpls-te-rsvp-3.1.0.0-r732.x86_64
-Jul 25 00:07:56     ncs5500-li-1.0.0.0-r732.x86_64
-Jul 25 00:07:56     ncs5500-mcast-3.0.0.0-r732.x86_64
-Jul 25 00:07:56     ncs5500-mpls-2.1.0.0-r732.x86_64
-Jul 25 00:07:56     ncs5500-k9sec-3.2.0.0-r732.x86_64
-Jul 25 00:07:56     ncs5500-eigrp-1.0.0.0-r732.x86_64
-Jul 25 00:07:56 Action 1: install add action completed successfully
-Jul 25 00:07:58 Install operation 12 finished successfully
-Jul 25 00:07:58 Ending operation 12
-
-Jul 24 23:26:29 Install operation 11 started by msefu:
-  install verify packages 
-Jul 24 23:26:31 Action 1: install verify action started
-Jul 24 23:26:31 Install operation will continue in the background
-Jul 24 23:26:54 0/RP0/CPU0 completed verification successfully
-Jul 24 23:26:54 0/3/CPU0 completed verification successfully
-Jul 24 23:26:54 0/2/CPU0 completed verification successfully
-Jul 24 23:26:54 0/1/CPU0 completed verification successfully
-Jul 24 23:26:54 0/RP1/CPU0 completed verification successfully
-Jul 24 23:26:54 0/0/CPU0 completed verification successfully
-Jul 24 23:26:57 Install operation 11 finished successfully
-Jul 24 23:26:57 Ending operation 11
-
-Jul 14 22:23:04 Install operation 10 started by root:
-  install commit 
-Jul 14 22:23:05 Install operation will continue in the background
-Jul 14 22:23:20 Install operation 10 finished successfully
-Jul 14 22:23:20 Ending operation 10
-
-Jul 14 22:15:09 Install operation 9 started by root:
-  install activate pkg ncs5500-mpls-te-rsvp-3.1.0.0-r712 ncs5500-ospf-2.0.0.0-r712 ncs5500-mpls-2.1.0.0-r712 ncs5500-eigrp-1.0.0.0-r712 ncs5500-li-1.0.0.0-r712 ncs5500-isis-2.1.0.0-r712 ncs5500-mcast-3.0.0.0-r712 ncs5500-mgbl-3.0.0.0-r712 
-Jul 14 22:15:09 Package list:
-Jul 14 22:15:09     ncs5500-mpls-te-rsvp-3.1.0.0-r712
-Jul 14 22:15:09     ncs5500-ospf-2.0.0.0-r712
-Jul 14 22:15:09     ncs5500-mpls-2.1.0.0-r712
-Jul 14 22:15:09     ncs5500-eigrp-1.0.0.0-r712
-Jul 14 22:15:09     ncs5500-li-1.0.0.0-r712
-Jul 14 22:15:09     ncs5500-isis-2.1.0.0-r712
-Jul 14 22:15:09     ncs5500-mcast-3.0.0.0-r712
-Jul 14 22:15:09     ncs5500-mgbl-3.0.0.0-r712
-Jul 14 22:15:18 Action 1: install prepare action started
-Jul 14 22:15:30 Install operation will continue in the background
-Jul 14 22:15:30 The prepared software is set to be activated with process restart
-Jul 14 22:15:36 Start preparing software for local installation
-Jul 14 22:15:52 Action 1: install prepare action completed successfully
-Jul 14 22:15:53 Action 2: install activate action started
-Jul 14 22:15:53 The software will be activated with process restart
-Jul 14 22:16:01 Packages will be activated in the following sequence:
-Jul 14 22:16:01     1: ncs5500-mgbl-3.0.0.0-r712.x86_64 
-Jul 14 22:16:01     2: ncs5500-eigrp-1.0.0.0-r712.x86_64 
-Jul 14 22:16:01     3: ncs5500-isis-2.1.0.0-r712.x86_64 
-Jul 14 22:16:01     4: ncs5500-li-1.0.0.0-r712.x86_64 
-Jul 14 22:16:01     5: ncs5500-mpls-2.1.0.0-r712.x86_64 
-Jul 14 22:16:01     6: ncs5500-mpls-te-rsvp-3.1.0.0-r712.x86_64 
-Jul 14 22:16:01     7: ncs5500-ospf-2.0.0.0-r712.x86_64 
-Jul 14 22:16:01     8: ncs5500-mcast-3.0.0.0-r712.x86_64 
-Jul 14 22:16:02 Activating package ncs5500-mgbl-3.0.0.0-r712.x86_64 
-Jul 14 22:16:46 0 processes affected at node 0/0/CPU0
-Jul 14 22:16:46 0 processes affected at node 0/1/CPU0
-Jul 14 22:16:47 0 processes affected at node 0/RP1/CPU0
-Jul 14 22:16:47 0 processes affected at node 0/RP0/CPU0
-Jul 14 22:17:01 Activating package ncs5500-eigrp-1.0.0.0-r712.x86_64 
-Jul 14 22:17:30 0 processes affected at node 0/0/CPU0
-Jul 14 22:17:30 0 processes affected at node 0/1/CPU0
-Jul 14 22:17:32 0 processes affected at node 0/RP0/CPU0
-Jul 14 22:17:32 0 processes affected at node 0/RP1/CPU0
-Jul 14 22:17:46 Activating package ncs5500-isis-2.1.0.0-r712.x86_64 
-Jul 14 22:18:17 0 processes affected at node 0/0/CPU0
-Jul 14 22:18:18 0 processes affected at node 0/RP0/CPU0
-Jul 14 22:18:19 0 processes affected at node 0/1/CPU0
-Jul 14 22:18:19 0 processes affected at node 0/RP1/CPU0
-Jul 14 22:18:33 Activating package ncs5500-li-1.0.0.0-r712.x86_64 
-Jul 14 22:19:03 0 processes affected at node 0/0/CPU0
-Jul 14 22:19:04 0 processes affected at node 0/1/CPU0
-Jul 14 22:19:05 0 processes affected at node 0/RP1/CPU0
-Jul 14 22:19:05 0 processes affected at node 0/RP0/CPU0
-Jul 14 22:19:19 Activating package ncs5500-mpls-2.1.0.0-r712.x86_64 
-Jul 14 22:19:50 0 processes affected at node 0/1/CPU0
-Jul 14 22:19:50 0 processes affected at node 0/0/CPU0
-Jul 14 22:19:51 0 processes affected at node 0/RP1/CPU0
-Jul 14 22:19:51 0 processes affected at node 0/RP0/CPU0
-Jul 14 22:20:05 Activating package ncs5500-mpls-te-rsvp-3.1.0.0-r712.x86_64 
-Jul 14 22:20:37 0 processes affected at node 0/0/CPU0
-Jul 14 22:20:38 0 processes affected at node 0/1/CPU0
-Jul 14 22:20:39 0 processes affected at node 0/RP0/CPU0
-Jul 14 22:20:39 0 processes affected at node 0/RP1/CPU0
-Jul 14 22:20:53 Activating package ncs5500-ospf-2.0.0.0-r712.x86_64 
-Jul 14 22:21:26 0 processes affected at node 0/0/CPU0
-Jul 14 22:21:27 0 processes affected at node 0/1/CPU0
-Jul 14 22:21:27 0 processes affected at node 0/RP0/CPU0
-Jul 14 22:21:27 0 processes affected at node 0/RP1/CPU0
-Jul 14 22:21:41 Activating package ncs5500-mcast-3.0.0.0-r712.x86_64 
-Jul 14 22:22:15 0 processes affected at node 0/0/CPU0
-Jul 14 22:22:16 0 processes affected at node 0/1/CPU0
-Jul 14 22:22:17 0 processes affected at node 0/RP1/CPU0
-Jul 14 22:22:17 0 processes affected at node 0/RP0/CPU0
-Jul 14 22:22:28 activate operation completed for all package(s)
-Jul 14 22:22:31 Action 2: install activate action completed successfully
-Jul 14 22:22:47 Install operation 9 finished successfully
-Jul 14 22:22:47 Ending operation 9
-
-Jul 14 22:14:12 Install operation 8 started by root:
- install add source tftp://10.1.1.1/IOSXR/XR-NC55-P-07.01/7.1.2/ ncs5500-ospf-2.0.0.0-r712.x86_64.rpm 
-Jul 14 22:14:13 Action 1: install add action started
-Jul 14 22:14:29 Install operation will continue in the background
-Jul 14 22:14:38 Packages added:
-Jul 14 22:14:38     ncs5500-ospf-2.0.0.0-r712.x86_64
-Jul 14 22:14:38 Action 1: install add action completed successfully
-Jul 14 22:14:39 Install operation 8 finished successfully
-Jul 14 22:14:39 Ending operation 8
-
-Jul 14 22:13:38 Install operation 7 started by root:
- install add source tftp://10.1.1.1/IOSXR/XR-NC55-P-07.01/7.1.2/ ncs5500-mpls-te-rsvp-3.1.0.0-r712.x86_64.rpm 
-Jul 14 22:13:39 Action 1: install add action started
-Jul 14 22:13:55 Install operation will continue in the background
-Jul 14 22:14:06 Packages added:
-Jul 14 22:14:06     ncs5500-mpls-te-rsvp-3.1.0.0-r712.x86_64
-Jul 14 22:14:06 Action 1: install add action completed successfully
-Jul 14 22:14:08 Install operation 7 finished successfully
-Jul 14 22:14:08 Ending operation 7
-
-Jul 14 22:13:08 Install operation 6 started by root:
- install add source tftp://10.1.1.1/IOSXR/XR-NC55-P-07.01/7.1.2/ ncs5500-mpls-2.1.0.0-r712.x86_64.rpm 
-Jul 14 22:13:09 Action 1: install add action started
-Jul 14 22:13:24 Install operation will continue in the background
-Jul 14 22:13:32 Packages added:
-Jul 14 22:13:32     ncs5500-mpls-2.1.0.0-r712.x86_64
-Jul 14 22:13:32 Action 1: install add action completed successfully
-Jul 14 22:13:34 Install operation 6 finished successfully
-Jul 14 22:13:34 Ending operation 6
-
-Jul 14 22:12:34 Install operation 5 started by root:
- install add source tftp://10.1.1.1/IOSXR/XR-NC55-P-07.01/7.1.2/ ncs5500-mgbl-3.0.0.0-r712.x86_64.rpm 
-Jul 14 22:12:35 Action 1: install add action started
-Jul 14 22:12:51 Install operation will continue in the background
-Jul 14 22:12:59 Packages added:
-Jul 14 22:12:59     ncs5500-mgbl-3.0.0.0-r712.x86_64
-Jul 14 22:12:59 Action 1: install add action completed successfully
-Jul 14 22:13:00 Install operation 5 finished successfully
-Jul 14 22:13:00 Ending operation 5
-
-Jul 14 22:11:56 Install operation 4 started by root:
- install add source tftp://10.1.1.1/IOSXR/XR-NC55-P-07.01/7.1.2/ ncs5500-mcast-3.0.0.0-r712.x86_64.rpm 
-Jul 14 22:11:57 Action 1: install add action started
-Jul 14 22:12:13 Install operation will continue in the background
-Jul 14 22:12:26 Packages added:
-Jul 14 22:12:26     ncs5500-mcast-3.0.0.0-r712.x86_64
-Jul 14 22:12:27 Action 1: install add action completed successfully
-Jul 14 22:12:28 Install operation 4 finished successfully
-Jul 14 22:12:28 Ending operation 4
-
-Jul 14 22:11:26 Install operation 3 started by root:
- install add source tftp://10.1.1.1/IOSXR/XR-NC55-P-07.01/7.1.2/ ncs5500-li-1.0.0.0-r712.x86_64.rpm 
-Jul 14 22:11:27 Action 1: install add action started
-Jul 14 22:11:43 Install operation will continue in the background
-Jul 14 22:11:50 Packages added:
-Jul 14 22:11:50     ncs5500-li-1.0.0.0-r712.x86_64
-Jul 14 22:11:50 Action 1: install add action completed successfully
-Jul 14 22:11:51 Install operation 3 finished successfully
-Jul 14 22:11:51 Ending operation 3
-
-Jul 14 22:10:54 Install operation 2 started by root:
- install add source tftp://10.1.1.1/IOSXR/XR-NC55-P-07.01/7.1.2/ ncs5500-isis-2.1.0.0-r712.x86_64.rpm 
-Jul 14 22:10:55 Action 1: install add action started
-Jul 14 22:11:11 Install operation will continue in the background
-Jul 14 22:11:19 Packages added:
-Jul 14 22:11:19     ncs5500-isis-2.1.0.0-r712.x86_64
-Jul 14 22:11:19 Action 1: install add action completed successfully
-Jul 14 22:11:21 Install operation 2 finished successfully
-Jul 14 22:11:21 Ending operation 2
-
-Jul 14 22:10:24 Install operation 1 started by root:
- install add source tftp://10.1.1.1/IOSXR/XR-NC55-P-07.01/7.1.2/ ncs5500-eigrp-1.0.0.0-r712.x86_64.rpm 
-Jul 14 22:10:25 Action 1: install add action started
-Jul 14 22:10:40 Install operation will continue in the background
-Jul 14 22:10:48 Packages added:
-Jul 14 22:10:48     ncs5500-eigrp-1.0.0.0-r712.x86_64
-Jul 14 22:10:48 Action 1: install add action completed successfully
-Jul 14 22:10:49 Install operation 1 finished successfully
-Jul 14 22:10:49 Ending operation 1
-
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#show platform
-Wed Aug 23 13:33:31.041 EAT
-Node              Type                       State             Config state
---------------------------------------------------------------------------------
-0/0/1             NC55-MPA-12T-S             OK                
-0/0/2             NC55-MPA-4H-S              OK                
-0/0/CPU0          NC55-MOD-A-SE-S            IOS XR RUN        NSHUT
-0/0/NPU0          Slice                      UP                
-0/1/1             NC55-MPA-4H-S              OK                
-0/1/CPU0          NC55-MOD-A-SE-S            IOS XR RUN        NSHUT
-0/1/NPU0          Slice                      UP                
-0/2/1             NC55-MPA-12T-S             OK                
-0/2/2             NC55-MPA-4H-S              OK                
-0/2/CPU0          NC55-MOD-A-SE-S            IOS XR RUN        NSHUT
-0/2/NPU0          Slice                      UP                
-0/3/1             NC55-MPA-4H-S              OK                
-0/3/CPU0          NC55-MOD-A-SE-S            IOS XR RUN        NSHUT
-0/3/NPU0          Slice                      UP                
-0/RP0/CPU0        NC55-RP-E(Active)          IOS XR RUN        NSHUT
-0/RP1/CPU0        NC55-RP-E(Standby)         IOS XR RUN        NSHUT
-0/FC0             NC55-5504-FC               OPERATIONAL       NSHUT
-0/FC1             NC55-5504-FC               OPERATIONAL       NSHUT
-0/FC2             NC55-5504-FC               OPERATIONAL       NSHUT
-0/FC3             NC55-5504-FC               OPERATIONAL       NSHUT
-0/FC4             NC55-5504-FC               OPERATIONAL       NSHUT
-0/FC5             NC55-5504-FC               OPERATIONAL       NSHUT
-0/FT0             NC55-5504-FAN              OPERATIONAL       NSHUT
-0/FT1             NC55-5504-FAN              OPERATIONAL       NSHUT
-0/FT2             NC55-5504-FAN              OPERATIONAL       NSHUT
-0/PM0             NC55-PWR-3KW-DC            OPERATIONAL       NSHUT
-0/PM1             NC55-PWR-3KW-DC            OPERATIONAL       NSHUT
-0/PM2             NC55-PWR-3KW-DC            OPERATIONAL       NSHUT
-0/PM3             NC55-PWR-3KW-DC            FAILED            NSHUT
-0/SC0             NC55-SC                    OPERATIONAL       NSHUT
-0/SC1             NC55-SC                    OPERATIONAL       NSHUT
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#admin show platform
-Wed Aug 23 13:33:31.222 EAT
-Location  Card Type               HW State      SW State      Config State  
-----------------------------------------------------------------------------
-0/0       NC55-MOD-A-SE-S         OPERATIONAL   OPERATIONAL   NSHUT         
-0/1       NC55-MOD-A-SE-S         OPERATIONAL   OPERATIONAL   NSHUT         
-0/2       NC55-MOD-A-SE-S         OPERATIONAL   OPERATIONAL   NSHUT         
-0/3       NC55-MOD-A-SE-S         OPERATIONAL   OPERATIONAL   NSHUT         
-0/RP0     NC55-RP-E               OPERATIONAL   OPERATIONAL   NSHUT         
-0/RP1     NC55-RP-E               OPERATIONAL   OPERATIONAL   NSHUT         
-0/FC0     NC55-5504-FC            OPERATIONAL   OPERATIONAL   NSHUT         
-0/FC1     NC55-5504-FC            OPERATIONAL   OPERATIONAL   NSHUT         
-0/FC2     NC55-5504-FC            OPERATIONAL   OPERATIONAL   NSHUT         
-0/FC3     NC55-5504-FC            OPERATIONAL   OPERATIONAL   NSHUT         
-0/FC4     NC55-5504-FC            OPERATIONAL   OPERATIONAL   NSHUT         
-0/FC5     NC55-5504-FC            OPERATIONAL   OPERATIONAL   NSHUT         
-0/FT0     NC55-5504-FAN           OPERATIONAL   N/A           NSHUT         
-0/FT1     NC55-5504-FAN           OPERATIONAL   N/A           NSHUT         
-0/FT2     NC55-5504-FAN           OPERATIONAL   N/A           NSHUT         
-0/PM0     NC55-PWR-3KW-DC         OPERATIONAL   N/A           NSHUT         
-0/PM1     NC55-PWR-3KW-DC         OPERATIONAL   N/A           NSHUT         
-0/PM2     NC55-PWR-3KW-DC         OPERATIONAL   N/A           NSHUT         
-0/PM3     NC55-PWR-3KW-DC         FAILED        N/A           NSHUT         
-0/SC0     NC55-SC                 OPERATIONAL   OPERATIONAL   NSHUT         
-0/SC1     NC55-SC                 OPERATIONAL   OPERATIONAL   NSHUT         
-
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#show inventory
-Wed Aug 23 13:33:32.381 EAT
-NAME: "0/0", DESCR: "NCS 5500 2XMPA Scaled Line Card, MACSec"
-PID: NC55-MOD-A-SE-S   , VID: V02, SN: JAE24430Q8S
-
-NAME: "0/0/1", DESCR: "NCS5500 12 SFP with 10G OTN, WAN PHY, MacSec, DWDM MPA"
-PID: NC55-MPA-12T-S    , VID: V01, SN: FOC24421151
-
-NAME: "TenGigE0/0/1/0", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
-PID: SFP-10G-LR        , VID: V02, SN: ACW243229BC
-
-NAME: "TenGigE0/0/1/1", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
-PID: SFP-10G-LR        , VID: V02, SN: ACW24320UKM
-
-NAME: "TenGigE0/0/1/5", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
-PID: SFP-10G-LR        , VID: V02, SN: ACW24320VBK
-
-NAME: "TenGigE0/0/1/6", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
-PID: SFP-10G-LR        , VID: V02, SN: ACW24320VBJ
-
-NAME: "TenGigE0/0/1/7", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
-PID: SFP-10G-LR        , VID: V02, SN: ACW24320VH3
-
-NAME: "0/0/2", DESCR: "NCS5500 4 QSFP28 with 100G MacSeC MPA"
-PID: NC55-MPA-4H-S     , VID: V02, SN: FOC244327JF
-
-NAME: "HundredGigE0/0/2/0", DESCR: "Cisco QSFP28 100G LR4 Pluggable Optics Module"
-PID: QSFP-100G-LR4-S   , VID: V02, SN: FNS24400WXX
-
-NAME: "HundredGigE0/0/2/1", DESCR: "Non-Cisco QSFP28 100G AOC Pluggable Optics Module"
-PID: TF-FC020-NHP      , VID: 1A , SN: CN05HZZ00N
-
-NAME: "HundredGigE0/0/2/2", DESCR: "Cisco QSFP28 100G LR4 Pluggable Optics Module"
-PID: QSFP-100G-LR4-S   , VID: V02, SN: FNS24420N9C
-
-NAME: "HundredGigE0/0/2/3", DESCR: "Cisco QSFP28 100G LR4 Pluggable Optics Module"
-PID: QSFP-100G-LR4-S   , VID: V02, SN: FNS24420J7S
-
-NAME: "GigabitEthernet0/0/0/0", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243912MH
-
-NAME: "GigabitEthernet0/0/0/1", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243912M2
-
-NAME: "GigabitEthernet0/0/0/2", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243912LA
-
-NAME: "GigabitEthernet0/0/0/3", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243912NQ
-
-NAME: "GigabitEthernet0/0/0/4", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243912LQ
-
-NAME: "GigabitEthernet0/0/0/5", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913GZ
-
-NAME: "GigabitEthernet0/0/0/6", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913GL
-
-NAME: "GigabitEthernet0/0/0/9", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913B0
-
-NAME: "GigabitEthernet0/0/0/10", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913ER
-
-NAME: "GigabitEthernet0/0/0/11", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913GJ
-
-NAME: "0/1", DESCR: "NCS 5500 2XMPA Scaled Line Card, MACSec"
-PID: NC55-MOD-A-SE-S   , VID: V02, SN: JAE243904TE
-
-NAME: "0/1/1", DESCR: "NCS5500 4 QSFP28 with 100G MacSeC MPA"
-PID: NC55-MPA-4H-S     , VID: V02, SN: FOC23520JFW
-
-NAME: "HundredGigE0/1/1/0", DESCR: "Cisco QSFP28 100G LR4 Pluggable Optics Module"
-PID: QSFP-100G-LR4-S   , VID: V02, SN: FNS24420J07
-
-NAME: "HundredGigE0/1/1/1", DESCR: "Cisco QSFP28 100G LR4 Pluggable Optics Module"
-PID: QSFP-100G-LR4-S   , VID: V02, SN: FNS24420J7B
-
-NAME: "HundredGigE0/1/1/2", DESCR: "Non-Cisco QSFP28 100G AOC Pluggable Optics Module"
-PID: TF-FC020-NHP      , VID: 1A , SN: CN05HZZ00L
-
-NAME: "GigabitEthernet0/1/0/0", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243912MN
-
-NAME: "GigabitEthernet0/1/0/1", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243912MG
-
-NAME: "GigabitEthernet0/1/0/2", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243912ML
-
-NAME: "GigabitEthernet0/1/0/3", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913B1
-
-NAME: "GigabitEthernet0/1/0/4", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243912MS
-
-NAME: "GigabitEthernet0/1/0/5", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243912MM
-
-NAME: "GigabitEthernet0/1/0/7", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913AR
-
-NAME: "GigabitEthernet0/1/0/8", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243811P7
-
-NAME: "GigabitEthernet0/1/0/9", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243811PB
-
-NAME: "GigabitEthernet0/1/0/10", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243811PA
-
-NAME: "GigabitEthernet0/1/0/11", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243811K5
-
-NAME: "FortyGigE0/1/0/12", DESCR: "Cisco QSFP+ 40G 4x10G BASE LR Pluggable Optics Module"
-PID: QSFP-4X10G-LR-S   , VID: V02, SN: OPM24360PHE
-
-NAME: "FortyGigE0/1/0/13", DESCR: "Cisco QSFP+ 40G 4x10G BASE LR Pluggable Optics Module"
-PID: QSFP-4X10G-LR-S   , VID: V02, SN: OPM24360PH7
-
-NAME: "0/2", DESCR: "NCS 5500 2XMPA Scaled Line Card, MACSec"
-PID: NC55-MOD-A-SE-S   , VID: V02, SN: JAE244412TV
-
-NAME: "0/2/1", DESCR: "NCS5500 12 SFP with 10G OTN, WAN PHY, MacSec, DWDM MPA"
-PID: NC55-MPA-12T-S    , VID: V01, SN: FOC2442110V
-
-NAME: "TenGigE0/2/1/3", DESCR: "Non-Cisco SFP+ 10G SR Pluggable Optics Module"
-PID: LTF8502-BC+       , VID: 1  , SN: CN19KT36C1
-
-NAME: "TenGigE0/2/1/4", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
-PID: SFP-10G-LR        , VID: V02, SN: ACW24320VHM
-
-NAME: "TenGigE0/2/1/5", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
-PID: SFP-10G-LR        , VID: V02, SN: ACW24281YK9
-
-NAME: "TenGigE0/2/1/6", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
-PID: SFP-10G-LR        , VID: V02, SN: ACW24320VSN
-
-NAME: "TenGigE0/2/1/11", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
-PID: SFP-10G-LR        , VID: V02, SN: ACW24321R8L
-
-NAME: "0/2/2", DESCR: "NCS5500 4 QSFP28 with 100G MacSeC MPA"
-PID: NC55-MPA-4H-S     , VID: V02, SN: FOC24401MBE
-
-NAME: "HundredGigE0/2/2/0", DESCR: "Cisco QSFP28 100G LR4 Pluggable Optics Module"
-PID: QSFP-100G-LR4-S   , VID: V02, SN: FNS24410LJP
-
-NAME: "HundredGigE0/2/2/1", DESCR: "Cisco QSFP28 100G LR4 Pluggable Optics Module"
-PID: QSFP-100G-LR4-S   , VID: V02, SN: FNS24410LH4
-
-NAME: "HundredGigE0/2/2/2", DESCR: "Cisco QSFP28 100G LR4 Pluggable Optics Module"
-PID: QSFP-100G-LR4-S   , VID: V02, SN: FNS24410LGW
-
-NAME: "HundredGigE0/2/2/3", DESCR: "Cisco QSFP28 100G LR4 Pluggable Optics Module"
-PID: QSFP-100G-LR4-S   , VID: V02, SN: FNS24410LG5
-
-NAME: "GigabitEthernet0/2/0/0", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913AT
-
-NAME: "GigabitEthernet0/2/0/1", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913A8
-
-NAME: "GigabitEthernet0/2/0/2", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913AL
-
-NAME: "GigabitEthernet0/2/0/3", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913A5
-
-NAME: "GigabitEthernet0/2/0/4", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913B3
-
-NAME: "GigabitEthernet0/2/0/5", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913A6
-
-NAME: "GigabitEthernet0/2/0/6", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913AG
-
-NAME: "GigabitEthernet0/2/0/7", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913AN
-
-NAME: "GigabitEthernet0/2/0/8", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913AX
-
-NAME: "GigabitEthernet0/2/0/9", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913AH
-
-NAME: "GigabitEthernet0/2/0/10", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243912NF
-
-NAME: "GigabitEthernet0/2/0/11", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913BS
-
-NAME: "0/3", DESCR: "NCS 5500 2XMPA Scaled Line Card, MACSec"
-PID: NC55-MOD-A-SE-S   , VID: V02, SN: JAE243904VF
-
-NAME: "0/3/1", DESCR: "NCS5500 4 QSFP28 with 100G MacSeC MPA"
-PID: NC55-MPA-4H-S     , VID: V02, SN: FOC24401MB3
-
-NAME: "HundredGigE0/3/1/0", DESCR: "Cisco QSFP28 100G LR4 Pluggable Optics Module"
-PID: QSFP-100G-LR4-S   , VID: V02, SN: FNS24400WPK
-
-NAME: "HundredGigE0/3/1/1", DESCR: "Cisco QSFP28 100G LR4 Pluggable Optics Module"
-PID: QSFP-100G-LR4-S   , VID: V02, SN: FNS24400WMN
-
-NAME: "HundredGigE0/3/1/2", DESCR: "Cisco QSFP28 100G LR4 Pluggable Optics Module"
-PID: QSFP-100G-LR4-S   , VID: V02, SN: FNS24400WLL
-
-NAME: "HundredGigE0/3/1/3", DESCR: "Cisco QSFP28 100G LR4 Pluggable Optics Module"
-PID: QSFP-100G-LR4-S   , VID: V02, SN: FNS24420J19
-
-NAME: "GigabitEthernet0/3/0/0", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243912MP
-
-NAME: "GigabitEthernet0/3/0/1", DESCR: "Non-Cisco SFP 1G 1000BASE-T Pluggable Optics Module"
-PID: OM9150            , VID: N/A, SN: 032CAGAWK1100400
-
-NAME: "GigabitEthernet0/3/0/3", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243912N7
-
-NAME: "GigabitEthernet0/3/0/4", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM2439108U
-
-NAME: "GigabitEthernet0/3/0/5", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243910YL
-
-NAME: "GigabitEthernet0/3/0/6", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913BR
-
-NAME: "GigabitEthernet0/3/0/7", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913BU
-
-NAME: "GigabitEthernet0/3/0/8", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913B6
-
-NAME: "GigabitEthernet0/3/0/9", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243913E1
-
-NAME: "GigabitEthernet0/3/0/10", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243912NL
-
-NAME: "GigabitEthernet0/3/0/11", DESCR: "Cisco SFP 1G 1000BASE-LX Pluggable Optics Module"
-PID: GLC-LH-SMD        , VID: V02, SN: OPM243912NJ
-
-NAME: "FortyGigE0/3/0/12", DESCR: "Cisco QSFP+ 40G 4x10G BASE LR Pluggable Optics Module"
-PID: QSFP-4X10G-LR-S   , VID: V02, SN: OPM2435179U
-
-NAME: "FortyGigE0/3/0/13", DESCR: "Cisco QSFP+ 40G 4x10G BASE LR Pluggable Optics Module"
-PID: QSFP-4X10G-LR-S   , VID: V02, SN: OPM24360PBB
-
-NAME: "0/RP0", DESCR: "NCS 5500 Route Processor with SyncE"
-PID: NC55-RP-E         , VID: V02, SN: JAE244807F0
-
-NAME: "0/RP1", DESCR: "NCS 5500 Route Processor with SyncE"
-PID: NC55-RP-E         , VID: V02, SN: JAE244807EZ
-
-NAME: "0/FC0", DESCR: "NCS 5504 Fabric Card"
-PID: NC55-5504-FC      , VID: V02, SN: JAE244807K1
-
-NAME: "0/FC1", DESCR: "NCS 5504 Fabric Card"
-PID: NC55-5504-FC      , VID: V02, SN: JAE244404BQ
-
-NAME: "0/FC2", DESCR: "NCS 5504 Fabric Card"
-PID: NC55-5504-FC      , VID: V02, SN: JAE244619WQ
-
-NAME: "0/FC3", DESCR: "NCS 5504 Fabric Card"
-PID: NC55-5504-FC      , VID: V02, SN: JAE244807JX
-
-NAME: "0/FC4", DESCR: "NCS 5504 Fabric Card"
-PID: NC55-5504-FC      , VID: V02, SN: JAE24391104
-
-NAME: "0/FC5", DESCR: "NCS 5504 Fabric Card"
-PID: NC55-5504-FC      , VID: V02, SN: JAE244800E8
-
-NAME: "0/SC0", DESCR: "NCS 5500 System Controller"
-PID: NC55-SC           , VID: V02, SN: FOC243739EE
-
-NAME: "0/SC1", DESCR: "NCS 5500 System Controller"
-PID: NC55-SC           , VID: V02, SN: FOC243739F5
-
-NAME: "Rack 0", DESCR: "NCS5500 4 Slot Single Chassis"
-PID: NCS-5504          , VID: V01, SN: FOX2444P4CH
-
-NAME: "0/FT0", DESCR: "Fan Tray module for 4 slot chassis"
-PID: NC55-5504-FAN     , VID: V01, SN: FOX2442P13Q
-
-NAME: "0/FT1", DESCR: "Fan Tray module for 4 slot chassis"
-PID: NC55-5504-FAN     , VID: V01, SN: FOX2442PCJ9
-
-NAME: "0/FT2", DESCR: "Fan Tray module for 4 slot chassis"
-PID: NC55-5504-FAN     , VID: V01, SN: FOX2443P3DC
-
-NAME: "0/PM0", DESCR: "NCS 5500 3KW DC Power Supply"
-PID: NC55-PWR-3KW-DC   , VID: V01, SN: DTM244600WJ
-
-NAME: "0/PM1", DESCR: "NCS 5500 3KW DC Power Supply"
-PID: NC55-PWR-3KW-DC   , VID: V01, SN: DTM244600KC
-
-NAME: "0/PM2", DESCR: "NCS 5500 3KW DC Power Supply"
-PID: NC55-PWR-3KW-DC   , VID: V01, SN: DTM244600PN
-
-NAME: "0/PM3", DESCR: "NCS 5500 3KW DC Power Supply"
-PID: NC55-PWR-3KW-DC   , VID: V01, SN: DTM244600JY
-
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#admin show inventory
-Wed Aug 23 13:33:33.240 EAT
-  
- Name: Rack 0                Descr: NCS5500 4 Slot Single Chassis                               
- PID: NCS-5504               VID: V01                   SN: FOX2444P4CH 
- 
- Name: 0/0/1                 Descr: NCS5500 12 SFP with 10G OTN, WAN PHY, MacSec, DWDM MPA      
- PID: NC55-MPA-12T-S         VID: V01                   SN: FOC24421151 
- 
- Name: 0/0/2                 Descr: NCS5500 4 QSFP28 with 100G MacSeC MPA                       
- PID: NC55-MPA-4H-S          VID: V02                   SN: FOC244327JF 
- 
- Name: 0/0                   Descr: NCS 5500 2XMPA Scaled Line Card, MACSec                     
- PID: NC55-MOD-A-SE-S        VID: V02                   SN: JAE24430Q8S 
- 
- Name: 0/1/1                 Descr: NCS5500 4 QSFP28 with 100G MacSeC MPA                       
- PID: NC55-MPA-4H-S          VID: V02                   SN: FOC23520JFW 
- 
- Name: 0/1                   Descr: NCS 5500 2XMPA Scaled Line Card, MACSec                     
- PID: NC55-MOD-A-SE-S        VID: V02                   SN: JAE243904TE 
- 
- Name: 0/2/1                 Descr: NCS5500 12 SFP with 10G OTN, WAN PHY, MacSec, DWDM MPA      
- PID: NC55-MPA-12T-S         VID: V01                   SN: FOC2442110V 
- 
- Name: 0/2/2                 Descr: NCS5500 4 QSFP28 with 100G MacSeC MPA                       
- PID: NC55-MPA-4H-S          VID: V02                   SN: FOC24401MBE 
- 
- Name: 0/2                   Descr: NCS 5500 2XMPA Scaled Line Card, MACSec                     
- PID: NC55-MOD-A-SE-S        VID: V02                   SN: JAE244412TV 
- 
- Name: 0/3/1                 Descr: NCS5500 4 QSFP28 with 100G MacSeC MPA                       
- PID: NC55-MPA-4H-S          VID: V02                   SN: FOC24401MB3 
- 
- Name: 0/3                   Descr: NCS 5500 2XMPA Scaled Line Card, MACSec                     
- PID: NC55-MOD-A-SE-S        VID: V02                   SN: JAE243904VF 
- 
- Name: 0/RP0                 Descr: NCS 5500 Route Processor with SyncE                         
- PID: NC55-RP-E              VID: V02                   SN: JAE244807F0 
- 
- Name: 0/RP1                 Descr: NCS 5500 Route Processor with SyncE                         
- PID: NC55-RP-E              VID: V02                   SN: JAE244807EZ 
- 
- Name: 0/FC0                 Descr: NCS 5504 Fabric Card                                        
- PID: NC55-5504-FC           VID: V02                   SN: JAE244807K1 
- 
- Name: 0/FC1                 Descr: NCS 5504 Fabric Card                                        
- PID: NC55-5504-FC           VID: V02                   SN: JAE244404BQ 
- 
- Name: 0/FC2                 Descr: NCS 5504 Fabric Card                                        
- PID: NC55-5504-FC           VID: V02                   SN: JAE244619WQ 
- 
- Name: 0/FC3                 Descr: NCS 5504 Fabric Card                                        
- PID: NC55-5504-FC           VID: V02                   SN: JAE244807JX 
- 
- Name: 0/FC4                 Descr: NCS 5504 Fabric Card                                        
- PID: NC55-5504-FC           VID: V02                   SN: JAE24391104 
- 
- Name: 0/FC5                 Descr: NCS 5504 Fabric Card                                        
- PID: NC55-5504-FC           VID: V02                   SN: JAE244800E8 
- 
- Name: 0/FT0                 Descr: Fan Tray module for 4 slot chassis                          
- PID: NC55-5504-FAN          VID: V01                   SN: FOX2442P13Q 
- 
- Name: 0/FT1                 Descr: Fan Tray module for 4 slot chassis                          
- PID: NC55-5504-FAN          VID: V01                   SN: FOX2442PCJ9 
- 
- Name: 0/FT2                 Descr: Fan Tray module for 4 slot chassis                          
- PID: NC55-5504-FAN          VID: V01                   SN: FOX2443P3DC 
- 
- Name: 0/PM0                 Descr: NCS 5500 3KW DC Power Supply                                
- PID: NC55-PWR-3KW-DC        VID: V01                   SN: DTM244600WJ 
- 
- Name: 0/PM1                 Descr: NCS 5500 3KW DC Power Supply                                
- PID: NC55-PWR-3KW-DC        VID: V01                   SN: DTM244600KC 
- 
- Name: 0/PM2                 Descr: NCS 5500 3KW DC Power Supply                                
- PID: NC55-PWR-3KW-DC        VID: V01                   SN: DTM244600PN 
- 
- Name: 0/PM3                 Descr: NCS 5500 3KW DC Power Supply                                
- PID: NC55-PWR-3KW-DC        VID: V01                   SN: DTM244600JY 
- 
- Name: 0/SC0                 Descr: NCS 5500 System Controller                                  
- PID: NC55-SC                VID: V02                   SN: FOC243739EE 
- 
- Name: 0/SC1                 Descr: NCS 5500 System Controller                                  
- PID: NC55-SC                VID: V02                   SN: FOC243739F5 
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#show version
-Wed Aug 23 13:33:34.429 EAT
-Cisco IOS XR Software, Version 7.3.2
-Copyright (c) 2013-2021 by Cisco Systems, Inc.
-
-Build Information:
- Built By     : ingunawa
- Built On     : Wed Oct 13 21:15:13 PDT 2021
- Built Host   : iox-ucs-023
- Workspace    : /auto/srcarchive17/prod/7.3.2/ncs5500/ws
- Version      : 7.3.2
- Location     : /opt/cisco/XR/packages/
- Label        : 7.3.2-TZ
-
-cisco NCS-5500 () processor
-System uptime is 36 weeks 9 hours 37 minutes
-
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#
-RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR04#
