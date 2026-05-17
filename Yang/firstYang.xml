@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+    <switch xmlns="http://councharles.com/firstYang">
+        <Hostname>Councharles</Hostname>
+        <interface>
+            <name>Ethernet0/1</name>
+            <description>My First Ethernet Interface</description>
+            <mode>access</mode>
+            <access-vlan>100</access-vlan>
+            <speed>100</speed>
+        </interface>
+        <interface>
+            <name>Ethernet0/2</name>
+            <description>My Second Ethernet Interface</description>
+            <mode>trunk</mode>
+            <trunked-vlans>20</trunked-vlans>
+            <trunked-vlans>30</trunked-vlans>
+            <trunked-vlans>40</trunked-vlans>
+            <speed>100</speed>
+        </interface>
+    </switch>
+</data>

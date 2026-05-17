@@ -1,0 +1,37 @@
+terminal len 0
+Thu Aug 22 21:32:48.840 EAT
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR02#show segment-routing traffic-eng forwarding $-eng forwarding p                          olicy  | i "Name|Stack"show segment-routing traffic-eng forwarding$
+Thu Aug 22 21:32:49.218 EAT
+  Name: srte_c_3_ep_10.88.38.3
+      Name: TG2_MR3
+        Name: TG2_MR3_SID1
+            Label Stack (Top -> Bottom): { 16508, 16503 }
+            Label Stack (Top -> Bottom): { 16565, 16508, 16503 }
+        Name: TG2_MR3_SID2
+            Label Stack (Top -> Bottom): { 16507, 16503 }
+            Label Stack (Top -> Bottom): { 16509, 16507, 16503 }
+  Name: srte_c_4_ep_10.88.38.4
+      Name: TG2_MR4
+        Name: TG2_MR4_SID1
+            Label Stack (Top -> Bottom): { 16504 }
+            Label Stack (Top -> Bottom): { 16504 }
+        Name: TG2_MR4_SID2
+            Label Stack (Top -> Bottom): { 16508, 16504 }
+            Label Stack (Top -> Bottom): { 16565, 16508, 16504 }
+  Name: srte_c_8_ep_10.88.38.8
+      Name: TG2_KJ3
+        Name: TG2_KJ3_SID1
+            Label Stack (Top -> Bottom): { 16508 }
+            Label Stack (Top -> Bottom): { 16509, 16508 }
+        Name: TG2_KJ3_SID2
+            Label Stack (Top -> Bottom): { 16508 }
+            Label Stack (Top -> Bottom): { 16565, 16508 }
+  Name: srte_c_9_ep_10.88.38.9
+      Name: TG2_KJ4
+        Name: TG2_KJ4_SID1
+            Label Stack (Top -> Bottom): { Pop }
+            Label Stack (Top -> Bottom): { 16509 }
+        Name: TG2_KJ4_SID2
+            Label Stack (Top -> Bottom): { 16508, 16509 }
+            Label Stack (Top -> Bottom): { 16565, 16508, 16509 }
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR02#

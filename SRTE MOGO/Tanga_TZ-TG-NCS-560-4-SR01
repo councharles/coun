@@ -1,0 +1,29 @@
+terminal len 0
+Fri Aug 16 03:31:19.963 EAT
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR01#sh running-config formal segment-routing | i$ment-routing | i                           adjsh running-config formal segment-routing | $
+Fri Aug 16 03:31:20.210 EAT
+segment-routing traffic-eng segment-list TG1_KJ3_IGP index 10 mpls adjacency 10.88.38.8
+segment-routing traffic-eng segment-list TG1_KJ4_IGP index 10 mpls adjacency 10.88.38.9
+segment-routing traffic-eng segment-list TG1_MR3_IGP index 10 mpls adjacency 10.88.38.3
+segment-routing traffic-eng segment-list TG1_MR4_IGP index 10 mpls adjacency 10.88.38.4
+segment-routing traffic-eng segment-list TG1_KJ3_SID1 index 10 mpls adjacency 10.88.38.8
+segment-routing traffic-eng segment-list TG1_KJ3_SID2 index 10 mpls adjacency 10.88.38.66
+segment-routing traffic-eng segment-list TG1_KJ3_SID2 index 20 mpls adjacency 10.88.38.9
+segment-routing traffic-eng segment-list TG1_KJ3_SID2 index 30 mpls adjacency 10.88.38.8
+segment-routing traffic-eng segment-list TG1_KJ4_SID1 index 10 mpls adjacency 10.88.38.8
+segment-routing traffic-eng segment-list TG1_KJ4_SID1 index 20 mpls adjacency 10.88.38.9
+segment-routing traffic-eng segment-list TG1_KJ4_SID2 index 10 mpls adjacency 10.88.38.66
+segment-routing traffic-eng segment-list TG1_KJ4_SID2 index 20 mpls adjacency 10.88.38.9
+segment-routing traffic-eng segment-list TG1_MR3_SID1 index 10 mpls adjacency 10.88.38.8
+segment-routing traffic-eng segment-list TG1_MR3_SID1 index 20 mpls adjacency 10.88.38.6
+segment-routing traffic-eng segment-list TG1_MR3_SID1 index 30 mpls adjacency 10.88.38.3
+segment-routing traffic-eng segment-list TG1_MR3_SID2 index 10 mpls adjacency 10.88.38.66
+segment-routing traffic-eng segment-list TG1_MR3_SID2 index 20 mpls adjacency 10.88.38.9
+segment-routing traffic-eng segment-list TG1_MR3_SID2 index 30 mpls adjacency 10.88.38.3
+segment-routing traffic-eng segment-list TG1_MR4_SID1 index 10 mpls adjacency 10.88.38.66
+segment-routing traffic-eng segment-list TG1_MR4_SID1 index 20 mpls adjacency 10.88.38.9
+segment-routing traffic-eng segment-list TG1_MR4_SID1 index 30 mpls adjacency 10.88.38.4
+segment-routing traffic-eng segment-list TG1_MR4_SID2 index 10 mpls adjacency 10.88.38.8
+segment-routing traffic-eng segment-list TG1_MR4_SID2 index 20 mpls adjacency 10.88.38.6
+segment-routing traffic-eng segment-list TG1_MR4_SID2 index 30 mpls adjacency 10.88.38.4
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR01#

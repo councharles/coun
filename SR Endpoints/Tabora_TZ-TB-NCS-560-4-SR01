@@ -1,0 +1,8 @@
+terminal len 0
+Sun Mar 10 00:05:59.249 EAT
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#sh running-config formal | i end-point
+Sun Mar 10 00:05:59.793 EAT
+Building configuration...
+segment-routing traffic-eng policy TB1_DO1 color 15 end-point ipv4 10.88.38.15
+segment-routing traffic-eng policy TB1_MW1 color 13 end-point ipv4 10.88.38.13
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#

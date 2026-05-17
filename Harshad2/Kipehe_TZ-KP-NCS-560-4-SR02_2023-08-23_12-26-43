@@ -1,0 +1,272 @@
+term len 0
+Wed Aug 23 15:34:57.755 EAT
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#show media
+Wed Aug 23 15:34:57.916 EAT
+
+Media Info for Location: node0_RP0_CPU0
+Partition                            Size     Used  Percent    Avail
+--------------------------------------------------------------------
+rootfs:                              3.9G     3.0G      81%     734M
+harddisk:                            5.6G     3.3G      62%     2.1G
+log:                                 459M     173M      41%     253M
+config:                              459M     2.5M       1%     422M
+disk0:                               2.0G      69M       4%     1.8G
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#show media location all
+Wed Aug 23 15:34:58.213 EAT
+
+Media Info for Location: node0_RP1_CPU0
+Partition                            Size     Used  Percent    Avail
+--------------------------------------------------------------------
+rootfs:                              3.9G     3.0G      81%     734M
+harddisk:                            5.6G     581M      11%     4.7G
+log:                                 459M     168M      40%     258M
+config:                              459M     2.4M       1%     422M
+disk0:                               2.0G      34M       2%     1.8G
+
+Media Info for Location: node0_RP0_CPU0
+Partition                            Size     Used  Percent    Avail
+--------------------------------------------------------------------
+rootfs:                              3.9G     3.0G      81%     734M
+harddisk:                            5.6G     3.3G      62%     2.1G
+log:                                 459M     173M      41%     253M
+config:                              459M     2.5M       1%     422M
+disk0:                               2.0G      69M       4%     1.8G
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#dir harddisk:
+% This command is not authorized
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#show install active
+% This command is not authorized
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#admin show media
+Wed Aug 23 15:34:58.683 EAT
+Wed Aug  23 12:35:06.408 UTC+00:00
+---------------------------------------------------------------------
+Partition                    Size     Used  Percent    Avail
+---------------------------------------------------------------------
+rootfs:                      2.4G     625M      28%     1.6G
+harddisk:                    5.6G     2.8G      52%     2.6G
+log:                         459M     157M      37%     269M
+config:                      459M     3.4M       1%     421M
+disk0:                      1011M     1.6M       1%     940M
+install:                     5.6G     2.5G      48%     2.8G
+install:/tmp                 5.6G     2.5G      48%     2.8G
+install:/cache               5.6G     2.5G      48%     2.8G
+rootfs:/install/tmp          5.6G     2.5G      48%     2.8G
+---------------------------------------------------------------------
+rootfs:  = root file system (read-only)
+log:     = system log files (read-only)
+config:  = configuration storage (read-only)
+install: = install repository (read-only)
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#admin show media location all
+Wed Aug 23 15:35:05.185 EAT
+Wed Aug  23 12:35:12.790 UTC+00:00
+
+************************************************************
+Location : 0/RP1
+************************************************************
+---------------------------------------------------------------------
+Partition                    Size     Used  Percent    Avail
+---------------------------------------------------------------------
+rootfs:                      2.4G     625M      28%     1.6G
+harddisk:                    5.6G     3.9G      74%     1.5G
+log:                         459M     127M      30%     298M
+config:                      459M     3.4M       1%     421M
+disk0:                      1011M     2.9M       1%     939M
+install:                     5.6G     2.5G      48%     2.8G
+install:/tmp                 5.6G     2.5G      48%     2.8G
+install:/cache               5.6G     2.5G      48%     2.8G
+rootfs:/install/tmp          5.6G     2.5G      48%     2.8G
+---------------------------------------------------------------------
+rootfs:  = root file system (read-only)
+log:     = system log files (read-only)
+config:  = configuration storage (read-only)
+install: = install repository (read-only)
+
+************************************************************
+[7m--More--[27m        [8D[K[7m--More--[27m[8D[KLocation : 0/RP0
+************************************************************
+---------------------------------------------------------------------
+Partition                    Size     Used  Percent    Avail
+---------------------------------------------------------------------
+rootfs:                      2.4G     625M      28%     1.6G
+harddisk:                    5.6G     2.8G      52%     2.6G
+log:                         459M     157M      37%     269M
+config:                      459M     3.4M       1%     421M
+disk0:                      1011M     1.6M       1%     940M
+install:                     5.6G     2.5G      48%     2.8G
+install:/tmp                 5.6G     2.5G      48%     2.8G
+install:/cache               5.6G     2.5G      48%     2.8G
+rootfs:/install/tmp          5.6G     2.5G      48%     2.8G
+---------------------------------------------------------------------
+rootfs:  = root file system (read-only)
+log:     = system log files (read-only)
+config:  = configuration storage (read-only)
+install: = install repository (read-only)
+[7m(END)[27m[5D[KRP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#harddisk:
+                                   ^
+% Invalid input detected at '^' marker.
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#admin show system resources location 0/RP0
+Wed Aug 23 15:35:12.446 EAT
+Wed Aug  23 12:35:20.403 UTC+00:00
+Physical       -- Available system memory 
+Application    -- Application memory allocated to host/sysadmin/XR
+Boot Partition -- Boot memory allocated to host/sysadmin/XR
+Total          -- Total memory
+Available      -- Available free memory
+Cached         -- Amount of memory used for disk caching
+"^" character  -- Within 10% of max memory
+Node			Physical			Application		 Boot Partition		CPUs	Shmwin
+		Total	Available	Cached	Total	Available	Cached	Total	Available
+0/RP0-Host	32694M^	1287M^		180M	31928M^	1257M^		176	923M	464M		4
+	N/A
+0/RP0-Admin	1941M	1322M		64M	1896M	1291M		62	2308M	1669M		1	N/A
+0/RP0-XR	26603M	17658M		3485M	25979M	17244M		3403	N/A	N/A		3	6143M
+
+Node		   harddisk:		   log:			   disk0:		   config:
+		Total	Available	Total	Available	Total	Available	Total	Available
+0/RP0-Host	1767M	1765M		435M	376M		1672M	1670M		80M	80M		
+0/RP0-Admin	5511M	2646M		434M	274M		963M	962M		434M	431M		
+0/RP0-XR	5511M	2138M		434M	258M		1900M	1830M		433M	431M		
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#admin show system resources location 0/RP1
+Wed Aug 23 15:35:23.312 EAT
+Wed Aug  23 12:35:30.803 UTC+00:00
+Physical       -- Available system memory 
+Application    -- Application memory allocated to host/sysadmin/XR
+Boot Partition -- Boot memory allocated to host/sysadmin/XR
+Total          -- Total memory
+Available      -- Available free memory
+Cached         -- Amount of memory used for disk caching
+"^" character  -- Within 10% of max memory
+Node			Physical			Application		 Boot Partition		CPUs	Shmwin
+		Total	Available	Cached	Total	Available	Cached	Total	Available
+0/RP1-Host	32694M^	1302M^		187M	31928M^	1272M^		183	923M	464M		4
+	N/A
+0/RP1-Admin	1941M	746M		470M	1896M	729M		459	2308M	1669M		1	N/A
+0/RP1-XR	26603M	16214M		5233M	25979M	15833M		5111	N/A	N/A		3	6143M
+
+Node		   harddisk:		   log:			   disk0:		   config:
+		Total	Available	Total	Available	Total	Available	Total	Available
+0/RP1-Host	1767M	1765M		435M	369M		1672M	1670M		80M	80M		
+0/RP1-Admin	5511M	1482M		433M	304M		963M	961M		434M	431M		
+0/RP1-XR	5512M	4918M		434M	263M		1900M	1866M		434M	432M		
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#admin show memory summary location all
+Wed Aug 23 15:35:33.940 EAT
+Wed Aug  23 12:35:41.425 UTC+00:00
+************************************************************
+
+
+Location : 0/RP1
+
+************************************************************
+
+Physical Memory: 1896 MB total (1308 MB available)
+************************************************************
+
+
+Location : 0/RP0
+
+************************************************************
+
+Physical Memory: 1896 MB total (1292 MB available)
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#admin show sdr
+Wed Aug 23 15:35:40.422 EAT
+Wed Aug  23 12:35:47.841 UTC+00:00
+
+SDR: default-sdr
+Location     IP Address      Status           Boot Count  Time Started
+-----------------------------------------------------------------------------
+0/RP0/VM1    192.0.0.4       RUNNING          1           05/17/2023 00:59:15
+0/RP1/VM1    192.0.4.4       RUNNING          1           05/17/2023 00:58:26
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#admin show redundancy
+Wed Aug 23 15:35:46.581 EAT
+------------------------^
+syntax error: element does not exist
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#show redundancy
+Wed Aug 23 15:35:53.043 EAT
+Redundancy information for node 0/RP0/CPU0:
+==========================================
+Node 0/RP0/CPU0 is in ACTIVE role
+Partner node (0/RP1/CPU0) is in STANDBY role
+Standby node in 0/RP1/CPU0 is ready
+Standby node in 0/RP1/CPU0 is NSR-ready
+
+Reload and boot info
+----------------------
+RP reloaded Wed May 17 03:59:21 2023: 14 weeks, 11 hours, 36 minutes ago
+Active node booted Wed May 17 03:59:21 2023: 14 weeks, 11 hours, 36 minutes ago
+Standby node boot Wed May 17 03:58:32 2023: 14 weeks, 11 hours, 37 minutes ago
+Standby node last went not ready Wed May 17 04:00:04 2023: 14 weeks, 11 hours, 35 minutes ago
+Standby node last went ready Wed May 17 04:06:06 2023: 14 weeks, 11 hours, 29 minutes ago
+Standby node last went not NSR-ready Wed May 17 04:03:08 2023: 14 weeks, 11 hours, 32 minutes ago
+Standby node last went NSR-ready Wed May 17 04:15:39 2023: 14 weeks, 11 hours, 20 minutes ago
+There have been 0 switch-overs since reload
+
+Active node reload "CARD_SHUTDOWN"
+Standby node reload "CARD_SHUTDOWN "
+
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#show install inactive
+% This command is not authorized
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#show install superseded
+% This command is not authorized
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#show install log reverse
+% This command is not authorized
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#show platform
+Wed Aug 23 15:35:53.247 EAT
+Node              Type                       State             Config state
+--------------------------------------------------------------------------------
+0/2/CPU0          A900-IMA8CS1Z-M            OPERATIONAL       NSHUT
+0/3/CPU0          A900-IMA8Z                 OPERATIONAL       NSHUT
+0/4/CPU0          A900-IMA8CS1Z-M            OPERATIONAL       NSHUT
+0/5/CPU0          A900-IMA8CS1Z-M            OPERATIONAL       NSHUT
+0/RP0/CPU0        N560-4-RSP4E(Active)       IOS XR RUN        NSHUT
+0/RP1/CPU0        N560-4-RSP4E(Standby)      IOS XR RUN        NSHUT
+0/FT0/CPU0        N560-4-PWR-FAN             OPERATIONAL       NSHUT
+0/FT1/CPU0        N560-4-FAN-H               OPERATIONAL       NSHUT
+0/FT2/CPU0        N560-4-FAN-H               OPERATIONAL       NSHUT
+0/PM0/CPU0        A900-PWR1200-D             OPERATIONAL       NSHUT
+0/PM1/CPU0        A900-PWR1200-D             OPERATIONAL       NSHUT
+0/PM2/CPU0        A900-PWR1200-D             OPERATIONAL       NSHUT
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#admin show platform
+Wed Aug 23 15:35:53.508 EAT
+Wed Aug  23 12:36:01.620 UTC+00:00
+Location  Card Type               HW State      SW State      Config State  
+----------------------------------------------------------------------------
+0/2       A900-IMA8CS1Z-M         OPERATIONAL   N/A           NSHUT         
+0/3       A900-IMA8Z              OPERATIONAL   N/A           NSHUT         
+0/4       A900-IMA8CS1Z-M         OPERATIONAL   N/A           NSHUT         
+0/5       A900-IMA8CS1Z-M         OPERATIONAL   N/A           NSHUT         
+0/RP0     N560-4-RSP4E            OPERATIONAL   OPERATIONAL   NSHUT         
+0/RP1     N560-4-RSP4E            OPERATIONAL   OPERATIONAL   NSHUT         
+0/FT0     N560-4-PWR-FAN          OPERATIONAL   N/A           NSHUT         
+0/FT1     N560-4-FAN-H            OPERATIONAL   N/A           NSHUT         
+0/FT2     N560-4-FAN-H            OPERATIONAL   N/A           NSHUT         
+0/PM0     A900-PWR1200-D          OPERATIONAL   N/A           NSHUT         
+0/PM1     A900-PWR1200-D          OPERATIONAL   N/A           NSHUT         
+0/PM2     A900-PWR1200-D          OPERATIONAL   N/A           NSHUT         
+
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#show inventory
+% This command is not authorized
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#admin show inventory
+Wed Aug 23 15:35:59.833 EAT
+Wed Aug  23 12:36:07.270 UTC+00:00
+                   show inventory all | nomore
+----------------------------------------^
+syntax error: unknown argument
+Error executing command: CLI command error - 
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#show version
+Wed Aug 23 15:36:06.025 EAT
+Cisco IOS XR Software, Version 7.3.2
+Copyright (c) 2013-2021 by Cisco Systems, Inc.
+
+Build Information:
+ Built By     : ingunawa
+ Built On     : Wed Oct 13 20:37:50 PDT 2021
+ Built Host   : iox-ucs-024
+ Workspace    : /auto/srcarchive17/prod/7.3.2/ncs560/ws
+ Version      : 7.3.2
+ Location     : /opt/cisco/XR/packages/
+ Label        : 7.3.2
+
+cisco NCS-560 () processor
+System uptime is 14 weeks 11 hours 36 minutes
+
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR02#

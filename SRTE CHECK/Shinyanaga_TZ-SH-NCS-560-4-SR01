@@ -1,0 +1,55 @@
+terminal len 0
+Mon Jun 24 11:50:39.404 EAT
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR01#sh run formal | i distribute link-state inst$ link-state insta                          nce-id 100sh run formal | i distribute link-state ins$
+Mon Jun 24 11:50:39.690 EAT
+Building configuration...
+router isis ACC_10 distribute link-state instance-id 1000
+router isis CORE_AGG distribute link-state instance-id 100
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR01#sh run router isis CORE_AGG int lo0
+Mon Jun 24 11:50:43.502 EAT
+router isis CORE_AGG
+ interface Loopback0
+  passive
+  address-family ipv4 unicast
+   prefix-sid index 55
+   prefix-sid strict-spf index 555
+  !
+ !
+!
+
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR01#sh run formal | i COLOR
+Mon Jun 24 11:50:47.590 EAT
+Building configuration...
+vrf ran address-family ipv4 unicast export route-policy SET_COLOR_55
+vrf om_cn address-family ipv4 unicast export route-policy SET_COLOR_55
+vrf om_ran address-family ipv4 unicast export route-policy SET_COLOR_55
+vrf sig_cn address-family ipv4 unicast export route-policy SET_COLOR_55
+vrf media_cn address-family ipv4 unicast export route-policy SET_COLOR_55
+vrf ran_abis address-family ipv4 unicast export route-policy SET_COLOR_55
+extcommunity-set opaque COLOR_55
+route-policy SET_COLOR_55
+  set extcommunity color COLOR_55
+    set extcommunity color COLOR_55
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR01#sh isis adj
+Mon Jun 24 11:50:51.586 EAT
+
+IS-IS ACC_10 Level-2 adjacencies:
+System Id      Interface                SNPA           State Hold Changed  NSF IPv4 IPv6
+                                                                               BFD  BFD 
+TZ-SH-NCS-560-4-SR02 Te0/3/0/0.3              *PtoP*         Up    24   30w4d    Yes None None
+TZ-KH-NCS-560-4-SR01 Gi0/2/0/0.764            *PtoP*         Up    24   7w3d     Yes None None
+
+Total adjacency count: 2
+
+IS-IS CORE_AGG Level-2 adjacencies:
+System Id      Interface                SNPA           State Hold Changed  NSF IPv4 IPv6
+                                                                               BFD  BFD 
+TZ-SH-NCS-560-4-SR02 Te0/3/0/0.2              *PtoP*         Up    24   30w4d    Yes None None
+TZ-DO-NCS-560-7-SR01 Te0/3/0/5.2714           *PtoP*         Up    23   2w2d     Yes Up   None
+TZ-MW-NCS-5504-SR01 Gi0/2/0/6.1784           *PtoP*         Up    29   00:07:02 Yes Up   None
+TZ-SI-NCS-560-7-SR01 Te0/3/0/7.2706           *PtoP*         Up    25   1w1d     Yes Up   None
+TZ-IG-NCS-560-4-SR01 Gi0/5/0/10.1737          *PtoP*         Up    26   1d17h    Yes Up   None
+TZ-TB-NCS-560-4-SR01 Te0/3/0/5.776            *PtoP*         Up    22   6w2d     Yes Up   None
+
+Total adjacency count: 6
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR01#

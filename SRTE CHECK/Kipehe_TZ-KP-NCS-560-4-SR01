@@ -1,0 +1,32 @@
+terminal len 0
+Mon Jun 24 12:03:24.380 EAT
+RP/0/RP1/CPU0:TZ-KP-NCS-560-4-SR01#sh run formal | i distribute link-state inst$ link-state insta                          nce-id 100sh run formal | i distribute link-state ins$
+Mon Jun 24 12:03:24.672 EAT
+Building configuration...
+RP/0/RP1/CPU0:TZ-KP-NCS-560-4-SR01#sh run router isis CORE_AGG int lo0
+Mon Jun 24 12:03:28.482 EAT
+% No such configuration item(s)
+
+RP/0/RP1/CPU0:TZ-KP-NCS-560-4-SR01#sh run formal | i COLOR
+Mon Jun 24 12:03:32.551 EAT
+Building configuration...
+vrf ran address-family ipv4 unicast export route-policy SET_COLOR_73
+vrf om_ran address-family ipv4 unicast export route-policy SET_COLOR_73
+vrf CIS_TEST address-family ipv4 unicast export route-policy SET_COLOR
+extcommunity-set opaque COLOR_73
+extcommunity-set opaque COLOR_TEST
+route-policy SET_COLOR
+  set extcommunity color COLOR_TEST
+route-policy SET_COLOR_73
+  set extcommunity color COLOR_73
+RP/0/RP1/CPU0:TZ-KP-NCS-560-4-SR01#sh isis adj
+Mon Jun 24 12:03:36.552 EAT
+
+IS-IS AGG_2 Level-2 adjacencies:
+System Id      Interface                SNPA           State Hold Changed  NSF IPv4 IPv6
+                                                                               BFD  BFD 
+TZ-KP-NCS-560-4-SR02 Te0/2/0/16.3             *PtoP*         Up    29   17w0d    Yes None None
+TZ-MR-NCS-5504-SR03 Gi0/5/0/14.1037          *PtoP*         Up    22   16:22:57 Yes Up   None
+
+Total adjacency count: 2
+RP/0/RP1/CPU0:TZ-KP-NCS-560-4-SR01#

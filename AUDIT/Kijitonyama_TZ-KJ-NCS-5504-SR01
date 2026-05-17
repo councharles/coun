@@ -1,0 +1,1211 @@
+terminal len 0
+Tue Feb 10 00:38:30.922 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#sh running-config
+Tue Feb 10 00:38:31.232 EAT
+Building configuration...
+!! IOS XR Configuration 7.7.21
+!! Last configuration change at Thu Jan 29 22:09:15 2026 by gmtapila
+!
+hostname TZ-KJ-NCS-5504-SR01
+taskgroup Level1
+ task read fr
+ task read acl
+ task read bfd
+ task read bgp
+ task read cdp
+ task read cef
+ task read pbr
+ task read ppp
+ task read qos
+ task read rib
+ task read rip
+ task read sbc
+ task read hdlc
+ task read hsrp
+ task read ipv4
+ task read ipv6
+ task read isis
+ task read ospf
+ task read snmp
+ task read vlan
+ task read vpdn
+ task read vrrp
+ task read eigrp
+ task read l2vpn
+ task read bundle
+ task read static
+ task read system
+ task read tunnel
+ task read logging
+ task read mpls-te
+ task read netflow
+ task read network
+ task read mpls-ldp
+ task read interface
+ task read multicast
+ task read route-map
+ task read sonet-sdh
+ task read transport
+ task read ext-access
+ task read mpls-static
+ task read route-policy
+ task read basic-services
+ task read ethernet-services
+ task execute interface
+ task execute ext-access
+ task execute basic-services
+!
+taskgroup Level7
+ task read eem
+ task read nps
+ task read ancp
+ task read lpts
+ task read admin
+ task read sysmgr
+ task read monitor
+ task read firewall
+ task read pkg-mgmt
+ task read fault-mgr
+ task read inventory
+ task read tty-access
+ task read ip-services
+ task read host-services
+ task read basic-services
+ task read config-services
+ task write interface
+ task write basic-services
+ task execute monitor
+ task execute basic-services
+ inherit taskgroup Level1
+!
+taskgroup taskgroup_read_only
+ task read aaa
+ task read bfd
+ task read bgp
+ task read cdp
+ task read cef
+ task read pbr
+ task read qos
+ task read boot
+ task read ipv4
+ task read ipv6
+ task read isis
+ task read lldp
+ task read lpts
+ task read snmp
+ task read vrrp
+ task read admin
+ task read crypto
+ task read fabric
+ task read static
+ task read system
+ task read logging
+ task read monitor
+ task read network
+ task read mpls-ldp
+ task read fault-mgr
+ task read interface
+ task read inventory
+ task read multicast
+ task read route-map
+ task read transport
+ task read filesystem
+ task read tty-access
+ task read config-mgmt
+ task read ip-services
+ task read route-policy
+ task read host-services
+ task read basic-services
+ task read config-services
+ task read ethernet-services
+!
+usergroup Level7
+ taskgroup Level7
+!
+usergroup usergroup_ready_only
+ taskgroup taskgroup_read_only
+!
+clock timezone EAT Africa/Dar_es_Salaam
+banner motd ^
+
+*************************************************************************
+*       L E G A L   N O T I C E  --  Y O U    M U S T    R E A D        *
+*************************************************************************
+*                                                                       *
+*      You must have explicit permission to access this device.         *
+*      All activities performed on this device are logged and           *
+*  violations of this policy may result in disciplinary/legal action.   *
+*                                                                       *
+*************************************************************************
+^
+banner login ^
+*************************************************************************
+                        Bharti Tanzania Limited
+                    Unauthorised login Prohibited
+*************************************************************************
+*************************************************************************
+*       L E G A L   N O T I C E  --  Y O U    M U S T    R E A D    *
+*************************************************************************
+*   This DEVICE belongs to  the BHARTI AIRTEL LTD. NETWORK and is for   *
+*   explicit use by  BHARTI  AIRTEL  LTD. employees  for work-related   *
+*   purposes. Unauthorized use may subject you to criminal prosecution. *
+*   The BHARTI AIRTEL LTD. reserves the right to  monitor use of this   *
+*   network  to  ensure  network  security and to respond to specific   *
+*   of  employee  misuse. Use of this DEVICE shall constitute consent   *
+*   to monitoring for such purposes.In addition,the BHARTI AIRTEL LTD   *
+*  reserves the right to consent to a valid law enforcement request to  *
+* search the network for evidence of a crime stored within the network. *
+*************************************************************************
+^
+logging trap informational
+logging events level informational
+logging format rfc5424
+logging console informational
+logging history size 7
+logging history debugging
+logging monitor informational
+logging buffered 25000000
+logging buffered debugging
+logging facility local7
+logging source-interface Loopback0
+service timestamps log datetime msec show-timezone year
+service timestamps debug datetime localtime msec show-timezone
+username admin
+ group root-lr
+ group cisco-support
+ secret 10 $6$m6fyV0meTcu58V0.$iKU6weEJyj4h5i5yFCFCiGhlqGpKCsnAkSiHPWaeRjXvkpp6MIFin28BZTA.qQmPd0AmVw3yGq1.oXEJr9gIg0
+!
+username airtel
+ group usergroup_ready_only
+ password 7 050A0F1D354942
+!
+username epnm
+ group root-lr
+ group cisco-support
+ secret 10 $6$Awukk/jCAQ115k/.$GRxqgTtsOOg8bakPByVtPW3f7RGspdapbT48VZ1KEz4gmYP2nD6OwloZSGSTa2LNMnqofCRT7PWsc.8xIG3fn0
+!
+username rkinyaga
+ group root-lr
+ group cisco-support
+ secret 10 $6$F.8T5/UmrFwR25/.$niThNKEDTX64AYX6moMD.utUzE2p1mD4P8765GNFfPJE8SOJXFzw3eqgW0pBsaEfyjex31LxKwVPAC0RpFFyu0
+!
+username msefu
+ group root-lr
+ group cisco-support
+ secret 10 $6$f7B/vGHkC2g1v...$2YH/OWBrj1o8bViaHQ0/A4Kyp0wfZSD51Jlg9gGtdwBDBOjCkV/m9sRh46Pdj4zgUPPKIMF7FSh78Naiu0Eq4/
+!
+username ijamal
+ group root-lr
+ group cisco-support
+ secret 10 $6$cCJr7HpR0Rb7....$Qii38iRmZQmAUHG5oIkqKzRKMCp0TVzT0y1szAhO1AS0WOgd8hL.mfHBPGWAlM0lkhfxvX70S4y0e1HJoS1/Z/
+!
+username krodgers
+ group root-lr
+ group cisco-support
+ secret 10 $6$/JZdP1JNuqaiBP1.$0306JWeG9Q9tiO6zclmPtfpjcRmNm4Fc81G02FOnDWxml1Ops/9EvC3TX8nPMDphLsWFiunlhuIOY1lQIQYsZ1
+!
+username smuralim
+ group root-lr
+ group cisco-support
+ secret 10 $6$Nj.lO/9EgK2f3O/.$RknEP3JQmFKMMZS03nXjX2DNWRjhrRQ4fTwy3DFEDqPdFwSaISoxOkuesS6759MKfh/.MWPxaElPEGvQHwlG20
+!
+username noc
+ group Level7
+ secret 10 $6$NY0ab0dUtdMS8b0.$KVDIrbRS.XrDMX7nvt06ukJCNbKBDef/zzkTkPiHgbn01i/nDBtSy.9WOnYwKxDwbLgsX6Tm7hil92Dx1T6Ab/
+!
+username telco360
+ group Level7
+ secret 10 $6$C1aaN/UdNKOa3N/.$guz/FT2gggDtP6i2aAE7Symq7d58kYEY2AkRPA24wH6iiJW0Qd8p77k.PMZD5VK9lDvW3I/0aPCOQx8cWdpcs.
+!
+username echamu
+ group root-lr
+ group cisco-support
+ secret 10 $6$LdeG0eeY870.....$gVbXUaQLYAV2cWfN3OUDx2DckcglMtojLn2fuLi8mVx1Gq7BUxHRtIta0Wuh9ZsMJzzqkz99xplxUhXSo0liK0
+!
+username chugorji
+ group root-lr
+ group cisco-support
+ secret 10 $6$oVtwAMCD1nnA....$Gof/ePWEnUwkGtSABYmnz.Js6l7qMVgtp16S6LcWxizRuqmUTgLDiSbIw61rNyc8GQVbMPsmq084Z5kQdruGZ/
+!
+username ashutosh
+ group root-lr
+ group cisco-support
+ secret 10 $6$LdeG0eeY870.....$gVbXUaQLYAV2cWfN3OUDx2DckcglMtojLn2fuLi8mVx1Gq7BUxHRtIta0Wuh9ZsMJzzqkz99xplxUhXSo0liK0
+!
+username esabure
+ group Level7
+ group root-lr
+ group cisco-support
+ password 7 1533021E102F2704796166
+!
+username niamuser
+ group Level7
+ group usergroup_ready_only
+ secret 10 $6$jdyX51ezslDSA51.$KaJrUkaLy26/Fac94zDJKjm6a8GzzhBZX0jOvXfThFzgKL3JYduJdqp1MVIRHQIh/BgNpibwyLK.H72NiVDwR.
+ password 7 050327153B4D68064D21033C2F2E540A2322
+!
+username akingalu
+ group usergroup_ready_only
+ secret 10 $6$QNpdf1KRuubiCf1.$NkOKKfcWFFly7CnGVSy9BS3nFOyyi2f0jyqgyJfW1W7D1GAfUwhM22HnxMy1VyIDn8uCHhxY2WNRGnFoHQfBN1
+!
+username niamadmin
+ group root-lr
+ group cisco-support
+ secret 10 $6$w7dFb0GOod4R8b0.$TD878Cc.0pf1yy840xP5n55vfjWw/JWmbOwabZWLpBk6wcIBPEt84MkRypwU4UAl5avgAKYtVH1LB9rFty8yO0
+ password 7 0504015F3978571D3F0A59013A5C077D182A
+!
+username kmakassy
+ group root-lr
+ group cisco-support
+ secret 10 $6$fIXTRpsL5yp/R...$Z5fdplnRPUtITYbYURSTPg6ulIk4x7g7c.kSiSsb4V3QvEkwZwwAf0kan11PD2KvUY.ZLEOaiXd0G4rXlkKog1
+!
+username mahpalan
+ group root-lr
+ group cisco-support
+ secret 10 $6$LdeG0eeY870.....$gVbXUaQLYAV2cWfN3OUDx2DckcglMtojLn2fuLi8mVx1Gq7BUxHRtIta0Wuh9ZsMJzzqkz99xplxUhXSo0liK0
+!
+username skira
+ group root-lr
+ group cisco-support
+ secret 10 $6$iNgJx/4PJTKp5x/.$z8nYvykSj9deo44.hGar3jgDrzkXT.UoujsLfKvc8nH5Q24Yhbmqf9dpaCIsJevb.KboROHoY/uIxBKwImUzz.
+!
+username Hassan
+ group root-lr
+ group cisco-support
+ secret 10 $6$aMrnL/qxwJDT3L/.$QAeP2I2CqhfPlsQ/zPDf4Qjh3WsCRCtGZI.BrwAURFHz5TPTp4cN3jpNGqGdXphA24EgWOdmAjAFKP2ia2DY//
+!
+username niamro
+ secret 10 $6$CC03v0XEliIg9v0.$RnsN7PvagxRVjrjAbJcoKXn2I78Dz7gcYXNnG5XASJUj2Iyq8N/ZHajwfDoZSAmz.WcBBj0r.mmzWO12iY/531
+ password 7 083442692A0857463B5329577E0A04
+!
+username gmtapila
+ group root-lr
+ group cisco-support
+ secret 10 $6$L0vU51kCsl1SA51.$bJWb0ojpw2fuL8ztyxwNcXnlZ1dp8wp8Y5mp.M3qmy5wDIn1iilD3LwvkVWoLLusP9Gi.A9ThXxdnP/Uufdwq.
+!
+username etogo
+ group root-lr
+ group cisco-support
+ secret 10 $6$rTk6W15AWsX6CW1.$fFH7gngWmMOLuCbrjI1SOQRvqvpKSIFlGCxHopGMJ.7rQ8wnLvFfvRF2rIdJn7aYiwLgzv3/48gDZJ7z4avQD.
+!
+username jmagesa
+ group root-lr
+ group cisco-support
+ secret 10 $6$qJp/6JR.05U6....$za5Xau.HBvYbYXGKqszc9BGbSM7GgWPOhSP8/ohZjBhC00Fu52I2xm9g0l4WdjjKQ5RiCpf1tx7glHx/ed1w91
+!
+cdp
+vrf mgmt
+!
+tcp mss 1000
+tcp path-mtu-discovery
+line template vty
+ exec-timeout 20 0
+ session-limit 16
+ session-timeout 20
+ transport input ssh
+ transport output ssh
+!
+line default
+ exec-timeout 10 0
+ session-limit 10
+ session-timeout 100
+ transport input ssh telnet
+ transport output ssh telnet
+!
+vty-pool default 0 15 line-template vty
+snmp-server ifmib ifalias long
+snmp-server ifindex persist
+snmp-server ifmib stats cache
+snmp-server trap link ietf
+snmp-server host 10.86.197.241 traps version 2c MPBN-RO
+snmp-server host 10.86.240.1 traps version 2c MPBN-RO
+snmp-server host 10.87.160.89 traps version 2c MPBN-RO
+snmp-server host 10.87.183.38 traps version 2c MPBN-RO
+snmp-server host 10.88.34.101 traps version 3 priv airtel
+snmp-server host 172.27.0.11 traps version 3 priv airtel
+snmp-server user airtel airtel v3 auth md5 encrypted 047802150C2E1D1C5A priv aes 128 encrypted 1531021F07257A767B
+snmp-server view airteR 1.3.6 included
+snmp-server view airteR 1.0.8802.1.1.2 included
+snmp-server view airteW 1.3.6 included
+snmp-server view airteW 1.0.8802.1.1.2 included
+snmp-server community MPBN-RO RO
+snmp-server group airtel v3 priv notify airteW read airteR write airteW
+snmp-server queue-length 1000
+snmp-server traps bfd
+snmp-server traps ntp
+snmp-server traps snmp
+snmp-server traps snmp linkup
+snmp-server traps snmp linkdown
+snmp-server traps snmp coldstart
+snmp-server traps snmp warmstart
+snmp-server traps flash removal
+snmp-server traps flash insertion
+snmp-server traps power
+snmp-server traps config
+snmp-server traps entity
+snmp-server traps syslog
+snmp-server traps system
+snmp-server traps optical
+snmp-server traps cisco-entity-ext
+snmp-server traps entity-state operstatus
+snmp-server traps entity-state switchover
+snmp-server traps entity-redundancy all
+snmp-server traps entity-redundancy status
+snmp-server traps entity-redundancy switchover
+snmp-server trap-source Loopback0
+monitor-session TAC ethernet
+ destination file size 20000
+!
+fpd auto-upgrade enable
+icmp ipv4 source vrf
+ipv4 conflict-policy static
+ipv6 conflict-policy static
+ntp
+ server 10.87.175.4 prefer
+ source Loopback0
+!
+bfd
+ multihop ttl-drop-threshold 252
+ multipath include location 0/0/CPU0
+ multipath include location 0/1/CPU0
+ echo disable
+!
+key chain airtel
+ key 100
+  accept-lifetime 00:00:00 january 01 2021 infinite
+  key-string password 1513021E102F271B3C29
+  send-lifetime 00:00:00 january 01 2021 infinite
+  cryptographic-algorithm HMAC-MD5
+ !
+!
+call-home
+ service active
+ contact smart-licensing
+ source-interface Loopback0
+ profile CiscoTAC-1
+  active
+  destination address http http://172.27.2.147/Transportgateway/services/DeviceRequestHandler
+  reporting smart-licensing-data
+  destination transport-method email disable
+  destination transport-method http
+ !
+!
+netconf-yang agent
+ ssh
+!
+ipv4 virtual address vrf mgmt 10.88.33.152/26
+!
+class-map match-any 2G_DATA
+ match dscp af43 af42 af41 cs4 
+ match cos 5 
+ end-class-map
+! 
+!
+class-map match-any 3G_HSPA
+ match dscp af33 af32 af31 cs3 
+ match cos 4 
+ end-class-map
+! 
+class-map match-any 4G_QCI_6_7
+ match dscp af23 af22 af21 cs2 
+ match cos 3 
+ end-class-map
+! 
+class-map match-any 4G_QCI_8_9
+ match dscp cs1 af11 af12 af13 
+ match cos 1 
+ end-class-map
+! 
+class-map match-any CORE_NETWORK
+ match mpls experimental topmost 7 
+ match dscp cs7 
+ end-class-map
+! 
+class-map match-any SIGN_VOICE_IN
+ match dscp ef cs5 cs6 
+ match cos 6 
+ end-class-map
+! 
+class-map match-any 2G_DATA_Egress
+ match qos-group 5 
+ end-class-map
+! 
+class-map match-any 3G_HSPA_Egress
+ match qos-group 4 
+ end-class-map
+! 
+class-map match-any CORE_RT_Egress
+ match traffic-class 6 
+ end-class-map
+! 
+class-map match-any CORE_RT_Ingress
+ match mpls experimental topmost 6 
+ match dscp ef cs5 cs6 
+ end-class-map
+! 
+class-map match-any SIGN_VOICE_IN_7
+ match dscp cs7 
+ match cos 7 
+ end-class-map
+! 
+class-map match-any 4G_QCI_6_7_Egress
+ match qos-group 3 
+ end-class-map
+! 
+class-map match-any 4G_QCI_8_9_Egress
+ match qos-group 1 
+ end-class-map
+! 
+class-map match-any SIGN_VOICE_Egress
+ match qos-group 6 
+ end-class-map
+! 
+class-map match-any CORE_NETWORK_Egress
+ match traffic-class 7 
+ end-class-map
+! 
+class-map match-any CORE_PREMIUM_Egress
+ match traffic-class 5 
+ end-class-map
+! 
+class-map match-any CORE_BUSINESS_Egress
+ match traffic-class 3 
+ end-class-map
+! 
+class-map match-any CORE_PREMIUM_Ingress
+ match mpls experimental topmost 5 
+ match dscp af43 af42 af41 cs4 
+ end-class-map
+! 
+class-map match-any CORE_STANDARD_Egress
+ match traffic-class 1 
+ end-class-map
+! 
+class-map match-any CORE_BUSINESS_Ingress
+ match mpls experimental topmost 3 
+ match dscp af23 af22 af21 cs2 
+ end-class-map
+! 
+class-map match-any CORE_DATA_GOLD_Egress
+ match traffic-class 4 
+ end-class-map
+! 
+class-map match-any CORE_STANDARD_Ingress
+ match mpls experimental topmost 1 
+ match dscp cs1 af11 af12 af13 
+ end-class-map
+! 
+class-map match-any CORE_DATA_GOLD_Ingress
+ match mpls experimental topmost 4 
+ match dscp af33 af32 af31 cs3 
+ end-class-map
+! 
+class-map match-any SIGN_VOICE_IN_7_Egress
+ match qos-group 7 
+ end-class-map
+! 
+policy-map CORE_MPBN_Egress
+ class CORE_NETWORK_Egress
+  bandwidth percent 5 
+ ! 
+ class CORE_RT_Egress
+  priority level 1 
+ ! 
+ class CORE_PREMIUM_Egress
+  bandwidth percent 15 
+ ! 
+ class CORE_DATA_GOLD_Egress
+  bandwidth percent 15 
+ ! 
+ class CORE_BUSINESS_Egress
+  bandwidth percent 15 
+ ! 
+ class CORE_STANDARD_Egress
+  bandwidth percent 10 
+ ! 
+ class class-default
+  bandwidth percent 20 
+  random-detect default 
+ ! 
+ end-policy-map
+! 
+policy-map CORE_MPBN_Ingress
+ class CORE_NETWORK
+  set traffic-class 7
+  set qos-group 7
+ ! 
+ class CORE_RT_Ingress
+  set traffic-class 6
+  set qos-group 6
+ ! 
+ class CORE_PREMIUM_Ingress
+  set traffic-class 5
+  set qos-group 5
+ ! 
+ class CORE_DATA_GOLD_Ingress
+  set traffic-class 4
+  set qos-group 4
+ ! 
+ class CORE_BUSINESS_Ingress
+  set traffic-class 3
+  set qos-group 3
+ ! 
+ class CORE_STANDARD_Ingress
+  set traffic-class 1
+  set qos-group 1
+ ! 
+ class class-default
+ ! 
+ end-policy-map
+! 
+policy-map Mobility_QOS_Egress
+ class SIGN_VOICE_IN_7_Egress
+  set cos 7
+  set dei 0
+ ! 
+ class SIGN_VOICE_Egress
+  set cos 6
+  set dei 0
+ ! 
+ class 2G_DATA_Egress
+  set cos 5
+  set dei 1
+ ! 
+ class 3G_HSPA_Egress
+  set cos 4
+  set dei 1
+ ! 
+ class 4G_QCI_6_7_Egress
+  set cos 3
+  set dei 1
+ ! 
+ class 4G_QCI_8_9_Egress
+  set cos 1
+  set dei 1
+ ! 
+ class class-default
+ ! 
+ end-policy-map
+! 
+policy-map Mobility_QOS_Ingress
+ class SIGN_VOICE_IN_7
+  set traffic-class 7
+  set mpls experimental imposition 7
+ ! 
+ class SIGN_VOICE_IN
+  set traffic-class 6
+  set mpls experimental imposition 6
+ ! 
+ class 2G_DATA
+  set traffic-class 5
+  set mpls experimental imposition 5
+ ! 
+ class 3G_HSPA
+  set traffic-class 4
+  set mpls experimental imposition 4
+ ! 
+ class 4G_QCI_6_7
+  set traffic-class 3
+  set mpls experimental imposition 3
+ ! 
+ class 4G_QCI_8_9
+  set traffic-class 1
+  set mpls experimental imposition 1
+ ! 
+ class class-default
+ ! 
+ end-policy-map
+! 
+policy-map PARENT_OUT_CORE_MPBN_Egress_AR
+ class class-default
+  service-policy CORE_MPBN_Egress
+  shape average 5 gbps 
+ ! 
+ end-policy-map
+! 
+policy-map PARENT_OUT_CORE_MPBN_Egress_AR_760
+ class class-default
+  service-policy CORE_MPBN_Egress
+  shape average 9 gbps 
+ ! 
+ end-policy-map
+! 
+policy-map PARENT_OUT_CORE_MPBN_Egress_TTCL_AR
+ class class-default
+  service-policy CORE_MPBN_Egress
+  shape average 9500 mbps 
+ ! 
+ end-policy-map
+! 
+interface Bundle-Ether200
+ description <<< connected to Cisco5504 TZ-KJ-NCS-5504-SR02_Bundle-Ether200 >>>
+ mtu 9216
+ service-policy input CORE_MPBN_Ingress
+ service-policy output CORE_MPBN_Egress
+ ipv4 address 10.88.39.168 255.255.255.254
+ lacp mode active
+!
+interface Bundle-Ether300
+ description <<< connected to Cisco5504 TZ-KJ-NCS-5504-SR03_Bundle-Ether300 >>>
+ mtu 9216
+ service-policy input CORE_MPBN_Ingress
+ service-policy output CORE_MPBN_Egress
+ ipv4 address 10.88.39.170 255.255.255.254
+ lacp mode active
+!
+interface Loopback0
+ ipv4 address 10.88.38.6 255.255.255.255
+!
+interface MgmtEth0/RP0/CPU0/0
+ vrf mgmt
+ ipv4 address 10.88.33.156 255.255.255.192
+!
+interface MgmtEth0/RP1/CPU0/0
+ vrf mgmt
+ ipv4 address 10.88.33.157 255.255.255.192
+!
+interface GigabitEthernet0/0/0/0
+ description <<< connected to CiscoASR1002-XX TZ-KJ-ASR-1002-RR02 Gi0/0/0 >>>
+ mtu 9216
+!
+interface GigabitEthernet0/0/0/0.2
+ description <<< connected to CiscoASR1002-XX TZ-KJ-ASR-1002-RR02 Gi0/0/0.2 >>>
+ service-policy input CORE_MPBN_Ingress
+ service-policy output CORE_MPBN_Egress
+ ipv4 address 10.88.36.40 255.255.255.254
+ encapsulation dot1q 2
+!
+interface GigabitEthernet0/0/0/1
+ shutdown
+!
+interface GigabitEthernet0/0/0/2
+ shutdown
+!
+interface GigabitEthernet0/0/0/3
+ shutdown
+!
+interface GigabitEthernet0/0/0/4
+ shutdown
+!
+interface GigabitEthernet0/0/0/5
+ shutdown
+!
+interface GigabitEthernet0/0/0/6
+ shutdown
+!
+interface GigabitEthernet0/0/0/7
+ shutdown
+!
+interface GigabitEthernet0/0/0/8
+ shutdown
+!
+interface GigabitEthernet0/0/0/9
+ shutdown
+!
+interface GigabitEthernet0/0/0/10
+ shutdown
+!
+interface GigabitEthernet0/0/0/11
+ shutdown
+!
+interface GigabitEthernet0/1/0/0
+ shutdown
+!
+interface GigabitEthernet0/1/0/1
+ shutdown
+!
+interface GigabitEthernet0/1/0/2
+ shutdown
+!
+interface GigabitEthernet0/1/0/3
+ shutdown
+!
+interface GigabitEthernet0/1/0/4
+ shutdown
+!
+interface GigabitEthernet0/1/0/5
+ shutdown
+!
+interface GigabitEthernet0/1/0/6
+ shutdown
+!
+interface GigabitEthernet0/1/0/7
+ shutdown
+!
+interface GigabitEthernet0/1/0/8
+ shutdown
+!
+interface GigabitEthernet0/1/0/9
+ shutdown
+!
+interface GigabitEthernet0/1/0/10
+ shutdown
+!
+interface GigabitEthernet0/1/0/11
+ shutdown
+!
+interface TenGigE0/0/1/0
+ shutdown
+!
+interface TenGigE0/0/1/1
+ description <<< connection to MW-SR1 Ten0/0/0/16 >>
+ mtu 9216
+!
+interface TenGigE0/0/1/2
+ description <<< connection to AR-SR1 Ten0/0/0/16 >>
+ mtu 9216
+ shutdown
+ load-interval 30
+!
+interface TenGigE0/0/1/2.760
+ description <<< Arusha1<>Kiji1<>Carrier:TTCL<>760 >>>
+ service-policy input CORE_MPBN_Ingress
+ service-policy output PARENT_OUT_CORE_MPBN_Egress_AR_760
+ ipv4 address 10.88.36.46 255.255.255.254
+ encapsulation dot1q 760
+!
+interface TenGigE0/0/1/3
+ description <<< connection to AR-SR1 Ten0/4/0/16 >>
+ mtu 9216
+!
+interface TenGigE0/0/1/4
+ shutdown
+!
+interface TenGigE0/0/1/5
+ description << Kiji-Arusha via Namanga Carrier TTCL >>
+ mtu 9216
+ service-policy input CORE_MPBN_Ingress
+ service-policy output PARENT_OUT_CORE_MPBN_Egress_AR
+ ipv4 address 10.88.39.61 255.255.255.254
+ load-interval 30
+!
+interface TenGigE0/0/1/6
+ shutdown
+!
+interface TenGigE0/0/1/7
+ shutdown
+!
+interface TenGigE0/0/1/8
+ shutdown
+!
+interface TenGigE0/0/1/9
+ shutdown
+!
+interface TenGigE0/0/1/10
+ mtu 9216
+ load-interval 30
+!
+interface TenGigE0/0/1/10.1777
+ description <<< Arusha2<>Kiji2<>Carrier:TTCL<>1777 >>>
+ service-policy input CORE_MPBN_Ingress
+ service-policy output CORE_MPBN_Egress
+ ipv4 address 10.88.39.73 255.255.255.254
+ encapsulation dot1q 1777
+!
+interface TenGigE0/0/1/11
+ mtu 9216
+ load-interval 30
+!
+interface TenGigE0/0/1/11.761
+ description <<< Arusha2<>Kiji2<>Carrier:DWDM<>761 >>>
+ service-policy input CORE_MPBN_Ingress
+ service-policy output CORE_MPBN_Egress
+ ipv4 address 10.88.36.44 255.255.255.254
+ encapsulation dot1q 761
+!
+interface FortyGigE0/0/0/12
+ shutdown
+!
+interface FortyGigE0/0/0/13
+ shutdown
+!
+interface HundredGigE0/0/2/0
+ description <<< connected to Cisco5504 TZ-KJ-NCS-5504-SR02 Hu0/0/2/0 >>>
+ mtu 9216
+!
+interface HundredGigE0/0/2/0.2
+ description <<< connected to Cisco5504 TZ-KJ-NCS-5504-SR02 Hu0/0/2/0.2 >>>
+ service-policy input CORE_MPBN_Ingress
+ service-policy output CORE_MPBN_Egress
+ ipv4 address 10.88.36.32 255.255.255.254
+ encapsulation dot1q 2
+!
+interface HundredGigE0/0/2/1
+ description TO_DWDM SLOT 9(T404) PORT 1
+ mtu 9600
+ load-interval 30
+!
+interface HundredGigE0/0/2/1.1080
+ service-policy input CORE_MPBN_Ingress
+ service-policy output CORE_MPBN_Egress
+ ipv4 address 10.20.10.2 255.255.255.254
+ encapsulation dot1q 1080
+!
+interface HundredGigE0/0/2/2
+ mtu 9600
+!
+interface HundredGigE0/0/2/2.4
+ description <<< connected to Morocco TZ-MR-NCS-5504-SR01 Hu0/0/2/2.4 >>>
+ service-policy input CORE_MPBN_Ingress
+ service-policy output CORE_MPBN_Egress
+ ipv4 address 10.88.39.167 255.255.255.254
+ encapsulation dot1q 4
+!
+interface HundredGigE0/0/2/3
+ description NEW CONNECTIONS TO KIJ SR03
+ bundle id 300 mode active
+!
+interface FortyGigE0/1/0/12
+ shutdown
+!
+interface FortyGigE0/1/0/13
+ shutdown
+!
+interface HundredGigE0/1/1/0
+ description <<< connected to Cisco5504 TZ-KJ-NCS-5504-SR03 Hu0/1/1/0 >>>
+ mtu 9216
+ monitor-session TAC ethernet port-level
+ !
+!
+interface HundredGigE0/1/1/0.2
+ description <<< connected to Cisco5504 TZ-KJ-NCS-5504-SR03 Hu0/1/1/0.2 >>>
+ service-policy input CORE_MPBN_Ingress
+ service-policy output CORE_MPBN_Egress
+ ipv4 address 10.88.36.34 255.255.255.254
+ encapsulation dot1q 2
+!
+interface HundredGigE0/1/1/1
+ description <<< connected to Morocco TZ-MR-NCS-5504-SR01 Hu0/1/1/1 >>>
+ mtu 9216
+ shutdown
+!
+interface HundredGigE0/1/1/1.2
+ description <<< connected to Morocco TZ-MR-NCS-5504-SR01 Hu0/1/1/1.2 >>>
+ service-policy input CORE_MPBN_Ingress
+ service-policy output CORE_MPBN_Egress
+ ipv4 address 10.88.36.9 255.255.255.254
+ encapsulation dot1q 2
+!
+interface HundredGigE0/1/1/2
+ description <<< connected to Moroco TZ-MR-NCS-5504-SR01 Hu0/1/1/2 >>>
+ mtu 9216
+!
+interface HundredGigE0/1/1/2.3
+ description <<< connected to Moroco TZ-MR-NCS-5504-SR01 Hu0/1/1/2.3 >>>
+ service-policy input CORE_MPBN_Ingress
+ service-policy output CORE_MPBN_Egress
+ ipv4 address 10.88.36.239 255.255.255.254
+ encapsulation dot1q 3
+!
+interface HundredGigE0/1/1/3
+ description NEW CONNECTIONS TO KJ SR02
+ bundle id 200 mode active
+!
+interface PTP0/RP0/CPU0/0
+ shutdown
+!
+interface PTP0/RP1/CPU0/0
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/1/0
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/1/1
+ shutdown
+!
+interface preconfigure TenGigE0/0/1/0/1.2
+!
+!
+prefix-set BSC_CP
+  10.149.2.86/32,
+  10.149.2.85/32
+end-set
+!
+prefix-set BSC_Gb
+  10.149.2.81/32,
+  10.149.2.82/32
+end-set
+!
+prefix-set LOOPBACK
+  10.88.38.0/24 le 32,
+  10.88.39.0/24 le 32
+end-set
+!
+prefix-set ACI-MR-EPNM
+  10.88.34.96/28,
+  172.22.2.0/24
+end-set
+!
+route-policy BGP_SID_INDEX
+  set label-index 6
+  set aigp-metric igp-cost
+end-policy
+!
+route-policy LOOPBACK_LABEL
+  if destination in LOOPBACK then
+    pass
+  elseif destination in ACI-MR-EPNM then
+    pass
+  else
+    drop
+  endif
+end-policy
+!
+route-policy add_path_to_ibgp
+  set path-selection backup 1 advertise install
+end-policy
+!
+router static
+ vrf mgmt
+  address-family ipv4 unicast
+   0.0.0.0/0 10.88.33.129
+  !
+ !
+!
+router isis CORE_AGG
+ set-overload-bit on-startup wait-for-bgp
+ is-type level-2-only
+ net 49.0001.0100.8803.8006.00
+ distribute link-state instance-id 100
+ nsf cisco
+ log adjacency changes
+ lsp-gen-interval initial-wait 50 secondary-wait 200 maximum-wait 5000
+ lsp-refresh-interval 65000
+ max-lsp-lifetime 65535
+ address-family ipv4 unicast
+  metric-style wide
+  mpls traffic-eng level-2-only
+  mpls traffic-eng router-id Loopback0
+  mpls traffic-eng multicast-intact
+  spf-interval initial-wait 50 secondary-wait 200 maximum-wait 5000
+  segment-routing mpls sr-prefer
+ !
+ interface Bundle-Ether200
+  circuit-type level-2-only
+  point-to-point
+  hello-padding disable
+  hello-password keychain airtel
+  address-family ipv4 unicast
+   fast-reroute per-prefix level 2
+   fast-reroute per-prefix ti-lfa
+   metric 20
+  !
+ !
+ interface Bundle-Ether300
+  circuit-type level-2-only
+  point-to-point
+  hello-padding disable
+  hello-password keychain airtel
+  address-family ipv4 unicast
+   fast-reroute per-prefix level 2
+   fast-reroute per-prefix ti-lfa
+   metric 10
+  !
+ !
+ interface Loopback0
+  passive
+  address-family ipv4 unicast
+   prefix-sid index 6
+   prefix-sid strict-spf index 506
+  !
+ !
+ interface GigabitEthernet0/0/0/0.2
+  circuit-type level-2-only
+  point-to-point
+  hello-padding disable
+  address-family ipv4 unicast
+   fast-reroute per-prefix level 2
+   fast-reroute per-prefix ti-lfa
+   metric 10000
+  !
+ !
+ interface TenGigE0/0/1/2.760
+  circuit-type level-2-only
+  bfd minimum-interval 300
+  bfd multiplier 3
+  bfd fast-detect ipv4
+  point-to-point
+  hello-padding disable
+  hello-password keychain airtel
+  address-family ipv4 unicast
+   fast-reroute per-prefix level 2
+   fast-reroute per-prefix ti-lfa
+   metric 193
+  !
+ !
+ interface TenGigE0/0/1/5
+  circuit-type level-2-only
+  point-to-point
+  hello-padding disable
+  hello-password keychain airtel
+  address-family ipv4 unicast
+   fast-reroute per-prefix level 2
+   fast-reroute per-prefix ti-lfa
+   metric 2010
+  !
+ !
+ interface TenGigE0/0/1/10.1777
+  circuit-type level-2-only
+  bfd minimum-interval 300
+  bfd multiplier 3
+  bfd fast-detect ipv4
+  point-to-point
+  hello-padding disable
+  hello-password keychain airtel
+  address-family ipv4 unicast
+   fast-reroute per-prefix level 2
+   fast-reroute per-prefix ti-lfa
+   metric 100
+  !
+ !
+ interface TenGigE0/0/1/11.761
+  circuit-type level-2-only
+  bfd minimum-interval 300
+  bfd multiplier 3
+  bfd fast-detect ipv4
+  point-to-point
+  hello-padding disable
+  hello-password keychain airtel
+  address-family ipv4 unicast
+   fast-reroute per-prefix level 2
+   fast-reroute per-prefix ti-lfa
+   metric 100
+  !
+ !
+ interface HundredGigE0/0/2/0.2
+  circuit-type level-2-only
+  point-to-point
+  hello-padding disable
+  hello-password keychain airtel
+  address-family ipv4 unicast
+   fast-reroute per-prefix level 2
+   fast-reroute per-prefix ti-lfa
+   metric 20
+  !
+ !
+ interface HundredGigE0/0/2/1.1080
+  circuit-type level-2-only
+  point-to-point
+  hello-padding disable
+  address-family ipv4 unicast
+   fast-reroute per-prefix level 2
+   fast-reroute per-prefix ti-lfa
+   metric 50
+  !
+ !
+ interface HundredGigE0/0/2/2.4
+  circuit-type level-2-only
+  bfd minimum-interval 300
+  bfd multiplier 3
+  bfd fast-detect ipv4
+  point-to-point
+  hello-padding disable
+  address-family ipv4 unicast
+   fast-reroute per-prefix level 2
+   fast-reroute per-prefix ti-lfa
+   metric 10
+  !
+ !
+ interface HundredGigE0/1/1/0.2
+  circuit-type level-2-only
+  point-to-point
+  hello-padding disable
+  hello-password keychain airtel
+  address-family ipv4 unicast
+   fast-reroute per-prefix level 2
+   fast-reroute per-prefix ti-lfa
+   metric 10
+  !
+ !
+ interface HundredGigE0/1/1/1.2
+  circuit-type level-2-only
+  bfd minimum-interval 300
+  bfd multiplier 3
+  bfd fast-detect ipv4
+  point-to-point
+  hello-padding disable
+  address-family ipv4 unicast
+   fast-reroute per-prefix level 2
+   fast-reroute per-prefix ti-lfa
+   metric 10
+  !
+ !
+ interface HundredGigE0/1/1/2.3
+  circuit-type level-2-only
+  bfd minimum-interval 300
+  bfd multiplier 3
+  bfd fast-detect ipv4
+  point-to-point
+  hello-padding disable
+  address-family ipv4 unicast
+   fast-reroute per-prefix level 2
+   fast-reroute per-prefix ti-lfa
+   metric 10
+  !
+ !
+!
+snmp-server traps isis all
+snmp-server traps bgp cbgp2 updown
+snmp-server traps bgp
+router bgp 67000
+ nsr
+ bgp router-id 10.88.38.6
+ bgp graceful-restart restart-time 120
+ bgp graceful-restart graceful-reset
+ bgp graceful-restart stalepath-time 360
+ bgp graceful-restart
+ bgp log neighbor changes detail
+ ibgp policy out enforce-modifications
+ address-family ipv4 unicast
+  additional-paths receive
+  additional-paths send
+  additional-paths selection route-policy add_path_to_ibgp
+  network 10.88.38.6/32 route-policy BGP_SID_INDEX
+  allocate-label route-policy LOOPBACK_LABEL unlabeled-path
+ !
+ neighbor-group CRR
+  remote-as 67000
+  bfd fast-detect
+  bfd multiplier 3
+  bfd minimum-interval 300
+  password encrypted 052A0F1D354942362D1F2820392F
+  update-source Loopback0
+  address-family ipv4 labeled-unicast
+   next-hop-self
+  !
+ !
+ neighbor 10.88.38.5
+  use neighbor-group CRR
+ !
+ neighbor 10.88.38.10
+  use neighbor-group CRR
+ !
+!
+snmp-server traps vrrp events
+mpls oam
+!
+snmp-server traps mpls traffic-eng up
+snmp-server traps mpls traffic-eng down
+mpls traffic-eng
+!
+segment-routing
+ global-block 16000 23999
+!
+xml agent tty
+!
+snmp-server traps sensor
+snmp-server traps fru-ctrl
+netconf agent tty
+!
+mpls ip-ttl-propagate disable forwarded
+hw-module profile qos hqos-enable
+hw-module profile qos max-classmap-size 16
+hw-module profile bundle-scale 512
+hw-module vrrpscale enable
+ssh server rate-limit 600
+ssh server v2
+ssh server vrf mgmt
+telnet vrf default ipv4 server max-servers 100
+end
+
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#

@@ -1,0 +1,34 @@
+terminal len 0
+Mon Jun 24 11:44:46.249 EAT
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#sh run formal | i distribute link-state inst$ link-state insta                          nce-id 100sh run formal | i distribute link-state ins$
+Mon Jun 24 11:44:46.540 EAT
+Building configuration...
+router isis ACC_10 distribute link-state instance-id 1000
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#sh run router isis CORE_AGG int lo0
+Mon Jun 24 11:44:50.317 EAT
+% No such configuration item(s)
+
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#sh run formal | i COLOR
+Mon Jun 24 11:44:54.373 EAT
+Building configuration...
+vrf ran address-family ipv4 unicast export route-policy SET_COLOR_36
+vrf om_cn address-family ipv4 unicast export route-policy SET_COLOR_36
+vrf om_ran address-family ipv4 unicast export route-policy SET_COLOR_36
+vrf sig_cn address-family ipv4 unicast export route-policy SET_COLOR_36
+vrf media_cn address-family ipv4 unicast export route-policy SET_COLOR_36
+extcommunity-set opaque COLOR_36
+route-policy SET_COLOR_36
+  set extcommunity color COLOR_36
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#sh isis adj
+Mon Jun 24 11:44:58.386 EAT
+
+IS-IS ACC_10 Level-2 adjacencies:
+System Id      Interface                SNPA           State Hold Changed  NSF IPv4 IPv6
+                                                                               BFD  BFD 
+TZ-SH-NCS-560-4-SR02 Te0/3/0/3.2722           *PtoP*         Up    27   13:49:47 Yes Up   None
+TZ-SH-NCS-560-4-SR02 Gi0/2/0/4.2710           *PtoP*         Up    29   1w3d     Yes Up   None
+TZ-SH-NCS-560-4-SR02 Gi0/5/0/14.765           *PtoP*         Up    29   1w2d     Yes Up   None
+TZ-KH-NCS-560-4-SR01 Te0/3/0/0.2              *PtoP*         Up    25   29w3d    Yes None None
+
+Total adjacency count: 4
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#

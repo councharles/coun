@@ -1,0 +1,10 @@
+terminal len 0
+Fri Sep 20 15:32:13.181 EAT
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR02#sh rpl extcommunity-set opaque
+Fri Sep 20 15:32:13.391 EAT
+Listing for all Extended Community OPAQUE Set objects
+
+extcommunity-set opaque COLOR_16
+end-set
+!
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR02#

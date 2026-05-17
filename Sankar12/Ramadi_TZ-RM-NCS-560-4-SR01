@@ -1,0 +1,23 @@
+RP/0/RP1/CPU0:TZ-RM-NCS-560-4-SR01#term len 0
+Wed Sep 13 10:47:27.698 EAT
+RP/0/RP1/CPU0:TZ-RM-NCS-560-4-SR01#show media location all
+Wed Sep 13 10:47:31.761 EAT
+
+Media Info for Location: node0_RP1_CPU0
+Partition                            Size     Used  Percent    Avail
+--------------------------------------------------------------------
+rootfs:                              3.9G     3.0G      81%     738M
+harddisk:                            5.6G     2.8G      52%     2.6G
+log:                                 459M     127M      30%     298M
+config:                              459M     3.0M       1%     422M
+disk0:                               2.0G      27M       2%     1.8G
+
+Media Info for Location: node0_RP0_CPU0
+Partition                            Size     Used  Percent    Avail
+--------------------------------------------------------------------
+rootfs:                              3.9G     3.6G      98%      75M
+harddisk:                            5.6G     564M      11%     4.8G
+log:                                 459M     105M      25%     320M
+config:                              459M     2.8M       1%     422M
+disk0:                               2.0G     8.2M       1%     1.9G
+RP/0/RP1/CPU0:TZ-RM-NCS-560-4-SR01#

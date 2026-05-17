@@ -1,0 +1,45 @@
+terminal len 0
+Mon Jun 24 11:48:16.686 EAT
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#sh run formal | i distribute link-state inst$ link-state insta                          nce-id 100sh run formal | i distribute link-state ins$
+Mon Jun 24 11:48:16.999 EAT
+Building configuration...
+router isis CORE_AGG distribute link-state instance-id 100
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#sh run router isis CORE_AGG int lo0
+Mon Jun 24 11:48:20.894 EAT
+router isis CORE_AGG
+ interface Loopback0
+  passive
+  address-family ipv4 unicast
+   prefix-sid index 49
+   prefix-sid strict-spf index 549
+  !
+ !
+!
+
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#sh run formal | i COLOR
+Mon Jun 24 11:48:24.878 EAT
+Building configuration...
+vrf ran address-family ipv4 unicast export route-policy SET_COLOR_49
+vrf om_cn address-family ipv4 unicast export route-policy SET_COLOR_49
+vrf om_ran address-family ipv4 unicast export route-policy SET_COLOR_49
+vrf sig_cn address-family ipv4 unicast export route-policy SET_COLOR_49
+vrf media_cn address-family ipv4 unicast export route-policy SET_COLOR_49
+vrf ran_abis address-family ipv4 unicast export route-policy SET_COLOR_49
+extcommunity-set opaque COLOR_49
+route-policy SET_COLOR_49
+  set extcommunity color COLOR_49
+    set extcommunity color COLOR_49
+route-policy ZTE_LU_SR_COLOR
+  set extcommunity color COLOR_49
+router bgp 67000 neighbor-group ZTERR address-family ipv4 labeled-unicast route-policy ZTE_LU_SR_COLOR in
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#sh isis adj
+Mon Jun 24 11:48:28.894 EAT
+
+IS-IS CORE_AGG Level-2 adjacencies:
+System Id      Interface                SNPA           State Hold Changed  NSF IPv4 IPv6
+                                                                               BFD  BFD 
+TZ-MU-NCS-560-4-SR02 Te0/3/0/0.3              *PtoP*         Up    22   33w4d    Yes None None
+TZ-MW-NCS-5504-SR01 Gi0/4/0/12.752           *PtoP*         Up    23   5w1d     Yes Up   None
+
+Total adjacency count: 2
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#

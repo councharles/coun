@@ -1,0 +1,10 @@
+terminal len 0
+Fri Apr 24 19:33:13.578 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:33:13.924 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:33:17.590 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#

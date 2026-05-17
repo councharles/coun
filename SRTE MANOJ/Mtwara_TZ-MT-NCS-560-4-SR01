@@ -1,0 +1,53 @@
+terminal len 0
+Thu Aug 22 21:33:46.242 EAT
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR01#show segment-routing traffic-eng forwarding $-eng forwarding p                          olicy  | i "Name|Stack"show segment-routing traffic-eng forwarding$
+Thu Aug 22 21:33:46.638 EAT
+  Name: srte_c_3_ep_10.88.38.3
+      Name: MT1_MR3
+        Name: MT1_MR3_SID1
+            Label Stack (Top -> Bottom): { Pop }
+            Label Stack (Top -> Bottom): { 16516, 16503 }
+        Name: MT1_MR3_SID2
+            Label Stack (Top -> Bottom): { 16546, 16516, 16502, 16503 }
+            Label Stack (Top -> Bottom): { 16552, 16546, 16516, 16502, 16503 }
+  Name: srte_c_43_ep_10.88.38.43
+      Name: MT1_MA1
+        Name: MT1_MA1_SID1
+            Label Stack (Top -> Bottom): { Pop }
+            Label Stack (Top -> Bottom): { 16543 }
+        Name: MT1_MA1_SID2
+            Label Stack (Top -> Bottom): { 16544, 16543 }
+            Label Stack (Top -> Bottom): { 16552, 16544, 16543 }
+  Name: srte_c_44_ep_10.88.38.44
+      Name: MT1_MA2
+        Name: MT1_MA2_SID1
+            Label Stack (Top -> Bottom): { 16544 }
+            Label Stack (Top -> Bottom): { 16543, 16544 }
+        Name: MT1_MA2_SID2
+            Label Stack (Top -> Bottom): { 16544 }
+            Label Stack (Top -> Bottom): { 16552, 16544 }
+  Name: srte_c_4_ep_10.88.38.4
+      Name: MT1_MR4
+        Name: MT1_MR4_SID1
+            Label Stack (Top -> Bottom): { 16504 }
+            Label Stack (Top -> Bottom): { 16516, 16503, 16504 }
+        Name: MT1_MR4_SID2
+            Label Stack (Top -> Bottom): { 16546, 16516, 16502, 16504 }
+            Label Stack (Top -> Bottom): { 16552, 16546, 16516, 16502, 16504 }
+  Name: srte_c_8_ep_10.88.38.8
+      Name: MT1_KJ3
+        Name: MT1_KJ3_SID1
+            Label Stack (Top -> Bottom): { 16506, 16508 }
+            Label Stack (Top -> Bottom): { 16516, 16503, 16506, 16508 }
+        Name: MT1_KJ3_SID2
+            Label Stack (Top -> Bottom): { 16546, 16516, 16502, 16508 }
+            Label Stack (Top -> Bottom): { 16552, 16546, 16516, 16502, 16508 }
+  Name: srte_c_9_ep_10.88.38.9
+      Name: MT1_KJ4
+        Name: MT1_KJ4_SID1
+            Label Stack (Top -> Bottom): { 16506, 16509 }
+            Label Stack (Top -> Bottom): { 16516, 16503, 16506, 16509 }
+        Name: MT1_KJ4_SID2
+            Label Stack (Top -> Bottom): { 16546, 16516, 16502, 16509 }
+            Label Stack (Top -> Bottom): { 16552, 16546, 16516, 16502, 16509 }
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR01#

@@ -1,0 +1,56 @@
+terminal len 0
+Sat Mar  9 23:21:30.050 EAT
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#sh running-config formal | i end-point
+Sat Mar  9 23:21:30.564 EAT
+Building configuration...
+segment-routing traffic-eng policy MR4_AR1 color 11 end-point ipv4 10.88.38.11
+segment-routing traffic-eng policy MR4_AR2 color 12 end-point ipv4 10.88.38.12
+segment-routing traffic-eng policy MR4_BH1 color 25 end-point ipv4 10.88.38.25
+segment-routing traffic-eng policy MR4_BH2 color 26 end-point ipv4 10.88.38.26
+segment-routing traffic-eng policy MR4_BK1 color 27 end-point ipv4 10.88.38.27
+segment-routing traffic-eng policy MR4_BK2 color 28 end-point ipv4 10.88.38.28
+segment-routing traffic-eng policy MR4_DO1 color 15 end-point ipv4 10.88.38.15
+segment-routing traffic-eng policy MR4_DO2 color 16 end-point ipv4 10.88.38.16
+segment-routing traffic-eng policy MR4_IF1 color 29 end-point ipv4 10.88.38.29
+segment-routing traffic-eng policy MR4_IF2 color 30 end-point ipv4 10.88.38.30
+segment-routing traffic-eng policy MR4_KG1 color 37 end-point ipv4 10.88.38.37
+segment-routing traffic-eng policy MR4_KG2 color 38 end-point ipv4 10.88.38.38
+segment-routing traffic-eng policy MR4_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy MR4_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy MR4_KP1 color 73 end-point ipv4 10.88.38.73
+segment-routing traffic-eng policy MR4_KP2 color 74 end-point ipv4 10.88.38.74
+segment-routing traffic-eng policy MR4_LU1 color 41 end-point ipv4 10.88.38.41
+segment-routing traffic-eng policy MR4_LU2 color 42 end-point ipv4 10.88.38.42
+segment-routing traffic-eng policy MR4_MA1 color 43 end-point ipv4 10.88.38.43
+segment-routing traffic-eng policy MR4_MA2 color 44 end-point ipv4 10.88.38.44
+segment-routing traffic-eng policy MR4_MB1 color 17 end-point ipv4 10.88.38.17
+segment-routing traffic-eng policy MR4_MB2 color 18 end-point ipv4 10.88.38.18
+segment-routing traffic-eng policy MR4_MG1 color 19 end-point ipv4 10.88.38.19
+segment-routing traffic-eng policy MR4_MG2 color 20 end-point ipv4 10.88.38.20
+segment-routing traffic-eng policy MR4_MK1 color 45 end-point ipv4 10.88.38.45
+segment-routing traffic-eng policy MR4_MK2 color 46 end-point ipv4 10.88.38.46
+segment-routing traffic-eng policy MR4_MT1 color 51 end-point ipv4 10.88.38.51
+segment-routing traffic-eng policy MR4_MT2 color 52 end-point ipv4 10.88.38.52
+segment-routing traffic-eng policy MR4_MU1 color 49 end-point ipv4 10.88.38.49
+segment-routing traffic-eng policy MR4_MU2 color 50 end-point ipv4 10.88.38.50
+segment-routing traffic-eng policy MR4_MW1 color 13 end-point ipv4 10.88.38.13
+segment-routing traffic-eng policy MR4_MW2 color 14 end-point ipv4 10.88.38.14
+segment-routing traffic-eng policy MR4_RM1 color 53 end-point ipv4 10.88.38.53
+segment-routing traffic-eng policy MR4_RM2 color 54 end-point ipv4 10.88.38.54
+segment-routing traffic-eng policy MR4_SG1 color 57 end-point ipv4 10.88.38.57
+segment-routing traffic-eng policy MR4_SG2 color 58 end-point ipv4 10.88.38.58
+segment-routing traffic-eng policy MR4_SH1 color 55 end-point ipv4 10.88.38.55
+segment-routing traffic-eng policy MR4_SH2 color 56 end-point ipv4 10.88.38.56
+segment-routing traffic-eng policy MR4_SI1 color 21 end-point ipv4 10.88.38.21
+segment-routing traffic-eng policy MR4_SI2 color 22 end-point ipv4 10.88.38.22
+segment-routing traffic-eng policy MR4_SK1 color 23 end-point ipv4 10.88.38.23
+segment-routing traffic-eng policy MR4_SK2 color 24 end-point ipv4 10.88.38.24
+segment-routing traffic-eng policy MR4_ST1 color 69 end-point ipv4 10.88.38.69
+segment-routing traffic-eng policy MR4_ST2 color 70 end-point ipv4 10.88.38.70
+segment-routing traffic-eng policy MR4_SU1 color 59 end-point ipv4 10.88.38.59
+segment-routing traffic-eng policy MR4_SU2 color 60 end-point ipv4 10.88.38.60
+segment-routing traffic-eng policy MR4_TG1 color 65 end-point ipv4 10.88.38.66
+segment-routing traffic-eng policy MR4_TG2 color 66 end-point ipv4 10.88.38.66
+segment-routing traffic-eng policy MR4_ZA1 color 67 end-point ipv4 10.88.38.67
+segment-routing traffic-eng policy MR4_ZA2 color 68 end-point ipv4 10.88.38.68
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#

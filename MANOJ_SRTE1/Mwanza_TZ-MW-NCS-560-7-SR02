@@ -1,0 +1,18 @@
+terminal len 0
+Thu Jun 30 16:52:35.167 EAT
+RP/0/RP0/CPU0:TZ-MW-NCS-5504-SR02#show run formal | i COLOR_
+Thu Jun 30 16:52:35.407 EAT
+Building configuration...
+vrf ran address-family ipv4 unicast export route-policy SET_COLOR_14
+vrf om_cn address-family ipv4 unicast export route-policy SET_COLOR_14
+vrf om_ran address-family ipv4 unicast export route-policy SET_COLOR_14
+vrf sig_cn address-family ipv4 unicast export route-policy SET_COLOR_14
+vrf ISP_VRF address-family ipv4 unicast export route-policy SET_COLOR_14
+vrf media_cn address-family ipv4 unicast export route-policy SET_COLOR_14
+vrf ran_abis address-family ipv4 unicast export route-policy SET_COLOR_14
+extcommunity-set opaque COLOR_14
+route-policy SET_COLOR_14
+  set extcommunity color COLOR_14
+    set extcommunity color COLOR_14
+  set extcommunity color COLOR_14
+RP/0/RP0/CPU0:TZ-MW-NCS-5504-SR02#

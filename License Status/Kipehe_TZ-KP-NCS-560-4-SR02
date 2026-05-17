@@ -1,0 +1,8 @@
+terminal len 0
+Tue Oct 24 15:56:57.711 EAT
+RP/0/RP1/CPU0:TZ-KP-NCS-560-4-SR02#show license status | i Status
+Tue Oct 24 15:57:01.712 EAT
+  Status: DISABLED
+  Status: UNREGISTERED
+  Status: EVAL MODE
+RP/0/RP1/CPU0:TZ-KP-NCS-560-4-SR02#

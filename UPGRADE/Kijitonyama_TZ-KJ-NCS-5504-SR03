@@ -1,0 +1,20 @@
+terminal len 0
+Thu Apr 23 01:50:57.755 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR03#show install active Sum
+Thu Apr 23 01:50:58.083 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 11
+        ncs5500-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs5500-mpls-2.1.0.0-r7721
+        ncs5500-mpls-te-rsvp-3.1.0.0-r7721
+        ncs5500-ospf-2.0.0.0-r7721
+        ncs5500-isis-2.1.0.0-r7721
+        ncs5500-mgbl-3.0.0.0-r7721
+        ncs5500-eigrp-1.0.0.0-r7721
+        ncs5500-li-1.0.0.0-r7721
+        ncs5500-mcast-3.0.0.0-r7721
+        ncs5500-lictrl-1.0.0.0-r7721
+        ncs5500-k9sec-3.1.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR03#

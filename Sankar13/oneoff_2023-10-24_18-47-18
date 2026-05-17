@@ -1,0 +1,92 @@
+
+
+===============
+Morocco_TZ-MR-NCS-5504-SR03 10.88.38.3
+
+===============
+terminal len 0
+Tue Oct 24 20:48:17.456 EAT
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#show license status | i Status
+Tue Oct 24 20:48:21.517 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: AUTHORIZED on Oct 24 2023 12:36:49 EAT
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#
+
+===============
+Morocco_TZ-MR-NCS-5504-SR04 10.88.38.4
+
+===============
+terminal len 0
+Tue Oct 24 20:47:14.140 EAT
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#show license status | i Status
+Tue Oct 24 20:47:18.367 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: AUTHORIZED on Oct 24 2023 12:35:46 EAT
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR01 10.88.38.6
+
+===============
+terminal len 0
+Tue Oct 24 20:49:13.984 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#show license status | i Status
+Tue Oct 24 20:49:18.211 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: AUTHORIZED on Oct 24 2023 12:37:47 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR02 10.88.38.7
+
+===============
+terminal len 0
+Tue Oct 24 20:49:40.835 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR02#show license status | i Status
+Tue Oct 24 20:49:44.960 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: AUTHORIZED on Oct 24 2023 12:49:07 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR02#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR03 10.88.38.8
+
+===============
+terminal len 0
+Tue Oct 24 20:47:30.037 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR03#show license status | i Status
+Tue Oct 24 20:47:34.155 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: AUTHORIZED on Oct 24 2023 12:50:50 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR03#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR04 10.88.38.9
+
+===============
+terminal len 0
+Tue Oct 24 20:48:02.838 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR04#show license status | i Status
+Tue Oct 24 20:48:06.916 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: AUTHORIZED on Oct 24 2023 13:07:19 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR04#
+
+===============
+Arusha_TZ-AR-NCS-560-7-SR01 10.88.38.11
+
+===============
+terminal len 0
+Tue Oct 24 20:49:13.438 EAT
+RP/0/RP0/CPU0:TZ-AR-NCS-560-7-SR01#show license status | i Status
+Tue Oct 24 20:49:17.481 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:08:33 EAT
+RP/0/RP0/CPU0:TZ-AR-NCS-560-7-SR01#

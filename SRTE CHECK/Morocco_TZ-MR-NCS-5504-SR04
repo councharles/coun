@@ -1,0 +1,49 @@
+terminal len 0
+Mon Jun 24 11:33:05.413 EAT
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#sh run formal | i distribute link-state insta$ link-state instan                          ce-id 100sh run formal | i distribute link-state inst$
+Mon Jun 24 11:33:05.647 EAT
+Building configuration...
+router isis CORE_AGG distribute link-state instance-id 100
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#sh run router isis CORE_AGG int lo0
+Mon Jun 24 11:33:09.480 EAT
+router isis CORE_AGG
+ interface Loopback0
+  passive
+  address-family ipv4 unicast
+   prefix-sid index 4
+   prefix-sid strict-spf index 504
+  !
+ !
+!
+
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#sh run formal | i COLOR
+Mon Jun 24 11:33:13.535 EAT
+Building configuration...
+vrf sig_cn address-family ipv4 unicast export route-policy SET_COLOR_4
+vrf sip_nni address-family ipv4 unicast export route-policy SET_COLOR_4
+vrf ITSHOP_VRF address-family ipv4 unicast export route-policy SET_COLOR_4
+vrf ran_abis_2 address-family ipv4 unicast export route-policy SET_COLOR_4
+vrf sig_data_sync address-family ipv4 unicast export route-policy SET_COLOR_4
+extcommunity-set opaque COLOR_4
+  set extcommunity color COLOR_4
+route-policy SET_COLOR_4
+  set extcommunity color COLOR_4
+  set extcommunity color COLOR_4
+    set extcommunity color COLOR_4
+  set extcommunity color COLOR_4
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#sh isis adj
+Mon Jun 24 11:33:17.547 EAT
+
+IS-IS AGG_2 Level-2 adjacencies:
+System Id      Interface                SNPA           State Hold Changed  NSF IPv4 IPv6
+                                                                               BFD  BFD 
+
+IS-IS CORE_AGG Level-2 adjacencies:
+System Id      Interface                SNPA           State Hold Changed  NSF IPv4 IPv6
+                                                                               BFD  BFD 
+TZ-MR-NCS-5504-SR02 Hu0/1/1/3.2              *PtoP*         Up    25   37w2d    Yes None None
+TZ-MT-NCS-560-4-SR02 Gi0/0/0/2.81             *PtoP*         Up    28   3w4d     Yes None None
+TZ-MR-NCS-5504-SR03 Hu0/1/1/0.2              *PtoP*         Up    23   37w4d    Yes None None
+
+Total adjacency count: 3
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#

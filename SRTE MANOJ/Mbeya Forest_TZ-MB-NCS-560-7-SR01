@@ -1,0 +1,97 @@
+terminal len 0
+Thu Aug 22 21:33:23.376 EAT
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#show segment-routing traffic-eng forwarding $-eng forwarding p                          olicy  | i "Name|Stack"show segment-routing traffic-eng forwarding$
+Thu Aug 22 21:33:23.787 EAT
+  Name: srte_c_13_ep_10.88.38.13
+      Name: MB1_MW1
+        Name: MB1_MW1_SID1
+            Label Stack (Top -> Bottom): { 16514, 16513 }
+            Label Stack (Top -> Bottom): { 16560, 24009, 16514, 16513 }
+        Name: MB1_MW1_SID2
+            Label Stack (Top -> Bottom): { 16502, 16513 }
+            Label Stack (Top -> Bottom): { 16503, 16502, 16513 }
+  Name: srte_c_14_ep_10.88.38.14
+      Name: MB1_MW2
+        Name: MB1_MW2_SID1
+            Label Stack (Top -> Bottom): { 16514 }
+            Label Stack (Top -> Bottom): { 16560, 24009, 16514 }
+        Name: MB1_MW2_SID2
+            Label Stack (Top -> Bottom): { 16502, 16514 }
+            Label Stack (Top -> Bottom): { 16503, 16502, 16514 }
+  Name: srte_c_15_ep_10.88.38.15
+      Name: MB1_DO1
+        Name: MB1_DO1_SID1
+            Label Stack (Top -> Bottom): { 16546, 16516, 16515 }
+            Label Stack (Top -> Bottom): { 16560, 24009, 16546, 16516, 16515 }
+        Name: MB1_DO1_SID2
+            Label Stack (Top -> Bottom): { 16514, 16516, 16515 }
+            Label Stack (Top -> Bottom): { 16560, 24009, 16514, 16516, 16515 }
+  Name: srte_c_16_ep_10.88.38.16
+      Name: MB1_DO2
+        Name: MB1_DO2_SID1
+            Label Stack (Top -> Bottom): { 16546, 16516 }
+            Label Stack (Top -> Bottom): { 16560, 24009, 16546, 16516 }
+        Name: MB1_DO2_SID2
+            Label Stack (Top -> Bottom): { 16514, 16516 }
+            Label Stack (Top -> Bottom): { 16560, 24009, 16514, 16516 }
+  Name: srte_c_3_ep_10.88.38.3
+      Name: MB1_MR3
+        Name: MB1_MR3_SID1
+            Label Stack (Top -> Bottom): { Pop }
+            Label Stack (Top -> Bottom): { 16503 }
+        Name: MB1_MR3_SID2
+            Label Stack (Top -> Bottom): { 16514, 16512, 16507, 16503 }
+            Label Stack (Top -> Bottom): { 16513, 16525, 16514, 16512, 16507, 16503 }
+        Name: MB1_MR3_SID3
+            Label Stack (Top -> Bottom): { 16516, 16520, 16503 }
+            Label Stack (Top -> Bottom): { 16560, 24009, 16516, 16520, 16503 }
+  Name: srte_c_4_ep_10.88.38.4
+      Name: MB1_MR4
+        Name: MB1_MR4_SID1
+            Label Stack (Top -> Bottom): { 16504 }
+            Label Stack (Top -> Bottom): { 16503, 16504 }
+        Name: MB1_MR4_SID2
+            Label Stack (Top -> Bottom): { 16514, 16512, 16507, 16504 }
+            Label Stack (Top -> Bottom): { 16513, 16525, 16514, 16512, 16507, 16504 }
+        Name: MB1_MR4_SID3
+            Label Stack (Top -> Bottom): { 16516, 16520, 16502, 16504 }
+            Label Stack (Top -> Bottom): { 16560, 24009, 16516, 16520, 16502, 16504 }
+  Name: srte_c_59_ep_10.88.38.59
+      Name: MB1_SU1
+        Name: MB1_SU1_SID1
+            Label Stack (Top -> Bottom): { Pop }
+            Label Stack (Top -> Bottom): { 28128, 16559 }
+        Name: MB1_SU1_SID2
+            Label Stack (Top -> Bottom): { 16560, 16559 }
+            Label Stack (Top -> Bottom): { 16560, 24009, 16560, 16559 }
+  Name: srte_c_60_ep_10.88.38.60
+      Name: MB1_SU2
+        Name: MB1_SU2_SID1
+            Label Stack (Top -> Bottom): { 16560 }
+            Label Stack (Top -> Bottom): { 28128, 16559, 16560 }
+        Name: MB1_SU2_SID2
+            Label Stack (Top -> Bottom): { 16560 }
+            Label Stack (Top -> Bottom): { 16560, 24009, 16560 }
+  Name: srte_c_8_ep_10.88.38.8
+      Name: MB1_KJ3
+        Name: MB1_KJ3_SID1
+            Label Stack (Top -> Bottom): { 16501, 16506, 16508 }
+            Label Stack (Top -> Bottom): { 16503, 16501, 16506, 16508 }
+        Name: MB1_KJ3_SID2
+            Label Stack (Top -> Bottom): { 16514, 16512, 16507, 16508 }
+            Label Stack (Top -> Bottom): { 16513, 16525, 16514, 16512, 16507, 16508 }
+        Name: MB1_KJ3_SID3
+            Label Stack (Top -> Bottom): { 16516, 16520, 16502, 16508 }
+            Label Stack (Top -> Bottom): { 16560, 24009, 16516, 16520, 16502, 16508 }
+  Name: srte_c_9_ep_10.88.38.9
+      Name: MB1_KJ4
+        Name: MB1_KJ4_SID1
+            Label Stack (Top -> Bottom): { 16501, 16506, 16509 }
+            Label Stack (Top -> Bottom): { 16503, 16501, 16506, 16509 }
+        Name: MB1_KJ4_SID2
+            Label Stack (Top -> Bottom): { 16514, 16512, 16507, 16509 }
+            Label Stack (Top -> Bottom): { 16513, 16525, 16514, 16512, 16507, 16509 }
+        Name: MB1_KJ4_SID3
+            Label Stack (Top -> Bottom): { 16516, 16520, 16502, 16509 }
+            Label Stack (Top -> Bottom): { 16560, 24009, 16516, 16520, 16502, 16509 }
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#

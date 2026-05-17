@@ -1,0 +1,42 @@
+terminal len 0
+Mon Jun 24 11:52:34.559 EAT
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR02#sh run formal | i distribute link-state inst$ link-state insta                          nce-id 100sh run formal | i distribute link-state ins$
+Mon Jun 24 11:52:35.019 EAT
+Building configuration...
+router isis CORE_AGG distribute link-state instance-id 100
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR02#sh run router isis CORE_AGG int lo0
+Mon Jun 24 11:52:40.666 EAT
+router isis CORE_AGG
+ interface Loopback0
+  passive
+  address-family ipv4 unicast
+   prefix-sid index 60
+   prefix-sid strict-spf index 560
+  !
+ !
+!
+
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR02#sh run formal | i COLOR
+Mon Jun 24 11:52:44.713 EAT
+Building configuration...
+vrf ran address-family ipv4 unicast export route-policy SET_COLOR_60
+vrf om_ran address-family ipv4 unicast export route-policy SET_COLOR_60
+vrf sig_cn address-family ipv4 unicast export route-policy SET_COLOR_60
+vrf media_cn address-family ipv4 unicast export route-policy SET_COLOR_60
+extcommunity-set opaque COLOR_60
+route-policy SET_COLOR_60
+  set extcommunity color COLOR_60
+    set extcommunity color COLOR_60
+route-policy ZTE_LU_SR_COLOR
+  set extcommunity color COLOR_59
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR02#sh isis adj
+Mon Jun 24 11:52:48.839 EAT
+
+IS-IS CORE_AGG Level-2 adjacencies:
+System Id      Interface                SNPA           State Hold Changed  NSF IPv4 IPv6
+                                                                               BFD  BFD 
+TZ-MB-NCS-560-7-SR02 Gi0/5/0/14.1776          *PtoP*         Up    25   3d16h    Yes Up   None
+TZ-SU-NCS-560-4-SR01 Te0/3/0/0.3              *PtoP*         Up    20   28w6d    Yes None None
+
+Total adjacency count: 2
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR02#

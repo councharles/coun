@@ -1,0 +1,194 @@
+RP/0/RP1/CPU0:AH-MPBN-5504-INT-01#show isis neighbor
+
+
+Thu Apr 30 16:32:01.929 EAT
+
+IS-IS AH-INT neighbors:
+System Id      Interface        SNPA           State Holdtime Type IETF-NSF
+AH-MPBN-5504-INT-02 BE100.2          *PtoP*         Up    24       L2   Capable 
+
+Total neighbor count: 1RP/0/RP1/CPU0:AH-MPBN-5504-INT-01#admin show inventory
+
+
+Thu Apr 30 16:32:35.187 EAT
+  
+ Name: Rack 0                Descr: NCS5500 4 Slot Single Chassis                               
+ PID: NCS-5504               VID: V01                   SN: FOX2719P2M4 
+ 
+ Name: 0/0/1                 Descr: NCS5500 12 SFP with 10G OTN, WAN PHY, MacSec, DWDM MPA      
+ PID: NC55-MPA-12T-S         VID: V01                   SN: FOC27073YUB 
+ 
+ Name: 0/0/2                 Descr: NCS5500 4 QSFP28 with 100G MacSeC MPA                       
+ PID: NC55-MPA-4H-S          VID: V02                   SN: FOC26506LT7 
+ 
+ Name: 0/0                   Descr: NCS 5500 2XMPA Scaled Line Card, MACSec                     
+ PID: NC55-MOD-A-SE-S        VID: V02                   SN: JAE272301CW 
+ 
+ Name: 0/1/1                 Descr: NCS5500 4 QSFP28 with 100G MacSeC MPA                       
+ PID: NC55-MPA-4H-S          VID: V02                   SN: FOC26480DKJ 
+ 
+ Name: 0/1                   Descr: NCS 5500 2XMPA Scaled Line Card, MACSec                     
+ PID: NC55-MOD-A-SE-S        VID: V02                   SN: JAE2430102M 
+ 
+ Name: 0/RP0                 Descr: NCS 5500 Route Processor with SyncE                         
+ PID: NC55-RP-E              VID: V02                   SN: JAE271807LT 
+ 
+ Name: 0/RP1                 Descr: NCS 5500 Route Processor with SyncE                         
+ PID: NC55-RP-E              VID: V02                   SN: JAE271807NA 
+ 
+ Name: 0/FC0                 Descr: NCS 5504 Fabric Card                                        
+ PID: NC55-5504-FC           VID: V02                   SN: JAE27190JVV 
+ 
+ Name: 0/FC1                 Descr: NCS 5504 Fabric Card                                        
+ PID: NC55-5504-FC           VID: V02                   SN: JAE27190JUR 
+ 
+ Name: 0/FC2                 Descr: NCS 5504 Fabric Card                                        
+ PID: NC55-5504-FC           VID: V02                   SN: JAE27190JWN 
+ 
+ Name: 0/FC3                 Descr: NCS 5504 Fabric Card                                        
+ PID: NC55-5504-FC           VID: V02                   SN: JAE27190JT6 
+ 
+ Name: 0/FC4                 Descr: NCS 5504 Fabric Card                                        
+ PID: NC55-5504-FC           VID: V02                   SN: JAE27190JPN 
+ 
+ Name: 0/FC5                 Descr: NCS 5504 Fabric Card                                        
+ PID: NC55-5504-FC           VID: V02                   SN: JAE27190JPA 
+ 
+ Name: 0/FT0                 Descr: Fan Tray module for 4 slot chassis                          
+ PID: NC55-5504-FAN          VID: V01                   SN: FOX2716PFFC 
+ 
+ Name: 0/FT1                 Descr: Fan Tray module for 4 slot chassis                          
+ PID: NC55-5504-FAN          VID: V01                   SN: FOX2716PFG9 
+ 
+ Name: 0/FT2                 Descr: Fan Tray module for 4 slot chassis                          
+ PID: NC55-5504-FAN          VID: V01                   SN: FOX2716PFEN 
+ 
+ Name: 0/PM0                 Descr: NCS 5500 3KW DC Power Supply                                
+ PID: NC55-PWR-3KW-DC        VID: V01                   SN: DTM26520123 
+ 
+ Name: 0/PM1                 Descr: NCS 5500 3KW DC Power Supply                                
+ PID: NC55-PWR-3KW-DC        VID: V01                   SN: DTM26520188 
+ 
+ Name: 0/PM2                 Descr: NCS 5500 3KW DC Power Supply                                
+ PID: NC55-PWR-3KW-DC        VID: V01                   SN: DTM265200VQ 
+ 
+ Name: 0/PM3                 Descr: NCS 5500 3KW DC Power Supply                                
+ PID: NC55-PWR-3KW-DC        VID: V01                   SN: DTM2652014D 
+ 
+ Name: 0/SC0                 Descr: NCS 5500 System Controller                                  
+ PID: NC55-SC                VID: V03                   SN: FOC27130KSZ 
+ 
+ Name: 0/SC1                 Descr: NCS 5500 System Controller                                  
+ PID: NC55-SC                VID: V03                   SN: FOC27130KJV RP/0/RP1/CPU0:AH-MPBN-5504-INT-01#show bgp vrf all summary
+
+
+Thu Apr 30 16:33:11.333 EATRP/0/RP1/CPU0:AH-MPBN-5504-INT-01#Show bgp all all summary
+
+
+Thu Apr 30 16:33:44.437 EAT
+
+Address Family: VPNv4 Unicast
+-----------------------------
+
+BGP router identifier 10.152.3.67, local AS number 65523
+BGP generic scan interval 60 secs
+Non-stop routing is enabled
+BGP table state: Active
+Table ID: 0x0
+BGP main routing table version 1
+BGP NSR Initial initsync version 1 (Reached)
+BGP NSR/ISSU Sync-Group versions 1/0
+BGP scan interval 60 secs
+
+BGP is operating in STANDALONE mode.
+
+
+Process       RcvTblVer   bRIB/RIB   LabelVer  ImportVer  SendTblVer  StandbyVer
+Speaker               1          1          1          1           1           1
+
+
+Address Family: VPNv6 Unicast
+-----------------------------
+
+BGP router identifier 10.152.3.67, local AS number 65523
+BGP generic scan interval 60 secs
+Non-stop routing is enabled
+BGP table state: Active
+Table ID: 0x0
+BGP main routing table version 1
+BGP NSR Initial initsync version 1 (Reached)
+BGP NSR/ISSU Sync-Group versions 1/0
+BGP scan interval 60 secs
+
+BGP is operating in STANDALONE mode.
+
+
+Process       RcvTblVer   bRIB/RIB   LabelVer  ImportVer  SendTblVer  StandbyVer
+Speaker               1          1          1          1           1           1
+
+
+Address Family: IPv4 Unicast
+----------------------------
+
+BGP router identifier 10.152.3.67, local AS number 65523
+BGP generic scan interval 60 secs
+Non-stop routing is enabled
+BGP table state: Active
+Table ID: 0xe0000000   RD version: 245
+BGP main routing table version 245
+BGP NSR Initial initsync version 3 (Reached)
+BGP NSR/ISSU Sync-Group versions 245/0
+BGP scan interval 60 secs
+
+BGP is operating in STANDALONE mode.
+
+
+Process       RcvTblVer   bRIB/RIB   LabelVer  ImportVer  SendTblVer  StandbyVer
+Speaker             245        245        245        245         245         245
+
+Neighbor        Spk    AS MsgRcvd MsgSent   TblVer  InQ OutQ  Up/Down  St/PfxRcd
+10.152.3.68       0 65523  505910  505914      245    0    0    45w1d         13
+10.152.4.125      0 65522  512930  512846      245    0    0    45w1d         12
+
+
+Address Family: IPv6 Unicast
+----------------------------
+
+BGP router identifier 10.152.3.67, local AS number 65523
+BGP generic scan interval 60 secs
+Non-stop routing is enabled
+BGP table state: Active
+Table ID: 0xe0800000   RD version: 2
+BGP main routing table version 2
+BGP NSR Initial initsync version 2 (Reached)
+BGP NSR/ISSU Sync-Group versions 2/0
+BGP scan interval 60 secs
+
+BGP is operating in STANDALONE mode.
+
+
+Process       RcvTblVer   bRIB/RIB   LabelVer  ImportVer  SendTblVer  StandbyVer
+Speaker               2          2          2          2           2           2
+RP/0/RP1/CPU0:AH-MPBN-5504-INT-01#show bgp summary
+
+
+Thu Apr 30 16:34:17.696 EAT
+BGP router identifier 10.152.3.67, local AS number 65523
+BGP generic scan interval 60 secs
+Non-stop routing is enabled
+BGP table state: Active
+Table ID: 0xe0000000   RD version: 245
+BGP main routing table version 245
+BGP NSR Initial initsync version 3 (Reached)
+BGP NSR/ISSU Sync-Group versions 245/0
+BGP scan interval 60 secs
+
+BGP is operating in STANDALONE mode.
+
+
+Process       RcvTblVer   bRIB/RIB   LabelVer  ImportVer  SendTblVer  StandbyVer
+Speaker             245        245        245        245         245         245
+
+Neighbor        Spk    AS MsgRcvd MsgSent   TblVer  InQ OutQ  Up/Down  St/PfxRcd
+10.152.3.68       0 65523  505910  505914      245    0    0    45w1d         13
+10.152.4.125      0 65522  512930  512846      245    0    0    45w1d         12

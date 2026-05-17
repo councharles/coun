@@ -1,0 +1,43 @@
+terminal len 0
+Mon Jun 24 11:38:34.283 EAT
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#sh run formal | i distribute link-state inst$ link-state insta                          nce-id 100sh run formal | i distribute link-state ins$
+Mon Jun 24 11:38:34.658 EAT
+Building configuration...
+router isis CORE_AGG distribute link-state instance-id 100
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#sh run router isis CORE_AGG int lo0
+Mon Jun 24 11:38:40.442 EAT
+router isis CORE_AGG
+ interface Loopback0
+  passive
+  address-family ipv4 unicast
+   prefix-sid index 18
+   prefix-sid strict-spf index 518
+  !
+ !
+!
+
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#sh run formal | i COLOR
+Mon Jun 24 11:38:44.488 EAT
+Building configuration...
+extcommunity-set opaque COLOR_18
+    set extcommunity color COLOR_18
+route-policy ZTE_LU_SR_COLOR
+  set extcommunity color COLOR_18
+router bgp 67000 neighbor-group ZTERR address-family ipv4 labeled-unicast route-policy ZTE_LU_SR_COLOR in
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#sh isis adj
+Mon Jun 24 11:38:48.497 EAT
+
+IS-IS ACC_4 Level-2 adjacencies:
+System Id      Interface                SNPA           State Hold Changed  NSF IPv4 IPv6
+                                                                               BFD  BFD 
+
+IS-IS CORE_AGG Level-2 adjacencies:
+System Id      Interface                SNPA           State Hold Changed  NSF IPv4 IPv6
+                                                                               BFD  BFD 
+TZ-MW-NCS-5504-SR02 Te0/15/0/16.777          *PtoP*         Up    25   6d01h    Yes Up   None
+TZ-MK-NCS-560-4-SR02 Te0/4/0/5.655            *PtoP*         Up    21   6w0d     Yes None None
+TZ-SU-NCS-560-4-SR02 Gi0/14/0/0.1776          *PtoP*         Up    25   3d16h    Yes Up   None
+TZ-MB-NCS-560-7-SR01 Te0/2/0/16.3             *PtoP*         Up    29   28w0d    Yes None None
+
+Total adjacency count: 4
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#

@@ -1,0 +1,45 @@
+term len 0
+Wed Sep 13 10:33:50.961 EAT
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR01#show media location all
+Wed Sep 13 10:33:55.018 EAT
+
+Media Info for Location: node0_RP1_CPU0
+Partition                            Size     Used  Percent    Avail
+--------------------------------------------------------------------
+rootfs:                              3.9G     1.8G      48%     2.0G
+apphost:                             3.7G     312M       9%     3.2G
+/dev/sde                             969M     507M      57%     397M
+harddisk:                             35G     312M       1%      33G
+log:                                 459M     123M      29%     302M
+config:                              459M     3.0M       1%     422M
+disk0:                               2.0G     6.8M       1%     1.9G
+
+Media Info for Location: node0_RP0_CPU0
+Partition                            Size     Used  Percent    Avail
+--------------------------------------------------------------------
+rootfs:                              3.9G     1.8G      48%     2.0G
+apphost:                             3.7G     133M       4%     3.4G
+/dev/sde                             969M     507M      57%     397M
+harddisk:                             35G     9.7G      30%      23G
+log:                                 459M     137M      33%     288M
+config:                              459M     2.5M       1%     422M
+disk0:                               2.0G      11M       1%     1.9G
+
+Media Info for Location: node0_0_CPU0
+Partition                            Size     Used  Percent    Avail
+--------------------------------------------------------------------
+rootfs:                              3.9G     2.5G      66%     1.3G
+/dev/sde                             969M     501M      56%     402M
+log:                                 459M      81M      19%     345M
+config:                              459M     420K       1%     424M
+disk0:                               2.0G     3.8M       1%     1.9G
+
+Media Info for Location: node0_1_CPU0
+Partition                            Size     Used  Percent    Avail
+--------------------------------------------------------------------
+rootfs:                              3.9G     2.5G      66%     1.3G
+/dev/sde                             969M     501M      56%     402M
+log:                                 459M      80M      19%     346M
+config:                              459M     420K       1%     424M
+disk0:                               2.0G     3.8M       1%     1.9G
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR01#

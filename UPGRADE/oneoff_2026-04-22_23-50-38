@@ -1,0 +1,1210 @@
+
+
+===============
+Morocco_TZ-MR-NCS-5504-SR01 10.88.38.1
+
+===============
+terminal len 0
+Thu Apr 23 01:44:26.608 EAT
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01#show install active Sum
+Thu Apr 23 01:44:26.934 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 11
+        ncs5500-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs5500-mpls-2.1.0.0-r7721
+        ncs5500-mpls-te-rsvp-3.1.0.0-r7721
+        ncs5500-ospf-2.0.0.0-r7721
+        ncs5500-isis-2.1.0.0-r7721
+        ncs5500-mgbl-3.0.0.0-r7721
+        ncs5500-eigrp-1.0.0.0-r7721
+        ncs5500-li-1.0.0.0-r7721
+        ncs5500-mcast-3.0.0.0-r7721
+        ncs5500-lictrl-1.0.0.0-r7721
+        ncs5500-k9sec-3.1.0.0-r7721
+
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01#
+
+===============
+Morocco_TZ-MR-NCS-5504-SR02 10.88.38.2
+
+===============
+
+
+===============
+Morocco_TZ-MR-NCS-5504-SR03 10.88.38.3
+
+===============
+terminal len 0
+Thu Apr 23 01:51:24.237 EAT
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#show install active Sum
+Thu Apr 23 01:51:24.562 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 11
+        ncs5500-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs5500-mpls-2.1.0.0-r7721
+        ncs5500-mpls-te-rsvp-3.1.0.0-r7721
+        ncs5500-ospf-2.0.0.0-r7721
+        ncs5500-isis-2.1.0.0-r7721
+        ncs5500-mgbl-3.0.0.0-r7721
+        ncs5500-eigrp-1.0.0.0-r7721
+        ncs5500-li-1.0.0.0-r7721
+        ncs5500-mcast-3.0.0.0-r7721
+        ncs5500-lictrl-1.0.0.0-r7721
+        ncs5500-k9sec-3.1.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#
+
+===============
+Morocco_TZ-MR-NCS-5504-SR04 10.88.38.4
+
+===============
+terminal len 0
+Thu Apr 23 01:48:55.917 EAT
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#show install active Sum
+Thu Apr 23 01:48:56.241 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 11
+        ncs5500-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs5500-mpls-2.1.0.0-r7721
+        ncs5500-mpls-te-rsvp-3.1.0.0-r7721
+        ncs5500-ospf-2.0.0.0-r7721
+        ncs5500-isis-2.1.0.0-r7721
+        ncs5500-mgbl-3.0.0.0-r7721
+        ncs5500-eigrp-1.0.0.0-r7721
+        ncs5500-li-1.0.0.0-r7721
+        ncs5500-mcast-3.0.0.0-r7721
+        ncs5500-lictrl-1.0.0.0-r7721
+        ncs5500-k9sec-3.1.0.0-r7721
+
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR01 10.88.38.6
+
+===============
+terminal len 0
+Thu Apr 23 01:52:52.726 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#show install active Sum
+Thu Apr 23 01:52:53.051 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 11
+        ncs5500-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs5500-mpls-2.1.0.0-r7721
+        ncs5500-mpls-te-rsvp-3.1.0.0-r7721
+        ncs5500-ospf-2.0.0.0-r7721
+        ncs5500-isis-2.1.0.0-r7721
+        ncs5500-mgbl-3.0.0.0-r7721
+        ncs5500-eigrp-1.0.0.0-r7721
+        ncs5500-li-1.0.0.0-r7721
+        ncs5500-mcast-3.0.0.0-r7721
+        ncs5500-lictrl-1.0.0.0-r7721
+        ncs5500-k9sec-3.1.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR02 10.88.38.7
+
+===============
+terminal len 0
+Thu Apr 23 01:54:06.412 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR02#show install active Sum
+Thu Apr 23 01:54:06.745 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 11
+        ncs5500-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs5500-mpls-2.1.0.0-r7721
+        ncs5500-mpls-te-rsvp-3.1.0.0-r7721
+        ncs5500-ospf-2.0.0.0-r7721
+        ncs5500-isis-2.1.0.0-r7721
+        ncs5500-mgbl-3.0.0.0-r7721
+        ncs5500-eigrp-1.0.0.0-r7721
+        ncs5500-li-1.0.0.0-r7721
+        ncs5500-mcast-3.0.0.0-r7721
+        ncs5500-lictrl-1.0.0.0-r7721
+        ncs5500-k9sec-3.1.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR02#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR03 10.88.38.8
+
+===============
+terminal len 0
+Thu Apr 23 01:50:57.755 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR03#show install active Sum
+Thu Apr 23 01:50:58.083 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 11
+        ncs5500-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs5500-mpls-2.1.0.0-r7721
+        ncs5500-mpls-te-rsvp-3.1.0.0-r7721
+        ncs5500-ospf-2.0.0.0-r7721
+        ncs5500-isis-2.1.0.0-r7721
+        ncs5500-mgbl-3.0.0.0-r7721
+        ncs5500-eigrp-1.0.0.0-r7721
+        ncs5500-li-1.0.0.0-r7721
+        ncs5500-mcast-3.0.0.0-r7721
+        ncs5500-lictrl-1.0.0.0-r7721
+        ncs5500-k9sec-3.1.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR03#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR04 10.88.38.9
+
+===============
+terminal len 0
+Thu Apr 23 01:50:34.779 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR04#show install active Sum
+Thu Apr 23 01:50:35.108 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 11
+        ncs5500-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs5500-mpls-2.1.0.0-r7721
+        ncs5500-mpls-te-rsvp-3.1.0.0-r7721
+        ncs5500-ospf-2.0.0.0-r7721
+        ncs5500-isis-2.1.0.0-r7721
+        ncs5500-mgbl-3.0.0.0-r7721
+        ncs5500-eigrp-1.0.0.0-r7721
+        ncs5500-li-1.0.0.0-r7721
+        ncs5500-mcast-3.0.0.0-r7721
+        ncs5500-lictrl-1.0.0.0-r7721
+        ncs5500-k9sec-3.1.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR04#
+
+===============
+Arusha_TZ-AR-NCS-560-7-SR01 10.88.38.11
+
+===============
+terminal len 0
+Thu Apr 23 01:52:32.362 EAT
+RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR01#show install active Sum
+Thu Apr 23 01:52:32.698 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 11
+        ncs5500-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs5500-mpls-2.1.0.0-r7721
+        ncs5500-mpls-te-rsvp-3.1.0.0-r7721
+        ncs5500-ospf-2.0.0.0-r7721
+        ncs5500-isis-2.1.0.0-r7721
+        ncs5500-mgbl-3.0.0.0-r7721
+        ncs5500-eigrp-1.0.0.0-r7721
+        ncs5500-li-1.0.0.0-r7721
+        ncs5500-mcast-3.0.0.0-r7721
+        ncs5500-lictrl-1.0.0.0-r7721
+        ncs5500-k9sec-3.1.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR01#
+
+===============
+Arusha_TZ-AR-NCS-560-7-SR02 10.88.38.12
+
+===============
+terminal len 0
+Thu Apr 23 01:52:43.129 EAT
+RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR02#show install active Sum
+Thu Apr 23 01:52:43.464 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 11
+        ncs5500-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs5500-mpls-2.1.0.0-r7721
+        ncs5500-mpls-te-rsvp-3.1.0.0-r7721
+        ncs5500-ospf-2.0.0.0-r7721
+        ncs5500-isis-2.1.0.0-r7721
+        ncs5500-mgbl-3.0.0.0-r7721
+        ncs5500-eigrp-1.0.0.0-r7721
+        ncs5500-li-1.0.0.0-r7721
+        ncs5500-mcast-3.0.0.0-r7721
+        ncs5500-lictrl-1.0.0.0-r7721
+        ncs5500-k9sec-3.1.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR02#
+
+===============
+Dodoma_TZ-DO-NCS-560-7-SR01 10.88.38.15
+
+===============
+terminal len 0
+Thu Apr 23 01:52:59.231 EAT
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR01#show install active Sum
+Thu Apr 23 01:52:59.675 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR01#
+
+===============
+Dodoma_TZ-DO-NCS-560-7-SR02 10.88.38.16
+
+===============
+terminal len 0
+Thu Apr 23 01:53:57.256 EAT
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR02#show install active Sum
+Thu Apr 23 01:53:57.567 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR02#
+
+===============
+Mbeya Forest_TZ-MB-NCS-560-7-SR01 10.88.38.17
+
+===============
+terminal len 0
+Thu Apr 23 01:53:29.566 EAT
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#show install active Sum
+Thu Apr 23 01:53:29.887 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#
+
+===============
+Mbeya Forest_TZ-MB-NCS-560-7-SR02 10.88.38.18
+
+===============
+terminal len 0
+Thu Apr 23 01:53:42.738 EAT
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#show install active Sum
+Thu Apr 23 01:53:43.177 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#
+
+===============
+Morogoro_TZ-MG-NCS-560-7-SR01 10.88.38.19
+
+===============
+terminal len 0
+Thu Apr 23 01:53:55.684 EAT
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#show install active Sum
+Thu Apr 23 01:53:56.125 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#
+
+===============
+Morogoro_TZ-MG-NCS-560-7-SR02 10.88.38.20
+
+===============
+terminal len 0
+Thu Apr 23 01:54:08.682 EAT
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR02#show install active Sum
+Thu Apr 23 01:54:09.033 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR02#
+
+===============
+Singo_TZ-SI-NCS-560-7-SR01 10.88.38.21
+
+===============
+terminal len 0
+Thu Apr 23 01:54:23.215 EAT
+RP/0/RP1/CPU0:TZ-SI-NCS-560-7-SR01#show install active Sum
+Thu Apr 23 01:54:23.606 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP1/CPU0:TZ-SI-NCS-560-7-SR01#
+
+===============
+Singo_TZ-SI-NCS-560-7-SR02 10.88.38.22
+
+===============
+terminal len 0
+Thu Apr 23 01:54:37.223 EAT
+RP/0/RP0/CPU0:TZ-SI-NCS-560-7-SR02#show install active Sum
+Thu Apr 23 01:54:37.525 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-SI-NCS-560-7-SR02#
+
+===============
+Sukita_TZ-SK-NCS-560-7-SR01 10.88.38.23
+
+===============
+terminal len 0
+Thu Apr 23 01:54:13.301 EAT
+RP/0/RP0/CPU0:TZ-SK-NCS-560-7-SR01#show install active Sum
+Thu Apr 23 01:54:13.772 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-SK-NCS-560-7-SR01#
+
+===============
+Bhiaharamuro_TZ-BH-NCS-560-4-SR02 10.88.38.25
+
+===============
+terminal len 0
+Thu Apr 23 01:55:08.506 EAT
+RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR01#show install active Sum
+Thu Apr 23 01:55:08.960 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR01#
+
+===============
+Bhiaharamuro_TZ-BH-NCS-560-4-SR01 10.88.38.26
+
+===============
+terminal len 0
+Thu Apr 23 01:55:21.580 EAT
+RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR02#show install active Sum
+Thu Apr 23 01:55:22.005 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR02#
+
+===============
+Bukoba_TZ-BK-NCS-560-4-SR01 10.88.38.27
+
+===============
+
+
+===============
+Bukoba_TZ-BK-NCS-560-4-SR02 10.88.38.28
+
+===============
+terminal len 0
+Thu Apr 23 01:57:52.392 EAT
+RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR02#show install active Sum
+Thu Apr 23 01:57:52.808 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR02#
+
+===============
+Ifakara_TZ-IF-NCS-560-4-SR01 10.88.38.29
+
+===============
+terminal len 0
+Thu Apr 23 01:56:16.920 EAT
+RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR01#show install active Sum
+Thu Apr 23 01:56:17.271 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR01#
+
+===============
+Ifakara_TZ-IF-NCS-560-4-SR02 10.88.38.30
+
+===============
+terminal len 0
+Thu Apr 23 01:56:29.814 EAT
+RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR02#show install active Sum
+Thu Apr 23 01:56:30.171 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR02#
+
+===============
+Kahama_TZ-KH-NCS-560-4-SR01 10.88.38.35
+
+===============
+terminal len 0
+Thu Apr 23 01:57:42.988 EAT
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR01#show install active Sum
+Thu Apr 23 01:57:43.423 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR01#
+
+===============
+Kahama_TZ-KH-NCS-560-4-SR02 10.88.38.36
+
+===============
+terminal len 0
+Thu Apr 23 01:58:04.065 EAT
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#show install active Sum
+Thu Apr 23 01:58:04.439 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#
+
+===============
+Kigoma_TZ-KG-NCS-560-4-SR01 10.88.38.37
+
+===============
+terminal len 0
+Thu Apr 23 01:58:17.641 EAT
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR01#show install active Sum
+Thu Apr 23 01:58:18.045 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR01#
+
+===============
+Kigoma_TZ-KG-NCS-560-4-SR02 10.88.38.38
+
+===============
+terminal len 0
+Thu Apr 23 01:58:30.897 EAT
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR02#show install active Sum
+Thu Apr 23 01:58:31.291 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR02#
+
+===============
+Masasi_TZ-MA-NCS-560-4-SR01 10.88.38.43
+
+===============
+terminal len 0
+Thu Apr 23 01:59:44.088 EAT
+RP/0/RP0/CPU0:TZ-MA-NCS-560-4-SR01#show install active Sum
+Thu Apr 23 01:59:44.462 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-MA-NCS-560-4-SR01#
+
+===============
+Masasi_TZ-MA-NCS-560-4-SR02 10.88.38.44
+
+===============
+terminal len 0
+Thu Apr 23 01:59:57.296 EAT
+RP/0/RP0/CPU0:TZ-MA-NCS-560-4-SR02#show install active Sum
+Thu Apr 23 01:59:57.679 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-MA-NCS-560-4-SR02#
+
+===============
+Makamabako_TZ-MK-NCS-560-4-SR01 10.88.38.45
+
+===============
+terminal len 0
+Thu Apr 23 02:00:11.242 EAT
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR01#show install active Sum
+Thu Apr 23 02:00:11.583 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR01#
+
+===============
+Makamabako_TZ-MK-NCS-560-4-SR02 10.88.38.46
+
+===============
+terminal len 0
+Thu Apr 23 02:00:24.189 EAT
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR02#show install active Sum
+Thu Apr 23 02:00:24.571 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR02#
+
+===============
+Musosma_TZ-MU-NCS-560-4-SR01 10.88.38.49
+
+===============
+terminal len 0
+Thu Apr 23 02:00:37.352 EAT
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#show install active Sum
+Thu Apr 23 02:00:37.787 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#
+
+===============
+Musosma_TZ-MU-NCS-560-4-SR02 10.88.38.50
+
+===============
+terminal len 0
+Thu Apr 23 02:00:50.359 EAT
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR02#show install active Sum
+Thu Apr 23 02:00:50.726 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR02#
+
+===============
+Mtwara_TZ-MT-NCS-560-4-SR01 10.88.38.51
+
+===============
+terminal len 0
+Thu Apr 23 02:01:03.604 EAT
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR01#show install active Sum
+Thu Apr 23 02:01:03.988 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR01#
+
+===============
+Mtwara_TZ-MT-NCS-560-4-SR02 10.88.38.52
+
+===============
+terminal len 0
+Thu Apr 23 02:01:16.638 EAT
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR02#show install active Sum
+Thu Apr 23 02:01:16.999 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR02#
+
+===============
+Ramadi_TZ-RM-NCS-560-4-SR01 10.88.38.53
+
+===============
+terminal len 0
+Thu Apr 23 02:01:29.801 EAT
+RP/0/RP0/CPU0:TZ-RM-NCS-560-4-SR01#show install active Sum
+Thu Apr 23 02:01:30.138 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-RM-NCS-560-4-SR01#
+
+===============
+Ramadi_TZ-RM-NCS-560-4-SR02 10.88.38.54
+
+===============
+terminal len 0
+Thu Apr 23 02:01:43.779 EAT
+RP/0/RP1/CPU0:TZ-RM-NCS-560-4-SR02#show install active Sum
+Thu Apr 23 02:01:44.214 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP1/CPU0:TZ-RM-NCS-560-4-SR02#
+
+===============
+Shinyanaga_TZ-SH-NCS-560-4-SR01 10.88.38.55
+
+===============
+terminal len 0
+Thu Apr 23 02:01:56.897 EAT
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR01#show install active Sum
+Thu Apr 23 02:01:57.260 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR01#
+
+===============
+Shinyanaga_TZ-SH-NCS-560-4-SR02 10.88.38.56
+
+===============
+terminal len 0
+Thu Apr 23 02:02:10.171 EAT
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR02#show install active Sum
+Thu Apr 23 02:02:10.547 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR02#
+
+===============
+Songea_TZ-SG-NCS-560-4-SR01 10.88.38.57
+
+===============
+terminal len 0
+Thu Apr 23 02:02:43.077 EAT
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR01#show install active Sum
+Thu Apr 23 02:02:43.437 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR01#
+
+===============
+Songea_TZ-SG-NCS-560-4-SR02 10.88.38.58
+
+===============
+terminal len 0
+Thu Apr 23 02:02:39.832 EAT
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR02#show install active Sum
+Thu Apr 23 02:02:40.204 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR02#
+
+===============
+Sumbawanga_TZ-SU-NCS-560-4-SR01 10.88.38.59
+
+===============
+terminal len 0
+Thu Apr 23 02:02:20.599 EAT
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR01#show install active Sum
+Thu Apr 23 02:02:20.973 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR01#
+
+===============
+Sumbawanga_TZ-SU-NCS-560-4-SR02 10.88.38.60
+
+===============
+
+
+===============
+Tabora_TZ-TB-NCS-560-4-SR01 10.88.38.63
+
+===============
+terminal len 0
+Thu Apr 23 02:03:42.409 EAT
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#show install active Sum
+Thu Apr 23 02:03:42.784 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#
+
+===============
+Tabora_TZ-TB-NCS-560-4-SR02 10.88.38.64
+
+===============
+terminal len 0
+Thu Apr 23 02:03:55.415 EAT
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR02#show install active Sum
+Thu Apr 23 02:03:55.763 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR02#
+
+===============
+Tanga_TZ-TG-NCS-560-4-SR01 10.88.38.65
+
+===============
+terminal len 0
+Thu Apr 23 02:04:17.747 EAT
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR01#show install active Sum
+Thu Apr 23 02:04:18.093 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR01#
+
+===============
+Tanga_TZ-TG-NCS-560-4-SR02 10.88.38.66
+
+===============
+
+
+===============
+Zanzibar_TZ-ZA-NCS-560-4-SR01 10.88.38.67
+
+===============
+terminal len 0
+Thu Apr 23 02:04:20.797 EAT
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR01#show install active Sum
+Thu Apr 23 02:04:21.137 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR01#
+
+===============
+Zanzibar_TZ-ZA-NCS-560-4-SR02 10.88.38.68
+
+===============
+terminal len 0
+Thu Apr 23 02:04:47.472 EAT
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#show install active Sum
+Thu Apr 23 02:04:47.813 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#
+
+===============
+Moshi (Shanti Town)_TZ-ST-NCS-560-4-SR01 10.88.38.69
+
+===============
+terminal len 0
+Thu Apr 23 02:05:05.520 EAT
+RP/0/RP0/CPU0:TZ-ST-NCS-560-4-SR01#show install active Sum
+Thu Apr 23 02:05:05.871 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-ST-NCS-560-4-SR01#
+
+===============
+Moshi (Shanti Town)_TZ-ST-NCS-560-4-SR02 10.88.38.70
+
+===============
+terminal len 0
+Thu Apr 23 02:05:52.569 EAT
+RP/0/RP0/CPU0:TZ-ST-NCS-560-4-SR02#show install active Sum
+Thu Apr 23 02:05:52.924 EAT
+Label : 7.7.21-TZV1
+
+    Active Packages: 10
+        ncs560-xr-7.7.21 version=7.7.21 [Boot image]
+        ncs560-eigrp-1.0.0.0-r7721
+        ncs560-li-1.0.0.0-r7721
+        ncs560-isis-1.0.0.0-r7721
+        ncs560-mcast-1.0.0.0-r7721
+        ncs560-mgbl-1.0.0.0-r7721
+        ncs560-mpls-1.0.0.0-r7721
+        ncs560-k9sec-1.0.0.0-r7721
+        ncs560-ospf-1.0.0.0-r7721
+        ncs560-mpls-te-rsvp-1.0.0.0-r7721
+
+RP/0/RP0/CPU0:TZ-ST-NCS-560-4-SR02#

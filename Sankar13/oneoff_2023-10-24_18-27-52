@@ -1,0 +1,612 @@
+
+
+===============
+Morocco_TZ-MR-NCS-5504-SR01 10.88.38.1
+
+===============
+terminal len 0
+Tue Oct 24 20:26:50.924 EAT
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01#show license status | i Status
+Tue Oct 24 20:26:55.086 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: AUTHORIZED on Oct 24 2023 12:35:09 EAT
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01#
+
+===============
+Morocco_TZ-MR-NCS-5504-SR03 10.88.38.3
+
+===============
+terminal len 0
+Tue Oct 24 20:28:35.541 EAT
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#show license status | i Status
+Tue Oct 24 20:28:39.590 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: AUTHORIZED on Oct 24 2023 12:36:49 EAT
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#
+
+===============
+Morocco_TZ-MR-NCS-5504-SR04 10.88.38.4
+
+===============
+terminal len 0
+Tue Oct 24 20:27:32.229 EAT
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#show license status | i Status
+Tue Oct 24 20:27:36.354 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: AUTHORIZED on Oct 24 2023 12:35:46 EAT
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR01 10.88.38.6
+
+===============
+terminal len 0
+Tue Oct 24 20:29:32.475 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#show license status | i Status
+Tue Oct 24 20:29:36.601 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: AUTHORIZED on Oct 24 2023 12:37:47 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR04 10.88.38.9
+
+===============
+terminal len 0
+Tue Oct 24 20:30:03.635 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR04#show license status | i Status
+Tue Oct 24 20:30:07.867 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: AUTHORIZED on Oct 24 2023 13:07:19 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR04#
+
+===============
+Arusha_TZ-AR-NCS-560-7-SR01 10.88.38.11
+
+===============
+terminal len 0
+Tue Oct 24 20:31:16.133 EAT
+RP/0/RP0/CPU0:TZ-AR-NCS-560-7-SR01#show license status | i Status
+Tue Oct 24 20:31:20.157 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:08:33 EAT
+RP/0/RP0/CPU0:TZ-AR-NCS-560-7-SR01#
+
+===============
+Arusha_TZ-AR-NCS-560-7-SR02 10.88.38.12
+
+===============
+terminal len 0
+Tue Oct 24 20:31:31.335 EAT
+RP/0/RP0/CPU0:TZ-AR-NCS-560-7-SR02#show license status | i Status
+Tue Oct 24 20:31:35.389 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:08:51 EAT
+RP/0/RP0/CPU0:TZ-AR-NCS-560-7-SR02#
+
+===============
+Mwanza_TZ-MW-NCS-560-7-SR02 10.88.38.14
+
+===============
+terminal len 0
+Tue Oct 24 20:36:57.795 EAT
+RP/0/RP0/CPU0:TZ-MW-NCS-560-7-SR02#show license status | i Status
+Tue Oct 24 20:37:01.846 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:13:29 EAT
+RP/0/RP0/CPU0:TZ-MW-NCS-560-7-SR02#
+
+===============
+Dodoma_TZ-DO-NCS-560-7-SR01 10.88.38.15
+
+===============
+terminal len 0
+Tue Oct 24 20:33:12.673 EAT
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR01#show license status | i Status
+Tue Oct 24 20:33:16.678 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:09:45 EAT
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR01#
+
+===============
+Mbeya Forest_TZ-MB-NCS-560-7-SR01 10.88.38.17
+
+===============
+terminal len 0
+Tue Oct 24 20:34:32.208 EAT
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#show license status | i Status
+Tue Oct 24 20:34:36.228 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:10:23 EAT
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#
+
+===============
+Mbeya Forest_TZ-MB-NCS-560-7-SR02 10.88.38.18
+
+===============
+terminal len 0
+Tue Oct 24 20:34:47.002 EAT
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#show license status | i Status
+Tue Oct 24 20:34:51.202 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:10:40 EAT
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#
+
+===============
+Morogoro_TZ-MG-NCS-560-7-SR01 10.88.38.19
+
+===============
+terminal len 0
+Tue Oct 24 20:35:01.439 EAT
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#show license status | i Status
+Tue Oct 24 20:35:05.499 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:10:56 EAT
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#
+
+===============
+Morogoro_TZ-MG-NCS-560-7-SR02 10.88.38.20
+
+===============
+terminal len 0
+Tue Oct 24 20:35:15.962 EAT
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR02#show license status | i Status
+Tue Oct 24 20:35:20.239 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:11:13 EAT
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR02#
+
+===============
+Singo_TZ-SI-NCS-560-7-SR01 10.88.38.21
+
+===============
+terminal len 0
+Tue Oct 24 20:35:30.552 EAT
+RP/0/RP0/CPU0:TZ-SI-NCS-560-7-SR01#show license status | i Status
+Tue Oct 24 20:35:34.588 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:11:31 EAT
+RP/0/RP0/CPU0:TZ-SI-NCS-560-7-SR01#
+
+===============
+Singo_TZ-SI-NCS-560-7-SR02 10.88.38.22
+
+===============
+terminal len 0
+Tue Oct 24 20:35:44.950 EAT
+RP/0/RP0/CPU0:TZ-SI-NCS-560-7-SR02#show license status | i Status
+Tue Oct 24 20:35:49.002 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:11:48 EAT
+RP/0/RP0/CPU0:TZ-SI-NCS-560-7-SR02#
+
+===============
+Sukita_TZ-SK-NCS-560-7-SR01 10.88.38.23
+
+===============
+terminal len 0
+Tue Oct 24 20:35:59.160 EAT
+RP/0/RP0/CPU0:TZ-SK-NCS-560-7-SR01#show license status | i Status
+Tue Oct 24 20:36:03.193 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:12:03 EAT
+RP/0/RP0/CPU0:TZ-SK-NCS-560-7-SR01#
+
+===============
+Sukita_TZ-SK-NCS-560-7-SR02 10.88.38.24
+
+===============
+terminal len 0
+Tue Oct 24 20:36:13.465 EAT
+RP/0/RP0/CPU0:TZ-SK-NCS-560-7-SR02#show license status | i Status
+Tue Oct 24 20:36:17.419 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:12:21 EAT
+RP/0/RP0/CPU0:TZ-SK-NCS-560-7-SR02#
+
+===============
+Bhiaharamuro_TZ-BH-NCS-560-4-SR02 10.88.38.25
+
+===============
+terminal len 0
+Tue Oct 24 20:36:28.044 EAT
+RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR01#show license status | i Status
+Tue Oct 24 20:36:32.080 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:12:41 EAT
+RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR01#
+
+===============
+Bhiaharamuro_TZ-BH-NCS-560-4-SR01 10.88.38.26
+
+===============
+terminal len 0
+Tue Oct 24 20:36:43.023 EAT
+RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR02#show license status | i Status
+Tue Oct 24 20:36:47.049 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:13:00 EAT
+RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR02#
+
+===============
+Bukoba_TZ-BK-NCS-560-4-SR01 10.88.38.27
+
+===============
+terminal len 0
+Tue Oct 24 20:36:57.374 EAT
+RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR01#show license status | i Status
+Tue Oct 24 20:37:01.458 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:13:17 EAT
+RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR01#
+
+===============
+Bukoba_TZ-BK-NCS-560-4-SR02 10.88.38.28
+
+===============
+terminal len 0
+Tue Oct 24 20:37:13.139 EAT
+RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR02#show license status | i Status
+Tue Oct 24 20:37:17.240 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:13:35 EAT
+RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR02#
+
+===============
+Ifakara_TZ-IF-NCS-560-4-SR01 10.88.38.29
+
+===============
+terminal len 0
+Tue Oct 24 20:37:28.250 EAT
+RP/0/RP1/CPU0:TZ-IF-NCS-560-4-SR01#show license status | i Status
+Tue Oct 24 20:37:32.460 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:13:49 EAT
+RP/0/RP1/CPU0:TZ-IF-NCS-560-4-SR01#
+
+===============
+Ifakara_TZ-IF-NCS-560-4-SR02 10.88.38.30
+
+===============
+terminal len 0
+Tue Oct 24 20:37:42.669 EAT
+RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR02#show license status | i Status
+Tue Oct 24 20:37:46.778 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:14:05 EAT
+RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR02#
+
+===============
+Kahama_TZ-KH-NCS-560-4-SR01 10.88.38.35
+
+===============
+terminal len 0
+Tue Oct 24 20:38:39.754 EAT
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR01#show license status | i Status
+Tue Oct 24 20:38:43.787 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:15:11 EAT
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR01#
+
+===============
+Kahama_TZ-KH-NCS-560-4-SR02 10.88.38.36
+
+===============
+terminal len 0
+Tue Oct 24 20:38:58.842 EAT
+RP/0/RP1/CPU0:TZ-KH-NCS-560-4-SR02#show license status | i Status
+Tue Oct 24 20:39:02.886 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:15:27 EAT
+RP/0/RP1/CPU0:TZ-KH-NCS-560-4-SR02#
+
+===============
+Kigoma_TZ-KG-NCS-560-4-SR01 10.88.38.37
+
+===============
+terminal len 0
+Tue Oct 24 20:39:14.153 EAT
+RP/0/RP1/CPU0:TZ-KG-NCS-560-4-SR01#show license status | i Status
+Tue Oct 24 20:39:18.189 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:15:45 EAT
+RP/0/RP1/CPU0:TZ-KG-NCS-560-4-SR01#
+
+===============
+Kigoma_TZ-KG-NCS-560-4-SR02 10.88.38.38
+
+===============
+terminal len 0
+Tue Oct 24 20:39:29.617 EAT
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR02#show license status | i Status
+Tue Oct 24 20:39:33.666 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:16:01 EAT
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR02#
+
+===============
+Lushoto_TZ-LU-NCS-560-4-SR01 10.88.38.41
+
+===============
+terminal len 0
+Tue Oct 24 20:39:43.741 EAT
+RP/0/RP0/CPU0:TZ-LU-NCS-560-4-SR01#show license status | i Status
+Tue Oct 24 20:39:52.081 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:16:15 EAT
+RP/0/RP0/CPU0:TZ-LU-NCS-560-4-SR01#
+
+===============
+Lushoto_TZ-LU-NCS-560-4-SR02 10.88.38.42
+
+===============
+terminal len 0
+Tue Oct 24 20:40:02.784 EAT
+RP/0/RP0/CPU0:TZ-LU-NCS-560-4-SR02#show license status | i Status
+Tue Oct 24 20:40:06.886 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:16:32 EAT
+RP/0/RP0/CPU0:TZ-LU-NCS-560-4-SR02#
+
+===============
+Masasi_TZ-MA-NCS-560-4-SR01 10.88.38.43
+
+===============
+terminal len 0
+Tue Oct 24 20:40:17.041 EAT
+RP/0/RP1/CPU0:TZ-MA-NCS-560-4-SR01#show license status | i Status
+Tue Oct 24 20:40:21.110 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:16:47 EAT
+RP/0/RP1/CPU0:TZ-MA-NCS-560-4-SR01#
+
+===============
+Masasi_TZ-MA-NCS-560-4-SR02 10.88.38.44
+
+===============
+terminal len 0
+Tue Oct 24 20:40:31.267 EAT
+RP/0/RP0/CPU0:TZ-MA-NCS-560-4-SR02#show license status | i Status
+Tue Oct 24 20:40:35.277 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:17:03 EAT
+RP/0/RP0/CPU0:TZ-MA-NCS-560-4-SR02#
+
+===============
+Makamabako_TZ-MK-NCS-560-4-SR01 10.88.38.45
+
+===============
+terminal len 0
+Tue Oct 24 20:40:46.116 EAT
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR01#show license status | i Status
+Tue Oct 24 20:40:50.140 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:17:18 EAT
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR01#
+
+===============
+Makamabako_TZ-MK-NCS-560-4-SR02 10.88.38.46
+
+===============
+terminal len 0
+Tue Oct 24 20:41:00.647 EAT
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR02#show license status | i Status
+Tue Oct 24 20:41:04.828 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:17:36 EAT
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR02#
+
+===============
+Musosma_TZ-MU-NCS-560-4-SR01 10.88.38.49
+
+===============
+terminal len 0
+Tue Oct 24 20:41:15.278 EAT
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#show license status | i Status
+Tue Oct 24 20:41:21.318 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:17:52 EAT
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#
+
+===============
+Musosma_TZ-MU-NCS-560-4-SR02 10.88.38.50
+
+===============
+terminal len 0
+Tue Oct 24 20:41:31.886 EAT
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR02#show license status | i Status
+Tue Oct 24 20:41:37.958 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:18:10 EAT
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR02#
+
+===============
+Mtwara_TZ-MT-NCS-560-4-SR02 10.88.38.52
+
+===============
+terminal len 0
+Tue Oct 24 20:42:52.886 EAT
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR02#show license status | i Status
+Tue Oct 24 20:42:57.059 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:18:44 EAT
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR02#
+
+===============
+Ramadi_TZ-RM-NCS-560-4-SR02 10.88.38.54
+
+===============
+terminal len 0
+Tue Oct 24 20:44:14.282 EAT
+RP/0/RP0/CPU0:TZ-RM-NCS-560-4-SR02#show license status | i Status
+Tue Oct 24 20:44:19.561 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:19:14 EAT
+RP/0/RP0/CPU0:TZ-RM-NCS-560-4-SR02#
+
+===============
+Shinyanaga_TZ-SH-NCS-560-4-SR01 10.88.38.55
+
+===============
+terminal len 0
+Tue Oct 24 20:44:30.054 EAT
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR01#show license status | i Status
+Tue Oct 24 20:44:34.184 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:19:30 EAT
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR01#
+
+===============
+Shinyanaga_TZ-SH-NCS-560-4-SR02 10.88.38.56
+
+===============
+terminal len 0
+Tue Oct 24 20:44:44.518 EAT
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR02#show license status | i Status
+Tue Oct 24 20:44:48.593 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:19:45 EAT
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR02#
+
+===============
+Songea_TZ-SG-NCS-560-4-SR01 10.88.38.57
+
+===============
+terminal len 0
+Tue Oct 24 20:44:59.984 EAT
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR01#show license status | i Status
+Tue Oct 24 20:45:04.044 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:20:00 EAT
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR01#
+
+===============
+Songea_TZ-SG-NCS-560-4-SR02 10.88.38.58
+
+===============
+terminal len 0
+Tue Oct 24 20:45:17.188 EAT
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR02#show license status | i Status
+Tue Oct 24 20:45:21.360 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:20:18 EAT
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR02#
+
+===============
+Sumbawanga_TZ-SU-NCS-560-4-SR01 10.88.38.59
+
+===============
+terminal len 0
+Tue Oct 24 20:45:31.621 EAT
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR01#show license status | i Status
+Tue Oct 24 20:45:35.830 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:20:35 EAT
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR01#
+
+===============
+Sumbawanga_TZ-SU-NCS-560-4-SR02 10.88.38.60
+
+===============
+terminal len 0
+Tue Oct 24 20:45:48.805 EAT
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR02#show license status | i Status
+Tue Oct 24 20:45:52.924 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:20:52 EAT
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR02#
+
+===============
+Tabora_TZ-TB-NCS-560-4-SR01 10.88.38.63
+
+===============
+terminal len 0
+Tue Oct 24 20:46:08.055 EAT
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#show license status | i Status
+Tue Oct 24 20:46:12.079 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:21:08 EAT
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#
+
+===============
+Tabora_TZ-TB-NCS-560-4-SR02 10.88.38.64
+
+===============
+terminal len 0
+Tue Oct 24 20:46:22.905 EAT
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR02#show license status | i Status
+Tue Oct 24 20:46:27.009 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:21:24 EAT
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR02#
+
+===============
+Tanga_TZ-TG-NCS-560-4-SR01 10.88.38.65
+
+===============
+terminal len 0
+Tue Oct 24 20:46:38.168 EAT
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR01#show license status | i Status
+Tue Oct 24 20:46:42.240 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:21:39 EAT
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR01#
+
+===============
+Tanga_TZ-TG-NCS-560-4-SR02 10.88.38.66
+
+===============
+terminal len 0
+Tue Oct 24 20:46:52.907 EAT
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR02#show license status | i Status
+Tue Oct 24 20:46:56.993 EAT
+  Status: DISABLED
+  Status: REGISTERED
+  Status: OUT OF COMPLIANCE on Oct 24 2023 13:21:55 EAT
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR02#

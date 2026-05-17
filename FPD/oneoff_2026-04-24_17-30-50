@@ -1,0 +1,763 @@
+
+
+===============
+Morocco_TZ-MR-NCS-5504-SR01 10.88.38.1
+
+===============
+terminal len 0
+Fri Apr 24 19:24:37.091 EAT
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:24:37.551 EAT
+fpd auto-reload enable
+fpd auto-upgrade disable
+
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:24:41.111 EAT
+fpd auto-upgrade disable
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01#
+
+===============
+Morocco_TZ-MR-NCS-5504-SR02 10.88.38.2
+
+===============
+terminal len 0
+Fri Apr 24 19:29:20.067 EAT
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:29:20.440 EAT
+% No such configuration item(s)
+
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:29:24.084 EAT
+fpd auto-upgrade disable
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR02#
+
+===============
+Morocco_TZ-MR-NCS-5504-SR03 10.88.38.3
+
+===============
+terminal len 0
+Fri Apr 24 19:31:31.666 EAT
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#show run fpd auto-upgrade
+Fri Apr 24 19:31:32.028 EAT
+% No such configuration item(s)
+
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#admin show run fpd auto-upgrade
+Fri Apr 24 19:31:35.685 EAT
+fpd auto-upgrade disable
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#
+
+===============
+Morocco_TZ-MR-NCS-5504-SR04 10.88.38.4
+
+===============
+terminal len 0
+Fri Apr 24 19:29:10.295 EAT
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#show run fpd auto-upgrade
+Fri Apr 24 19:29:10.640 EAT
+fpd auto-upgrade enable
+
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#admin show run fpd auto-upgrade
+Fri Apr 24 19:29:14.310 EAT
+fpd auto-upgrade enable
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR01 10.88.38.6
+
+===============
+terminal len 0
+Fri Apr 24 19:33:13.578 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:33:13.924 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:33:17.590 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR02 10.88.38.7
+
+===============
+terminal len 0
+Fri Apr 24 19:34:33.587 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:34:33.932 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:34:37.599 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR02#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR03 10.88.38.8
+
+===============
+terminal len 0
+Fri Apr 24 19:31:30.222 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR03#show run fpd auto-upgrade
+Fri Apr 24 19:31:30.566 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR03#admin show run fpd auto-upgrade
+Fri Apr 24 19:31:34.237 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR03#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR04 10.88.38.9
+
+===============
+terminal len 0
+Fri Apr 24 19:31:14.237 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR04#show run fpd auto-upgrade
+Fri Apr 24 19:31:14.584 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR04#admin show run fpd auto-upgrade
+Fri Apr 24 19:31:18.257 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR04#
+
+===============
+Arusha_TZ-AR-NCS-560-7-SR01 10.88.38.11
+
+===============
+terminal len 0
+Fri Apr 24 19:33:21.213 EAT
+RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:33:21.574 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:33:25.228 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR01#
+
+===============
+Arusha_TZ-AR-NCS-560-7-SR02 10.88.38.12
+
+===============
+terminal len 0
+Fri Apr 24 19:33:39.250 EAT
+RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:33:39.605 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:33:43.263 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR02#
+
+===============
+Dodoma_TZ-DO-NCS-560-7-SR01 10.88.38.15
+
+===============
+terminal len 0
+Fri Apr 24 19:34:02.684 EAT
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:34:03.087 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:34:06.650 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR01#
+
+===============
+Dodoma_TZ-DO-NCS-560-7-SR02 10.88.38.16
+
+===============
+terminal len 0
+Fri Apr 24 19:35:04.738 EAT
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:35:05.220 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:35:08.752 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR02#
+
+===============
+Mbeya Forest_TZ-MB-NCS-560-7-SR01 10.88.38.17
+
+===============
+terminal len 0
+Fri Apr 24 19:34:40.323 EAT
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:34:40.701 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:34:44.361 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#
+
+===============
+Mbeya Forest_TZ-MB-NCS-560-7-SR02 10.88.38.18
+
+===============
+terminal len 0
+Fri Apr 24 19:34:58.762 EAT
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:34:59.197 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:35:02.764 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#
+
+===============
+Morogoro_TZ-MG-NCS-560-7-SR01 10.88.38.19
+
+===============
+terminal len 0
+Fri Apr 24 19:35:17.874 EAT
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:35:18.232 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:35:21.938 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#
+
+===============
+Morogoro_TZ-MG-NCS-560-7-SR02 10.88.38.20
+
+===============
+terminal len 0
+Fri Apr 24 19:35:35.973 EAT
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:35:36.464 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:35:40.005 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR02#
+
+===============
+Singo_TZ-SI-NCS-560-7-SR01 10.88.38.21
+
+===============
+terminal len 0
+Fri Apr 24 19:35:54.082 EAT
+RP/0/RP1/CPU0:TZ-SI-NCS-560-7-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:35:54.518 EAT
+fpd auto-upgrade enable
+
+RP/0/RP1/CPU0:TZ-SI-NCS-560-7-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:35:58.093 EAT
+fpd auto-upgrade enable
+RP/0/RP1/CPU0:TZ-SI-NCS-560-7-SR01#
+
+===============
+Singo_TZ-SI-NCS-560-7-SR02 10.88.38.22
+
+===============
+terminal len 0
+Fri Apr 24 19:36:12.229 EAT
+RP/0/RP0/CPU0:TZ-SI-NCS-560-7-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:36:12.517 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-SI-NCS-560-7-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:36:16.166 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-SI-NCS-560-7-SR02#
+
+===============
+Sukita_TZ-SK-NCS-560-7-SR01 10.88.38.23
+
+===============
+terminal len 0
+Fri Apr 24 19:35:52.322 EAT
+RP/0/RP0/CPU0:TZ-SK-NCS-560-7-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:35:52.688 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-SK-NCS-560-7-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:35:56.360 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-SK-NCS-560-7-SR01#
+
+===============
+Bhiaharamuro_TZ-BH-NCS-560-4-SR02 10.88.38.25
+
+===============
+terminal len 0
+Fri Apr 24 19:36:51.116 EAT
+RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:36:51.529 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:36:55.170 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR01#
+
+===============
+Bhiaharamuro_TZ-BH-NCS-560-4-SR01 10.88.38.26
+
+===============
+terminal len 0
+Fri Apr 24 19:37:09.163 EAT
+RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:37:09.581 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:37:13.176 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR02#
+
+===============
+Bukoba_TZ-BK-NCS-560-4-SR01 10.88.38.27
+
+===============
+
+
+===============
+Bukoba_TZ-BK-NCS-560-4-SR02 10.88.38.28
+
+===============
+terminal len 0
+Fri Apr 24 19:39:45.173 EAT
+RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:39:45.567 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:39:49.202 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR02#
+
+===============
+Ifakara_TZ-IF-NCS-560-4-SR01 10.88.38.29
+
+===============
+terminal len 0
+Fri Apr 24 19:38:14.614 EAT
+RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:38:15.123 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:38:18.677 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR01#
+
+===============
+Ifakara_TZ-IF-NCS-560-4-SR02 10.88.38.30
+
+===============
+terminal len 0
+Fri Apr 24 19:38:32.841 EAT
+RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:38:33.220 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:38:36.861 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR02#
+
+===============
+Kahama_TZ-KH-NCS-560-4-SR01 10.88.38.35
+
+===============
+terminal len 0
+Fri Apr 24 19:39:52.271 EAT
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:39:52.670 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:39:56.264 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR01#
+
+===============
+Kahama_TZ-KH-NCS-560-4-SR02 10.88.38.36
+
+===============
+terminal len 0
+Fri Apr 24 19:40:10.576 EAT
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:40:10.964 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:40:14.587 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#
+
+===============
+Kigoma_TZ-KG-NCS-560-4-SR01 10.88.38.37
+
+===============
+terminal len 0
+Fri Apr 24 19:40:29.048 EAT
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:40:29.457 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:40:33.054 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR01#
+
+===============
+Kigoma_TZ-KG-NCS-560-4-SR02 10.88.38.38
+
+===============
+terminal len 0
+Fri Apr 24 19:40:47.434 EAT
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:40:47.842 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:40:51.453 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR02#
+
+===============
+Masasi_TZ-MA-NCS-560-4-SR02 10.88.38.44
+
+===============
+terminal len 0
+Fri Apr 24 19:42:35.762 EAT
+RP/0/RP0/CPU0:TZ-MA-NCS-560-4-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:42:36.154 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-MA-NCS-560-4-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:42:39.811 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-MA-NCS-560-4-SR02#
+
+===============
+Makamabako_TZ-MK-NCS-560-4-SR01 10.88.38.45
+
+===============
+terminal len 0
+Fri Apr 24 19:42:53.805 EAT
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:42:54.260 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:42:57.807 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR01#
+
+===============
+Makamabako_TZ-MK-NCS-560-4-SR02 10.88.38.46
+
+===============
+terminal len 0
+Fri Apr 24 19:43:11.933 EAT
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:43:12.383 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:43:15.945 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR02#
+
+===============
+Musosma_TZ-MU-NCS-560-4-SR01 10.88.38.49
+
+===============
+terminal len 0
+Fri Apr 24 19:43:31.238 EAT
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:43:31.635 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:43:35.267 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#
+
+===============
+Musosma_TZ-MU-NCS-560-4-SR02 10.88.38.50
+
+===============
+terminal len 0
+Fri Apr 24 19:43:49.324 EAT
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:43:49.731 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:43:53.371 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR02#
+
+===============
+Mtwara_TZ-MT-NCS-560-4-SR01 10.88.38.51
+
+===============
+terminal len 0
+Fri Apr 24 19:44:07.603 EAT
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:44:07.992 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:44:11.599 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR01#
+
+===============
+Mtwara_TZ-MT-NCS-560-4-SR02 10.88.38.52
+
+===============
+terminal len 0
+Fri Apr 24 19:44:25.903 EAT
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:44:26.309 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:44:29.902 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR02#
+
+===============
+Ramadi_TZ-RM-NCS-560-4-SR01 10.88.38.53
+
+===============
+terminal len 0
+Fri Apr 24 19:44:44.378 EAT
+RP/0/RP0/CPU0:TZ-RM-NCS-560-4-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:44:44.797 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-RM-NCS-560-4-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:44:48.390 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-RM-NCS-560-4-SR01#
+
+===============
+Ramadi_TZ-RM-NCS-560-4-SR02 10.88.38.54
+
+===============
+terminal len 0
+Fri Apr 24 19:45:02.807 EAT
+RP/0/RP1/CPU0:TZ-RM-NCS-560-4-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:45:03.318 EAT
+fpd auto-upgrade enable
+
+RP/0/RP1/CPU0:TZ-RM-NCS-560-4-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:45:06.851 EAT
+fpd auto-upgrade enable
+RP/0/RP1/CPU0:TZ-RM-NCS-560-4-SR02#
+
+===============
+Shinyanaga_TZ-SH-NCS-560-4-SR01 10.88.38.55
+
+===============
+terminal len 0
+Fri Apr 24 19:45:22.618 EAT
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:45:23.046 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:45:26.667 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR01#
+
+===============
+Shinyanaga_TZ-SH-NCS-560-4-SR02 10.88.38.56
+
+===============
+terminal len 0
+Fri Apr 24 19:45:40.865 EAT
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:45:41.284 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:45:44.961 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR02#
+
+===============
+Songea_TZ-SG-NCS-560-4-SR01 10.88.38.57
+
+===============
+terminal len 0
+Fri Apr 24 19:46:18.840 EAT
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:46:19.245 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:46:22.882 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR01#
+
+===============
+Songea_TZ-SG-NCS-560-4-SR02 10.88.38.58
+
+===============
+terminal len 0
+Fri Apr 24 19:46:20.956 EAT
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:46:21.414 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:46:24.988 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR02#
+
+===============
+Sumbawanga_TZ-SU-NCS-560-4-SR01 10.88.38.59
+
+===============
+terminal len 0
+Fri Apr 24 19:46:07.735 EAT
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:46:08.177 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:46:11.742 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR01#
+
+===============
+Sumbawanga_TZ-SU-NCS-560-4-SR02 10.88.38.60
+
+===============
+terminal len 0
+Fri Apr 24 19:46:55.558 EAT
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:46:56.029 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:46:59.579 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR02#
+
+===============
+Tabora_TZ-TB-NCS-560-4-SR01 10.88.38.63
+
+===============
+terminal len 0
+Fri Apr 24 19:47:14.076 EAT
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:47:14.503 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:47:18.115 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#
+
+===============
+Tabora_TZ-TB-NCS-560-4-SR02 10.88.38.64
+
+===============
+terminal len 0
+Fri Apr 24 19:47:32.768 EAT
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:47:33.237 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:47:36.796 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR02#
+
+===============
+Tanga_TZ-TG-NCS-560-4-SR01 10.88.38.65
+
+===============
+terminal len 0
+Fri Apr 24 19:48:00.500 EAT
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:48:00.904 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:48:04.561 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR01#
+
+===============
+Tanga_TZ-TG-NCS-560-4-SR02 10.88.38.66
+
+===============
+terminal len 0
+Fri Apr 24 19:48:31.999 EAT
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:48:32.406 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:48:36.021 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR02#
+
+===============
+Zanzibar_TZ-ZA-NCS-560-4-SR01 10.88.38.67
+
+===============
+terminal len 0
+Fri Apr 24 19:47:59.917 EAT
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:48:00.240 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:48:03.806 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR01#
+
+===============
+Zanzibar_TZ-ZA-NCS-560-4-SR02 10.88.38.68
+
+===============
+terminal len 0
+Fri Apr 24 19:48:34.067 EAT
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:48:34.495 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:48:38.064 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#
+
+===============
+Moshi (Shanti Town)_TZ-ST-NCS-560-4-SR01 10.88.38.69
+
+===============
+terminal len 0
+Fri Apr 24 19:48:57.516 EAT
+RP/0/RP0/CPU0:TZ-ST-NCS-560-4-SR01#show run fpd auto-upgrade
+Fri Apr 24 19:48:57.970 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-ST-NCS-560-4-SR01#admin show run fpd auto-upgrade
+Fri Apr 24 19:49:01.529 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-ST-NCS-560-4-SR01#
+
+===============
+Moshi (Shanti Town)_TZ-ST-NCS-560-4-SR02 10.88.38.70
+
+===============

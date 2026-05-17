@@ -1,0 +1,52 @@
+terminal len 0
+Mon Jun 24 11:45:33.413 EAT
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR02#sh run formal | i distribute link-state inst$ link-state insta                          nce-id 100sh run formal | i distribute link-state ins$
+Mon Jun 24 11:45:33.710 EAT
+Building configuration...
+router isis CORE_AGG distribute link-state instance-id 100
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR02#sh run router isis CORE_AGG int lo0
+Mon Jun 24 11:45:37.535 EAT
+router isis CORE_AGG
+ interface Loopback0
+  passive
+  address-family ipv4 unicast
+   prefix-sid index 38
+   prefix-sid strict-spf index 538
+  !
+ !
+!
+
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR02#sh run formal | i COLOR
+Mon Jun 24 11:45:41.626 EAT
+Building configuration...
+vrf ran address-family ipv4 unicast export route-policy SET_COLOR_38
+vrf om_ran address-family ipv4 unicast export route-policy SET_COLOR_38
+vrf sig_cn address-family ipv4 unicast export route-policy SET_COLOR_38
+vrf NIDA_VRF address-family ipv4 unicast export route-policy SET_COLOR_38
+vrf media_cn address-family ipv4 unicast export route-policy SET_COLOR_38
+extcommunity-set opaque COLOR_38
+route-policy SET_COLOR_38
+  set extcommunity color COLOR_38
+    set extcommunity color COLOR_38
+route-policy ZTE_LU_SR_COLOR
+  set extcommunity color COLOR_38
+router bgp 67000 neighbor-group ZTERR address-family ipv4 labeled-unicast route-policy ZTE_LU_SR_COLOR in
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR02#sh isis adj
+Mon Jun 24 11:45:45.616 EAT
+
+IS-IS ACC_13 Level-2 adjacencies:
+System Id      Interface                SNPA           State Hold Changed  NSF IPv4 IPv6
+                                                                               BFD  BFD 
+
+IS-IS AGG_11 Level-2 adjacencies:
+System Id      Interface                SNPA           State Hold Changed  NSF IPv4 IPv6
+                                                                               BFD  BFD 
+
+IS-IS CORE_AGG Level-2 adjacencies:
+System Id      Interface                SNPA           State Hold Changed  NSF IPv4 IPv6
+                                                                               BFD  BFD 
+TZ-BH-NCS-560-4-SR02 Gi0/5/0/12.1772          *PtoP*         Up    23   2d21h    Yes Up   None
+TZ-KG-NCS-560-4-SR01 Te0/3/0/0.3              *PtoP*         Up    24   32w4d    Yes None None
+
+Total adjacency count: 2
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR02#

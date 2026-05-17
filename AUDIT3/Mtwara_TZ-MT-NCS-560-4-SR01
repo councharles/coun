@@ -1,0 +1,8 @@
+terminal len 0
+Wed Mar 11 23:33:36.644 EAT
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:33:37.032 EAT
+IS-IS ACC_4 neighbors:
+IS-IS AGG_03 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR01#

@@ -1,0 +1,10 @@
+terminal len 0
+Fri Apr 24 19:40:10.576 EAT
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#show run fpd auto-upgrade
+Fri Apr 24 19:40:10.964 EAT
+fpd auto-upgrade enable
+
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#admin show run fpd auto-upgrade
+Fri Apr 24 19:40:14.587 EAT
+fpd auto-upgrade enable
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#

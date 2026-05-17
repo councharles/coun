@@ -1,0 +1,51 @@
+terminal len 0
+Mon Jun 24 11:54:55.881 EAT
+sh run formal | i distribute link-state instance-id 100
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#sh run formal | i distribute link-state inst$ link-state insta                          nce-id 100sh run formal | i distribute link-state ins$
+Mon Jun 24 11:54:56.183 EAT
+Building configuration...
+router isis CORE_AGG distribute link-state instance-id 100
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#sh run router isis CORE_AGG int lo0
+Mon Jun 24 11:55:00.087 EAT
+router isis CORE_AGG
+ interface Loopback0
+  passive
+  address-family ipv4 unicast
+   prefix-sid index 68
+   prefix-sid strict-spf index 568
+  !
+ !
+!
+
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#sh run formal | i COLOR
+Mon Jun 24 11:55:04.121 EAT
+Building configuration...
+vrf om_cn address-family ipv4 unicast export route-policy SET_COLOR_68
+vrf om_ran address-family ipv4 unicast export route-policy SET_COLOR_68
+vrf sig_cn address-family ipv4 unicast export route-policy SET_COLOR_68
+vrf ISP_VRF address-family ipv4 unicast export route-policy SET_COLOR_68
+vrf NIDA_VRF address-family ipv4 unicast export route-policy SET_COLOR_68
+vrf media_cn address-family ipv4 unicast export route-policy SET_COLOR_68
+vrf ran_abis_2 address-family ipv4 unicast export route-policy SET_COLOR_68
+vrf sig_data_sync address-family ipv4 unicast export route-policy SET_COLOR_68
+vrf MARIE_STOPE_VRF address-family ipv4 unicast export route-policy SET_COLOR_68
+extcommunity-set opaque COLOR_68
+route-policy SET_COLOR_68
+  set extcommunity color COLOR_68
+    set extcommunity color COLOR_68
+route-policy ZTE_LU_SR_COLOR
+  set extcommunity color COLOR_68
+router bgp 67000 neighbor-group ZTERR address-family ipv4 labeled-unicast route-policy ZTE_LU_SR_COLOR in
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#sh isis adj
+Mon Jun 24 11:55:10.120 EAT
+
+IS-IS CORE_AGG Level-2 adjacencies:
+System Id      Interface                SNPA           State Hold Changed  NSF IPv4 IPv6
+                                                                               BFD  BFD 
+TZ-KJ-NCS-5504-SR04 Gi0/4/0/14.768           *PtoP*         Up    23   15:20:29 Yes Up   None
+TZ-KJ-NCS-5504-SR04 Gi0/5/0/14.767           *PtoP*         Up    27   15:14:24 Yes Up   None
+TZ-KJ-NCS-5504-SR04 Gi0/2/0/10.2718          *PtoP*         Up    24   00:24:25 Yes Up   None
+TZ-ZA-NCS-560-4-SR01 Te0/3/0/0.30             *PtoP*         Up    25   17w6d    Yes None None
+
+Total adjacency count: 4
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#

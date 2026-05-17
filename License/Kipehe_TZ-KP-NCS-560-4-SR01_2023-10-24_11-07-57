@@ -1,0 +1,41 @@
+terminal len 0
+Tue Oct 24 13:27:42.124 EAT
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR01#conf t
+Tue Oct 24 13:27:42.275 EAT
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR01(config)#call-home
+% This command is not authorized
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR01(config)# service active
+                                                    ^
+% Invalid input detected at '^' marker.
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR01(config)# contact smart-licensing
+                                              ^
+% Invalid input detected at '^' marker.
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR01(config)# source-interface Loopback0
+                                             ^
+% Invalid input detected at '^' marker.
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR01(config)# profile CiscoTAC-1
+                                            ^
+% Invalid input detected at '^' marker.
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR01(config)#  active
+                                              ^
+% Invalid input detected at '^' marker.
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR01(config)#  destination address http http://17$ttp://172                          .27.2.147/Transportgateway$tgateway/                          services/DeviceRequestHand$uestHandl                          er  destination address http http://1$
+  destination address http http://172.27.2.147/Transportgateway/services/Device
+     ^                                                                         
+RequestHandler
+
+% Invalid input detected at '^' marker.
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR01(config)#  reporting smart-licensing-data
+                                              ^
+% Invalid input detected at '^' marker.
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR01(config)#  destination transport-method http
+                                                ^
+% Invalid input detected at '^' marker.
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR01(config)# root
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR01(config)# commit
+Tue Oct 24 13:27:43.567 EAT
+No configuration changes to commit.
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR01(config)# exit
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR01# license smart register idtoken NTgyN2I0NTYt$ken NTgyN2I0NTYtO                          WM2My00YmVlLTgyZTctYmFiOTN$lLTgyZTctYmFiOTNj                          ODlkZDUyLTE3Mjk2MDYy%0AODg$E3Mjk2MDYy%0AODgz                          NzN8dTV4ZllVbTJvYTAvMyt4ek$lVbTJvYTAvMyt4ekd                          VYWxIT1B2REFrSVVjRDNGbXMzK$EFrSVVjRDNGbXMzK0                          Ro%0AU3Blbz0%3D%0A force license smart register idtoken NTgyN2I0NTY$
+% This command is not authorized
+RP/0/RP0/CPU0:TZ-KP-NCS-560-4-SR01#

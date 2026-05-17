@@ -1,0 +1,33 @@
+terminal len 0
+Fri Oct 20 02:22:48.518 EAT
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR02#show license status
+Fri Oct 20 02:22:52.553 EAT
+
+Smart Licensing is ENABLED
+
+Utility:
+  Status: DISABLED
+
+Data Privacy:
+  Sending Hostname: yes
+    Callhome hostname privacy: DISABLED
+    Smart Licensing hostname privacy: DISABLED
+  Version privacy: DISABLED
+
+Transport:
+  Type: Callhome
+
+Registration:
+  Status: UNREGISTERED
+  Export-Controlled Functionality: NOT ALLOWED
+
+License Authorization: 
+  Status: EVAL EXPIRED on Sep 29 2021 12:33:42 UTC
+
+Export Authorization Key:
+  Features Authorized:
+    <none>
+
+Miscellaneus:
+  Custom Id: <empty>
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR02#

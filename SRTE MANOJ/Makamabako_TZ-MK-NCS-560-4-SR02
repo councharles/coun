@@ -1,0 +1,93 @@
+terminal len 0
+Thu Aug 22 21:33:10.896 EAT
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR02#show segment-routing traffic-eng forwarding $-eng forwarding p                          olicy  | i "Name|Stack"show segment-routing traffic-eng forwarding$
+Thu Aug 22 21:33:11.265 EAT
+  Name: srte_c_15_ep_10.88.38.15
+      Name: MK2_DO1
+        Name: MK2_DO1_SID1
+            Label Stack (Top -> Bottom): { 16515 }
+            Label Stack (Top -> Bottom): { 16557, 16545, 16515 }
+        Name: MK2_DO1_SID2
+            Label Stack (Top -> Bottom): { 16515 }
+            Label Stack (Top -> Bottom): { 16530, 16516, 16515 }
+  Name: srte_c_16_ep_10.88.38.16
+      Name: MK2_DO2
+        Name: MK2_DO2_SID1
+            Label Stack (Top -> Bottom): { Pop }
+            Label Stack (Top -> Bottom): { 16530, 16516 }
+        Name: MK2_DO2_SID2
+            Label Stack (Top -> Bottom): { 16515, 16516 }
+            Label Stack (Top -> Bottom): { 16557, 16545, 16515, 16516 }
+  Name: srte_c_3_ep_10.88.38.3
+      Name: MK2_MR3
+        Name: MK2_MR3_SID1
+            Label Stack (Top -> Bottom): { 16515, 16519, 16501, 16503 }
+            Label Stack (Top -> Bottom): { 16530, 16515, 16519, 16501, 16503 }
+        Name: MK2_MR3_SID2
+            Label Stack (Top -> Bottom): { 16520, 16502, 16503 }
+            Label Stack (Top -> Bottom): { 16530, 16516, 16520, 16502, 16503 }
+        Name: MK2_MR3_SID3
+            Label Stack (Top -> Bottom): { 16529, 16520, 16502, 16503 }
+            Label Stack (Top -> Bottom): { 16529, 16520, 16502, 16503 }
+        Name: MK2_MR3_SID4
+            Label Stack (Top -> Bottom): { 16503 }
+            Label Stack (Top -> Bottom): { 16552, 16503 }
+  Name: srte_c_4_ep_10.88.38.4
+      Name: MK2_MR4
+        Name: MK2_MR4_SID1
+            Label Stack (Top -> Bottom): { 16515, 16519, 16501, 16504 }
+            Label Stack (Top -> Bottom): { 16530, 16515, 16519, 16501, 16504 }
+        Name: MK2_MR4_SID2
+            Label Stack (Top -> Bottom): { 16520, 16502, 16504 }
+            Label Stack (Top -> Bottom): { 16530, 16516, 16520, 16502, 16504 }
+        Name: MK2_MR4_SID3
+            Label Stack (Top -> Bottom): { 16529, 16520, 16502, 16504 }
+            Label Stack (Top -> Bottom): { 16529, 16520, 16502, 16504 }
+        Name: MK2_MR4_SID4
+            Label Stack (Top -> Bottom): { 16503, 16504 }
+            Label Stack (Top -> Bottom): { 16552, 16503, 16504 }
+  Name: srte_c_57_ep_10.88.38.57
+      Name: MK2_SG1
+        Name: MK2_SG1_SID1
+            Label Stack (Top -> Bottom): { 16557 }
+            Label Stack (Top -> Bottom): { 16557, 16545, 16557 }
+        Name: MK2_SG1_SID2
+            Label Stack (Top -> Bottom): { 16557 }
+            Label Stack (Top -> Bottom): { 16557 }
+  Name: srte_c_58_ep_10.88.38.58
+      Name: MK2_SG2
+        Name: MK2_SG2_SID1
+            Label Stack (Top -> Bottom): { Pop }
+            Label Stack (Top -> Bottom): { Pop }
+        Name: MK2_SG2_SID2
+            Label Stack (Top -> Bottom): { 16558 }
+            Label Stack (Top -> Bottom): { 16557, 16545, 16558 }
+  Name: srte_c_8_ep_10.88.38.8
+      Name: MK2_KJ3
+        Name: MK2_KJ3_SID1
+            Label Stack (Top -> Bottom): { 16520, 16502, 16508 }
+            Label Stack (Top -> Bottom): { 16530, 16516, 16520, 16502, 16508 }
+        Name: MK2_KJ3_SID2
+            Label Stack (Top -> Bottom): { 16515, 16519, 16501, 16508 }
+            Label Stack (Top -> Bottom): { 16557, 16545, 16515, 16519, 16501, 16508 }
+        Name: MK2_KJ3_SID3
+            Label Stack (Top -> Bottom): { 16529, 16520, 16502, 16508 }
+            Label Stack (Top -> Bottom): { 16529, 16520, 16502, 16508 }
+        Name: MK2_KJ3_SID4
+            Label Stack (Top -> Bottom): { 16503, 16508 }
+            Label Stack (Top -> Bottom): { 16552, 16503, 16508 }
+  Name: srte_c_9_ep_10.88.38.9
+      Name: MK2_KJ4
+        Name: MK2_KJ4_SID1
+            Label Stack (Top -> Bottom): { 16520, 16502, 16509 }
+            Label Stack (Top -> Bottom): { 16530, 16516, 16520, 16502, 16509 }
+        Name: MK2_KJ4_SID2
+            Label Stack (Top -> Bottom): { 16515, 16519, 16501, 16509 }
+            Label Stack (Top -> Bottom): { 16557, 16545, 16515, 16519, 16501, 16509 }
+        Name: MK2_KJ4_SID3
+            Label Stack (Top -> Bottom): { 16529, 16520, 16502, 16509 }
+            Label Stack (Top -> Bottom): { 16529, 16520, 16502, 16509 }
+        Name: MK2_KJ4_SID4
+            Label Stack (Top -> Bottom): { 16503, 16509 }
+            Label Stack (Top -> Bottom): { 16552, 16503, 16509 }
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR02#

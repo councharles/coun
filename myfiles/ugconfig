@@ -1,0 +1,40 @@
+show isis neighbor
+admin show inventory
+show bgp vrf all summary
+Show bgp all all summary
+show bgp summary
+show interfaces
+show route vrf all
+show ipv4 vrf all interface brief
+show  route vrf all summary  
+show running-config
+admin show platform
+show version
+show bgp
+show bgp vrf all
+show route
+admin show diag
+show redundancy
+sh isis adjacency
+show bfd session 
+show interface description
+admin show running-config
+sh hw-module location all fpd all
+show install active summary 
+show install inactive summary 
+dir harddisk: 
+show media
+show log starting today
+show vrrp brief
+show arp
+show clock
+show bundle brief
+show platform vm
+admin  Show tech card-mgr
+admin  Show tech shelf-mgr
+admin  Show tech ctrace
+admin  Show tech HB
+admin  Show tech OS
+admin  Show logging
+Show tech mpa
+admin copy /harddisk:/showtech/*May-06* harddisk:/showtech location 0/RP1/CPU0/VM1

@@ -1,0 +1,579 @@
+
+
+===============
+Morocco_TZ-MR-NCS-5504-SR01 10.88.38.1
+
+===============
+
+
+===============
+Morocco_TZ-MR-NCS-5504-SR02 10.88.38.2
+
+===============
+terminal len 0
+Wed Mar 11 23:22:50.187 EAT
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:22:50.499 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR02#
+
+===============
+Morocco_TZ-MR-NCS-5504-SR03 10.88.38.3
+
+===============
+terminal len 0
+Wed Mar 11 23:24:50.607 EAT
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#sh isis nei | i IS-IS
+Wed Mar 11 23:24:50.922 EAT
+IS-IS AGG_2 neighbors:
+IS-IS AGG_3 neighbors:
+IS-IS AGG_03 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#
+
+===============
+Morocco_TZ-MR-NCS-5504-SR04 10.88.38.4
+
+===============
+terminal len 0
+Wed Mar 11 23:22:25.210 EAT
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#sh isis nei | i IS-IS
+Wed Mar 11 23:22:25.582 EAT
+IS-IS AGG_2 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR01 10.88.38.6
+
+===============
+
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR02 10.88.38.7
+
+===============
+terminal len 0
+Wed Mar 11 23:27:55.402 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:27:55.760 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR02#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR03 10.88.38.8
+
+===============
+terminal len 0
+Wed Mar 11 23:24:55.282 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR03#sh isis nei | i IS-IS
+Wed Mar 11 23:24:55.599 EAT
+IS-IS AGG_6 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR03#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR04 10.88.38.9
+
+===============
+terminal len 0
+Wed Mar 11 23:24:34.277 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR04#sh isis nei | i IS-IS
+Wed Mar 11 23:24:34.592 EAT
+IS-IS AGG_6 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR04#
+
+===============
+Arusha_TZ-AR-NCS-560-7-SR01 10.88.38.11
+
+===============
+terminal len 0
+Wed Mar 11 23:26:12.284 EAT
+RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:26:12.607 EAT
+IS-IS AGG_8 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR01#
+
+===============
+Arusha_TZ-AR-NCS-560-7-SR02 10.88.38.12
+
+===============
+terminal len 0
+Wed Mar 11 23:26:22.875 EAT
+RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:26:23.198 EAT
+IS-IS AGG_8 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR02#
+
+===============
+Dodoma_TZ-DO-NCS-560-7-SR01 10.88.38.15
+
+===============
+terminal len 0
+Wed Mar 11 23:26:38.902 EAT
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:26:39.275 EAT
+IS-IS AGG_3 neighbors:
+IS-IS AGG_12 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR01#
+
+===============
+Dodoma_TZ-DO-NCS-560-7-SR02 10.88.38.16
+
+===============
+terminal len 0
+Wed Mar 11 23:27:26.130 EAT
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:27:26.578 EAT
+IS-IS AGG_3 neighbors:
+IS-IS AGG_12 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR02#
+
+===============
+Mbeya Forest_TZ-MB-NCS-560-7-SR01 10.88.38.17
+
+===============
+terminal len 0
+Wed Mar 11 23:27:02.122 EAT
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:27:02.641 EAT
+IS-IS ACC_4 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#
+
+===============
+Mbeya Forest_TZ-MB-NCS-560-7-SR02 10.88.38.18
+
+===============
+terminal len 0
+Wed Mar 11 23:27:13.473 EAT
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:27:13.859 EAT
+IS-IS ACC_4 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR02#
+
+===============
+Morogoro_TZ-MG-NCS-560-7-SR01 10.88.38.19
+
+===============
+terminal len 0
+Wed Mar 11 23:27:24.364 EAT
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:27:24.730 EAT
+IS-IS AGG_05 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#
+
+===============
+Morogoro_TZ-MG-NCS-560-7-SR02 10.88.38.20
+
+===============
+terminal len 0
+Wed Mar 11 23:27:35.190 EAT
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:27:35.591 EAT
+IS-IS AGG_05 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR02#
+
+===============
+Singo_TZ-SI-NCS-560-7-SR01 10.88.38.21
+
+===============
+terminal len 0
+Wed Mar 11 23:27:45.936 EAT
+RP/0/RP1/CPU0:TZ-SI-NCS-560-7-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:27:46.247 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP1/CPU0:TZ-SI-NCS-560-7-SR01#
+
+===============
+Singo_TZ-SI-NCS-560-7-SR02 10.88.38.22
+
+===============
+terminal len 0
+Wed Mar 11 23:27:56.923 EAT
+RP/0/RP0/CPU0:TZ-SI-NCS-560-7-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:27:57.285 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-SI-NCS-560-7-SR02#
+
+===============
+Sukita_TZ-SK-NCS-560-7-SR01 10.88.38.23
+
+===============
+terminal len 0
+Wed Mar 11 23:27:36.076 EAT
+RP/0/RP0/CPU0:TZ-SK-NCS-560-7-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:27:36.416 EAT
+IS-IS AGG_6 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-SK-NCS-560-7-SR01#
+
+===============
+Bhiaharamuro_TZ-BH-NCS-560-4-SR02 10.88.38.25
+
+===============
+terminal len 0
+Wed Mar 11 23:28:22.802 EAT
+RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:28:23.203 EAT
+IS-IS ACC_13 neighbors:
+IS-IS AGG_11 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR01#
+
+===============
+Bhiaharamuro_TZ-BH-NCS-560-4-SR01 10.88.38.26
+
+===============
+terminal len 0
+Wed Mar 11 23:28:33.723 EAT
+RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:28:34.081 EAT
+IS-IS ACC_13 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-BH-NCS-560-4-SR02#
+
+===============
+Bukoba_TZ-BK-NCS-560-4-SR01 10.88.38.27
+
+===============
+terminal len 0
+Wed Mar 11 23:33:38.729 EAT
+RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:33:39.128 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR01#
+
+===============
+Bukoba_TZ-BK-NCS-560-4-SR02 10.88.38.28
+
+===============
+terminal len 0
+Wed Mar 11 23:30:35.037 EAT
+RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:30:35.395 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR02#
+
+===============
+Ifakara_TZ-IF-NCS-560-4-SR01 10.88.38.29
+
+===============
+terminal len 0
+Wed Mar 11 23:29:06.423 EAT
+RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:29:06.777 EAT
+IS-IS AGG_05 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR01#
+
+===============
+Ifakara_TZ-IF-NCS-560-4-SR02 10.88.38.30
+
+===============
+
+
+===============
+Kahama_TZ-KH-NCS-560-4-SR01 10.88.38.35
+
+===============
+terminal len 0
+Wed Mar 11 23:30:46.512 EAT
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:30:46.882 EAT
+IS-IS ACC_10 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR01#
+
+===============
+Kahama_TZ-KH-NCS-560-4-SR02 10.88.38.36
+
+===============
+terminal len 0
+Wed Mar 11 23:30:57.400 EAT
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:30:57.759 EAT
+IS-IS ACC_10 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#
+
+===============
+Kigoma_TZ-KG-NCS-560-4-SR01 10.88.38.37
+
+===============
+terminal len 0
+Wed Mar 11 23:31:08.274 EAT
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:31:08.632 EAT
+IS-IS ACC_13 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR01#
+
+===============
+Kigoma_TZ-KG-NCS-560-4-SR02 10.88.38.38
+
+===============
+terminal len 0
+Wed Mar 11 23:31:19.271 EAT
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:31:19.644 EAT
+IS-IS ACC_13 neighbors:
+IS-IS AGG_11 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR02#
+
+===============
+Masasi_TZ-MA-NCS-560-4-SR01 10.88.38.43
+
+===============
+terminal len 0
+Wed Mar 11 23:32:30.167 EAT
+RP/0/RP0/CPU0:TZ-MA-NCS-560-4-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:32:30.517 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-MA-NCS-560-4-SR01#
+
+===============
+Masasi_TZ-MA-NCS-560-4-SR02 10.88.38.44
+
+===============
+terminal len 0
+Wed Mar 11 23:32:41.115 EAT
+RP/0/RP0/CPU0:TZ-MA-NCS-560-4-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:32:41.468 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-MA-NCS-560-4-SR02#
+
+===============
+Makamabako_TZ-MK-NCS-560-4-SR01 10.88.38.45
+
+===============
+terminal len 0
+Wed Mar 11 23:32:51.972 EAT
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:32:52.330 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR01#
+
+===============
+Makamabako_TZ-MK-NCS-560-4-SR02 10.88.38.46
+
+===============
+terminal len 0
+Wed Mar 11 23:33:02.692 EAT
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:33:03.037 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR02#
+
+===============
+Musosma_TZ-MU-NCS-560-4-SR01 10.88.38.49
+
+===============
+terminal len 0
+Wed Mar 11 23:33:13.705 EAT
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:33:14.074 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#
+
+===============
+Musosma_TZ-MU-NCS-560-4-SR02 10.88.38.50
+
+===============
+terminal len 0
+Wed Mar 11 23:33:25.623 EAT
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:33:26.011 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR02#
+
+===============
+Mtwara_TZ-MT-NCS-560-4-SR01 10.88.38.51
+
+===============
+terminal len 0
+Wed Mar 11 23:33:36.644 EAT
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:33:37.032 EAT
+IS-IS ACC_4 neighbors:
+IS-IS AGG_03 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR01#
+
+===============
+Mtwara_TZ-MT-NCS-560-4-SR02 10.88.38.52
+
+===============
+terminal len 0
+Wed Mar 11 23:33:47.596 EAT
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:33:47.929 EAT
+IS-IS ACC_4 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR02#
+
+===============
+Ramadi_TZ-RM-NCS-560-4-SR01 10.88.38.53
+
+===============
+terminal len 0
+Wed Mar 11 23:33:58.484 EAT
+RP/0/RP0/CPU0:TZ-RM-NCS-560-4-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:33:58.838 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-RM-NCS-560-4-SR01#
+
+===============
+Ramadi_TZ-RM-NCS-560-4-SR02 10.88.38.54
+
+===============
+terminal len 0
+Wed Mar 11 23:34:09.430 EAT
+RP/0/RP1/CPU0:TZ-RM-NCS-560-4-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:34:09.795 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP1/CPU0:TZ-RM-NCS-560-4-SR02#
+
+===============
+Shinyanaga_TZ-SH-NCS-560-4-SR01 10.88.38.55
+
+===============
+terminal len 0
+Wed Mar 11 23:34:20.296 EAT
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:34:20.653 EAT
+IS-IS ACC_10 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR01#
+
+===============
+Shinyanaga_TZ-SH-NCS-560-4-SR02 10.88.38.56
+
+===============
+terminal len 0
+Wed Mar 11 23:34:31.672 EAT
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:34:32.053 EAT
+IS-IS ACC_10 neighbors:
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR02#
+
+===============
+Songea_TZ-SG-NCS-560-4-SR01 10.88.38.57
+
+===============
+terminal len 0
+Wed Mar 11 23:35:00.078 EAT
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:35:00.539 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR01#
+
+===============
+Songea_TZ-SG-NCS-560-4-SR02 10.88.38.58
+
+===============
+terminal len 0
+Wed Mar 11 23:34:55.899 EAT
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:34:56.246 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR02#
+
+===============
+Sumbawanga_TZ-SU-NCS-560-4-SR01 10.88.38.59
+
+===============
+
+
+===============
+Sumbawanga_TZ-SU-NCS-560-4-SR02 10.88.38.60
+
+===============
+terminal len 0
+Wed Mar 11 23:35:33.961 EAT
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:35:34.332 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR02#
+
+===============
+Tabora_TZ-TB-NCS-560-4-SR01 10.88.38.63
+
+===============
+terminal len 0
+Wed Mar 11 23:35:44.901 EAT
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:35:45.265 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#
+
+===============
+Tabora_TZ-TB-NCS-560-4-SR02 10.88.38.64
+
+===============
+terminal len 0
+Wed Mar 11 23:35:56.965 EAT
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:35:57.362 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR02#
+
+===============
+Tanga_TZ-TG-NCS-560-4-SR01 10.88.38.65
+
+===============
+
+
+===============
+Tanga_TZ-TG-NCS-560-4-SR02 10.88.38.66
+
+===============
+
+
+===============
+Zanzibar_TZ-ZA-NCS-560-4-SR01 10.88.38.67
+
+===============
+terminal len 0
+Wed Mar 11 23:36:39.971 EAT
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:36:40.302 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR01#
+
+===============
+Zanzibar_TZ-ZA-NCS-560-4-SR02 10.88.38.68
+
+===============
+terminal len 0
+Wed Mar 11 23:37:03.863 EAT
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#sh isis nei | i IS-IS
+Wed Mar 11 23:37:04.195 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#
+
+===============
+Moshi (Shanti Town)_TZ-ST-NCS-560-4-SR01 10.88.38.69
+
+===============
+terminal len 0
+Wed Mar 11 23:37:22.683 EAT
+RP/0/RP0/CPU0:TZ-ST-NCS-560-4-SR01#sh isis nei | i IS-IS
+Wed Mar 11 23:37:23.049 EAT
+IS-IS CORE_AGG neighbors:
+RP/0/RP0/CPU0:TZ-ST-NCS-560-4-SR01#
+
+===============
+Moshi (Shanti Town)_TZ-ST-NCS-560-4-SR02 10.88.38.70
+
+===============

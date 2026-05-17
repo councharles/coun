@@ -1,0 +1,53 @@
+terminal len 0
+Fri Aug 16 03:22:51.170 EAT
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR01#sh running-config formal segment-routing | i$ment-routing | i                           adjsh running-config formal segment-routing | $
+Fri Aug 16 03:22:51.441 EAT
+segment-routing traffic-eng segment-list DO1_MB1_IGP index 10 mpls adjacency 10.88.38.17
+segment-routing traffic-eng segment-list DO1_MB2_IGP index 10 mpls adjacency 10.88.38.18
+segment-routing traffic-eng segment-list DO1_MK1_IGP index 10 mpls adjacency 10.88.38.45
+segment-routing traffic-eng segment-list DO1_MK2_IGP index 10 mpls adjacency 10.88.38.46
+segment-routing traffic-eng segment-list DO1_SG1_IGP index 10 mpls adjacency 10.88.38.57
+segment-routing traffic-eng segment-list DO1_SG2_IGP index 10 mpls adjacency 10.88.38.58
+segment-routing traffic-eng segment-list DO1_TB1_IGP index 10 mpls adjacency 10.88.38.63
+segment-routing traffic-eng segment-list DO1_TB2_IGP index 10 mpls adjacency 10.88.38.64
+segment-routing traffic-eng segment-list DO1_MB1_SID1 index 10 mpls adjacency 10.88.38.16
+segment-routing traffic-eng segment-list DO1_MB1_SID1 index 20 mpls adjacency 10.88.38.46
+segment-routing traffic-eng segment-list DO1_MB1_SID1 index 30 mpls adjacency 10.88.38.18
+segment-routing traffic-eng segment-list DO1_MB1_SID1 index 40 mpls adjacency 10.88.38.17
+segment-routing traffic-eng segment-list DO1_MB1_SID2 index 10 mpls adjacency 10.88.38.16
+segment-routing traffic-eng segment-list DO1_MB1_SID2 index 20 mpls adjacency 10.88.38.14
+segment-routing traffic-eng segment-list DO1_MB1_SID2 index 30 mpls adjacency 10.88.38.18
+segment-routing traffic-eng segment-list DO1_MB1_SID2 index 40 mpls adjacency 10.88.38.17
+segment-routing traffic-eng segment-list DO1_MB2_SID1 index 10 mpls adjacency 10.88.38.16
+segment-routing traffic-eng segment-list DO1_MB2_SID1 index 20 mpls adjacency 10.88.38.46
+segment-routing traffic-eng segment-list DO1_MB2_SID1 index 30 mpls adjacency 10.88.38.18
+segment-routing traffic-eng segment-list DO1_MB2_SID2 index 10 mpls adjacency 10.88.38.16
+segment-routing traffic-eng segment-list DO1_MB2_SID2 index 20 mpls adjacency 10.88.38.14
+segment-routing traffic-eng segment-list DO1_MB2_SID2 index 30 mpls adjacency 10.88.38.18
+segment-routing traffic-eng segment-list DO1_MK1_SID1 index 10 mpls adjacency 10.88.38.45
+segment-routing traffic-eng segment-list DO1_MK1_SID2 index 10 mpls adjacency 10.88.38.16
+segment-routing traffic-eng segment-list DO1_MK1_SID2 index 20 mpls adjacency 10.88.38.46
+segment-routing traffic-eng segment-list DO1_MK1_SID2 index 30 mpls adjacency 10.88.38.45
+segment-routing traffic-eng segment-list DO1_MK2_SID1 index 10 mpls adjacency 10.88.38.45
+segment-routing traffic-eng segment-list DO1_MK2_SID1 index 20 mpls adjacency 10.88.38.46
+segment-routing traffic-eng segment-list DO1_MK2_SID2 index 10 mpls adjacency 10.88.38.16
+segment-routing traffic-eng segment-list DO1_MK2_SID2 index 20 mpls adjacency 10.88.38.46
+segment-routing traffic-eng segment-list DO1_SG1_SID1 index 10 mpls adjacency 10.88.38.45
+segment-routing traffic-eng segment-list DO1_SG1_SID1 index 20 mpls adjacency 10.88.38.57
+segment-routing traffic-eng segment-list DO1_SG1_SID2 index 10 mpls adjacency 10.88.38.46
+segment-routing traffic-eng segment-list DO1_SG1_SID2 index 20 mpls adjacency 10.88.38.58
+segment-routing traffic-eng segment-list DO1_SG1_SID2 index 30 mpls adjacency 10.88.38.57
+segment-routing traffic-eng segment-list DO1_SG2_SID1 index 10 mpls adjacency 10.88.38.45
+segment-routing traffic-eng segment-list DO1_SG2_SID1 index 20 mpls adjacency 10.88.38.57
+segment-routing traffic-eng segment-list DO1_SG2_SID1 index 30 mpls adjacency 10.88.38.58
+segment-routing traffic-eng segment-list DO1_SG2_SID2 index 10 mpls adjacency 10.88.38.46
+segment-routing traffic-eng segment-list DO1_SG2_SID2 index 20 mpls adjacency 10.88.38.58
+segment-routing traffic-eng segment-list DO1_TB1_SID1 index 10 mpls adjacency 10.88.38.13
+segment-routing traffic-eng segment-list DO1_TB1_SID1 index 20 mpls adjacency 10.88.38.63
+segment-routing traffic-eng segment-list DO1_TB1_SID2 index 10 mpls adjacency 10.88.38.64
+segment-routing traffic-eng segment-list DO1_TB1_SID2 index 20 mpls adjacency 10.88.38.63
+segment-routing traffic-eng segment-list DO1_TB2_SID1 index 10 mpls adjacency 10.88.38.13
+segment-routing traffic-eng segment-list DO1_TB2_SID1 index 20 mpls adjacency 10.88.38.63
+segment-routing traffic-eng segment-list DO1_TB2_SID1 index 30 mpls adjacency 10.88.38.64
+segment-routing traffic-eng segment-list DO1_TB2_SID2 index 10 mpls adjacency 10.88.38.64
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR01#

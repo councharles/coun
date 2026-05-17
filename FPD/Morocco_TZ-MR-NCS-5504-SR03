@@ -1,0 +1,10 @@
+terminal len 0
+Fri Apr 24 19:31:31.666 EAT
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#show run fpd auto-upgrade
+Fri Apr 24 19:31:32.028 EAT
+% No such configuration item(s)
+
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#admin show run fpd auto-upgrade
+Fri Apr 24 19:31:35.685 EAT
+fpd auto-upgrade disable
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#

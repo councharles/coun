@@ -1,0 +1,875 @@
+
+
+===============
+Morocco_TZ-MR-NCS-5504-SR01 10.88.38.1
+
+===============
+terminal len 0
+Sat Mar  9 23:46:53.617 EAT
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01#sh running-config formal | i end-point
+Sat Mar  9 23:46:54.244 EAT
+Building configuration...
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR01#
+
+===============
+Morocco_TZ-MR-NCS-5504-SR03 10.88.38.3
+
+===============
+terminal len 0
+Sat Mar  9 23:49:24.954 EAT
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#sh running-config formal | i end-point
+Sat Mar  9 23:49:25.449 EAT
+Building configuration...
+segment-routing traffic-eng policy MR3_AR1 color 11 end-point ipv4 10.88.38.11
+segment-routing traffic-eng policy MR3_AR2 color 12 end-point ipv4 10.88.38.12
+segment-routing traffic-eng policy MR3_BH1 color 25 end-point ipv4 10.88.38.25
+segment-routing traffic-eng policy MR3_BH2 color 26 end-point ipv4 10.88.38.26
+segment-routing traffic-eng policy MR3_BK1 color 27 end-point ipv4 10.88.38.27
+segment-routing traffic-eng policy MR3_BK2 color 28 end-point ipv4 10.88.38.28
+segment-routing traffic-eng policy MR3_DO1 color 15 end-point ipv4 10.88.38.15
+segment-routing traffic-eng policy MR3_DO2 color 16 end-point ipv4 10.88.38.16
+segment-routing traffic-eng policy MR3_IF1 color 29 end-point ipv4 10.88.38.29
+segment-routing traffic-eng policy MR3_IF2 color 30 end-point ipv4 10.88.38.30
+segment-routing traffic-eng policy MR3_KG1 color 37 end-point ipv4 10.88.38.37
+segment-routing traffic-eng policy MR3_KG2 color 38 end-point ipv4 10.88.38.38
+segment-routing traffic-eng policy MR3_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy MR3_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy MR3_KP1 color 73 end-point ipv4 10.88.38.73
+segment-routing traffic-eng policy MR3_KP2 color 74 end-point ipv4 10.88.38.74
+segment-routing traffic-eng policy MR3_LU1 color 41 end-point ipv4 10.88.38.41
+segment-routing traffic-eng policy MR3_LU2 color 42 end-point ipv4 10.88.38.42
+segment-routing traffic-eng policy MR3_MA1 color 43 end-point ipv4 10.88.38.43
+segment-routing traffic-eng policy MR3_MA2 color 44 end-point ipv4 10.88.38.44
+segment-routing traffic-eng policy MR3_MB1 color 17 end-point ipv4 10.88.38.17
+segment-routing traffic-eng policy MR3_MB2 color 18 end-point ipv4 10.88.38.18
+segment-routing traffic-eng policy MR3_MG1 color 19 end-point ipv4 10.88.38.19
+segment-routing traffic-eng policy MR3_MG2 color 20 end-point ipv4 10.88.38.20
+segment-routing traffic-eng policy MR3_MK1 color 45 end-point ipv4 10.88.38.45
+segment-routing traffic-eng policy MR3_MK2 color 46 end-point ipv4 10.88.38.46
+segment-routing traffic-eng policy MR3_MT1 color 51 end-point ipv4 10.88.38.51
+segment-routing traffic-eng policy MR3_MT2 color 52 end-point ipv4 10.88.38.52
+segment-routing traffic-eng policy MR3_MU1 color 49 end-point ipv4 10.88.38.49
+segment-routing traffic-eng policy MR3_MU2 color 50 end-point ipv4 10.88.38.50
+segment-routing traffic-eng policy MR3_MW1 color 13 end-point ipv4 10.88.38.13
+segment-routing traffic-eng policy MR3_MW2 color 14 end-point ipv4 10.88.38.14
+segment-routing traffic-eng policy MR3_RM1 color 53 end-point ipv4 10.88.38.53
+segment-routing traffic-eng policy MR3_RM2 color 54 end-point ipv4 10.88.38.54
+segment-routing traffic-eng policy MR3_SG1 color 57 end-point ipv4 10.88.38.57
+segment-routing traffic-eng policy MR3_SG2 color 58 end-point ipv4 10.88.38.58
+segment-routing traffic-eng policy MR3_SH1 color 55 end-point ipv4 10.88.38.55
+segment-routing traffic-eng policy MR3_SH2 color 56 end-point ipv4 10.88.38.56
+segment-routing traffic-eng policy MR3_SI1 color 21 end-point ipv4 10.88.38.21
+segment-routing traffic-eng policy MR3_SI2 color 22 end-point ipv4 10.88.38.22
+segment-routing traffic-eng policy MR3_SK1 color 23 end-point ipv4 10.88.38.23
+segment-routing traffic-eng policy MR3_SK2 color 24 end-point ipv4 10.88.38.24
+segment-routing traffic-eng policy MR3_ST1 color 69 end-point ipv4 10.88.38.69
+segment-routing traffic-eng policy MR3_ST2 color 70 end-point ipv4 10.88.38.70
+segment-routing traffic-eng policy MR3_SU1 color 59 end-point ipv4 10.88.38.59
+segment-routing traffic-eng policy MR3_SU2 color 60 end-point ipv4 10.88.38.60
+segment-routing traffic-eng policy MR3_TG1 color 65 end-point ipv4 10.88.38.65
+segment-routing traffic-eng policy MR3_TG2 color 66 end-point ipv4 10.88.38.66
+segment-routing traffic-eng policy MR3_ZA1 color 67 end-point ipv4 10.88.38.67
+segment-routing traffic-eng policy MR3_ZA2 color 68 end-point ipv4 10.88.38.68
+RP/0/RP0/CPU0:TZ-MR-NCS-5504-SR03#
+
+===============
+Morocco_TZ-MR-NCS-5504-SR04 10.88.38.4
+
+===============
+terminal len 0
+Sat Mar  9 23:48:10.911 EAT
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#sh running-config formal | i end-point
+Sat Mar  9 23:48:11.593 EAT
+Building configuration...
+segment-routing traffic-eng policy MR4_AR1 color 11 end-point ipv4 10.88.38.11
+segment-routing traffic-eng policy MR4_AR2 color 12 end-point ipv4 10.88.38.12
+segment-routing traffic-eng policy MR4_BH1 color 25 end-point ipv4 10.88.38.25
+segment-routing traffic-eng policy MR4_BH2 color 26 end-point ipv4 10.88.38.26
+segment-routing traffic-eng policy MR4_BK1 color 27 end-point ipv4 10.88.38.27
+segment-routing traffic-eng policy MR4_BK2 color 28 end-point ipv4 10.88.38.28
+segment-routing traffic-eng policy MR4_DO1 color 15 end-point ipv4 10.88.38.15
+segment-routing traffic-eng policy MR4_DO2 color 16 end-point ipv4 10.88.38.16
+segment-routing traffic-eng policy MR4_IF1 color 29 end-point ipv4 10.88.38.29
+segment-routing traffic-eng policy MR4_IF2 color 30 end-point ipv4 10.88.38.30
+segment-routing traffic-eng policy MR4_KG1 color 37 end-point ipv4 10.88.38.37
+segment-routing traffic-eng policy MR4_KG2 color 38 end-point ipv4 10.88.38.38
+segment-routing traffic-eng policy MR4_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy MR4_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy MR4_KP1 color 73 end-point ipv4 10.88.38.73
+segment-routing traffic-eng policy MR4_KP2 color 74 end-point ipv4 10.88.38.74
+segment-routing traffic-eng policy MR4_LU1 color 41 end-point ipv4 10.88.38.41
+segment-routing traffic-eng policy MR4_LU2 color 42 end-point ipv4 10.88.38.42
+segment-routing traffic-eng policy MR4_MA1 color 43 end-point ipv4 10.88.38.43
+segment-routing traffic-eng policy MR4_MA2 color 44 end-point ipv4 10.88.38.44
+segment-routing traffic-eng policy MR4_MB1 color 17 end-point ipv4 10.88.38.17
+segment-routing traffic-eng policy MR4_MB2 color 18 end-point ipv4 10.88.38.18
+segment-routing traffic-eng policy MR4_MG1 color 19 end-point ipv4 10.88.38.19
+segment-routing traffic-eng policy MR4_MG2 color 20 end-point ipv4 10.88.38.20
+segment-routing traffic-eng policy MR4_MK1 color 45 end-point ipv4 10.88.38.45
+segment-routing traffic-eng policy MR4_MK2 color 46 end-point ipv4 10.88.38.46
+segment-routing traffic-eng policy MR4_MT1 color 51 end-point ipv4 10.88.38.51
+segment-routing traffic-eng policy MR4_MT2 color 52 end-point ipv4 10.88.38.52
+segment-routing traffic-eng policy MR4_MU1 color 49 end-point ipv4 10.88.38.49
+segment-routing traffic-eng policy MR4_MU2 color 50 end-point ipv4 10.88.38.50
+segment-routing traffic-eng policy MR4_MW1 color 13 end-point ipv4 10.88.38.13
+segment-routing traffic-eng policy MR4_MW2 color 14 end-point ipv4 10.88.38.14
+segment-routing traffic-eng policy MR4_RM1 color 53 end-point ipv4 10.88.38.53
+segment-routing traffic-eng policy MR4_RM2 color 54 end-point ipv4 10.88.38.54
+segment-routing traffic-eng policy MR4_SG1 color 57 end-point ipv4 10.88.38.57
+segment-routing traffic-eng policy MR4_SG2 color 58 end-point ipv4 10.88.38.58
+segment-routing traffic-eng policy MR4_SH1 color 55 end-point ipv4 10.88.38.55
+segment-routing traffic-eng policy MR4_SH2 color 56 end-point ipv4 10.88.38.56
+segment-routing traffic-eng policy MR4_SI1 color 21 end-point ipv4 10.88.38.21
+segment-routing traffic-eng policy MR4_SI2 color 22 end-point ipv4 10.88.38.22
+segment-routing traffic-eng policy MR4_SK1 color 23 end-point ipv4 10.88.38.23
+segment-routing traffic-eng policy MR4_SK2 color 24 end-point ipv4 10.88.38.24
+segment-routing traffic-eng policy MR4_ST1 color 69 end-point ipv4 10.88.38.69
+segment-routing traffic-eng policy MR4_ST2 color 70 end-point ipv4 10.88.38.70
+segment-routing traffic-eng policy MR4_SU1 color 59 end-point ipv4 10.88.38.59
+segment-routing traffic-eng policy MR4_SU2 color 60 end-point ipv4 10.88.38.60
+segment-routing traffic-eng policy MR4_TG1 color 65 end-point ipv4 10.88.38.66
+segment-routing traffic-eng policy MR4_TG2 color 66 end-point ipv4 10.88.38.66
+segment-routing traffic-eng policy MR4_ZA1 color 67 end-point ipv4 10.88.38.67
+segment-routing traffic-eng policy MR4_ZA2 color 68 end-point ipv4 10.88.38.68
+RP/0/RP1/CPU0:TZ-MR-NCS-5504-SR04#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR01 10.88.38.6
+
+===============
+terminal len 0
+Sat Mar  9 23:50:33.713 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#sh running-config formal | i end-point
+Sat Mar  9 23:50:34.734 EAT
+Building configuration...
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR01#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR02 10.88.38.7
+
+===============
+terminal len 0
+Sat Mar  9 23:51:13.323 EAT
+RP/0/RP0/CPU0:TZ-KJ-NCS-5504-SR02#
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR03 10.88.38.8
+
+===============
+
+
+===============
+Kijitonyama_TZ-KJ-NCS-5504-SR04 10.88.38.9
+
+===============
+
+
+===============
+Arusha_TZ-AR-NCS-560-7-SR01 10.88.38.11
+
+===============
+terminal len 0
+Sat Mar  9 23:51:09.221 EAT
+RP/0/RP0/CPU0:TZ-AR-NCS-560-7-SR01#sh running-config formal | i end-point
+Sat Mar  9 23:51:09.971 EAT
+Building configuration...
+segment-routing traffic-eng policy AR1_DO1 color 15 end-point ipv4 10.88.38.15
+segment-routing traffic-eng policy AR1_DO2 color 16 end-point ipv4 10.88.38.16
+segment-routing traffic-eng policy AR1_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy AR1_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy AR1_MG1 color 19 end-point ipv4 10.88.38.19
+segment-routing traffic-eng policy AR1_MG2 color 20 end-point ipv4 10.88.38.20
+segment-routing traffic-eng policy AR1_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy AR1_MR4 color 4 end-point ipv4 10.88.38.4
+segment-routing traffic-eng policy AR1_MW1 color 13 end-point ipv4 10.88.38.13
+segment-routing traffic-eng policy AR1_MW2 color 14 end-point ipv4 10.88.38.14
+segment-routing traffic-eng policy AR1_SI1 color 21 end-point ipv4 10.88.38.21
+segment-routing traffic-eng policy AR1_SI2 color 22 end-point ipv4 10.88.38.22
+segment-routing traffic-eng policy AR1_ST1 color 69 end-point ipv4 10.88.38.69
+segment-routing traffic-eng policy AR1_ST2 color 70 end-point ipv4 10.88.38.70
+RP/0/RP0/CPU0:TZ-AR-NCS-560-7-SR01#
+
+===============
+Arusha_TZ-AR-NCS-560-7-SR02 10.88.38.12
+
+===============
+terminal len 0
+Sat Mar  9 23:51:28.618 EAT
+RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR02#sh running-config formal | i end-point
+Sat Mar  9 23:51:29.786 EAT
+Building configuration...
+segment-routing traffic-eng policy AR2_DO1 color 15 end-point ipv4 10.88.38.15
+segment-routing traffic-eng policy AR2_DO2 color 16 end-point ipv4 10.88.38.16
+segment-routing traffic-eng policy AR2_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy AR2_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy AR2_MG1 color 19 end-point ipv4 10.88.38.19
+segment-routing traffic-eng policy AR2_MG2 color 20 end-point ipv4 10.88.38.20
+segment-routing traffic-eng policy AR2_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy AR2_MR4 color 4 end-point ipv4 10.88.38.4
+segment-routing traffic-eng policy AR2_MW1 color 13 end-point ipv4 10.88.38.13
+segment-routing traffic-eng policy AR2_MW2 color 14 end-point ipv4 10.88.38.14
+segment-routing traffic-eng policy AR2_SI1 color 21 end-point ipv4 10.88.38.21
+segment-routing traffic-eng policy AR2_SI2 color 22 end-point ipv4 10.88.38.22
+segment-routing traffic-eng policy AR2_ST1 color 69 end-point ipv4 10.88.38.69
+segment-routing traffic-eng policy AR2_ST2 color 70 end-point ipv4 10.88.38.70
+RP/0/RP0/CPU0:TZ-AR-NCS-5504-SR02#
+
+===============
+Mwanza_TZ-MW-NCS-560-7-SR01 10.88.38.13
+
+===============
+
+
+===============
+Mwanza_TZ-MW-NCS-560-7-SR02 10.88.38.14
+
+===============
+terminal len 0
+Sat Mar  9 23:58:26.936 EAT
+RP/0/RP0/CPU0:TZ-MW-NCS-560-7-SR02#
+
+===============
+Dodoma_TZ-DO-NCS-560-7-SR01 10.88.38.15
+
+===============
+terminal len 0
+Sat Mar  9 23:52:40.951 EAT
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR01#sh running-config formal | i end-point
+Sat Mar  9 23:52:41.697 EAT
+Building configuration...
+segment-routing traffic-eng policy DO1_AR1 color 11 end-point ipv4 10.88.38.11
+segment-routing traffic-eng policy DO1_AR2 color 12 end-point ipv4 10.88.38.12
+segment-routing traffic-eng policy DO1_IG1 color 75 end-point ipv4 10.88.38.75
+segment-routing traffic-eng policy DO1_IG2 color 76 end-point ipv4 10.88.38.76
+segment-routing traffic-eng policy DO1_IR1 color 33 end-point ipv4 10.88.38.33
+segment-routing traffic-eng policy DO1_IR2 color 34 end-point ipv4 10.88.38.34
+segment-routing traffic-eng policy DO1_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy DO1_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy DO1_MB1 color 17 end-point ipv4 10.88.38.17
+segment-routing traffic-eng policy DO1_MB2 color 18 end-point ipv4 10.88.38.18
+segment-routing traffic-eng policy DO1_MG1 color 19 end-point ipv4 10.88.38.19
+segment-routing traffic-eng policy DO1_MG2 color 20 end-point ipv4 10.88.38.20
+segment-routing traffic-eng policy DO1_MK1 color 45 end-point ipv4 10.88.38.45
+segment-routing traffic-eng policy DO1_MK2 color 46 end-point ipv4 10.88.38.46
+segment-routing traffic-eng policy DO1_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy DO1_MR4 color 4 end-point ipv4 10.88.38.4
+segment-routing traffic-eng policy DO1_MW1 color 13 end-point ipv4 10.88.38.13
+segment-routing traffic-eng policy DO1_MW2 color 14 end-point ipv4 10.88.38.14
+segment-routing traffic-eng policy DO1_SG1 color 57 end-point ipv4 10.88.38.57
+segment-routing traffic-eng policy DO1_SG2 color 58 end-point ipv4 10.88.38.58
+segment-routing traffic-eng policy DO1_TB1 color 63 end-point ipv4 10.88.38.63
+segment-routing traffic-eng policy DO1_TB2 color 64 end-point ipv4 10.88.38.64
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR01#
+
+===============
+Dodoma_TZ-DO-NCS-560-7-SR02 10.88.38.16
+
+===============
+terminal len 0
+Sat Mar  9 23:52:58.323 EAT
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR02#sh running-config formal | i end-point
+Sat Mar  9 23:52:59.101 EAT
+Building configuration...
+segment-routing traffic-eng policy DO2_AR1 color 11 end-point ipv4 10.88.38.11
+segment-routing traffic-eng policy DO2_AR2 color 12 end-point ipv4 10.88.38.12
+segment-routing traffic-eng policy DO2_IG1 color 75 end-point ipv4 10.88.38.75
+segment-routing traffic-eng policy DO2_IG2 color 76 end-point ipv4 10.88.38.76
+segment-routing traffic-eng policy DO2_IR1 color 33 end-point ipv4 10.88.38.33
+segment-routing traffic-eng policy DO2_IR2 color 34 end-point ipv4 10.88.38.34
+segment-routing traffic-eng policy DO2_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy DO2_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy DO2_MG1 color 19 end-point ipv4 10.88.38.19
+segment-routing traffic-eng policy DO2_MG2 color 20 end-point ipv4 10.88.38.20
+segment-routing traffic-eng policy DO2_MK1 color 45 end-point ipv4 10.88.38.45
+segment-routing traffic-eng policy DO2_MK2 color 46 end-point ipv4 10.88.38.46
+segment-routing traffic-eng policy DO2_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy DO2_MR4 color 4 end-point ipv4 10.88.38.4
+segment-routing traffic-eng policy DO2_MT1 color 51 end-point ipv4 10.88.38.51
+segment-routing traffic-eng policy DO2_MT2 color 52 end-point ipv4 10.88.38.52
+segment-routing traffic-eng policy DO2_MW1 color 13 end-point ipv4 10.88.38.13
+segment-routing traffic-eng policy DO2_MW2 color 14 end-point ipv4 10.88.38.14
+segment-routing traffic-eng policy DO2_SG1 color 57 end-point ipv4 10.88.38.57
+segment-routing traffic-eng policy DO2_SG2 color 58 end-point ipv4 10.88.38.58
+RP/0/RP0/CPU0:TZ-DO-NCS-560-7-SR02#
+
+===============
+Mbeya Forest_TZ-MB-NCS-560-7-SR01 10.88.38.17
+
+===============
+terminal len 0
+Sat Mar  9 23:53:17.227 EAT
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#sh running-config formal | i end-point
+Sat Mar  9 23:53:18.008 EAT
+Building configuration...
+segment-routing traffic-eng policy MB1_DO1 color 15 end-point ipv4 10.88.38.15
+segment-routing traffic-eng policy MB1_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy MB1_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy MB1_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy MB1_MR4 color 4 end-point ipv4 10.88.38.4
+segment-routing traffic-eng policy MB1_MW2 color 14 end-point ipv4 10.88.38.14
+segment-routing traffic-eng policy MB1_SU1 color 59 end-point ipv4 10.88.38.59
+segment-routing traffic-eng policy MB1_SU2 color 60 end-point ipv4 10.88.38.60
+RP/0/RP0/CPU0:TZ-MB-NCS-560-7-SR01#
+
+===============
+Mbeya Forest_TZ-MB-NCS-560-7-SR02 10.88.38.18
+
+===============
+
+
+===============
+Morogoro_TZ-MG-NCS-560-7-SR01 10.88.38.19
+
+===============
+terminal len 0
+Sat Mar  9 23:54:08.832 EAT
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR01#
+
+===============
+Morogoro_TZ-MG-NCS-560-7-SR02 10.88.38.20
+
+===============
+terminal len 0
+Sat Mar  9 23:54:25.277 EAT
+RP/0/RP0/CPU0:TZ-MG-NCS-560-7-SR02#
+
+===============
+Singo_TZ-SI-NCS-560-7-SR01 10.88.38.21
+
+===============
+terminal len 0
+Sat Mar  9 23:54:41.653 EAT
+RP/0/RP0/CPU0:TZ-SI-NCS-560-7-SR01#
+
+===============
+Singo_TZ-SI-NCS-560-7-SR02 10.88.38.22
+
+===============
+terminal len 0
+Sat Mar  9 23:54:55.820 EAT
+RP/0/RP0/CPU0:TZ-SI-NCS-560-7-SR02#sh running-config formal | i end-point
+Sat Mar  9 23:54:56.462 EAT
+Building configuration...
+segment-routing traffic-eng policy SI2_AR1 color 11 end-point ipv4 10.88.38.11
+segment-routing traffic-eng policy SI2_AR2 color 12 end-point ipv4 10.88.38.12
+segment-routing traffic-eng policy SI2_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy SI2_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy SI2_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy SI2_MR4 color 4 end-point ipv4 10.88.38.4
+RP/0/RP0/CPU0:TZ-SI-NCS-560-7-SR02#
+
+===============
+Sukita_TZ-SK-NCS-560-7-SR01 10.88.38.23
+
+===============
+terminal len 0
+Sat Mar  9 23:55:11.919 EAT
+RP/0/RP0/CPU0:TZ-SK-NCS-560-7-SR01#sh running-config formal | i end-point
+Sat Mar  9 23:55:12.647 EAT
+Building configuration...
+segment-routing traffic-eng policy SK1_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy SK1_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy SK1_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy SK1_MR4 color 4 end-point ipv4 10.88.38.4
+RP/0/RP0/CPU0:TZ-SK-NCS-560-7-SR01#
+
+===============
+Sukita_TZ-SK-NCS-560-7-SR02 10.88.38.24
+
+===============
+terminal len 0
+Sat Mar  9 23:55:28.310 EAT
+RP/0/RP0/CPU0:TZ-SK-NCS-560-7-SR02#sh running-config formal | i end-point
+Sat Mar  9 23:55:29.005 EAT
+Building configuration...
+segment-routing traffic-eng policy SK2_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy SK2_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy SK2_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy SK2_MR4 color 4 end-point ipv4 10.88.38.4
+RP/0/RP0/CPU0:TZ-SK-NCS-560-7-SR02#
+
+===============
+Bhiaharamuro_TZ-BH-NCS-560-4-SR02 10.88.38.25
+
+===============
+
+
+===============
+Bhiaharamuro_TZ-BH-NCS-560-4-SR01 10.88.38.26
+
+===============
+
+
+===============
+Bukoba_TZ-BK-NCS-560-4-SR01 10.88.38.27
+
+===============
+terminal len 0
+Sat Mar  9 23:56:53.187 EAT
+RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR01#sh running-config formal | i end-point
+Sat Mar  9 23:56:53.788 EAT
+Building configuration...
+segment-routing traffic-eng policy BK1_BH1 color 25 end-point ipv4 10.88.38.25
+segment-routing traffic-eng policy BK1_BH2 color 26 end-point ipv4 10.88.38.26
+segment-routing traffic-eng policy BK1_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy BK1_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy BK1_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy BK1_MR4 color 4 end-point ipv4 10.88.38.4
+segment-routing traffic-eng policy BK1_MW1 color 13 end-point ipv4 10.88.38.13
+segment-routing traffic-eng policy BK1_MW2 color 14 end-point ipv4 10.88.38.14
+RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR01#
+
+===============
+Bukoba_TZ-BK-NCS-560-4-SR02 10.88.38.28
+
+===============
+terminal len 0
+Sat Mar  9 23:57:08.040 EAT
+RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR02#sh running-config formal | i end-point
+Sat Mar  9 23:57:08.645 EAT
+Building configuration...
+segment-routing traffic-eng policy BK2_BH1 color 25 end-point ipv4 10.88.38.25
+segment-routing traffic-eng policy BK2_BH2 color 26 end-point ipv4 10.88.38.26
+segment-routing traffic-eng policy BK2_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy BK2_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy BK2_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy BK2_MR4 color 4 end-point ipv4 10.88.38.4
+segment-routing traffic-eng policy BK2_MW1 color 13 end-point ipv4 10.88.38.13
+segment-routing traffic-eng policy BK2_MW2 color 14 end-point ipv4 10.88.38.14
+RP/0/RP0/CPU0:TZ-BK-NCS-560-4-SR02#
+
+===============
+Ifakara_TZ-IF-NCS-560-4-SR01 10.88.38.29
+
+===============
+terminal len 0
+Sat Mar  9 23:57:24.633 EAT
+RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR01#sh running-config formal | i end-point
+Sat Mar  9 23:57:25.322 EAT
+Building configuration...
+segment-routing traffic-eng policy IF1_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy IF1_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy IF1_MG1 color 19 end-point ipv4 10.88.38.19
+segment-routing traffic-eng policy IF1_MG2 color 20 end-point ipv4 10.88.38.20
+segment-routing traffic-eng policy IF1_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy IF1_MR4 color 4 end-point ipv4 10.88.38.4
+RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR01#
+
+===============
+Ifakara_TZ-IF-NCS-560-4-SR02 10.88.38.30
+
+===============
+terminal len 0
+Sat Mar  9 23:57:40.628 EAT
+RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR02#sh running-config formal | i end-point
+Sat Mar  9 23:57:41.304 EAT
+Building configuration...
+segment-routing traffic-eng policy IF2_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy IF2_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy IF2_MG1 color 19 end-point ipv4 10.88.38.19
+segment-routing traffic-eng policy IF2_MG2 color 20 end-point ipv4 10.88.38.20
+segment-routing traffic-eng policy IF2_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy IF2_MR4 color 4 end-point ipv4 10.88.38.4
+RP/0/RP0/CPU0:TZ-IF-NCS-560-4-SR02#
+
+===============
+Kahama_TZ-KH-NCS-560-4-SR01 10.88.38.35
+
+===============
+terminal len 0
+Sat Mar  9 23:58:40.160 EAT
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR01#sh running-config formal | i end-point
+Sat Mar  9 23:58:40.941 EAT
+Building configuration...
+segment-routing traffic-eng policy KH1_MW1 color 13 end-point ipv4 10.88.38.13
+segment-routing traffic-eng policy KH1_MW2 color 14 end-point ipv4 10.88.38.14
+segment-routing traffic-eng policy KH1_SH1 color 55 end-point ipv4 10.88.38.55
+segment-routing traffic-eng policy KH1_SH2 color 56 end-point ipv4 10.88.38.56
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR01#
+
+===============
+Kahama_TZ-KH-NCS-560-4-SR02 10.88.38.36
+
+===============
+terminal len 0
+Sat Mar  9 23:58:54.785 EAT
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#sh running-config formal | i end-point
+Sat Mar  9 23:58:55.360 EAT
+Building configuration...
+segment-routing traffic-eng policy KH2_MW1 color 13 end-point ipv4 10.88.38.13
+segment-routing traffic-eng policy KH2_MW2 color 14 end-point ipv4 10.88.38.14
+segment-routing traffic-eng policy KH2_SH1 color 55 end-point ipv4 10.88.38.55
+segment-routing traffic-eng policy KH2_SH2 color 56 end-point ipv4 10.88.38.56
+RP/0/RP0/CPU0:TZ-KH-NCS-560-4-SR02#
+
+===============
+Kigoma_TZ-KG-NCS-560-4-SR01 10.88.38.37
+
+===============
+terminal len 0
+Sat Mar  9 23:59:09.659 EAT
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR01#sh running-config formal | i end-point
+Sat Mar  9 23:59:10.273 EAT
+Building configuration...
+segment-routing traffic-eng policy KG1_BH1 color 25 end-point ipv4 10.88.38.25
+segment-routing traffic-eng policy KG1_BH2 color 26 end-point ipv4 10.88.38.26
+segment-routing traffic-eng policy KG1_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy KG1_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy KG1_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy KG1_MR4 color 4 end-point ipv4 10.88.38.4
+segment-routing traffic-eng policy KG1_MW1 color 13 end-point ipv4 10.88.38.13
+segment-routing traffic-eng policy KG1_MW2 color 14 end-point ipv4 10.88.38.14
+RP/0/RP0/CPU0:TZ-KG-NCS-560-4-SR01#
+
+===============
+Kigoma_TZ-KG-NCS-560-4-SR02 10.88.38.38
+
+===============
+
+
+===============
+Lushoto_TZ-LU-NCS-560-4-SR01 10.88.38.41
+
+===============
+terminal len 0
+Sat Mar  9 23:59:54.913 EAT
+RP/0/RP0/CPU0:TZ-LU-NCS-560-4-SR01#sh running-config formal | i end-point
+Sat Mar  9 23:59:55.452 EAT
+Building configuration...
+segment-routing traffic-eng policy LU1_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy LU1_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy LU1_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy LU1_MR4 color 4 end-point ipv4 10.88.38.4
+RP/0/RP0/CPU0:TZ-LU-NCS-560-4-SR01#
+
+===============
+Lushoto_TZ-LU-NCS-560-4-SR02 10.88.38.42
+
+===============
+terminal len 0
+Sun Mar 10 00:00:09.628 EAT
+RP/0/RP0/CPU0:TZ-LU-NCS-560-4-SR02#sh running-config formal | i end-point
+Sun Mar 10 00:00:10.173 EAT
+Building configuration...
+segment-routing traffic-eng policy LU2_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy LU2_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy LU2_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy LU2_MR4 color 4 end-point ipv4 10.88.38.4
+RP/0/RP0/CPU0:TZ-LU-NCS-560-4-SR02#
+
+===============
+Masasi_TZ-MA-NCS-560-4-SR01 10.88.38.43
+
+===============
+
+
+===============
+Masasi_TZ-MA-NCS-560-4-SR02 10.88.38.44
+
+===============
+terminal len 0
+Sun Mar 10 00:00:53.648 EAT
+RP/0/RP0/CPU0:TZ-MA-NCS-560-4-SR02#
+
+===============
+Makamabako_TZ-MK-NCS-560-4-SR01 10.88.38.45
+
+===============
+terminal len 0
+Sun Mar 10 00:01:09.756 EAT
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR01#sh running-config formal | i end-point
+Sun Mar 10 00:01:10.392 EAT
+Building configuration...
+segment-routing traffic-eng policy MK1_DO1 color 15 end-point ipv4 10.88.38.15
+segment-routing traffic-eng policy MK1_DO2 color 16 end-point ipv4 10.88.38.16
+segment-routing traffic-eng policy MK1_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy MK1_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy MK1_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy MK1_MR4 color 4 end-point ipv4 10.88.38.4
+segment-routing traffic-eng policy MK1_SG1 color 57 end-point ipv4 10.88.38.57
+segment-routing traffic-eng policy MK1_SG2 color 58 end-point ipv4 10.88.38.58
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR01#
+
+===============
+Makamabako_TZ-MK-NCS-560-4-SR02 10.88.38.46
+
+===============
+terminal len 0
+Sun Mar 10 00:01:26.858 EAT
+RP/0/RP0/CPU0:TZ-MK-NCS-560-4-SR02#
+
+===============
+Musosma_TZ-MU-NCS-560-4-SR01 10.88.38.49
+
+===============
+terminal len 0
+Sun Mar 10 00:01:42.434 EAT
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#sh running-config formal | i end-point
+Sun Mar 10 00:01:43.171 EAT
+Building configuration...
+segment-routing traffic-eng policy MU1_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy MU1_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy MU1_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy MU1_MR4 color 4 end-point ipv4 10.88.38.4
+segment-routing traffic-eng policy MU1_MW1 color 13 end-point ipv4 10.88.38.13
+segment-routing traffic-eng policy MU1_MW2 color 14 end-point ipv4 10.88.38.14
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR01#
+
+===============
+Musosma_TZ-MU-NCS-560-4-SR02 10.88.38.50
+
+===============
+terminal len 0
+Sun Mar 10 00:01:59.050 EAT
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR02#sh running-config formal | i end-point
+Sun Mar 10 00:01:59.547 EAT
+Building configuration...
+segment-routing traffic-eng policy MU2_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy MU2_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy MU2_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy MU2_MR4 color 4 end-point ipv4 10.88.38.4
+segment-routing traffic-eng policy MU2_MW1 color 13 end-point ipv4 10.88.38.13
+segment-routing traffic-eng policy MU2_MW2 color 14 end-point ipv4 10.88.38.14
+RP/0/RP0/CPU0:TZ-MU-NCS-560-4-SR02#
+
+===============
+Mtwara_TZ-MT-NCS-560-4-SR01 10.88.38.51
+
+===============
+terminal len 0
+Sun Mar 10 00:02:14.392 EAT
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR01#sh running-config formal | i end-point
+Sun Mar 10 00:02:14.946 EAT
+Building configuration...
+segment-routing traffic-eng policy MT1_DO2 color 16 end-point ipv4 10.88.38.16
+segment-routing traffic-eng policy MT1_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy MT1_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy MT1_MA1 color 43 end-point ipv4 10.88.38.43
+segment-routing traffic-eng policy MT1_MA2 color 44 end-point ipv4 10.88.38.44
+segment-routing traffic-eng policy MT1_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy MT1_MR4 color 4 end-point ipv4 10.88.38.4
+RP/0/RP0/CPU0:TZ-MT-NCS-560-4-SR01#
+
+===============
+Mtwara_TZ-MT-NCS-560-4-SR02 10.88.38.52
+
+===============
+
+
+===============
+Ramadi_TZ-RM-NCS-560-4-SR01 10.88.38.53
+
+===============
+
+
+===============
+Ramadi_TZ-RM-NCS-560-4-SR02 10.88.38.54
+
+===============
+terminal len 0
+Sun Mar 10 00:03:30.014 EAT
+RP/0/RP0/CPU0:TZ-RM-NCS-560-4-SR02#sh running-config formal | i end-point
+Sun Mar 10 00:03:30.599 EAT
+Building configuration...
+segment-routing traffic-eng policy RM2_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy RM2_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy RM2_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy RM2_MR4 color 4 end-point ipv4 10.88.38.4
+segment-routing traffic-eng policy RM2_MW1 color 13 end-point ipv4 10.88.38.13
+segment-routing traffic-eng policy RM2_MW2 color 14 end-point ipv4 10.88.38.14
+RP/0/RP0/CPU0:TZ-RM-NCS-560-4-SR02#
+
+===============
+Shinyanaga_TZ-SH-NCS-560-4-SR01 10.88.38.55
+
+===============
+terminal len 0
+Sun Mar 10 00:03:44.415 EAT
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR01#sh running-config formal | i end-point
+Sun Mar 10 00:03:45.053 EAT
+Building configuration...
+segment-routing traffic-eng policy SH1_KH1 color 35 end-point ipv4 10.88.38.35
+segment-routing traffic-eng policy SH1_KH2 color 36 end-point ipv4 10.88.38.36
+segment-routing traffic-eng policy SH1_MW1 color 13 end-point ipv4 10.88.38.13
+segment-routing traffic-eng policy SH1_MW2 color 14 end-point ipv4 10.88.38.14
+RP/0/RP0/CPU0:TZ-SH-NCS-560-4-SR01#
+
+===============
+Shinyanaga_TZ-SH-NCS-560-4-SR02 10.88.38.56
+
+===============
+
+
+===============
+Songea_TZ-SG-NCS-560-4-SR01 10.88.38.57
+
+===============
+terminal len 0
+Sun Mar 10 00:04:29.359 EAT
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR01#sh running-config formal | i end-point
+Sun Mar 10 00:04:29.887 EAT
+Building configuration...
+segment-routing traffic-eng policy SG1_DO1 color 15 end-point ipv4 10.88.38.15
+segment-routing traffic-eng policy SG1_DO2 color 16 end-point ipv4 10.88.38.16
+segment-routing traffic-eng policy SG1_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy SG1_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy SG1_MK1 color 45 end-point ipv4 10.88.38.45
+segment-routing traffic-eng policy SG1_MK2 color 46 end-point ipv4 10.88.38.46
+segment-routing traffic-eng policy SG1_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy SG1_MR4 color 4 end-point ipv4 10.88.38.4
+RP/0/RP0/CPU0:TZ-SG-NCS-560-4-SR01#
+
+===============
+Songea_TZ-SG-NCS-560-4-SR02 10.88.38.58
+
+===============
+
+
+===============
+Sumbawanga_TZ-SU-NCS-560-4-SR01 10.88.38.59
+
+===============
+terminal len 0
+Sun Mar 10 00:05:14.096 EAT
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR01#sh running-config formal | i end-point
+Sun Mar 10 00:05:14.742 EAT
+Building configuration...
+segment-routing traffic-eng policy SU1_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy SU1_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy SU1_MB1 color 17 end-point ipv4 10.88.38.17
+segment-routing traffic-eng policy SU1_MB2 color 18 end-point ipv4 10.88.38.18
+segment-routing traffic-eng policy SU1_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy SU1_MR4 color 4 end-point ipv4 10.88.38.4
+RP/0/RP0/CPU0:TZ-SU-NCS-560-4-SR01#
+
+===============
+Sumbawanga_TZ-SU-NCS-560-4-SR02 10.88.38.60
+
+===============
+
+
+===============
+Tabora_TZ-TB-NCS-560-4-SR01 10.88.38.63
+
+===============
+terminal len 0
+Sun Mar 10 00:05:59.249 EAT
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#sh running-config formal | i end-point
+Sun Mar 10 00:05:59.793 EAT
+Building configuration...
+segment-routing traffic-eng policy TB1_DO1 color 15 end-point ipv4 10.88.38.15
+segment-routing traffic-eng policy TB1_MW1 color 13 end-point ipv4 10.88.38.13
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR01#
+
+===============
+Tabora_TZ-TB-NCS-560-4-SR02 10.88.38.64
+
+===============
+terminal len 0
+Sun Mar 10 00:06:14.192 EAT
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR02#sh running-config formal | i end-point
+Sun Mar 10 00:06:14.736 EAT
+Building configuration...
+segment-routing traffic-eng policy TB2_DO1 color 15 end-point ipv4 10.88.38.15
+segment-routing traffic-eng policy TB2_MW1 color 13 end-point ipv4 10.88.38.13
+RP/0/RP0/CPU0:TZ-TB-NCS-560-4-SR02#
+
+===============
+Tanga_TZ-TG-NCS-560-4-SR01 10.88.38.65
+
+===============
+terminal len 0
+Sun Mar 10 00:06:28.949 EAT
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR01#sh running-config formal | i end-point
+Sun Mar 10 00:06:29.491 EAT
+Building configuration...
+segment-routing traffic-eng policy TG1_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy TG1_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy TG1_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy TG1_MR4 color 4 end-point ipv4 10.88.38.4
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR01#
+
+===============
+Tanga_TZ-TG-NCS-560-4-SR02 10.88.38.66
+
+===============
+terminal len 0
+Sun Mar 10 00:06:43.896 EAT
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR02#sh running-config formal | i end-point
+Sun Mar 10 00:06:44.450 EAT
+Building configuration...
+segment-routing traffic-eng policy TG2_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy TG2_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy TG2_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy TG2_MR4 color 4 end-point ipv4 10.88.38.4
+RP/0/RP0/CPU0:TZ-TG-NCS-560-4-SR02#
+
+===============
+Zanzibar_TZ-ZA-NCS-560-4-SR01 10.88.38.67
+
+===============
+terminal len 0
+Sun Mar 10 00:06:58.958 EAT
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR01#sh running-config formal | i end-point
+Sun Mar 10 00:06:59.433 EAT
+Building configuration...
+segment-routing traffic-eng policy ZA1_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy ZA1_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy ZA1_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy ZA1_MR4 color 4 end-point ipv4 10.88.38.4
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR01#
+
+===============
+Zanzibar_TZ-ZA-NCS-560-4-SR02 10.88.38.68
+
+===============
+
+
+===============
+Moshi (Shanti Town)_TZ-ST-NCS-560-4-SR01 10.88.38.69
+
+===============
+
+
+===============
+Moshi (Shanti Town)_TZ-ST-NCS-560-4-SR02 10.88.38.70
+
+===============
+terminal len 0
+Sun Mar 10 00:08:23.945 EAT
+RP/0/RP0/CPU0:TZ-ST-NCS-560-4-SR02#sh running-config formal | i end-point
+Sun Mar 10 00:08:24.637 EAT
+Building configuration...
+segment-routing traffic-eng policy ST2_AR1 color 11 end-point ipv4 10.88.38.11
+segment-routing traffic-eng policy ST2_AR2 color 12 end-point ipv4 10.88.38.12
+segment-routing traffic-eng policy ST2_KJ3 color 8 end-point ipv4 10.88.38.8
+segment-routing traffic-eng policy ST2_KJ4 color 9 end-point ipv4 10.88.38.9
+segment-routing traffic-eng policy ST2_MR3 color 3 end-point ipv4 10.88.38.3
+segment-routing traffic-eng policy ST2_MR4 color 4 end-point ipv4 10.88.38.4
+RP/0/RP0/CPU0:TZ-ST-NCS-560-4-SR02#
+
+===============
+Igogo_TZ-IG-NCS-560-4-SR01 10.88.38.75
+
+===============
+terminal len 0
+Sun Mar 10 00:09:24.464 EAT
+RP/0/RP0/CPU0:TZ-IG-NCS-560-4-SR01#sh running-config formal | i end-point
+Sun Mar 10 00:09:25.203 EAT
+Building configuration...
+segment-routing traffic-eng policy IG1_DO1 color 15 end-point ipv4 10.88.38.15
+segment-routing traffic-eng policy IG1_DO2 color 16 end-point ipv4 10.88.38.16
+RP/0/RP0/CPU0:TZ-IG-NCS-560-4-SR01#
+
+===============
+Igogo_TZ-IG-NCS-560-4-SR02 10.88.38.76
+
+===============
+terminal len 0
+Sun Mar 10 00:09:43.497 EAT
+RP/0/RP1/CPU0:TZ-IG-NCS-560-4-SR02#sh running-config formal | i end-point
+Sun Mar 10 00:09:44.157 EAT
+Building configuration...
+segment-routing traffic-eng policy IG2_DO1 color 15 end-point ipv4 10.88.38.15
+segment-routing traffic-eng policy IG2_DO2 color 16 end-point ipv4 10.88.38.16
+RP/0/RP1/CPU0:TZ-IG-NCS-560-4-SR02#

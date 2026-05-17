@@ -1,0 +1,1107 @@
+term len 0
+Wed Aug 23 15:05:56.836 EAT
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#show media
+Wed Aug 23 15:05:57.013 EAT
+
+Media Info for Location: node0_RP0_CPU0
+Partition                            Size     Used  Percent    Avail
+--------------------------------------------------------------------
+rootfs:                              3.9G     3.0G      81%     738M
+harddisk:                            5.6G     2.7G      52%     2.6G
+log:                                 459M     170M      40%     255M
+config:                              459M     3.2M       1%     422M
+disk0:                               2.0G      80M       5%     1.8G
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#show media location all
+Wed Aug 23 15:05:57.263 EAT
+
+Media Info for Location: node0_RP1_CPU0
+Partition                            Size     Used  Percent    Avail
+--------------------------------------------------------------------
+rootfs:                              3.9G     3.0G      81%     739M
+harddisk:                            5.6G     2.1G      39%     3.3G
+log:                                 459M     153M      36%     273M
+config:                              459M     2.7M       1%     422M
+disk0:                               2.0G      73M       4%     1.8G
+
+Media Info for Location: node0_RP0_CPU0
+Partition                            Size     Used  Percent    Avail
+--------------------------------------------------------------------
+rootfs:                              3.9G     3.0G      81%     738M
+harddisk:                            5.6G     2.7G      52%     2.6G
+log:                                 459M     170M      40%     255M
+config:                              459M     3.2M       1%     422M
+disk0:                               2.0G      80M       5%     1.8G
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#dir harddisk:
+Wed Aug 23 15:05:57.644 EAT
+
+Directory of harddisk:
+129039 drwxr-xr-x. 2       4096 Jan 22  2021 dumper
+129030 drwxr-xr-x. 3       4096 Apr 27  2022 .sppdc_new
+    18 -rw-r--r--. 1      12960 Jan 22  2021 fia_ddr3_shmoo_0
+129026 drwxr-xr-x. 2       4096 Apr 27  2022 .agt_cache
+129045 drwxr-xr-x. 2       4096 Dec 14  2022 install_tmp_staging_area
+    51 -rw-r--r--. 1    8389039 Aug 23 14:41 nvgen_bkup.log
+    25 drwxr-xr-x. 5       4096 Aug 22 12:32 cisco_support
+    36 drwxr-xr-x. 2       4096 Nov  3  2022 showtech
+129057 drw-rw-r--. 2       4096 Apr 27  2022 rdsfs_log
+    11 -rw-r--r--. 1      39998 Dec 14  2022 uea_xr_ha.log
+129040 drwxr-xr-x. 3       4096 Jan 22  2021 pam
+    40 -rw-r--r--. 1   80033792 Apr 27  2022 ncs560-SMU.tar
+129054 drwxr-xr-x. 2       4096 Apr 27  2022 ipodwdm_log
+129033 drwxr-xr-x. 2       4096 Apr 27  2022 .mgr_cache
+129027 drwxr-xr-x. 2       4096 Apr 27  2022 .tmp
+129025 drwxr-xr-x. 2       4096 Jan 22  2021 mirror
+    15 drwxr-xr-x. 2       4096 Jan 22  2021 tftpboot
+    43 -rw-------. 1   42618880 Jul 29  2021 ncs560-7.1.2.CSCvq82052.tar
+    16 drwxr-xr-x. 2       4096 Jan 22  2021 nvram
+    21 -rw-r--r--. 1     207951 Dec 14  2022 bcm_console_log_output.txt
+    17 drwxr-xr-x. 2       4096 Jan 22  2021 shutdown
+129042 drwx------. 2       4096 Jul 31 13:16 node0_RP0_CPU0
+    19 -rw-r--r--. 1          0 Jan 22  2021 zl30363_trace_file.log
+    71 -rw-r--r--. 1 1605232640 Dec 13  2022 ncs560-goldenk9-x-7.3.2-TZV2.iso
+    41 -rw-r--r--. 1       1770 Aug 23 14:30 feature_list
+    46 -rw-r--r--. 1   87224320 Jul 30  2021 ncs560-7.1.2.CSCvu34202.tar
+    12 drwx------. 2       4096 Jan 22  2021 lost+found
+129029 drwx------. 3       4096 Dec 14  2022 ima
+129044 drwxr-xr-x. 2       4096 Jul 31 13:16 node0_RP1_CPU0
+    13 drwxr-xr-x. 2       4096 Apr 27  2022 do_not_del_files
+129028 drwxr-xr-x. 2       4096 Apr 27  2022 .tmp_staging
+129055 drwxr-xr-x. 3       4096 Apr 27  2022 ztp
+    20 drwxr-xr-x. 2       4096 Dec 15  2022 .sppdc
+
+5831720 kbytes total (2686984 kbytes free)
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#show install active
+Wed Aug 23 15:05:59.094 EAT
+Label : 7.3.2-TZV2
+
+Node 0/RP0/CPU0 [RP]
+  Boot Partition: xr_lv33
+  Active Packages: 19
+        ncs560-xr-7.3.2 version=7.3.2 [Boot image]
+        ncs560-iosxr-fwding-2.1.0.5-r732.CSCvz93797
+        ncs560-eigrp-1.0.0.0-r732
+        ncs560-infra-3.0.0.4-r732.CSCvz54050
+        ncs560-fwding-2.0.0.3-r732.CSCwc65193
+        ncs560-dpa-fwding-2.1.0.11-r732.CSCwc65193
+        ncs560-os-support-2.1.0.5-r732.CSCwc65193
+        ncs560-mpls-te-rsvp-2.0.0.0-r732
+        ncs560-mgbl-2.0.0.0-r732
+        ncs560-mpls-1.0.0.0-r732
+        ncs560-isis-2.0.0.0-r732
+        ncs560-ce-2.0.0.2-r732.CSCwc65193
+        ncs560-os-3.0.0.1-r732.CSCwa52204
+        ncs560-mcast-2.0.0.0-r732
+        ncs560-li-1.0.0.0-r732
+        ncs560-isis-2.0.0.1-r732.CSCvx28942
+        ncs560-k9sec-2.1.0.0-r732
+        ncs560-dpa-2.0.0.7-r732.CSCvz54050
+        ncs560-ospf-3.0.0.0-r732
+
+Node 0/RP1/CPU0 [RP]
+  Boot Partition: xr_lv33
+  Active Packages: 19
+        ncs560-xr-7.3.2 version=7.3.2 [Boot image]
+        ncs560-iosxr-fwding-2.1.0.5-r732.CSCvz93797
+        ncs560-eigrp-1.0.0.0-r732
+        ncs560-infra-3.0.0.4-r732.CSCvz54050
+        ncs560-fwding-2.0.0.3-r732.CSCwc65193
+        ncs560-dpa-fwding-2.1.0.11-r732.CSCwc65193
+        ncs560-os-support-2.1.0.5-r732.CSCwc65193
+        ncs560-mpls-te-rsvp-2.0.0.0-r732
+        ncs560-mgbl-2.0.0.0-r732
+        ncs560-mpls-1.0.0.0-r732
+        ncs560-isis-2.0.0.0-r732
+        ncs560-ce-2.0.0.2-r732.CSCwc65193
+        ncs560-os-3.0.0.1-r732.CSCwa52204
+        ncs560-mcast-2.0.0.0-r732
+        ncs560-li-1.0.0.0-r732
+        ncs560-isis-2.0.0.1-r732.CSCvx28942
+        ncs560-k9sec-2.1.0.0-r732
+        ncs560-dpa-2.0.0.7-r732.CSCvz54050
+        ncs560-ospf-3.0.0.0-r732
+
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#admin show media
+Wed Aug 23 15:06:02.101 EAT
+---------------------------------------------------------------------
+Partition                    Size     Used  Percent    Avail
+---------------------------------------------------------------------
+rootfs:                      2.4G     641M      29%     1.6G
+harddisk:                    5.6G     1.7G      32%     3.7G
+log:                         459M     169M      40%     256M
+config:                      459M     4.0M       1%     421M
+disk0:                      1011M     1.8M       1%     940M
+install:                     5.6G     1.3G      24%     4.0G
+install:/tmp                 5.6G     1.3G      24%     4.0G
+install:/cache               5.6G     1.3G      24%     4.0G
+rootfs:/install/tmp          5.6G     1.3G      24%     4.0G
+---------------------------------------------------------------------
+rootfs:  = root file system (read-only)
+log:     = system log files (read-only)
+config:  = configuration storage (read-only)
+install: = install repository (read-only)
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#admin show media location all
+Wed Aug 23 15:06:08.925 EAT
+
+************************************************************
+Location : 0/RP1
+************************************************************
+---------------------------------------------------------------------
+Partition                    Size     Used  Percent    Avail
+---------------------------------------------------------------------
+rootfs:                      2.4G     641M      29%     1.6G
+harddisk:                    5.6G     3.0G      56%     2.4G
+log:                         459M     127M      30%     299M
+config:                      459M     3.8M       1%     421M
+disk0:                      1011M     3.5M       1%     938M
+install:                     5.6G     1.3G      24%     4.0G
+install:/tmp                 5.6G     1.3G      24%     4.0G
+install:/cache               5.6G     1.3G      24%     4.0G
+rootfs:/install/tmp          5.6G     1.3G      24%     4.0G
+---------------------------------------------------------------------
+rootfs:  = root file system (read-only)
+log:     = system log files (read-only)
+config:  = configuration storage (read-only)
+install: = install repository (read-only)
+
+************************************************************
+Location : 0/RP0
+************************************************************
+---------------------------------------------------------------------
+Partition                    Size     Used  Percent    Avail
+---------------------------------------------------------------------
+rootfs:                      2.4G     641M      29%     1.6G
+harddisk:                    5.6G     1.7G      32%     3.7G
+log:                         459M     169M      40%     256M
+config:                      459M     4.0M       1%     421M
+disk0:                      1011M     1.8M       1%     940M
+install:                     5.6G     1.3G      24%     4.0G
+install:/tmp                 5.6G     1.3G      24%     4.0G
+install:/cache               5.6G     1.3G      24%     4.0G
+rootfs:/install/tmp          5.6G     1.3G      24%     4.0G
+---------------------------------------------------------------------
+rootfs:  = root file system (read-only)
+log:     = system log files (read-only)
+config:  = configuration storage (read-only)
+install: = install repository (read-only)
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#admin dir harddisk:
+Wed Aug 23 15:06:17.105 EAT
+total 3148
+    39 -rw-r--r--. 1     183 Dec 14  2022 system_stats.log
+    11 drwx------. 2   16384 Jan 22  2021 lost+found
+129029 drw-r--r--. 2    4096 Apr 27  2022 tmp_staging
+    40 -rw-r--r--. 1     174 Dec 14  2022 toggle_pci_link.log
+    25 -rw-r--r--. 1       0 Jan 22  2021 obfl_2021-01-22-07:40:34.log
+    30 -rw-r--r--. 1       0 Jan 22  2021 obfl_2021-01-22-08:28:13.log
+    15 -rw-r--r--. 1     270 Apr 27  2022 ctrldrv.log.bak2
+    28 -rw-r--r--. 1       0 Jan 22  2021 obfl_2021-01-22-08:02:49.log
+    26 -rw-r--r--. 1       0 Jan 22  2021 obfl_2021-01-22-08:45:54.log
+129031 drwxr-xr-x. 2    4096 Jan 22  2021 dumper
+129025 drwxr-xr-x. 4    4096 Aug 23 00:51 cisco_support
+    36 -rw-r--r--. 1     436 Dec 14  2022 ctrldrv.log.bak1
+    38 -rw-r--r--. 1     115 Dec 14  2022 dpfpga.log
+    37 -rw-------. 1       0 Mar 30 03:47 .python-history
+    34 -rw-------. 1     283 Jan 22  2021 .bash_history
+    12 drwxr-xr-x. 3    4096 Dec 14  2022 tftpboot
+    33 -rw-r--r--. 1     265 Apr 27  2022 rpfpd_debug.log
+    29 -rw-r--r--. 1 3147538 Jan 22  2021 control_driver.log
+    27 -rw-r--r--. 1    9648 Dec 14  2022 xr_cleanup.log
+5831720 kbytes total (3794236 kbytes free)
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#admin show system resources location 0/RP0
+Wed Aug 23 15:06:24.329 EAT
+Physical       -- Available system memory 
+Application    -- Application memory allocated to host/sysadmin/XR
+Boot Partition -- Boot memory allocated to host/sysadmin/XR
+Total          -- Total memory
+Available      -- Available free memory
+Cached         -- Amount of memory used for disk caching
+"^" character  -- Within 10% of max memory
+Node			Physical			Application		 Boot Partition		CPUs	Shmwin
+		Total	Available	Cached	Total	Available	Cached	Total	Available
+0/RP0-Host	32694M^	1097M^		231M	31928M^	1072M^		226	923M	479M		4
+	N/A
+0/RP0-Admin	1941M	1334M		65M	1896M	1303M		63	2307M	1652M		1	N/A
+0/RP0-XR	26695M	16591M		4381M	26069M	16202M		4278	N/A	N/A		3	6143M
+
+Node		   harddisk:		   log:			   disk0:		   config:
+		Total	Available	Total	Available	Total	Available	Total	Available
+0/RP0-Host	1767M	1765M		435M	363M		1672M	1670M		80M	80M		
+0/RP0-Admin	5512M	3794M		433M	261M		963M	962M		433M	430M		
+0/RP0-XR	5511M	2686M		433M	260M		1900M	1819M		434M	431M		
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#admin show system resources location 0/RP1
+Wed Aug 23 15:06:35.390 EAT
+Physical       -- Available system memory 
+Application    -- Application memory allocated to host/sysadmin/XR
+Boot Partition -- Boot memory allocated to host/sysadmin/XR
+Total          -- Total memory
+Available      -- Available free memory
+Cached         -- Amount of memory used for disk caching
+"^" character  -- Within 10% of max memory
+Node			Physical			Application		 Boot Partition		CPUs	Shmwin
+		Total	Available	Cached	Total	Available	Cached	Total	Available
+0/RP1-Host	32694M^	1231M^		228M	31928M^	1202M^		222	923M	479M		4
+	N/A
+0/RP1-Admin	1941M	798M		410M	1896M	779M		400	2307M	1652M		1	N/A
+0/RP1-XR	26695M	15527M		5806M	26069M	15163M		5670	N/A	N/A		3	6143M
+
+Node		   harddisk:		   log:			   disk0:		   config:
+		Total	Available	Total	Available	Total	Available	Total	Available
+0/RP1-Host	1767M	1765M		435M	367M		1672M	1670M		80M	80M		
+0/RP1-Admin	5512M	2463M		434M	305M		963M	960M		433M	430M		
+0/RP1-XR	5511M	3399M		433M	278M		1900M	1826M		433M	431M		
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#admin show memory summary location all
+Wed Aug 23 15:06:46.445 EAT
+************************************************************
+
+
+Location : 0/RP1
+
+************************************************************
+
+Physical Memory: 1896 MB total (1296 MB available)
+************************************************************
+
+
+Location : 0/RP0
+
+************************************************************
+
+Physical Memory: 1896 MB total (1304 MB available)
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#admin show sdr
+Wed Aug 23 15:06:55.181 EAT
+
+SDR: default-sdr
+Location     IP Address      Status           Boot Count  Time Started
+-----------------------------------------------------------------------------
+0/RP0/VM1    192.0.0.4       RUNNING          1           12/14/2022 02:19:28
+0/RP1/VM1    192.0.4.4       RUNNING          1           12/14/2022 02:19:05
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#admin show redundancy
+Wed Aug 23 15:07:01.724 EAT
+------------------------^
+syntax error: element does not exist
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#show redundancy
+Wed Aug 23 15:07:09.067 EAT
+Redundancy information for node 0/RP0/CPU0:
+==========================================
+Node 0/RP0/CPU0 is in ACTIVE role
+Partner node (0/RP1/CPU0) is in STANDBY role
+Standby node in 0/RP1/CPU0 is ready
+Standby node in 0/RP1/CPU0 is NSR-ready
+
+Reload and boot info
+----------------------
+RP reloaded Wed Dec 14 05:19:37 2022: 36 weeks, 9 hours, 47 minutes ago
+Active node booted Wed Dec 14 05:19:37 2022: 36 weeks, 9 hours, 47 minutes ago
+Standby node boot Wed Dec 14 05:19:14 2022: 36 weeks, 9 hours, 47 minutes ago
+Standby node last went not ready Wed Dec 14 05:20:29 2022: 36 weeks, 9 hours, 46 minutes ago
+Standby node last went ready Wed Dec 14 05:28:34 2022: 36 weeks, 9 hours, 38 minutes ago
+Standby node last went not NSR-ready Wed Dec 14 05:23:40 2022: 36 weeks, 9 hours, 43 minutes ago
+Standby node last went NSR-ready Wed Dec 14 05:32:10 2022: 36 weeks, 9 hours, 34 minutes ago
+There have been 0 switch-overs since reload
+
+Active node reload "CARD_SHUTDOWN"
+Standby node reload "CARD_SHUTDOWN "
+
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#show install inactive
+Wed Aug 23 15:07:09.358 EAT
+No inactive package(s) in software repository
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#show install superseded
+Wed Aug 23 15:07:12.477 EAT
+ Node 0/RP1/CPU0 [RP]
+    Boot Partition: xr_lv33
+    Superseded Packages: 0
+	No fully superseded package(s) found on the system
+
+ Node 0/RP0/CPU0 [RP]
+    Boot Partition: xr_lv33
+    Superseded Packages: 0
+	No fully superseded package(s) found on the system
+
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#show install log reverse
+Wed Aug 23 15:07:15.632 EAT
+2023-05-24 02:42:03 Install operation 39 started by ashutosh:
+  install verify packages 
+2023-05-24 02:42:05 Action 1: install verify action started
+2023-05-24 02:42:05 Install operation will continue in the background
+2023-05-24 02:42:37 0/RP1/CPU0 completed verification successfully
+2023-05-24 02:42:37 0/RP0/CPU0 completed verification successfully
+2023-05-24 02:42:38 Install operation 39 finished successfully
+2023-05-24 02:42:38 Ending operation 39
+
+2023-05-24 00:29:31 Install operation 38 started by ashutosh:
+  install verify packages 
+2023-05-24 00:29:33 Action 1: install verify action started
+2023-05-24 00:29:33 Install operation will continue in the background
+2023-05-24 00:30:58 0/RP1/CPU0 completed verification successfully
+2023-05-24 00:30:58 0/RP0/CPU0 completed verification successfully
+2023-05-24 00:31:00 Install operation 38 finished successfully
+2023-05-24 00:31:00 Ending operation 38
+
+2022-12-14 06:10:11 Install operation 37 started by smuralim:
+  install commit 
+2022-12-14 06:10:12 Install operation will continue in the background
+2022-12-14 06:10:28 Install operation 37 finished successfully
+2022-12-14 06:10:28 Ending operation 37
+
+2022-12-14 05:25:32 Install operation 36 started by unknown:
+  install remove inactive all 
+2022-12-14 05:25:33 Action 1: install remove action started
+2022-12-14 05:25:33 Install operation will continue in the background
+2022-12-14 05:25:33 Package list:
+2022-12-14 05:25:33 	ncs560-mini-x-7.3.2
+2022-12-14 05:25:33 	ncs560-sysadmin-ncs560-7.3.2.1-r732.CSCvz77675.x86_64
+2022-12-14 05:25:33 	ncs560-infra-3.0.0.1-r732.CSCvy46398.x86_64
+2022-12-14 05:25:33 	ncs560-mini-x-7.3.2
+2022-12-14 05:25:33 	ncs560-dpa-fwding-2.1.0.3-r732.CSCwa41553.x86_64
+2022-12-14 05:25:33 	ncs560-dpa-2.0.0.1-r732.CSCvy46398.x86_64
+2022-12-14 05:25:33 	ncs560-os-support-2.1.0.1-r732.CSCvy46398.x86_64
+2022-12-14 05:26:20 Due to this operation, the following add operation IDs are no longer valid:
+2022-12-14 05:26:20 23 
+2022-12-14 05:26:20 Action 1: install remove action completed successfully
+2022-12-14 05:26:21 Install operation 36 finished successfully
+2022-12-14 05:26:21 Install operation 36 completed without error
+2022-12-14 05:26:21 Ending operation 36
+
+2022-12-14 05:24:34 Auto commit operation 35 started for the replace commit
+2022-12-14 05:24:35 Install operation will continue in the background
+2022-12-14 05:25:24 Install operation 35 finished successfully
+2022-12-14 05:25:24 Ending operation 35
+
+2022-12-14 04:54:34 Install operation 34 started by root:
+2022-12-14 04:54:34 install add source /misc/disk1/install_tmp_staging_area/7.3.2 ncs560-goldenk9-x-7.3.2-TZV2.iso
+2022-12-14 04:54:34 Action 1: install add action started
+2022-12-14 04:55:03 Install operation will continue in the background
+2022-12-14 04:57:21 Packages added:
+2022-12-14 04:57:21 	ncs560-goldenk9-x-7.3.2-TZV2.iso
+2022-12-14 04:57:21 Action 1: install add action completed successfully
+2022-12-14 04:57:21 Install operation 34 finished successfully
+2022-12-14 04:57:21 Ending operation 34
+2022-12-14 04:54:03  Install operation 33 started by epnm:
+2022-12-14 04:54:03    install replace source /harddisk:/ncs560-goldenk9-x-7.3.2-TZV2.iso noprompt commit
+2022-12-14 04:54:05  No install operation in progress at this moment
+2022-12-14 04:54:05  Checking system is ready for install operation
+2022-12-14 04:54:08  'install replace' in progress
+2022-12-14 04:54:08  Install replace with commit option is triggered
+2022-12-14 04:54:08  Label = TZV2
+2022-12-14 04:54:08  ISO ncs560-goldenk9-x-7.3.2-TZV2.iso in input package list. Going to upgrade the system to version 7.3.2.
+2022-12-14 04:54:13  Current label: <None>
+2022-12-14 04:54:13  Updating contents of golden ISO
+2022-12-14 04:54:13  Scheme : localdisk
+2022-12-14 04:54:13  Hostname : localhost
+2022-12-14 04:54:13  Username : None
+2022-12-14 04:54:13  SourceDir : /harddisk:
+2022-12-14 04:54:13  Collecting software state..
+2022-12-14 04:54:13  Getting platform
+2022-12-14 04:54:13  Getting supported architecture
+2022-12-14 04:54:13  Getting active packages from XR
+2022-12-14 04:54:13  Getting inactive packages from XR
+2022-12-14 04:54:25  Getting list of RPMs in local repo
+2022-12-14 04:54:27  Getting list of provides of all active packages
+2022-12-14 04:54:27  Getting provides of each rpm in repo
+2022-12-14 04:54:27  Getting requires of each rpm in repo
+2022-12-14 04:54:27  Fetching .... ncs560-goldenk9-x-7.3.2-TZV2.iso
+2022-12-14 04:54:30  Label within GISO: TZV2
+2022-12-14 04:54:33  Adding packages 
+	ncs560-goldenk9-x-7.3.2-TZV2.iso
+2022-12-14 04:54:33  Allocated operation ID 34 for install add
+2022-12-14 04:57:21  Activating ncs560-goldenk9-x-7.3.2-TZV2
+2022-12-14 04:57:23  Optimized list to prepare after sanitizing input list for superseded packages:
+	ncs560-goldenk9-x-7.3.2-TZV2
+2022-12-14 04:57:23  Package list:
+2022-12-14 04:57:23  	ncs560-goldenk9-x-7.3.2-TZV2
+2022-12-14 04:57:23  Action 1: install prepare action started
+2022-12-14 04:57:23  Triggering prepare operation.
+This may take a while...
+2022-12-14 05:07:40  Action 1: install prepare action completed successfully
+2022-12-14 05:07:44  Prepare operation completed. Trigger activate.
+This may take a while...
+2022-12-14 05:07:44  Prepare completed. Operation ID 33 will be taken up for activate operation
+2022-12-14 05:07:44  Activate operation ID is: 33 for 'install source' ID:33
+2022-12-14 05:07:47 Install operation 33 started by epnm:
+  install activate replace noprompt synchronous 
+2022-12-14 05:07:49 Action 1: install activate action started
+2022-12-14 05:07:50 The software will be activated with reload upgrade
+2022-12-14 05:07:52 Following nodes are available for System Upgrade activate:
+2022-12-14 05:07:52  0/RP0 0/RP1 
+2022-12-14 05:11:49 Action 1: install activate action completed successfully
+2022-12-14 05:11:58 Install operation 33 finished successfully
+2022-12-14 05:11:59 Ending operation 33
+
+2022-12-14 04:43:02 Install operation 32 started by smuralim:
+  install remove inactive all 
+2022-12-14 04:43:03 Action 1: install remove action started
+2022-12-14 04:43:03 Install operation will continue in the background
+2022-12-14 04:43:03 Package list:
+2022-12-14 04:43:03 	ncs560-sysadmin-ncs560-7.1.2.1-r712.CSCvv41516.x86_64
+2022-12-14 04:43:03 	ncs560-sysadmin-7.1.2
+2022-12-14 04:43:03 	ncs560-mini-x-7.1.2
+2022-12-14 04:43:03 	host-7.1.2
+2022-12-14 04:43:03 	ncs560-xr-7.1.2
+2022-12-14 04:43:03 	ncs560-mcast-2.0.0.0-r712.x86_64
+2022-12-14 04:43:03 	ncs560-os-support-2.1.0.4-r712.CSCvq82052.x86_64
+2022-12-14 04:43:03 	ncs560-os-support-2.1.0.1-r712.CSCvv41516.x86_64
+2022-12-14 04:43:03 	ncs560-isis-2.0.0.0-r712.x86_64
+2022-12-14 04:43:03 	ncs560-ospf-2.0.0.0-r712.x86_64
+2022-12-14 04:43:03 	ncs560-dpa-2.0.0.1-r712.CSCvu34202.x86_64
+2022-12-14 04:43:03 	ncs560-mpls-te-rsvp-2.0.0.0-r712.x86_64
+2022-12-14 04:43:03 	ncs560-mgbl-2.0.0.0-r712.x86_64
+2022-12-14 04:43:03 	ncs560-infra-3.0.0.1-r712.CSCvu34202.x86_64
+2022-12-14 04:43:03 	ncs560-fwding-2.0.0.1-r712.CSCvu34202.x86_64
+2022-12-14 04:43:03 	ncs560-li-1.0.0.0-r712.x86_64
+2022-12-14 04:43:03 	ncs560-mpls-1.0.0.0-r712.x86_64
+2022-12-14 04:43:03 	ncs560-mini-x-7.1.2
+2022-12-14 04:43:03 	ncs560-os-support-2.1.0.2-r712.CSCvu34202.x86_64
+2022-12-14 04:43:03 	ncs560-eigrp-1.0.0.0-r712.x86_64
+2022-12-14 04:43:03 	ncs560-dpa-fwding-2.1.0.2-r732.CSCwa01375.x86_64
+2022-12-14 04:43:03 	ncs560-dpa-fwding-2.0.0.1-r712.CSCvu34202.x86_64
+2022-12-14 04:43:03 	ncs560-dpa-fwding-2.1.0.1-r732.CSCvy46398.x86_64
+2022-12-14 04:43:03 	ncs560-k9sec-2.1.0.0-r712.x86_64
+2022-12-14 04:44:32 Due to this operation, the following add operation IDs are no longer valid:
+2022-12-14 04:44:32 1 12 13 26 5 9 
+2022-12-14 04:44:32 Action 1: install remove action completed successfully
+2022-12-14 04:44:34 Install operation 32 finished successfully
+2022-12-14 04:44:34 Ending operation 32
+
+2022-12-14 04:25:25 Install operation 31 started by msefu:
+  install commit 
+2022-12-14 04:25:26 Install operation will continue in the background
+2022-12-14 04:25:40 Install operation 31 finished successfully
+2022-12-14 04:25:40 Ending operation 31
+
+2022-04-27 05:02:16 Install operation 30 started by msefu:
+  install commit 
+2022-04-27 05:02:17 Install operation will continue in the background
+2022-04-27 05:02:29 Install operation 30 finished successfully
+2022-04-27 05:02:29 Ending operation 30
+
+2022-04-27 04:50:58 Install operation 29 started by msefu:
+  install commit 
+2022-04-27 04:50:59 Install operation will continue in the background
+2022-04-27 04:51:12 Install operation 29 finished successfully
+2022-04-27 04:51:12 Ending operation 29
+
+2022-04-27 03:59:21 Install operation 28 started by msefu:
+  install commit 
+2022-04-27 03:59:22 Install operation will continue in the background
+2022-04-27 03:59:34 Install operation 28 finished successfully
+2022-04-27 03:59:34 Ending operation 28
+
+2022-04-27 03:39:16 Install operation 27 started by msefu:
+  install activate id 26 noprompt synchronous 
+2022-04-27 03:39:16 Package list:
+2022-04-27 03:39:16     ncs560-dpa-fwding-2.1.0.2-r732.CSCwa01375.x86_64
+2022-04-27 03:39:16     ncs560-infra-3.0.0.1-r732.CSCvy46398.x86_64
+2022-04-27 03:39:16     ncs560-dpa-fwding-2.1.0.3-r732.CSCwa41553.x86_64
+2022-04-27 03:39:16     ncs560-isis-2.0.0.1-r732.CSCvx28942.x86_64
+2022-04-27 03:39:16     ncs560-dpa-fwding-2.1.0.1-r732.CSCvy46398.x86_64
+2022-04-27 03:39:16     ncs560-os-support-2.1.0.1-r732.CSCvy46398.x86_64
+2022-04-27 03:39:16     ncs560-sysadmin-ncs560-7.3.2.1-r732.CSCvz77675.x86_64
+2022-04-27 03:39:16     ncs560-dpa-2.0.0.1-r732.CSCvy46398.x86_64
+2022-04-27 03:39:18 Optimized package list:
+2022-04-27 03:39:18     ncs560-dpa-fwding-2.1.0.3-r732.CSCwa41553.x86_64
+2022-04-27 03:39:18     ncs560-infra-3.0.0.1-r732.CSCvy46398.x86_64
+2022-04-27 03:39:18     ncs560-isis-2.0.0.1-r732.CSCvx28942.x86_64
+2022-04-27 03:39:18     ncs560-os-support-2.1.0.1-r732.CSCvy46398.x86_64
+2022-04-27 03:39:18     ncs560-sysadmin-ncs560-7.3.2.1-r732.CSCvz77675.x86_64
+2022-04-27 03:39:18     ncs560-dpa-2.0.0.1-r732.CSCvy46398.x86_64
+2022-04-27 03:39:26 Action 1: install prepare action started
+2022-04-27 03:39:43 The prepared software is set to be activated with system reboot
+2022-04-27 03:39:56 This install operation will reboot the sdr, continue?
+ [yes/no]:[yes] default yes
+2022-04-27 03:39:56 Start preparing software across VM
+2022-04-27 03:40:01 Sending prepare  command to all nodes
+2022-04-27 03:40:19 Action 1: install prepare action completed successfully
+2022-04-27 03:40:20 Action 2: install activate action started
+2022-04-27 03:40:20 The software will be activated with system reboot
+2022-04-27 03:40:24 Package ncs560-sysadmin-ncs560-7.3.2.1-r732.CSCvz77675.x86_64 will be activated 
+2022-04-27 03:40:24 Activating Sysadmin packages. Sending activate command to all nodes
+2022-04-27 03:42:18 On admin VM 0/RP0, there is 1 process impacted and would be restarted.
+2022-04-27 03:42:18 control_driver    (modified)
+2022-04-27 03:43:16 On admin VM 0/RP1, there is 1 process impacted and would be restarted.
+2022-04-27 03:43:16 control_driver    (modified)
+2022-04-27 03:43:34 Packages will be activated in the following sequence:
+2022-04-27 03:43:34     1: ncs560-os-support-2.1.0.1-r732.CSCvy46398.x86_64 
+2022-04-27 03:43:34     2: ncs560-infra-3.0.0.1-r732.CSCvy46398.x86_64 
+2022-04-27 03:43:34     3: ncs560-dpa-2.0.0.1-r732.CSCvy46398.x86_64 
+2022-04-27 03:43:34     4: ncs560-isis-2.0.0.1-r732.CSCvx28942.x86_64 
+2022-04-27 03:43:34     5: ncs560-dpa-fwding-2.1.0.3-r732.CSCwa41553.x86_64 
+2022-04-27 03:43:35 Activating package ncs560-os-support-2.1.0.1-r732.CSCvy46398.x86_64 
+2022-04-27 03:45:05 Activating package ncs560-infra-3.0.0.1-r732.CSCvy46398.x86_64 
+2022-04-27 03:46:10 Activating package ncs560-dpa-2.0.0.1-r732.CSCvy46398.x86_64 
+2022-04-27 03:47:03 Activating package ncs560-isis-2.0.0.1-r732.CSCvx28942.x86_64 
+2022-04-27 03:47:57 Activating package ncs560-dpa-fwding-2.1.0.3-r732.CSCwa41553.x86_64 
+2022-04-27 03:48:50 activate operation completed for all package(s)
+2022-04-27 03:48:53 Action 2: install activate action completed successfully
+2022-04-27 03:49:30 Install operation 27 finished successfully
+2022-04-27 03:49:30 Ending operation 27
+
+2022-04-27 03:37:12 Install operation 26 started by msefu:
+ install add source harddisk:/ ncs560-SMU.tar synchronous nooptim 
+2022-04-27 03:37:13 Action 1: install add action started
+2022-04-27 03:38:00 Packages added:
+2022-04-27 03:38:00     ncs560-dpa-fwding-2.1.0.2-r732.CSCwa01375.x86_64
+2022-04-27 03:38:00     ncs560-infra-3.0.0.1-r732.CSCvy46398.x86_64
+2022-04-27 03:38:00     ncs560-dpa-fwding-2.1.0.3-r732.CSCwa41553.x86_64
+2022-04-27 03:38:00     ncs560-isis-2.0.0.1-r732.CSCvx28942.x86_64
+2022-04-27 03:38:00     ncs560-dpa-fwding-2.1.0.1-r732.CSCvy46398.x86_64
+2022-04-27 03:38:00     ncs560-os-support-2.1.0.1-r732.CSCvy46398.x86_64
+2022-04-27 03:38:00     ncs560-sysadmin-ncs560-7.3.2.1-r732.CSCvz77675.x86_64
+2022-04-27 03:38:00     ncs560-dpa-2.0.0.1-r732.CSCvy46398.x86_64
+2022-04-27 03:38:00 Action 1: install add action completed successfully
+2022-04-27 03:38:02 Install operation 26 finished successfully
+2022-04-27 03:38:02 Ending operation 26
+
+2022-04-27 03:34:22 Install operation 25 started by msefu:
+  install commit 
+2022-04-27 03:34:23 Install operation will continue in the background
+2022-04-27 03:34:33 Install operation 25 finished successfully
+2022-04-27 03:34:33 Ending operation 25
+
+Apr 27 02:51:31 Install operation 24 started by msefu:
+  install activate id 23 noprompt synchronous 
+Apr 27 02:51:31 Package list:
+Apr 27 02:51:31     ncs560-mini-x-7.3.2
+Apr 27 02:51:31     ncs560-mgbl-2.0.0.0-r732.x86_64
+Apr 27 02:51:31     ncs560-mpls-1.0.0.0-r732.x86_64
+Apr 27 02:51:31     ncs560-eigrp-1.0.0.0-r732.x86_64
+Apr 27 02:51:31     ncs560-mcast-2.0.0.0-r732.x86_64
+Apr 27 02:51:31     ncs560-mpls-te-rsvp-2.0.0.0-r732.x86_64
+Apr 27 02:51:31     ncs560-ospf-3.0.0.0-r732.x86_64
+Apr 27 02:51:31     ncs560-k9sec-2.1.0.0-r732.x86_64
+Apr 27 02:51:31     ncs560-li-1.0.0.0-r732.x86_64
+Apr 27 02:51:31     ncs560-isis-2.0.0.0-r732.x86_64
+Apr 27 02:51:39 Action 1: install prepare action started
+Apr 27 02:55:03 The prepared software is set to be activated with reload upgrade
+Apr 27 02:55:04 This install operation will reload the system, continue?
+ [yes/no]:[yes] default yes
+Apr 27 02:55:04 Start preparing new VM for reload upgrade
+Apr 27 03:08:36 All the above nodes completed System Upgrade prepare.
+Apr 27 03:08:37 Action 1: install prepare action completed successfully
+Apr 27 03:08:38 Action 2: install activate action started
+Apr 27 03:08:38 The software will be activated with reload upgrade
+Apr 27 03:08:41 Following nodes are available for System Upgrade activate:
+Apr 27 03:08:41  0/RP0 0/RP1 
+Apr 27 03:10:56 Action 2: install activate action completed successfully
+Apr 27 03:11:05 Install operation 24 finished successfully
+Apr 27 03:11:05 Ending operation 24
+
+Apr 27 02:40:51 Install operation 23 started by msefu:
+ install add source harddisk:/ NCS560-iosxr-k9-7.3.2.tar synchronous 
+Apr 27 02:40:52 Action 1: install add action started
+Apr 27 02:46:23 WARNING : the following files/packages were not added to the Software Repository due to unsupported file format
+		README-NCS560-iosxr-k9-7.3.2.txt
+Apr 27 02:49:42 Packages added:
+Apr 27 02:49:42     ncs560-mini-x-7.3.2
+Apr 27 02:49:42     ncs560-mgbl-2.0.0.0-r732.x86_64
+Apr 27 02:49:42     ncs560-mpls-1.0.0.0-r732.x86_64
+Apr 27 02:49:42     ncs560-eigrp-1.0.0.0-r732.x86_64
+Apr 27 02:49:42     ncs560-mcast-2.0.0.0-r732.x86_64
+Apr 27 02:49:42     ncs560-mpls-te-rsvp-2.0.0.0-r732.x86_64
+Apr 27 02:49:42     ncs560-ospf-3.0.0.0-r732.x86_64
+Apr 27 02:49:42     ncs560-k9sec-2.1.0.0-r732.x86_64
+Apr 27 02:49:42     ncs560-li-1.0.0.0-r732.x86_64
+Apr 27 02:49:42     ncs560-isis-2.0.0.0-r732.x86_64
+Apr 27 02:49:42 Action 1: install add action completed successfully
+Apr 27 02:49:43 Install operation 23 finished successfully
+Apr 27 02:49:43 Ending operation 23
+
+Jul 31 15:55:21 Install operation 22 started by admin:
+  install commit 
+Jul 31 15:55:22 Install operation will continue in the background
+Jul 31 15:55:36 Install operation 22 finished successfully
+Jul 31 15:55:36 Ending operation 22
+
+Jul 30 21:22:58 Install operation 21 started by admin:
+  install commit 
+Jul 30 21:22:59 Install operation will continue in the background
+Jul 30 21:23:13 Install operation 21 finished successfully
+Jul 30 21:23:13 Ending operation 21
+
+Jul 30 19:04:25 Install operation 20 started by admin:
+  install commit 
+Jul 30 19:04:26 Install operation will continue in the background
+Jul 30 19:04:40 Install operation 20 finished successfully
+Jul 30 19:04:40 Ending operation 20
+
+Jul 30 18:48:36 Install operation 19 started by admin:
+  install activate id 13 noprompt synchronous 
+Jul 30 18:48:36 Package list:
+Jul 30 18:48:36     ncs560-os-support-2.1.0.4-r712.CSCvq82052.x86_64
+Jul 30 18:48:42 Action 1: install prepare action started
+Jul 30 18:48:46 The prepared software is set to be activated with system reboot
+Jul 30 18:48:56 This install operation will reboot the sdr, continue?
+ [yes/no]:[yes] default yes
+Jul 30 18:48:56 Start preparing software for local installation
+Jul 30 18:49:03 Action 1: install prepare action completed successfully
+Jul 30 18:49:04 Action 2: install activate action started
+Jul 30 18:49:04 The software will be activated with system reboot
+Jul 30 18:49:05 Activating XR packages
+Jul 30 18:50:32 Action 2: install activate action completed successfully
+Jul 30 18:50:53 Install operation 19 finished successfully
+Jul 30 18:50:53 Ending operation 19
+
+Jul 30 18:47:40 Install operation 18 started by admin:
+  install activate id 13 
+Jul 30 18:47:40 Package list:
+Jul 30 18:47:40     ncs560-os-support-2.1.0.4-r712.CSCvq82052.x86_64
+Jul 30 18:47:45 Action 1: install prepare action started
+Jul 30 18:47:49 The prepared software is set to be activated with system reboot
+Jul 30 18:47:58 This install operation will reboot the sdr, continue?
+ [yes/no]:[yes] no
+Jul 30 18:48:12 Install operation will continue in the background
+Jul 30 18:48:12 User aborted this install operation
+Jul 30 18:48:14 Install operation 18 aborted
+Jul 30 18:48:14 Ending operation 18
+
+Jul 30 18:47:12 Install operation 17 started by admin:
+  install commit 
+Jul 30 18:47:13 Install operation will continue in the background
+Jul 30 18:47:26 Install operation 17 finished successfully
+Jul 30 18:47:26 Ending operation 17
+
+Jul 30 18:32:26 Install operation 16 started by admin:
+  install activate id 12 noprompt synchronous 
+Jul 30 18:32:26 Package list:
+Jul 30 18:32:26     ncs560-infra-3.0.0.1-r712.CSCvu34202.x86_64
+Jul 30 18:32:26     ncs560-fwding-2.0.0.1-r712.CSCvu34202.x86_64
+Jul 30 18:32:26     ncs560-dpa-fwding-2.0.0.1-r712.CSCvu34202.x86_64
+Jul 30 18:32:26     ncs560-dpa-2.0.0.1-r712.CSCvu34202.x86_64
+Jul 30 18:32:26     ncs560-os-support-2.1.0.2-r712.CSCvu34202.x86_64
+Jul 30 18:32:32 Action 1: install prepare action started
+Jul 30 18:32:42 The prepared software is set to be activated with system reboot
+Jul 30 18:32:50 This install operation will reboot the sdr, continue?
+ [yes/no]:[yes] default yes
+Jul 30 18:32:50 Start preparing software for local installation
+Jul 30 18:33:03 Action 1: install prepare action completed successfully
+Jul 30 18:33:04 Action 2: install activate action started
+Jul 30 18:33:04 The software will be activated with system reboot
+Jul 30 18:33:11 Packages will be activated in the following sequence:
+Jul 30 18:33:11     1: ncs560-os-support-2.1.0.2-r712.CSCvu34202.x86_64 
+Jul 30 18:33:11     2: ncs560-infra-3.0.0.1-r712.CSCvu34202.x86_64 
+Jul 30 18:33:11     3: ncs560-dpa-2.0.0.1-r712.CSCvu34202.x86_64 
+Jul 30 18:33:11     4: ncs560-dpa-fwding-2.0.0.1-r712.CSCvu34202.x86_64 
+Jul 30 18:33:11     5: ncs560-fwding-2.0.0.1-r712.CSCvu34202.x86_64 
+Jul 30 18:33:12 Activating package ncs560-os-support-2.1.0.2-r712.CSCvu34202.x86_64 
+Jul 30 18:34:29 Activating package ncs560-infra-3.0.0.1-r712.CSCvu34202.x86_64 
+Jul 30 18:35:29 Activating package ncs560-dpa-2.0.0.1-r712.CSCvu34202.x86_64 
+Jul 30 18:36:23 Activating package ncs560-dpa-fwding-2.0.0.1-r712.CSCvu34202.x86_64 
+Jul 30 18:37:14 Activating package ncs560-fwding-2.0.0.1-r712.CSCvu34202.x86_64 
+Jul 30 18:38:04 activate operation completed for all package(s)
+Jul 30 18:38:06 Action 2: install activate action completed successfully
+Jul 30 18:38:20 Install operation 16 finished successfully
+Jul 30 18:38:21 Ending operation 16
+
+Jul 30 18:31:06 Install operation 15 started by admin:
+  install activate 
+Jul 30 18:31:11 Action 1: install activate action started
+Jul 30 18:31:11 ERROR! Need to perform install prepare operation first 
+Jul 30 18:31:11 ERROR!! failed during activate precheck
+
+Jul 30 18:31:24 Install operation 15 aborted
+Jul 30 18:31:24 Ending operation 15
+
+Jul 30 18:30:13 Install operation 14 started by admin:
+  install commit 
+Jul 30 18:30:14 Install operation will continue in the background
+Jul 30 18:30:25 Install operation 14 finished successfully
+Jul 30 18:30:25 Ending operation 14
+
+Jul 30 18:29:45 Install operation 13 started by admin:
+ install add source harddisk:/ ncs560-7.1.2.CSCvq82052.tar 
+Jul 30 18:29:46 Action 1: install add action started
+Jul 30 18:29:52 Install operation will continue in the background
+Jul 30 18:29:58 WARNING : the following files/packages were not added to the Software Repository due to unsupported file format
+		ncs560-7.1.2.CSCvq82052.txt
+Jul 30 18:29:59 It is a NO IMPACT OPERATION as all packages have already been added
+Jul 30 18:30:00 Packages skipped as they are already in the repository:
+Jul 30 18:30:00     ncs560-os-support-2.1.0.4-r712.CSCvq82052.x86_64
+Jul 30 18:30:00 Action 1: install add action completed successfully
+Jul 30 18:30:01 Install operation 13 finished successfully
+Jul 30 18:30:01 Ending operation 13
+
+Jul 30 18:26:23 Install operation 12 started by admin:
+ install add source harddisk:/ ncs560-7.1.2.CSCvu34202.tar 
+Jul 30 18:26:24 Action 1: install add action started
+Jul 30 18:26:30 Install operation will continue in the background
+Jul 30 18:26:46 WARNING : the following files/packages were not added to the Software Repository due to unsupported file format
+		ncs560-7.1.2.CSCvu34202.txt
+Jul 30 18:26:47 It is a NO IMPACT OPERATION as all packages have already been added
+Jul 30 18:26:48 Packages skipped as they are already in the repository:
+Jul 30 18:26:48     ncs560-os-support-2.1.0.2-r712.CSCvu34202.x86_64
+Jul 30 18:26:48     ncs560-infra-3.0.0.1-r712.CSCvu34202.x86_64
+Jul 30 18:26:48     ncs560-fwding-2.0.0.1-r712.CSCvu34202.x86_64
+Jul 30 18:26:48     ncs560-dpa-fwding-2.0.0.1-r712.CSCvu34202.x86_64
+Jul 30 18:26:48     ncs560-dpa-2.0.0.1-r712.CSCvu34202.x86_64
+Jul 30 18:26:48 Action 1: install add action completed successfully
+Jul 30 18:26:49 Install operation 12 finished successfully
+Jul 30 18:26:49 Ending operation 12
+
+Jul 29 13:34:36 Install operation 11 started by admin:
+  install activate id 9 synchronous 
+Jul 29 13:34:36 Package list:
+Jul 29 13:34:36     ncs560-infra-3.0.0.1-r712.CSCvu34202.x86_64
+Jul 29 13:34:36     ncs560-fwding-2.0.0.1-r712.CSCvu34202.x86_64
+Jul 29 13:34:36     ncs560-dpa-fwding-2.0.0.1-r712.CSCvu34202.x86_64
+Jul 29 13:34:36     ncs560-dpa-2.0.0.1-r712.CSCvu34202.x86_64
+Jul 29 13:34:36     ncs560-os-support-2.1.0.2-r712.CSCvu34202.x86_64
+Jul 29 13:34:36     ncs560-os-support-2.1.0.4-r712.CSCvq82052.x86_64
+Jul 29 13:34:38 Optimized package list:
+Jul 29 13:34:38     ncs560-infra-3.0.0.1-r712.CSCvu34202.x86_64
+Jul 29 13:34:38     ncs560-fwding-2.0.0.1-r712.CSCvu34202.x86_64
+Jul 29 13:34:38     ncs560-dpa-fwding-2.0.0.1-r712.CSCvu34202.x86_64
+Jul 29 13:34:38     ncs560-dpa-2.0.0.1-r712.CSCvu34202.x86_64
+Jul 29 13:34:38     ncs560-os-support-2.1.0.4-r712.CSCvq82052.x86_64
+Jul 29 13:34:44 Action 1: install prepare action started
+Jul 29 13:34:54 The prepared software is set to be activated with system reboot
+Jul 29 13:35:03 This install operation will reboot the sdr, continue?
+ [yes/no]:[yes] 
+Jul 29 13:37:03 Timeout happened waiting for input. Cancelling the operation.
+Jul 29 13:37:04 Install operation 11 aborted
+Jul 29 13:37:04 Ending operation 11
+
+Jul 29 13:33:52 Install operation 10 started by admin:
+  install activate pkg 9 synchronous 
+Jul 29 13:33:52 Package list:
+Jul 29 13:33:52     9
+Jul 29 13:33:58 Action 1: install prepare action started
+Jul 29 13:33:58 ERROR: package 9 not found in software repository
+Jul 29 13:33:58 Note: This package might have been removed from admin.
+Jul 29 13:33:58 Action 1: install prepare action aborted
+Jul 29 13:33:59 Install operation 10 aborted
+Jul 29 13:33:59 Ending operation 10
+
+Jul 29 13:30:51 Install operation 9 started by admin:
+ install add source harddisk:/ ncs560-7.1.2.CSCvu34202.tar ncs560-7.1.2.CSCvq82052.tar synchronous 
+Jul 29 13:30:52 Action 1: install add action started
+Jul 29 13:31:19 WARNING : the following files/packages were not added to the Software Repository due to unsupported file format
+		ncs560-7.1.2.CSCvu34202.txt
+WARNING : the following files/packages were not added to the Software Repository due to unsupported file format
+		ncs560-7.1.2.CSCvq82052.txt
+Jul 29 13:31:41 Packages added:
+Jul 29 13:31:41     ncs560-infra-3.0.0.1-r712.CSCvu34202.x86_64
+Jul 29 13:31:41     ncs560-fwding-2.0.0.1-r712.CSCvu34202.x86_64
+Jul 29 13:31:41     ncs560-dpa-fwding-2.0.0.1-r712.CSCvu34202.x86_64
+Jul 29 13:31:41     ncs560-dpa-2.0.0.1-r712.CSCvu34202.x86_64
+Jul 29 13:31:41     ncs560-os-support-2.1.0.2-r712.CSCvu34202.x86_64
+Jul 29 13:31:41     ncs560-os-support-2.1.0.4-r712.CSCvq82052.x86_64
+Jul 29 13:31:41 Action 1: install add action completed successfully
+Jul 29 13:31:42 Install operation 9 finished successfully
+Jul 29 13:31:42 Ending operation 9
+
+Jan 22 07:40:14 Install operation 8 started by root:
+  install commit 
+Jan 22 07:40:15 Install operation will continue in the background
+Jan 22 07:40:26 Install operation 8 finished successfully
+Jan 22 07:40:26 Ending operation 8
+
+Jan 22 07:24:13 Install operation 7 started by root:
+  install activate 
+Jan 22 07:24:14 Action 1: install activate action started
+Jan 22 07:24:14 The software will be activated with reload upgrade
+Jan 22 07:24:15 This install operation will reload the system, continue?
+ [yes/no]:[yes] IJan 22 07:24:15 Install operation will continue in the background
+yes
+Jan 22 07:24:18 Package ncs560-sysadmin-ncs560-7.1.2.1-r712.CSCvv41516.x86_64 will be activated 
+Jan 22 07:24:18 Activating Sysadmin packages. Sending activate command to all nodes
+Jan 22 07:26:10 Activating XR packages
+Jan 22 07:27:24 Action 1: install activate action completed successfully
+Jan 22 07:27:43 Install operation 7 finished successfully
+Jan 22 07:27:43 Ending operation 7
+
+Jan 22 07:23:36 Install operation 6 started by root:
+  install prepare id 5 
+Jan 22 07:23:36 Package list:
+Jan 22 07:23:36     ncs560-os-support-2.1.0.1-r712.CSCvv41516.x86_64
+Jan 22 07:23:36     ncs560-sysadmin-ncs560-7.1.2.1-r712.CSCvv41516.x86_64
+Jan 22 07:23:42 Action 1: install prepare action started
+Jan 22 07:23:42 Install operation will continue in the background
+Jan 22 07:23:47 The prepared software is set to be activated with reload upgrade
+Jan 22 07:23:55 Start preparing software across VM with reload
+Jan 22 07:23:59 Sending prepare  command to all nodes
+Jan 22 07:24:06 Action 1: install prepare action completed successfully
+Jan 22 07:24:09 Install operation 6 finished successfully
+Jan 22 07:24:09 Ending operation 6
+
+Jan 22 07:22:59 Install operation 5 started by root:
+ install add source tftp://10.1.1.1/ ncs560-os-support-2.1.0.1-r712.CSCvv41516.x86_64.rpm ncs560-sysadmin-ncs560-7.1.2.1-r712.CSCvv41516.x86_64.rpm 
+Jan 22 07:23:00 Action 1: install add action started
+Jan 22 07:23:06 Install operation will continue in the background
+Jan 22 07:23:32 Packages added:
+Jan 22 07:23:32     ncs560-os-support-2.1.0.1-r712.CSCvv41516.x86_64
+Jan 22 07:23:32     ncs560-sysadmin-ncs560-7.1.2.1-r712.CSCvv41516.x86_64
+Jan 22 07:23:32 Action 1: install add action completed successfully
+Jan 22 07:23:33 Install operation 5 finished successfully
+Jan 22 07:23:33 Ending operation 5
+
+Jan 22 07:22:39 Install operation 4 started by root:
+  install commit 
+Jan 22 07:22:40 Install operation will continue in the background
+Jan 22 07:22:51 Install operation 4 finished successfully
+Jan 22 07:22:51 Ending operation 4
+
+Jan 22 07:13:40 Install operation 3 started by root:
+  install activate 
+Jan 22 07:13:41 Action 1: install activate action started
+Jan 22 07:13:41 The software will be activated with process restart
+Jan 22 07:13:41 Install operation will continue in the background
+Jan 22 07:13:52 Packages will be activated in the following sequence:
+Jan 22 07:13:52     1: ncs560-mcast-2.0.0.0-r712.x86_64 
+Jan 22 07:13:52     2: ncs560-eigrp-1.0.0.0-r712.x86_64 
+Jan 22 07:13:52     3: ncs560-isis-2.0.0.0-r712.x86_64 
+Jan 22 07:13:52     4: ncs560-li-1.0.0.0-r712.x86_64 
+Jan 22 07:13:52     5: ncs560-mgbl-2.0.0.0-r712.x86_64 
+Jan 22 07:13:52     6: ncs560-mpls-1.0.0.0-r712.x86_64 
+Jan 22 07:13:52     7: ncs560-mpls-te-rsvp-2.0.0.0-r712.x86_64 
+Jan 22 07:13:52     8: ncs560-ospf-2.0.0.0-r712.x86_64 
+Jan 22 07:13:52     9: ncs560-k9sec-2.1.0.0-r712.x86_64 
+Jan 22 07:13:53 Activating package ncs560-mcast-2.0.0.0-r712.x86_64 
+Jan 22 07:14:52 0 processes affected at node 0/RP1/CPU0
+Jan 22 07:14:53 0 processes affected at node 0/RP0/CPU0
+Jan 22 07:15:07 Activating package ncs560-eigrp-1.0.0.0-r712.x86_64 
+Jan 22 07:15:45 0 processes affected at node 0/RP1/CPU0
+Jan 22 07:15:45 0 processes affected at node 0/RP0/CPU0
+Jan 22 07:15:59 Activating package ncs560-isis-2.0.0.0-r712.x86_64 
+Jan 22 07:16:39 0 processes affected at node 0/RP0/CPU0
+Jan 22 07:16:39 0 processes affected at node 0/RP1/CPU0
+Jan 22 07:16:53 Activating package ncs560-li-1.0.0.0-r712.x86_64 
+Jan 22 07:17:33 0 processes affected at node 0/RP1/CPU0
+Jan 22 07:17:33 0 processes affected at node 0/RP0/CPU0
+Jan 22 07:17:47 Activating package ncs560-mgbl-2.0.0.0-r712.x86_64 
+Jan 22 07:18:28 0 processes affected at node 0/RP1/CPU0
+Jan 22 07:18:28 0 processes affected at node 0/RP0/CPU0
+Jan 22 07:18:42 Activating package ncs560-mpls-1.0.0.0-r712.x86_64 
+Jan 22 07:19:25 0 processes affected at node 0/RP1/CPU0
+Jan 22 07:19:25 0 processes affected at node 0/RP0/CPU0
+Jan 22 07:19:39 Activating package ncs560-mpls-te-rsvp-2.0.0.0-r712.x86_64 
+Jan 22 07:20:21 0 processes affected at node 0/RP1/CPU0
+Jan 22 07:20:22 0 processes affected at node 0/RP0/CPU0
+Jan 22 07:20:36 Activating package ncs560-ospf-2.0.0.0-r712.x86_64 
+Jan 22 07:21:20 0 processes affected at node 0/RP1/CPU0
+Jan 22 07:21:20 0 processes affected at node 0/RP0/CPU0
+Jan 22 07:21:34 Activating package ncs560-k9sec-2.1.0.0-r712.x86_64 
+Jan 22 07:22:17 0 processes affected at node 0/RP1/CPU0
+Jan 22 07:22:17 0 processes affected at node 0/RP0/CPU0
+Jan 22 07:22:28 activate operation completed for all package(s)
+Jan 22 07:22:30 Action 1: install activate action completed successfully
+Jan 22 07:22:37 Install operation 3 finished successfully
+Jan 22 07:22:37 Ending operation 3
+
+Jan 22 07:12:59 Install operation 2 started by root:
+  install prepare id 1 
+Jan 22 07:12:59 Package list:
+Jan 22 07:12:59     ncs560-eigrp-1.0.0.0-r712.x86_64
+Jan 22 07:12:59     ncs560-isis-2.0.0.0-r712.x86_64
+Jan 22 07:12:59     ncs560-k9sec-2.1.0.0-r712.x86_64
+Jan 22 07:12:59     ncs560-li-1.0.0.0-r712.x86_64
+Jan 22 07:12:59     ncs560-mcast-2.0.0.0-r712.x86_64
+Jan 22 07:12:59     ncs560-mgbl-2.0.0.0-r712.x86_64
+Jan 22 07:12:59     ncs560-mpls-1.0.0.0-r712.x86_64
+Jan 22 07:12:59     ncs560-mpls-te-rsvp-2.0.0.0-r712.x86_64
+Jan 22 07:12:59     ncs560-ospf-2.0.0.0-r712.x86_64
+Jan 22 07:13:07 Action 1: install prepare action started
+Jan 22 07:13:07 Install operation will continue in the background
+Jan 22 07:13:22 The prepared software is set to be activated with process restart
+Jan 22 07:13:28 Start preparing software for local installation
+Jan 22 07:13:33 Action 1: install prepare action completed successfully
+Jan 22 07:13:36 Install operation 2 finished successfully
+Jan 22 07:13:36 Ending operation 2
+
+Jan 22 07:11:50 Install operation 1 started by root:
+ install add source tftp://10.1.1.1/ ncs560-eigrp-1.0.0.0-r712.x86_64.rpm ncs560-isis-2.0.0.0-r712.x86_64.rpm ncs560-k9sec-2.1.0.0-r712.x86_64.rpm ncs560-li-1.0.0.0-r712.x86_64.rpm ncs560-mcast-2.0.0.0-r712.x86_64.rpm ncs560-mgbl-2.0.0.0-r712.x86_64.rpm ncs560-mpls-1.0.0.0-r712.x86_64.rpm ncs560-mpls-te-rsvp-2.0.0.0-r712.x86_64.rpm ncs560-ospf-2.0.0.0-r712.x86_64.rpm 
+Jan 22 07:11:51 Action 1: install add action started
+Jan 22 07:11:57 Install operation will continue in the background
+Jan 22 07:12:55 Packages added:
+Jan 22 07:12:55     ncs560-eigrp-1.0.0.0-r712.x86_64
+Jan 22 07:12:55     ncs560-isis-2.0.0.0-r712.x86_64
+Jan 22 07:12:55     ncs560-k9sec-2.1.0.0-r712.x86_64
+Jan 22 07:12:55     ncs560-li-1.0.0.0-r712.x86_64
+Jan 22 07:12:55     ncs560-mcast-2.0.0.0-r712.x86_64
+Jan 22 07:12:55     ncs560-mgbl-2.0.0.0-r712.x86_64
+Jan 22 07:12:55     ncs560-mpls-1.0.0.0-r712.x86_64
+Jan 22 07:12:55     ncs560-mpls-te-rsvp-2.0.0.0-r712.x86_64
+Jan 22 07:12:55     ncs560-ospf-2.0.0.0-r712.x86_64
+Jan 22 07:12:55 Action 1: install add action completed successfully
+Jan 22 07:12:57 Install operation 1 finished successfully
+Jan 22 07:12:57 Ending operation 1
+
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#show platform
+Wed Aug 23 15:07:17.021 EAT
+Node              Type                       State             Config state
+--------------------------------------------------------------------------------
+0/2/CPU0          A900-IMA8CS1Z-M            OPERATIONAL       NSHUT
+0/3/CPU0          A900-IMA8Z                 OPERATIONAL       NSHUT
+0/4/CPU0          A900-IMA8CS1Z-M            OPERATIONAL       NSHUT
+0/5/CPU0          A900-IMA8CS1Z-M            OPERATIONAL       NSHUT
+0/RP0/CPU0        N560-4-RSP4E(Active)       IOS XR RUN        NSHUT
+0/RP1/CPU0        N560-4-RSP4E(Standby)      IOS XR RUN        NSHUT
+0/FT0/CPU0        N560-4-PWR-FAN             OPERATIONAL       NSHUT
+0/FT1/CPU0        N560-4-FAN-H               OPERATIONAL       NSHUT
+0/FT2/CPU0        N560-4-FAN-H               OPERATIONAL       NSHUT
+0/PM0/CPU0        A900-PWR1200-D             OPERATIONAL       NSHUT
+0/PM1/CPU0        A900-PWR1200-D             OPERATIONAL       NSHUT
+0/PM2/CPU0        A900-PWR1200-D             OPERATIONAL       NSHUT
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#admin show platform
+Wed Aug 23 15:07:17.280 EAT
+Location  Card Type               HW State      SW State      Config State  
+----------------------------------------------------------------------------
+0/2       A900-IMA8CS1Z-M         OPERATIONAL   N/A           NSHUT         
+0/3       A900-IMA8Z              OPERATIONAL   N/A           NSHUT         
+0/4       A900-IMA8CS1Z-M         OPERATIONAL   N/A           NSHUT         
+0/5       A900-IMA8CS1Z-M         OPERATIONAL   N/A           NSHUT         
+0/RP0     N560-4-RSP4E            OPERATIONAL   OPERATIONAL   NSHUT         
+0/RP1     N560-4-RSP4E            OPERATIONAL   OPERATIONAL   NSHUT         
+0/FT0     N560-4-PWR-FAN          OPERATIONAL   N/A           NSHUT         
+0/FT1     N560-4-FAN-H            OPERATIONAL   N/A           NSHUT         
+0/FT2     N560-4-FAN-H            OPERATIONAL   N/A           NSHUT         
+0/PM0     A900-PWR1200-D          OPERATIONAL   N/A           NSHUT         
+0/PM1     A900-PWR1200-D          OPERATIONAL   N/A           NSHUT         
+0/PM2     A900-PWR1200-D          OPERATIONAL   N/A           NSHUT         
+
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#show inventory
+Wed Aug 23 15:07:24.790 EAT
+NAME: "0/2", DESCR: "ASR 900 16 port GE C-SFP + 1 port SFP+ IM with MACsec"
+PID: A900-IMA8CS1Z-M   , VID: V01, SN: FOC2419NTW2
+
+NAME: "GigabitEthernet0/2/0/0", DESCR: "Cisco SFP 1G GLC-TE Pluggable Optics Module"
+PID: GLC-TE            , VID: V03, SN: AVC243303NV
+
+NAME: "GigabitEthernet0/2/0/2", DESCR: "Cisco SFP 1G GLC-TE Pluggable Optics Module"
+PID: GLC-TE            , VID: V03, SN: AVC2433082Z
+
+NAME: "GigabitEthernet0/2/0/4", DESCR: "Cisco SFP 1G GLC-TE Pluggable Optics Module"
+PID: GLC-TE            , VID: V03, SN: AVC243308TR
+
+NAME: "GigabitEthernet0/2/0/6", DESCR: "Cisco SFP 1G GLC-TE Pluggable Optics Module"
+PID: GLC-TE            , VID: V03, SN: AVC243305Z9
+
+NAME: "GigabitEthernet0/2/0/14", DESCR: "Cisco SFP 1G GLC-TE Pluggable Optics Module"
+PID: GLC-TE            , VID: V03, SN: MTC24260C7S
+
+NAME: "0/3", DESCR: "ASR 900 8 port 10GE SFP+ Interface Module"
+PID: A900-IMA8Z        , VID: V02 , SN: FOC2502P9FR
+
+NAME: "TenGigE0/3/0/0", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR        , VID: V02, SN: ACW24322967
+
+NAME: "TenGigE0/3/0/3", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR        , VID: V02, SN: ACW24322DE8
+
+NAME: "TenGigE0/3/0/4", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR        , VID: V02, SN: ACW24322DDP
+
+NAME: "0/4", DESCR: "ASR 900 16 port GE C-SFP + 1 port SFP+ IM with MACsec"
+PID: A900-IMA8CS1Z-M   , VID: V01, SN: FOC2419NTZG
+
+NAME: "GigabitEthernet0/4/0/0", DESCR: "Cisco SFP 1G GLC-TE Pluggable Optics Module"
+PID: GLC-TE            , VID: V03, SN: AVC243308TP
+
+NAME: "GigabitEthernet0/4/0/2", DESCR: "Cisco SFP 1G GLC-TE Pluggable Optics Module"
+PID: GLC-TE            , VID: V03, SN: AVC243308TN
+
+NAME: "GigabitEthernet0/4/0/6", DESCR: "Cisco SFP 1G GLC-TE Pluggable Optics Module"
+PID: GLC-TE            , VID: V03, SN: AVC243308TQ
+
+NAME: "GigabitEthernet0/4/0/12", DESCR: "Unknown Pluggable Optics Module"
+PID: N/A               , VID: N/A, SN: LT12120101695
+
+NAME: "GigabitEthernet0/4/0/14", DESCR: "Unknown Pluggable Optics Module"
+PID: N/A               , VID: 047, SN: HA20300782925
+
+NAME: "0/5", DESCR: "ASR 900 16 port GE C-SFP + 1 port SFP+ IM with MACsec"
+PID: A900-IMA8CS1Z-M   , VID: V01, SN: FOC2419NTX2
+
+NAME: "GigabitEthernet0/5/0/0", DESCR: "Cisco SFP 1G GLC-TE Pluggable Optics Module"
+PID: GLC-TE            , VID: V03, SN: AVC243308TM
+
+NAME: "GigabitEthernet0/5/0/10", DESCR: "Unknown Pluggable Optics Module"
+PID: N/A               , VID: N/A, SN: HC211300883995
+
+NAME: "GigabitEthernet0/5/0/14", DESCR: "Cisco SFP 1G GLC-LH Pluggable Optics Module"
+PID: GLC-LH-SMD        , VID: V02, SN: FNS2439066C
+
+NAME: "0/RP0", DESCR: "Cisco NCS560 Route Switch Processor 4-800G, XL Scale"
+PID: N560-4-RSP4E      , VID: V01, SN: FOC2502PNTF
+
+NAME: "0/RP1", DESCR: "Cisco NCS560 Route Switch Processor 4-800G, XL Scale"
+PID: N560-4-RSP4E      , VID: V01, SN: FOC2502PNSK
+
+NAME: "Rack 0", DESCR: "N560 4RU Chassis"
+PID: NCS560-4          , VID: V02, SN: FOX2440P8Z5
+
+NAME: "0/FT0", DESCR: "Cisco NCS 560-4 High Speed Power Fan - Industrial Temperature "
+PID: N560-4-PWR-FAN    , VID: V01, SN: FOC2445NKU2
+
+NAME: "0/FT1", DESCR: "Cisco NCS 560-4 High Speed Fan - Industrial Temperature Range "
+PID: N560-4-FAN-H      , VID: V01, SN: FOC2446NY7Q
+
+NAME: "0/FT2", DESCR: "Cisco NCS 560-4 High Speed Fan - Industrial Temperature Range "
+PID: N560-4-FAN-H      , VID: V01, SN: FOC2446NY8E
+
+NAME: "0/PM0", DESCR: "ASR 900 1200W DC Power Supply"
+PID: A900-PWR1200-D    , VID: V01 , SN: LIT24412HDR
+
+NAME: "0/PM1", DESCR: "ASR 900 1200W DC Power Supply"
+PID: A900-PWR1200-D    , VID: V01 , SN: LIT24392VWA
+
+NAME: "0/PM2", DESCR: "ASR 900 1200W DC Power Supply"
+PID: A900-PWR1200-D    , VID: V01 , SN: LIT24462K2W
+
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#admin show inventory
+Wed Aug 23 15:07:25.245 EAT
+  
+ Name: Rack 0                Descr: N560 4RU Chassis                                            
+ PID: NCS560-4               VID: V02                   SN: FOX2440P8Z5 
+ 
+ Name: 0/2                   Descr: ASR 900 16 port GE C-SFP + 1 port SFP+ IM with MACsec       
+ PID: A900-IMA8CS1Z-M        VID: V01                   SN: FOC2419NTW2 
+ 
+ Name: 0/3                   Descr: ASR 900 8 port 10GE SFP+ Interface Module                   
+ PID: A900-IMA8Z             VID: V02                   SN: FOC2502P9FR 
+ 
+ Name: 0/4                   Descr: ASR 900 16 port GE C-SFP + 1 port SFP+ IM with MACsec       
+ PID: A900-IMA8CS1Z-M        VID: V01                   SN: FOC2419NTZG 
+ 
+ Name: 0/5                   Descr: ASR 900 16 port GE C-SFP + 1 port SFP+ IM with MACsec       
+ PID: A900-IMA8CS1Z-M        VID: V01                   SN: FOC2419NTX2 
+ 
+ Name: 0/RP0                 Descr: Cisco NCS560 Route Switch Processor 4-800G, XL Scale        
+ PID: N560-4-RSP4E           VID: V01                   SN: FOC2502PNTF 
+ 
+ Name: 0/RP1                 Descr: Cisco NCS560 Route Switch Processor 4-800G, XL Scale        
+ PID: N560-4-RSP4E           VID: V01                   SN: FOC2502PNSK 
+ 
+ Name: 0/FT0                 Descr: Cisco NCS 560-4 High Speed Power Fan - Industrial Temperature 
+ PID: N560-4-PWR-FAN         VID: V01                   SN: FOC2445NKU2 
+ 
+ Name: 0/FT1                 Descr: Cisco NCS 560-4 High Speed Fan - Industrial Temperature Range 
+ PID: N560-4-FAN-H           VID: V01                   SN: FOC2446NY7Q 
+ 
+ Name: 0/FT2                 Descr: Cisco NCS 560-4 High Speed Fan - Industrial Temperature Range 
+ PID: N560-4-FAN-H           VID: V01                   SN: FOC2446NY8E 
+ 
+ Name: 0/PM0                 Descr: ASR 900 1200W DC Power Supply                               
+ PID: A900-PWR1200-D         VID: V01                   SN: LIT24412HDR 
+ 
+ Name: 0/PM1                 Descr: ASR 900 1200W DC Power Supply                               
+ PID: A900-PWR1200-D         VID: V01                   SN: LIT24392VWA 
+ 
+ Name: 0/PM2                 Descr: ASR 900 1200W DC Power Supply                               
+ PID: A900-PWR1200-D         VID: V01                   SN: LIT24462K2W 
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#show version
+Wed Aug 23 15:07:32.095 EAT
+Cisco IOS XR Software, Version 7.3.2
+Copyright (c) 2013-2021 by Cisco Systems, Inc.
+
+Build Information:
+ Built By     : ingunawa
+ Built On     : Wed Oct 13 20:37:50 PDT 2021
+ Built Host   : iox-ucs-024
+ Workspace    : /auto/srcarchive17/prod/7.3.2/ncs560/ws
+ Version      : 7.3.2
+ Location     : /opt/cisco/XR/packages/
+ Label        : 7.3.2-TZV2
+
+cisco NCS-560 () processor
+System uptime is 36 weeks 9 hours 47 minutes
+
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#
+RP/0/RP0/CPU0:TZ-ZA-NCS-560-4-SR02#

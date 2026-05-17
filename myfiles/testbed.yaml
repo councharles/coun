@@ -1,0 +1,532 @@
+testbed:
+  name: TZ_MPBN_Testbed
+  credentials:
+    default:
+      username: chugorji
+      password: Airtel@1q2w
+
+devices:
+  TZ-MR-NCS-5504-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.1
+
+  TZ-MR-NCS-5504-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.2
+
+  TZ-MR-NCS-5504-SR03:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.3
+
+  TZ-MR-NCS-5504-SR04:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.4
+
+  TZ-KJ-NCS-5504-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.6
+
+  TZ-KJ-NCS-5504-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.7
+
+  TZ-KJ-NCS-5504-SR03:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.8
+
+  TZ-KJ-NCS-5504-SR04:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.9
+
+  TZ-AR-NCS-560-7-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.11
+
+  TZ-AR-NCS-560-7-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.12
+
+  TZ-MW-NCS-560-7-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.13
+    credentials:
+      default:
+        username: chugorji
+        password: Airtel@2025
+
+  TZ-MW-NCS-560-7-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.14
+    credentials:
+      default:
+        username: chugorji
+        password: Airtel@2025
+
+  TZ-DO-NCS-560-7-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.15
+
+  TZ-DO-NCS-560-7-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.16
+
+  TZ-MB-NCS-560-7-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.17
+
+  TZ-MB-NCS-560-7-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.18
+
+  TZ-MG-NCS-560-7-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.19
+
+  TZ-MG-NCS-560-7-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.20
+
+  TZ-SI-NCS-560-7-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.21
+
+  TZ-SI-NCS-560-7-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.22
+
+  TZ-SK-NCS-560-7-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.23
+
+  TZ-SK-NCS-560-7-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.24
+
+  TZ-BH-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.25
+
+  TZ-BH-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.26
+
+  TZ-BK-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.27
+
+  TZ-BK-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.28
+
+  TZ-IF-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.29
+
+  TZ-IF-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.30
+
+  TZ-IR-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.33
+
+  TZ-IR-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.34
+
+  TZ-KH-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.35
+
+  TZ-KH-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.36
+
+  TZ-KG-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.37
+
+  TZ-KG-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.38
+
+  TZ-LU-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.41
+
+  TZ-LU-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.42
+
+  TZ-MA-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.43
+
+  TZ-MA-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.44
+
+  TZ-MK-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.45
+
+  TZ-MK-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.46
+
+  TZ-MU-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.49
+
+  TZ-MU-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.50
+
+  TZ-MT-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.51
+
+  TZ-MT-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.52
+
+  TZ-RM-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.53
+
+  TZ-RM-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.54
+
+  TZ-SH-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.55
+
+  TZ-SH-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.56
+
+  TZ-SG-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.57
+
+  TZ-SG-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.58
+
+  TZ-SU-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.59
+
+  TZ-SU-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.60
+
+    credentials:
+      default:
+        username: chugorji
+        password: Airtel@2025
+
+  TZ-TB-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.63
+
+  TZ-TB-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.64
+
+  TZ-TG-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.65
+
+  TZ-TG-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.66
+
+  TZ-ZA-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.67
+
+  TZ-ZA-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.68
+
+  TZ-ST-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.69
+
+  TZ-ST-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.70
+
+  TZ-KP-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.73
+
+  TZ-KP-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.74
+
+  TZ-IG-NCS-560-4-SR01:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.75
+
+  TZ-IG-NCS-560-4-SR02:
+    os: iosxr
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.88.38.76
